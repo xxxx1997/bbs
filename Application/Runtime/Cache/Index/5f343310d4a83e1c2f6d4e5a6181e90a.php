@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="keywords" content="php培训,php教程,php视频,php下载,php视频教程" />
 <meta name="description" content="php培训的龙头老大,口碑最好的php培训机构,进来看看同学们的呐喊，就会知道我们是个怎么样的学校,问天下php培训机构谁与争锋?php培训课程内容包含目前最流行的zendframework、thinkphp框架、ECShop、dedecms等产品的二次开发" />
-<title>传智播客PHP学院官网-北京PHP培训_PHP网站开发培训_PHP程序员培训学校</title>
+<title>英雄四组</title>
 <link href="http://php.itcast.cn/style/css.css" type="text/css" rel="stylesheet" />
 <link href="http://php.itcast.cn/style/nav/nav_main.css" type="text/css" rel="stylesheet" />
 <link href="http://php.itcast.cn/style/image/imageswitch.css" type="text/css" rel="stylesheet" />
@@ -45,16 +45,6 @@
 		<ul id="nav">
 	<li><a href="<?php echo U('index/index');?>" id="nav_main">首 页</a></li>
 	<li class="widt"><a href="<?php echo U('course/index');?>" id="nav_course">PHP培训课程</a> </li> 
-<<<<<<< HEAD
-	<li class="widt"><a href="http://php.itcast.cn/php/video.shtml" id="nav_videodl">PHP视频下载</a> </li>
-    <li id="nav_personnel"><a href="http://www.itcast.cn/channel/personnel.shtml">人才服务</a></li>
-    <li id="nav_life"><a href="http://www.itcast.cn/channel/campus.shtml">校园生活</a> </li>
-    <li id="nav_teacher"><a href="http://php.itcast.cn/php/teacher.shtml">师资力量</a> </li>
-    <li id="nav_job"><a href="http://php.itcast.cn/php/jyjb.shtml">就业信息</a> </li>
-    <li id="nav_flow"><a href="http://www.itcast.cn/channel/flow.shtml">报名流程</a> </li>
-    <li id="nav_book"><a href="http://www.itcast.cn/channel/book.shtml">原创教材</a> </li>
-	<li id="nav_question"><a href="/php/question.shtml">常见问题</a></li>
-=======
 	<li class="widt"><a href="<?php echo U('video/index');?>" id="nav_videodl">PHP视频下载</a> </li>
     <li id="nav_personnel"><a href="http://www.itcast.cn/channel/personnel.shtml">人才服务</a></li>
     <li id="nav_life"><a href="http://www.itcast.cn/channel/campus.shtml">校园生活</a> </li>
@@ -63,7 +53,6 @@
     <li id="nav_flow"><a href="http://www.itcast.cn/channel/flow.shtml">报名流程</a> </li>
     <li id="nav_book"><a href="http://www.itcast.cn/channel/book.shtml">原创教材</a> </li>
 	<li id="nav_question"><a href="<?php echo U('question/index');?>">常见问题</a></li>
->>>>>>> 8e8384a8da423d06d5ff6a14adaf1082874bb0a1
 	<li><a href="http://www.itcast.cn/channel/contact.shtml">来校路线</a></li>
 	<li><a href="http://bbs.itcast.cn" target="_blank">技术论坛 </a></li>
 </ul>

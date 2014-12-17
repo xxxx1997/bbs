@@ -18,8 +18,7 @@ return array(
      'DB_PWD' =>  'root,root', //密码
      'DB_PREFIX' => 'bbs_', //数据库表前缀
      "project_name"=>"bbs",
-     'TMPL_L_DELIM' => '<!--{',
-     'TMPL_R_DELIM' => '}-->',
+
      'LAYOUT_ON'=>true,
    
 );

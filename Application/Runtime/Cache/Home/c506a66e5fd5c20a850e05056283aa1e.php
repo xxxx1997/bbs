@@ -1,11 +1,12 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<title>英雄四组</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>无标题文档</title>
-<link href="/Application/Common/admin/css/style.css" rel="stylesheet" type="text/css" />
-<script language="JavaScript" src="/Application/Common/admin/js/jquery.js"></script>
-<img src="/Application/Common/admin/images/c.jpg" alt="" width="1280" height="150"/>
+
+<link href="/addbbs/Application/Common/admin/css/style.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="/addbbs/Application/Common/admin/js/jquery.js"></script>
+<img src="/addbbs/Application/Common/admin/images/c.jpg" alt="" width="100%" height="150"/>
 <script type="text/javascript">
 $(function(){	
 	//导航切换
@@ -25,7 +26,11 @@ $(function(){
 	});
 })	
 </script>
-
+<style type="text/css">
+.leftmenu{
+	height:1000;
+}
+</style>
 
 </head>
 
@@ -36,7 +41,7 @@ $(function(){
         
     <dd>
     <div class="title">
-    <span><img src="/Application/Common/admin/images/leftico01.png" /></span>管理信息
+    <span><img src="/addbbs/Application/Common/admin/images/leftico01.png" /></span>管理信息
     </div>
     	<ul class="menuson">
         <li><cite></cite><a href="index.html" target="rightFrame">首页模版</a><i></i></li>
@@ -55,7 +60,7 @@ $(function(){
     
     <dd>
     <div class="title">
-    <span><img src="/Application/Common/admin/images/leftico02.png" /></span>其他设置
+    <span><img src="/addbbs/Application/Common/admin/images/leftico02.png" /></span>其他设置
     </div>
     <ul class="menuson">
         <li><cite></cite><a href="#">编辑内容</a><i></i></li>
@@ -65,7 +70,7 @@ $(function(){
     </dd> 
     
     
-    <dd><div class="title"><span><img src="/Application/Common/admin/images/leftico03.png" /></span>编辑器</div>
+    <dd><div class="title"><span><img src="/addbbs/Application/Common/admin/images/leftico03.png" /></span>编辑器</div>
     <ul class="menuson">
         <li><cite></cite><a href="#">自定义</a><i></i></li>
         <li><cite></cite><a href="#">常用资料</a><i></i></li>
@@ -75,7 +80,7 @@ $(function(){
     </dd>  
     
     
-    <dd><div class="title"><span><img src="/Application/Common/admin/images/leftico04.png" /></span>日期管理</div>
+    <dd><div class="title"><span><img src="/addbbs/Application/Common/admin/images/leftico04.png" /></span>日期管理</div>
     <ul class="menuson">
         <li><cite></cite><a href="#">自定义</a><i></i></li>
         <li><cite></cite><a href="#">常用资料</a><i></i></li>
