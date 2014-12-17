@@ -45,6 +45,7 @@
 		<ul id="nav">
 	<li><a href="<?php echo U('index/index');?>" id="nav_main">首 页</a></li>
 	<li class="widt"><a href="<?php echo U('course/index');?>" id="nav_course">PHP培训课程</a> </li> 
+<<<<<<< HEAD
 	<li class="widt"><a href="http://php.itcast.cn/php/video.shtml" id="nav_videodl">PHP视频下载</a> </li>
     <li id="nav_personnel"><a href="http://www.itcast.cn/channel/personnel.shtml">人才服务</a></li>
     <li id="nav_life"><a href="http://www.itcast.cn/channel/campus.shtml">校园生活</a> </li>
@@ -53,6 +54,16 @@
     <li id="nav_flow"><a href="http://www.itcast.cn/channel/flow.shtml">报名流程</a> </li>
     <li id="nav_book"><a href="http://www.itcast.cn/channel/book.shtml">原创教材</a> </li>
 	<li id="nav_question"><a href="/php/question.shtml">常见问题</a></li>
+=======
+	<li class="widt"><a href="<?php echo U('video/index');?>" id="nav_videodl">PHP视频下载</a> </li>
+    <li id="nav_personnel"><a href="http://www.itcast.cn/channel/personnel.shtml">人才服务</a></li>
+    <li id="nav_life"><a href="http://www.itcast.cn/channel/campus.shtml">校园生活</a> </li>
+    <li id="nav_teacher"><a href="<?php echo U('teacher/index');?>">师资力量</a> </li>
+    <li id="nav_job"><a href="<?php echo U('jyjb/index');?>">就业信息</a> </li>
+    <li id="nav_flow"><a href="http://www.itcast.cn/channel/flow.shtml">报名流程</a> </li>
+    <li id="nav_book"><a href="http://www.itcast.cn/channel/book.shtml">原创教材</a> </li>
+	<li id="nav_question"><a href="<?php echo U('question/index');?>">常见问题</a></li>
+>>>>>>> 8e8384a8da423d06d5ff6a14adaf1082874bb0a1
 	<li><a href="http://www.itcast.cn/channel/contact.shtml">来校路线</a></li>
 	<li><a href="http://bbs.itcast.cn" target="_blank">技术论坛 </a></li>
 </ul>
