@@ -1,52 +1,96 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<title>英雄四组</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>无标题文档</title>
-<link href="/Application/Common/admin/css/style.css" rel="stylesheet" type="text/css" />
-<script language="JavaScript" src="/Application/Common/admin/js/jquery.js"></script>
+
+<link href="/addbbs/Application/Common/admin/css/style.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="/addbbs/Application/Common/admin/js/jquery.js"></script>
+<img src="/addbbs/Application/Common/admin/images/c.jpg" alt="" width="100%" height="150"/>
 <script type="text/javascript">
 $(function(){	
-	//顶部导航切换
-	$(".nav li a").click(function(){
-		$(".nav li a.selected").removeClass("selected")
-		$(this).addClass("selected");
-	})	
+	//导航切换
+	$(".menuson li").click(function(){
+		$(".menuson li.active").removeClass("active")
+		$(this).addClass("active");
+	});
+	
+	$('.title').click(function(){
+		var $ul = $(this).next('ul');
+		$('dd').find('ul').slideUp();
+		if($ul.is(':visible')){
+			$(this).next('ul').slideUp();
+		}else{
+			$(this).next('ul').slideDown();
+		}
+	});
 })	
 </script>
-
+<style type="text/css">
+.leftmenu{
+	height:1000;
+}
+</style>
 
 </head>
 
-<body style="background:url(/Application/Common/admin/images/topbg.gif) repeat-x;">
-
-    <div class="topleft">
-    <a href="main.html" target="_parent"><img src="/Application/Common/admin/images/logo.png" title="系统首页" /></a>
-    </div>
-        
-    <ul class="nav">
-    <li><a href="default.html" target="rightFrame" class="selected"><img src="/Application/Common/admin/images/icon01.png" title="工作台" /><h2>工作台</h2></a></li>
-    <li><a href="imgtable.html" target="rightFrame"><img src="/Application/Common/admin/images/icon02.png" title="模型管理" /><h2>模型管理</h2></a></li>
-    <li><a href="imglist.html"  target="rightFrame"><img src="/Application/Common/admin/images/icon03.png" title="模块设计" /><h2>模块设计</h2></a></li>
-    <li><a href="tools.html"  target="rightFrame"><img src="/Application/Common/admin/images/icon04.png" title="常用工具" /><h2>常用工具</h2></a></li>
-    <li><a href="computer.html" target="rightFrame"><img src="/Application/Common/admin/images/icon05.png" title="文件管理" /><h2>文件管理</h2></a></li>
-    <li><a href="tab.html"  target="rightFrame"><img src="/Application/Common/admin/images/icon06.png" title="系统设置" /><h2>系统设置</h2></a></li>
-    </ul>
-            
-    <div class="topright">    
-    <ul>
-    <li><span><img src="/Application/Common/admin/images/help.png" title="帮助"  class="helpimg"/></span><a href="#">帮助</a></li>
-    <li><a href="#">关于</a></li>
-    <li><a href="login.html" target="_parent">退出</a></li>
-    </ul>
-     
-    <div class="user">
-    <span>admin</span>
-    <i>消息</i>
-    <b>5</b>
-    </div>    
+<body style="background:#f0f9fd;">
+	<div class="lefttop"><span></span></div>
     
+    <dl class="leftmenu">
+        
+    <dd>
+    <div class="title">
+    <span><img src="/addbbs/Application/Common/admin/images/leftico01.png" /></span>培训课程
     </div>
-
+    	<ul class="menuson">
+        <li><cite></cite><a href="index.html" target="rightFrame">首页模版</a><i></i></li>
+        <li class="active"><cite></cite><a href="right.html" target="rightFrame">数据列表</a><i></i></li>
+        <li><cite></cite><a href="imgtable.html" target="rightFrame">图片数据表</a><i></i></li>
+        <li><cite></cite><a href="form.html" target="rightFrame">添加编辑</a><i></i></li>
+        <li><cite></cite><a href="imglist.html" target="rightFrame">图片列表</a><i></i></li>
+        <li><cite></cite><a href="imglist1.html" target="rightFrame">自定义</a><i></i></li>
+        <li><cite></cite><a href="tools.html" target="rightFrame">常用工具</a><i></i></li>
+        <li><cite></cite><a href="filelist.html" target="rightFrame">信息管理</a><i></i></li>
+        <li><cite></cite><a href="tab.html" target="rightFrame">Tab页</a><i></i></li>
+        <li><cite></cite><a href="error.html" target="rightFrame">404页面</a><i></i></li>
+        </ul>    
+    </dd>
+        
+    
+    <dd>
+    <div class="title">
+    <span><img src="/addbbs/Application/Common/admin/images/leftico02.png" /></span>视频
+    </div>
+    <ul class="menuson">
+        <li><cite></cite><a href="#">编辑内容</a><i></i></li>
+        <li><cite></cite><a href="#">发布信息</a><i></i></li>
+        <li><cite></cite><a href="#">档案列表显示</a><i></i></li>
+        </ul>     
+    </dd> 
+    
+    
+    <dd><div class="title"><span><img src="/addbbs/Application/Common/admin/images/leftico03.png" /></span>编辑器</div>
+    <ul class="menuson">
+        <li><cite></cite><a href="#">自定义</a><i></i></li>
+        <li><cite></cite><a href="#">常用资料</a><i></i></li>
+        <li><cite></cite><a href="#">信息列表</a><i></i></li>
+        <li><cite></cite><a href="#">其他</a><i></i></li>
+    </ul>    
+    </dd>  
+    
+    
+    <dd><div class="title"><span><img src="/addbbs/Application/Common/admin/images/leftico04.png" /></span>日期管理</div>
+    <ul class="menuson">
+        <li><cite></cite><a href="#">自定义</a><i></i></li>
+        <li><cite></cite><a href="#">常用资料</a><i></i></li>
+        <li><cite></cite><a href="#">信息列表</a><i></i></li>
+        <li><cite></cite><a href="#">其他</a><i></i></li>
+    </ul>
+    
+    </dd>   
+    
+    </dl>
+    
 </body>
 </html>

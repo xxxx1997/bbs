@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>英雄四组</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link href="__APP__/Application/Common/admin/css/style.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="__APP__/Application/Common/admin/js/jquery.js"></script>
+<img src="__APP__/Application/Common/admin/images/c.jpg" alt="" width="100%" height="150"/>
+<script type="text/javascript">
+$(function(){	
+	//导航切换
+	$(".menuson li").click(function(){
+		$(".menuson li.active").removeClass("active")
+		$(this).addClass("active");
+	});
+	
+	$('.title').click(function(){
+		var $ul = $(this).next('ul');
+		$('dd').find('ul').slideUp();
+		if($ul.is(':visible')){
+			$(this).next('ul').slideUp();
+		}else{
+			$(this).next('ul').slideDown();
+		}
+	});
+})	
+</script>
+<style type="text/css">
+.leftmenu{
+	height:1000;
+}
+</style>
+
+</head>
+<frameset rows="88,*" cols="*" frameborder="no" border="0" framespacing="0">
+ 
+  <frameset cols="187,*" frameborder="no" border="0" framespacing="0">
+    <frame src="__APP__/Application/Home/View/left.html" name="leftFrame" scrolling="No" noresize="noresize" id="leftFrame" title="leftFrame" />
+   
+  </frameset>
+</frameset>
+<noframes><body>
+</body></noframes>
+</html>
