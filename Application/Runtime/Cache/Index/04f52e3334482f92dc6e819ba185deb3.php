@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "/www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "/www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="/www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -43,22 +43,167 @@
 	</div>
 	<div class="clear"></div>
 		<ul id="nav">
-	<li><a href="{:U('index/index')}" id="nav_main">首 页</a></li>
-	<li class="widt"><a href="{:U('course/index')}" id="nav_course">PHP培训课程</a> </li> 
-	<li class="widt"><a href="{:U('video/index')}" id="nav_videodl">PHP视频下载</a> </li>
+	<li><a href="<?php echo U('index/index');?>" id="nav_main">首 页</a></li>
+	<li class="widt"><a href="<?php echo U('course/index');?>" id="nav_course">PHP培训课程</a> </li> 
+	<li class="widt"><a href="<?php echo U('video/index');?>" id="nav_videodl">PHP视频下载</a> </li>
     <li id="nav_personnel"><a href="http://www.itcast.cn/channel/personnel.shtml">人才服务</a></li>
     <li id="nav_life"><a href="http://www.itcast.cn/channel/campus.shtml">校园生活</a> </li>
-    <li id="nav_teacher"><a href="{:U('teacher/index')}">师资力量</a> </li>
-    <li id="nav_job"><a href="{:U('jyjb/index')}">就业信息</a> </li>
+    <li id="nav_teacher"><a href="<?php echo U('teacher/index');?>">师资力量</a> </li>
+    <li id="nav_job"><a href="<?php echo U('jyjb/index');?>">就业信息</a> </li>
     <li id="nav_flow"><a href="http://www.itcast.cn/channel/flow.shtml">报名流程</a> </li>
     <li id="nav_book"><a href="http://www.itcast.cn/channel/book.shtml">原创教材</a> </li>
-	<li id="nav_question"><a href="{:U('question/index')}">常见问题</a></li>
+	<li id="nav_question"><a href="<?php echo U('question/index');?>">常见问题</a></li>
 	<li><a href="http://www.itcast.cn/channel/contact.shtml">来校路线</a></li>
 	<li><a href="http://bbs.itcast.cn" target="_blank">技术论坛 </a></li>
 </ul>
 	</div>
 <!--输出-->
- {__CONTENT__}
+ 
+		
+<div id="box">
+		  <div id="left" class="fl"  style="margin-top:3px;">
+			<div><img src="/bbs/Application/Common/index/images/lefttop.gif"/></div>
+			<div class="left_content2">
+			  <div style="width:100%; height:auto; overflow:hidden; border-bottom:1px solid #ccc;"> 
+			    <h4 class="ganyan">
+				<span class="STYLE3">
+				    <div class="bdshare_t bds_tools get-codes-bdshare" id="bdshare" style="float:right;"><span class='bds_more'>分享到：</span> <a class='bds_qzone'></a> <a class='bds_tsina'></a> <a class='bds_tqq'></a> <a class='bds_renren'></a> <a class='shareCount'></a>
+				    </div>
+				视频</span>下载
+                </h4>
+              </div>
+			  <div style="padding-bottom:40px">
+			  <!-- 内容主体 -->
+<div class="spxz" style="margin-top: 10px; clear: both">
+<div class="spxz_1">
+<div class="sp_pic"><img src="http://php.itcast.cn/files/image/201209/20120914114323540.jpg" /></div>
+<div class="sp_text">
+<p></p>
+<h1><?php echo ($info["v_name"]); ?></h1>
+讲　　师： <?php echo ($info["v_author"]); ?><br />
+系　　统： WinXP&amp;Win2003<br />
+定　　价： 免费
+<p></p>
+</div>
+</div>
+<div class="spml">
+<h4><a href="http://edm.itcast.cn/?php" target="_blank">订阅邮件下载笔记及作业资料</a></h4>
+</div>
+<a href="http://edm.itcast.cn/?php" target="_blank"><img alt="" src="http://php.itcast.cn/files/image/201209/20120907135848045.png" style="width: 267px; height: 116px" /></a><br />
+<div class="spjs">
+<div class="spml">
+<h4>笔记目录：</h4>
+
+    <?php echo ($info["ml"]); ?>
+</foreach>
+</div>
+</div>
+</div>
+<br />
+
+<script type="text/javascript" src="http://bbs.itcast.cn/api.php?mod=js&bid=94"></script>
+			   <!-- 内容主体 -->
+      	  <!-- 评论区 -->
+	    	<script type="text/javascript">
+	           $(document).ready(function(){
+	              	loadcomment('20120913-18063829105', 1);
+               });   
+	       </script>
+	  <div id="commentcontent"></div>
+	  <form name="comment" style="padding:0;margin:0px;">
+        <input type="hidden" name="referenceSource" value="20120913-18063829105">
+        <input type="hidden" name="type" value="NEWS">
+        <textarea cols="85" rows="6" style="width:610px;" name="content"></textarea>
+        <div class="clear"></div>
+        <div class="fabiao">
+	      <span class="fl">请输入验证码：<input name="validatecode" type="text" style="width:80px;" />  <img src="http://manage.itcast.cn:8080/validatecode/comment.jpg" id="kaptchaImage" width="100"/></span><span class="fr"><input type='button' value="提 交" id="savebutton"/></span>
+	    </div>
+	  </form>
+	  <div id="dialog" title="评论保存结果"></div><!-- 对话框内容 -->
+           <!-- 评论区 -->
+     			  </div>
+			</div>
+			<div><img src="/bbs/Application/Common/index/images/leftbottom.gif"/></div>
+		</div>		
+		<div id="right" class="fl">
+   <h4 class="righttitle1 zhaopin"><span class="blue">工具</span>下载</h4>
+         <div class="rightkuang1">
+<div style="width:275px; height:100px;">
+<p class="download" style="width:85px; height:100px; float:left;"><a href="http://player.qq.com/" target="_blank"><img alt="QQ影音" src="http://www.itcast.cn/files/image/201308/20130801111312850.jpg" style="width: 74px; height: 75px;" /><br />
+QQ影音</a></p>
+<p class="download" style="width:85px; height:100px; float:left;"><a href="http://www.emule.org.cn/download/" target="_blank"><img alt="电驴" src="/images/dianlv.jpg" /><br />
+电驴</a></p>
+<p class="download" style="width:85px; height:100px; float:left;"><a href="http://dl.xunlei.com/" target="_blank"><img alt="迅雷" src="/images/tengxun.jpg" /><br />
+迅雷</a></p>
+</div>
+
+		 </div>
+    <div class="rightbottom"><img src="/bbs/Application/Common/index/images/bottom1.gif"/></div>
+	    <h4 class="righttitle1 lianxi" style="margin-top:1px; background:url(/images/titl.jpg)"><span class="fl"><span class="blue">课程</span>咨询</span></h4>
+    <div class="rightkuang indexkuang" style="padding-bottom:26px; height:auto; overflow:hidden;" >
+      <dl>
+	<dt style="padding-bottom:20px;">
+		北京传智播客</dt>
+	<dd style="width:120px;height:40px;float:left;">
+		<a href="http://cnrdn.com/iP66" target="_blank"><img alt="北京传智播客QQ在线咨询" border="0" height="27" src="http://www.itcast.cn/images/qqmfst.jpg" width="99" /></a></dd>
+	<dd style="width:120px;height:40px;float:left;">
+		<a href="http://cnrdn.com/iP66" target="_blank"><img alt="北京传智播客QQ在线咨询" border="0" height="27" src="http://www.itcast.cn/images/qqkczx.jpg" width="99" /></a></dd>
+</dl>
+<dl class="qqtwo">
+	<dt style="padding-bottom:20px;">
+		广州传智播客</dt>
+	<dd style=" width:120px;height:40px;float:left;">
+		<a href="http://wpa.b.qq.com/cgi/wpa.php?ln=1&amp;key=XzgwMDA2ODg2OF8yMDczMV84MDAwNjg4NjhfMl8" target="_blank"><img alt="广州传智播客QQ在线咨询" border="0" height="27" src="http://www.itcast.cn/images/qqmfst.jpg" width="99" /></a></dd>
+	<dd style=" width:120px;height:40px;float:left;">
+		<a href="http://wpa.b.qq.com/cgi/wpa.php?ln=1&amp;key=XzgwMDA2ODg2OF8yMDczMV84MDAwNjg4NjhfMl8" target="_blank"><img alt="广州传智播客QQ在线咨询" border="0" height="27" src="http://www.itcast.cn/images/qqkczx.jpg" width="99" /></a></dd>
+</dl>
+<dl class="qqthree">
+	<dt style="padding-bottom:20px;">
+		上海传智播客</dt>
+	<dd style="width:120px;height:40px;float:left;">
+		<a href="http://cnrdn.com/djUD" target="_blank"><img alt="上海传智播客QQ在线咨询" border="0" height="27" src="http://www.itcast.cn/images/qqmfst.jpg" width="99" /></a></dd>
+	<dd style="width:120px;height:40px;float:left;">
+		<a href="http://cnrdn.com/djUD" target="_blank"><img alt="上海传智播客QQ在线咨询" border="0" height="27" src="http://www.itcast.cn/images/qqkczx.jpg" width="99" /></a></dd>
+</dl>
+<dl class="qqfour">
+	<dt style="padding-bottom:20px;">
+		武汉传智播客</dt>
+	<dd style="width:120px;height:40px;float:left;">
+		<a href="http://cnrdn.com/shPF" target="_blank"><img alt="武汉传智播客QQ在线咨询" border="0" height="27" src="http://www.itcast.cn/images/qqmfst.jpg" width="99" /></a></dd>
+	<dd style="width:120px;height:40px;float:left;">
+		<a href="http://cnrdn.com/shPF" target="_blank"><img alt="武汉传智播客QQ在线咨询" border="0" height="27" src="http://www.itcast.cn/images/qqkczx.jpg" width="99" /></a></dd>
+</dl>
+<dl class="qqfive">
+	<dt style="padding-bottom:20px;">
+		郑州传智播客</dt>
+	<dd style="width:120px;height:40px;float:left;">
+		<a href="http://cnrdn.com/0LVE" target="_blank"><img alt="武汉传智播客QQ在线咨询" border="0" height="27" src="http://www.itcast.cn/images/qqmfst.jpg" width="99" /></a></dd>
+	<dd style="width:120px;height:40px;float:left;">
+		<a href="http://cnrdn.com/0LVE" target="_blank"><img alt="武汉传智播客QQ在线咨询" border="0" height="27" src="http://www.itcast.cn/images/qqkczx.jpg" width="99" /></a></dd>
+</dl>
+<dl class="qqsix">
+	<dt style="padding-bottom:20px;">
+		西安传智播客</dt>
+	<dd style="width:120px;height:40px;float:left;">
+		<a href="http://cnrdn.com/iP66" target="_blank"><img alt="西安传智播客QQ在线咨询" border="0" height="27" src="http://www.itcast.cn/images/qqmfst.jpg" width="99" /></a></dd>
+	<dd style="width:120px;height:40px;float:left;">
+		<a href="http://cnrdn.com/iP66" target="_blank"><img alt="西安传智播客QQ在线咨询" border="0" height="27" src="http://www.itcast.cn/images/qqkczx.jpg" width="99" /></a></dd>
+</dl>
+<!--<dl class="qqsev">
+	<dt style="padding-bottom:20px;">
+		西安传智播客</dt>
+	<dd style="width:120px;height:40px;float:left;">
+		<a href="http://cnrdn.com/iP66" target="_blank"><img alt="西安传智播客QQ在线咨询" border="0" height="27" src="http://www.itcast.cn/images/qqmfst.jpg" width="99" /></a></dd>
+	<dd style="width:120px;height:40px;float:left;">
+		<a href="http://cnrdn.com/iP66" target="_blank"><img alt="西安传智播客QQ在线咨询" border="0" height="27" src="http://www.itcast.cn/images/qqkczx.jpg" width="99" /></a></dd>
+</dl>-->
+      <div class="clear"></div>
+    </div>
+    <div class="rightbottom"><img src="/bbs/Application/Common/index/images/rightbottom.jpg"/></div>
+	  </div>
+	</div>		
+
+
  
  
         <!-- 页面底部 -->

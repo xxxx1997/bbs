@@ -638,16 +638,7 @@
 </script>
 
 
-<div id="webim">
-<dl class="dlstyle">
-	<dt class="dtstyle">
-		<strong id="webim_title">&nbsp;</strong><span id="webimclosebutton">关闭</span></dt>
-</dl>
-<dl>
-	<dd>
-		<a href="" id="webim_link" target="_blank"><img id="webim_img" src="" style="width: 280px; height: 188px" /></a></dd>
-</dl>
-</div>
+
 <script type="text/javascript">
   var arr = new Array(); 
 
