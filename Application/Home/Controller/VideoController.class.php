@@ -1,7 +1,7 @@
 <?php
 namespace Home\Controller;
 use Think\Controller;
-class TeacherController extends Controller {
+class VideoController extends Controller {
     
     public function __construct() {
         parent::__construct();
@@ -11,8 +11,8 @@ class TeacherController extends Controller {
         }
     }
     
-    public function teacher_list(){
-        $User = M('Teacher'); // 实例化User对象
+    public function video_list(){
+        $User = M('Videos'); // 实例化User对象
         $count      = $User->count();// 查询满足要求的总记录数
         $Page       = new \Think\Page($count,10);// 实例化分页类 传入总记录数和每页显示的记录数(25)
         $show       = $Page->show();// 分页显示输出
