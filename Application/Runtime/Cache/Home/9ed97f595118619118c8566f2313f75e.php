@@ -114,30 +114,16 @@ $(function(){
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>无标题文档</title>
 <link href="/addbbs/Application/Common/admin/css/style.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="/addbbs/Application/Common/admin/js/jquery.js"></script>
-
-<script type="text/javascript">
-$(document).ready(function(){
-  $(".click").click(function(){
-  $(".tip").fadeIn(200);
-  });
-  
-  $(".tiptop a").click(function(){
-  $(".tip").fadeOut(200);
-});
-
-  $(".sure").click(function(){
-  $(".tip").fadeOut(100);
-});
-
-  $(".cancel").click(function(){
-  $(".tip").fadeOut(100);
-});
-
-});
+<script type="text/javascript" src="js/jquery.js"></script>
+<script language="javascript">
+$(function(){	
+	//导航切换
+	$(".imglist li").click(function(){
+		$(".imglist li.selected").removeClass("selected")
+		$(this).addClass("selected");
+	})	
+})	
 </script>
-
-
 </head>
 
 
@@ -147,8 +133,8 @@ $(document).ready(function(){
     <span>位置：</span>
     <ul class="placeul">
     <li><a href="#">首页</a></li>
-    <li><a href="#">数据表</a></li>
-    <li><a href="#">基本内容</a></li>
+    <li><a href="#">模块设计</a></li>
+    <li><a href="#">图片</a></li>
     </ul>
     </div>
     
@@ -157,7 +143,7 @@ $(document).ready(function(){
     <div class="tools">
     
     	<ul class="toolbar">
-            <li class="click"><a href="<?php echo U('teacher/add');?>"><span><img src="/addbbs/Application/Common/admin/images/t01.png" /></span>添加</a></li>
+        <li class="click"><span><img src="/addbbs/Application/Common/admin/images/t01.png" /></span>添加</li>
         <li class="click"><span><img src="/addbbs/Application/Common/admin/images/t02.png" /></span>修改</li>
         <li><span><img src="/addbbs/Application/Common/admin/images/t03.png" /></span>删除</li>
         <li><span><img src="/addbbs/Application/Common/admin/images/t04.png" /></span>统计</li>
@@ -171,65 +157,26 @@ $(document).ready(function(){
     </div>
     
     
-    <table class="tablelist">
-    	<thead>
-    	<tr>
-        <th><input name="" type="checkbox" value="" checked="checked"/></th>
-        <th>编号<i class="sort"><img src="/addbbs/Application/Common/admin/images/px.gif" /></i></th>
-        <th>姓名</th>
-        <th>级别</th>
-        <th>描述</th>
-        <th>time</th>
-        <th>图片</th>    
-        <th>操作</th>
-        </tr>
-        </thead>
-        <tbody>
-            <?php if(is_array($list)): foreach($list as $key=>$vo): ?><tr id='tr<?php echo ($vo["t_id"]); ?>'>
-        <td><input name="" type="checkbox" value="" /></td>
-        <td><?php echo ($vo["t_id"]); ?></td>
-        <td><?php echo ($vo["t_name"]); ?></td>
-        <td><?php if($vo['cate_id']==1){echo '国内著名的软件培训高级讲师';} if($vo['cate_id']==2){echo '高级讲师、企业培训讲师';} if($vo['cate_id']==3){echo 'php项目经理';} if($vo['cate_id']==4){echo '架构师';} ?></td>
-        <td><?php echo mb_substr($vo['t_desc'],0,9,'utf-8'); ?></td>
-        <td><?php echo date('Y-m-d H:i:s',$vo['t_time']) ?></td>
-        <td><img width='100'height='50' src="/addbbs/Application/Common/Public/<?php echo ($vo["t_photo"]); ?>"</td>        
-        <td><a href="<?php echo U('teacher/see',array('t_id'=>$vo['t_id']));?>" class="tablelink">查看</a>     <a href="#" onclick="del(<?php echo ($vo["t_id"]); ?>)" class="tablelink"> 删除</a></td>
-        </tr><?php endforeach; endif; ?> 
-        </tbody>
-    </table>
-        <script>
-            function del(id){
-
-                if(confirm('确认删除么?')){
-                    $.ajax({
-                        type: "POST",
-                        url: "<?php echo U('teacher/del');?>",
-                        data: "id="+id,
-                        success: function(msg){ 
-                          if(msg){
-                              $("#tr"+id).remove()
-                          }else{
-                              alert('删除失败');
-                          }
-                        }
-                     }); 
-                }
-            }
-        </script>
-   
-    <div class="pagin">
-    	<div class="message"><?php echo ($page); ?></div>
-
-            
-        
-    </div>
+    <ul class="imglist">
     
+        
+        <?php if(is_array($list)): foreach($list as $key=>$vo): ?><li class="selected">
+    <span><img src="" /></span>
+    <h2><a href="#"><?php echo ($vo["v_name"]); ?></a></h2>
+    <p><a href="#">编辑</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">删除</a></p>
+    </li><?php endforeach; endif; ?>
+   
+    
+    </ul>
+    
+    
+   
     
     <div class="tip">
     	<div class="tiptop"><span>提示信息</span><a></a></div>
         
       <div class="tipinfo">
-        <span><img src="/addbbs/Application/Common/admin/images/ticon.png" /></span>
+        <span><img src="images/ticon.png" /></span>
         <div class="tipright">
         <p>是否确认对信息的修改 ？</p>
         <cite>如果是请点击确定按钮 ，否则请点取消。</cite>
@@ -248,9 +195,6 @@ $(document).ready(function(){
     
     </div>
     
-    <script type="text/javascript">
-	$('.tablelist tbody tr:odd').addClass('odd');
-	</script>
 
 </body>
 
