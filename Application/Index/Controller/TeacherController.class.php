@@ -11,5 +11,14 @@ class TeacherController extends Controller {
 	$this->assign('info',$info);
 	$this->display();
     }
+    public function det(){
+       $t_id=$_GET['t_id'];
+     $info=M()->table('bbs_teacher tea,bbs_teacher_cate cate')->where("tea.cate_id=cate.cate_id and t_id=$t_id")->find();
+       //echo $info['t_time'];
+        //print_r($info);die;
+        $this->assign('info',$info);
+        $this->display();
+        
+    }
   
 }

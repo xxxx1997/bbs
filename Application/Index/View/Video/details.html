@@ -16,7 +16,10 @@
 			  <!-- 内容主体 -->
 <div class="spxz" style="margin-top: 10px; clear: both">
 <div class="spxz_1">
-<div class="sp_pic"><img src="http://php.itcast.cn/files/image/201209/20120914114323540.jpg" /></div>
+<div class="sp_pic">
+    <video width="320" height="260" controls="controls">
+      <source src="__ROOT__/Application/Common/Public/{$info.v_path}" type="video/mp4">
+     <ideo></div>
 <div class="sp_text">
 <p></p>
 <h1>{$info.v_name}</h1>
@@ -27,7 +30,8 @@
 </div>
 </div>
 <div class="spml">
-<h4><a href="http://edm.itcast.cn/?php" target="_blank">订阅邮件下载笔记及作业资料</a></h4>
+<h4>视频描述</h4>
+<div>{$info.v_desc}</div>
 </div>
 <a href="http://edm.itcast.cn/?php" target="_blank"><img alt="" src="http://php.itcast.cn/files/image/201209/20120907135848045.png" style="width: 267px; height: 116px" /></a><br />
 <div class="spjs">

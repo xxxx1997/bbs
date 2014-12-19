@@ -8,10 +8,10 @@
       <div class="teacher_z" style="height: auto; overflow: hidden">
 <foreach name="info" item="it">
 <div class="teacher">
-<p class="fl"><img alt="" src="__ROOT__{$it.t_photo}" style="width: 155px; height: 189px;" /></p>
+<p class="fl"><img alt="" src="__ROOT__/Application/Common/Public/{$it.t_photo}" style="width: 155px; height: 189px;" /></p>
 <dl class="fr">
 	<dt>
-		<span class="blue"><strong>{$it.t_name}</strong></span></dt>
+        <strong><a  target="_blank" href="{:U('teacher/det',array('t_id'=>$it['t_id']))}">{$it.t_name}</a></strong></dt>
 	<dt>
 		<strong>职 务：{$it.cate_name}</strong></dt>
 	<dd>{$it.t_desc}</dd>

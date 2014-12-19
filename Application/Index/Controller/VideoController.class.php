@@ -7,6 +7,7 @@ class VideoController extends Controller {
       $info=M()->table('bbs_videos v,bbs_videos_cate c')->where("v.cate_id=c.cate_id")->order('v_id ')->       select();
         //print_r($info);die;
         $this->assign('info',$info);
+        
 	$this->display();
     }
     //详情页
