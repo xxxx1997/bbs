@@ -1,62 +1,86 @@
 
+		
 <div id="box">
-  <div style="width:960px; height:149px; margin:0 auto;"><img src="__APP__/Application/Common/index/images/teacherpic.jpg"  /></div>
-  <div id="left" class="fl"  style="margin-top:3px;">
-    <div><img src="__APP__/Application/Common/index/images/lefttop.gif"/></div>
-    <div class="left_content2">
-      <h4 class="ganyan"><span class="STYLE3">师资</span>介绍</h4>
-      <div class="teacher_z" style="height: auto; overflow: hidden">
-<foreach name="info" item="it">
-<div class="teacher">
-<p class="fl"><img alt="" src="__ROOT__{$it.t_photo}" style="width: 155px; height: 189px;" /></p>
-<dl class="fr">
-	<dt>
-		<span class="blue"><strong>{$it.t_name}</strong></span></dt>
-	<dt>
-		<strong>职 务：{$it.cate_name}</strong></dt>
-	<dd>{$it.t_desc}</dd>
-</dl>
+		  <div id="left" class="fl"  style="margin-top:3px;">
+			<div><img src="__APP__/Application/Common/index/images/lefttop.gif"/></div>
+			<div class="left_content2">
+			  <div style="width:100%; height:auto; overflow:hidden; border-bottom:1px solid #ccc;"> 
+			    <h4 class="ganyan">
+				<span class="STYLE3">
+				    <div class="bdshare_t bds_tools get-codes-bdshare" id="bdshare" style="float:right;"><span class='bds_more'>分享到：</span> <a class='bds_qzone'></a> <a class='bds_tsina'></a> <a class='bds_tqq'></a> <a class='bds_renren'></a> <a class='shareCount'></a>
+				    </div>
+				视频</span>下载
+                </h4>
+              </div>
+			  <div style="padding-bottom:40px">
+			  <!-- 内容主体 -->
+<div class="spxz" style="margin-top: 10px; clear: both">
+<div class="spxz_1">
+<div class="sp_pic"><img src="http://php.itcast.cn/files/image/201209/20120914114323540.jpg" /></div>
+<div class="sp_text">
+<p></p>
+<h1>{$info.v_name}</h1>
+讲　　师： {$info.v_author}<br />
+系　　统： WinXP&amp;Win2003<br />
+定　　价： 免费
+<p></p>
 </div>
+</div>
+<div class="spml">
+<h4><a href="http://edm.itcast.cn/?php" target="_blank">订阅邮件下载笔记及作业资料</a></h4>
+</div>
+<a href="http://edm.itcast.cn/?php" target="_blank"><img alt="" src="http://php.itcast.cn/files/image/201209/20120907135848045.png" style="width: 267px; height: 116px" /></a><br />
+<div class="spjs">
+<div class="spml">
+<h4>笔记目录：</h4>
+
+    {$info.ml}
 </foreach>
-<!-- 第一位老师 -->
-<div>
- {$page}
+</div>
 </div>
 </div>
 <br />
 
-    </div>
-    <div><img src="__APP__/Application/Common/index/images/leftbottom.gif"/></div>
-  </div>
-  <div id="right" class="fl">
-    <h4 class="righttitle1 zhaopin"><span class="blue">讲师</span>招聘</h4>
-    <div class="rightkuang1">
-      <p class="cent"><img src="__APP__/Application/Common/index/images/xuanze.jpg" width="256" height="66" /></p>
-      <div class="clear"> </div>
-      <p class="miaoshu"> 中国的软件教育已经坑害了不少软件工程师苗子，传智播客自成立之日起就立志于改变中国的软件教育，目前已经出版IT教程书籍十多本，教学视频几十套，发表各类技术文章几百篇，已经开始对中国的软件教育有所影响。随着传智播客的事业被越来越多的人认知，加盟到传智播客愿意为此事业奋斗终生的技术牛人也越来越多。尽管加盟到传智播客的技术牛人很多，但要从政策上改变中国的软件教育，我们的力量还很小，小到可以说是微不足道。所以我们需要各路英雄豪杰加盟传智播客，为改变中国的软件教育而奋斗不息。</p>
-      <p class="cent"><a href="/news/9838ccfe/74aa/4532/915e/f905284de34e.shtml" target="_blank"><img src="__APP__/Application/Common/index/images/liulan.jpg" width="142" height="23"/></a></p>
-    </div>
+<script type="text/javascript" src="http://bbs.itcast.cn/api.php?mod=js&bid=94"></script>
+			   <!-- 内容主体 -->
+      	  <!-- 评论区 -->
+	    	<script type="text/javascript">
+	           $(document).ready(function(){
+	              	loadcomment('20120913-18063829105', 1);
+               });   
+	       </script>
+	  <div id="commentcontent"></div>
+	  <form name="comment" style="padding:0;margin:0px;">
+        <input type="hidden" name="referenceSource" value="20120913-18063829105">
+        <input type="hidden" name="type" value="NEWS">
+        <textarea cols="85" rows="6" style="width:610px;" name="content"></textarea>
+        <div class="clear"></div>
+        <div class="fabiao">
+	      <span class="fl">请输入验证码：<input name="validatecode" type="text" style="width:80px;" />  <img src="http://manage.itcast.cn:8080/validatecode/comment.jpg" id="kaptchaImage" width="100"/></span><span class="fr"><input type='button' value="提 交" id="savebutton"/></span>
+	    </div>
+	  </form>
+	  <div id="dialog" title="评论保存结果"></div><!-- 对话框内容 -->
+           <!-- 评论区 -->
+     			  </div>
+			</div>
+			<div><img src="__APP__/Application/Common/index/images/leftbottom.gif"/></div>
+		</div>		
+		<div id="right" class="fl">
+   <h4 class="righttitle1 zhaopin"><span class="blue">工具</span>下载</h4>
+         <div class="rightkuang1">
+<div style="width:275px; height:100px;">
+<p class="download" style="width:85px; height:100px; float:left;"><a href="http://player.qq.com/" target="_blank"><img alt="QQ影音" src="http://www.itcast.cn/files/image/201308/20130801111312850.jpg" style="width: 74px; height: 75px;" /><br />
+QQ影音</a></p>
+<p class="download" style="width:85px; height:100px; float:left;"><a href="http://www.emule.org.cn/download/" target="_blank"><img alt="电驴" src="/images/dianlv.jpg" /><br />
+电驴</a></p>
+<p class="download" style="width:85px; height:100px; float:left;"><a href="http://dl.xunlei.com/" target="_blank"><img alt="迅雷" src="/images/tengxun.jpg" /><br />
+迅雷</a></p>
+</div>
+
+		 </div>
     <div class="rightbottom"><img src="__APP__/Application/Common/index/images/bottom1.gif"/></div>
-    <h4 class="righttitle1"><span class="fl">我们出版的书籍</span><span class="fr"><a href="/channel/book.shtml">+MORE</a></span></h4>
-    <div class="rightkuang chuban" style="height:auto; overflow:hidden;">
-       <dl>
-        <dt><a href="http://product.dangdang.com/product.aspx?product_id=8758723" target="_blank"><img src="__APP__/Application/Common/index/images/book04.jpg"/></a></dt>
-        <dd><span class="blue"><strong><a href="http://product.dangdang.com/product.aspx?product_id=8758723" target="_blank">《Java就业培训教程》</a></strong></span></dd>
-        <dd>作 者：<span class="STYLE4">张孝祥</span> </dd>
-        <dd>定价：<span class="STYLE6"><strong>￥39.00元</strong> </span></dd>
-        <dd>页数：<span class="STYLE4">394</span> </dd>
-</dl>
-<dl>
-        <dt><a href="http://product.dangdang.com/product.aspx?product_id=20280496" target="_blank"><img src="__APP__/Application/Common/index/images/book01.jpg"/></a></dt>
-        <dd><span class="blue"><strong><a href="http://product.dangdang.com/product.aspx?product_id=20280496" target="_blank">《EJB3.0入门经典》</a></strong></span></dd>
-        <dd>作 者：<span class="STYLE4">黎活明</span> </dd>
-        <dd>定价：<span class="STYLE6"><strong>￥59.80 元</strong> </span></dd>
-        <dd>页数：<span class="STYLE4">479</span> </dd>
-</dl> 
-    </div>
-    <div class="rightbottom"><img src="__APP__/Application/Common/index/images/rightbottom.jpg"/></div>
-    <h4 class="righttitle1 lianxi"><span class="fl"><span class="blue">课程</span>咨询</span></h4>
-    <div class="rightkuang">
+	    <h4 class="righttitle1 lianxi" style="margin-top:1px; background:url(/images/titl.jpg)"><span class="fl"><span class="blue">课程</span>咨询</span></h4>
+    <div class="rightkuang indexkuang" style="padding-bottom:26px; height:auto; overflow:hidden;" >
       <dl>
 	<dt style="padding-bottom:20px;">
 		北京传智播客</dt>
@@ -116,7 +140,6 @@
       <div class="clear"></div>
     </div>
     <div class="rightbottom"><img src="__APP__/Application/Common/index/images/rightbottom.jpg"/></div>
-  </div>
-</div>
-<div class="clear"></div>
-<!-- 页面底部 -->
+	  </div>
+	</div>		
+

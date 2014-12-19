@@ -1,0 +1,205 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>英雄四组</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link href="/addbbs/Application/Common/admin/css/style.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="/addbbs/Application/Common/admin/js/jquery.js"></script>
+<img src="/addbbs/Application/Common/admin/images/c.jpg" alt="" width="100%" height="150"/>
+<script type="text/javascript">
+$(function(){	
+	//导航切换
+	$(".menuson li").click(function(){
+		$(".menuson li.active").removeClass("active")
+		$(this).addClass("active");
+	});
+	
+	$('.title').click(function(){
+		var $ul = $(this).next('ul');
+		$('dd').find('ul').slideUp();
+		if($ul.is(':visible')){
+			$(this).next('ul').slideUp();
+		}else{
+			$(this).next('ul').slideDown();
+		}
+	});
+})	
+</script>
+<style type="text/css">
+.leftmenu{
+	height:1000;
+}
+</style>
+
+</head>
+
+<body style="background:#f0f9fd;">
+    <div class="lefttop" ><span ></span> <div style='margin-left:80%'>欢迎&nbsp;&nbsp;<?php echo session('user')['user_name'];?>&nbsp;&nbsp;登陆&nbsp;&nbsp;<a href="<?php echo U('login/logout');?>"> 退出</a></div></div>
+        <dl class="leftmenu" style="float:left">
+        
+    <dd>
+    <div class="title">
+    <span><img src="/addbbs/Application/Common/admin/images/leftico01.png" /></span>培训课程
+    </div>
+    	<ul class="menuson">
+        <li <?php if($Think.ACTION_NAME=='course'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('admin/course');?>" >课程管理</a><i></i></li>
+       
+        </ul>
+    </dd>
+     <dd>
+    <div class="title">
+    <span><img src="/addbbs/Application/Common/admin/images/leftico01.png" /></span>文章管理
+    </div>
+    	<ul class="menuson">
+        <li <?php if($Think.ACTION_NAME=='course'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('article/list');?>" >文章列表</a><i></i></li>
+         <li <?php if($Think.ACTION_NAME=='course'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('article/class_list');?>" >分类列表</a><i></i></li>
+       
+        </ul>
+    </dd>
+    
+    <dd>
+    <div class="title">
+    <span><img src="/addbbs/Application/Common/admin/images/leftico02.png" /></span>视频
+    </div>
+    <ul class="menuson">
+        <li <?php if($Think.ACTION_NAME=='video'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('video/video_list');?>">列表</a><i></i></li>
+            
+       
+        </ul>
+    </dd> 
+    
+    
+    <dd><div class="title"><span><img src="/addbbs/Application/Common/admin/images/leftico01.png" /></span>师资力量</div>
+    <ul class="menuson">
+        <li <?php if($Think.ACTION_NAME=='teacher_list'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('teacher/teacher_list');?>">列表</a><i></i></li>
+
+    </ul>   
+    </dd>
+            
+            
+            
+        <dd><div class="title"><span><img src="/addbbs/Application/Common/admin/images/leftico01.png" /></span>就业信息</div>
+    <ul class="menuson">
+        <li <?php if($Think.ACTION_NAME=='jyjb'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('admin/jyjb');?>">列表</a><i></i></li>
+
+    </ul>
+    </dd>
+            
+     
+    <dd><div class="title"><span><img src="/addbbs/Application/Common/admin/images/leftico01.png" /></span>常见问题</div>
+    <ul class="menuson">
+        <li <?php if($Think.ACTION_NAME=='question'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('admin/question');?>">列表</a><i></i></li>
+
+    </ul>    
+    </dd>
+       <dd><div class="title"><span><img src="/addbbs/Application/Common/admin/images/leftico01.png" /></span>系统管理</div>
+    <ul class="menuson">
+        <li><cite></cite><a href="#">统计</a><i></i></li>
+         <li <?php if($Think.ACTION_NAME=='aa'){ echo "class='active'";} ?>><cite></cite><a href="right.html" target="rightFrame">数据列表</a><i></i></li>
+        <li><cite></cite><a href="tools.html" target="rightFrame">常用工具</a><i></i></li>
+        <li><cite></cite><a href="filelist.html" target="rightFrame">信息管理</a><i></i></li>
+        <li><cite></cite><a href="tab.html" target="rightFrame">Tab页</a><i></i></li>
+        <li><cite></cite><a href="error.html" target="rightFrame">404页面</a><i></i></li>
+
+    </ul>    
+    </dd>
+    </dl>
+   
+        <div style='float: left; margin-top: 188; width: 86%'>
+            
+             <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="/addbbs/Application/Common/admin/css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script language="javascript">
+$(function(){	
+	//导航切换
+	$(".imglist li").click(function(){
+		$(".imglist li.selected").removeClass("selected")
+		$(this).addClass("selected");
+	})	
+})	
+</script>
+</head>
+
+
+<body>
+
+	<div class="place">
+    <span>位置：</span>
+    <ul class="placeul">
+    <li><a href="#">首页</a></li>
+    <li><a href="#">模块设计</a></li>
+    <li><a href="#">图片</a></li>
+    </ul>
+    </div>
+    
+    <div class="rightinfo">
+    
+    <div class="tools">
+    
+    	<ul class="toolbar">
+        <li class="click"><span><img src="/addbbs/Application/Common/admin/images/t01.png" /></span>添加</li>
+        <li class="click"><span><img src="/addbbs/Application/Common/admin/images/t02.png" /></span>修改</li>
+        <li><span><img src="/addbbs/Application/Common/admin/images/t03.png" /></span>删除</li>
+        <li><span><img src="/addbbs/Application/Common/admin/images/t04.png" /></span>统计</li>
+        </ul>
+        
+        
+        <ul class="toolbar1">
+        <li><span><img src="/addbbs/Application/Common/admin/images/t05.png" /></span>设置</li>
+        </ul>
+    
+    </div>
+    
+    
+    <ul class="imglist">
+    
+        
+        <?php if(is_array($list)): foreach($list as $key=>$vo): ?><li class="selected">
+    <span><img src="" /></span>
+    <h2><a href="#"><?php echo ($vo["v_name"]); ?></a></h2>
+    <p><a href="#">编辑</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">删除</a></p>
+    </li><?php endforeach; endif; ?>
+   
+    
+    </ul>
+    
+    
+   
+    
+    <div class="tip">
+    	<div class="tiptop"><span>提示信息</span><a></a></div>
+        
+      <div class="tipinfo">
+        <span><img src="images/ticon.png" /></span>
+        <div class="tipright">
+        <p>是否确认对信息的修改 ？</p>
+        <cite>如果是请点击确定按钮 ，否则请点取消。</cite>
+        </div>
+        </div>
+        
+        <div class="tipbtn">
+        <input name="" type="button"  class="sure" value="确定" />&nbsp;
+        <input name="" type="button"  class="cancel" value="取消" />
+        </div>
+    
+    </div>
+    
+    
+    
+    
+    </div>
+    
+
+</body>
+
+</html>
+
+        </div>
+</body>
+</html>
