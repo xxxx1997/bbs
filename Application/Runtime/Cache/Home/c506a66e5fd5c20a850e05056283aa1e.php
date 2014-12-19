@@ -116,28 +116,6 @@ $(function(){
 <link href="/addbbs/Application/Common/admin/css/style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="/addbbs/Application/Common/admin/js/jquery.js"></script>
 
-<script type="text/javascript">
-$(document).ready(function(){
-  $(".click").click(function(){
-  $(".tip").fadeIn(200);
-  });
-  
-  $(".tiptop a").click(function(){
-  $(".tip").fadeOut(200);
-});
-
-  $(".sure").click(function(){
-  $(".tip").fadeOut(100);
-});
-
-  $(".cancel").click(function(){
-  $(".tip").fadeOut(100);
-});
-
-});
-</script>
-
-
 </head>
 
 
@@ -147,110 +125,68 @@ $(document).ready(function(){
     <span>位置：</span>
     <ul class="placeul">
     <li><a href="#">首页</a></li>
-    <li><a href="#">数据表</a></li>
-    <li><a href="#">基本内容</a></li>
     </ul>
     </div>
     
-    <div class="rightinfo">
+    <div class="mainindex">
     
-    <div class="tools">
     
-    	<ul class="toolbar">
-            <li class="click"><a href="<?php echo U('teacher/add');?>"><span><img src="/addbbs/Application/Common/admin/images/t01.png" /></span>添加</a></li>
-        <li class="click"><span><img src="/addbbs/Application/Common/admin/images/t02.png" /></span>修改</li>
-        <li><span><img src="/addbbs/Application/Common/admin/images/t03.png" /></span>删除</li>
-        <li><span><img src="/addbbs/Application/Common/admin/images/t04.png" /></span>统计</li>
-        </ul>
-        
-        
-        <ul class="toolbar1">
-        <li><span><img src="/addbbs/Application/Common/admin/images/t05.png" /></span>设置</li>
-        </ul>
-    
+    <div class="welinfo">
+    <span><img src="/addbbs/Application/Common/admin/images/sun.png" alt="天气" /></span>
+    <b>Admin早上好，欢迎使用信息管理系统</b>(admin@uimaker.com)
+    <a href="#">帐号设置</a>
     </div>
     
+    <div class="welinfo">
+    <span><img src="/addbbs/Application/Common/admin/images/time.png" alt="时间" /></span>
+    <i>您上次登录的时间：2013-10-09 15:22</i> （不是您登录的？<a href="#">请点这里</a>）
+    </div>
     
-    <table class="tablelist">
-    	<thead>
-    	<tr>
-        <th><input name="" type="checkbox" value="" checked="checked"/></th>
-        <th>编号<i class="sort"><img src="/addbbs/Application/Common/admin/images/px.gif" /></i></th>
-        <th>姓名</th>
-        <th>级别</th>
-        <th>描述</th>
-        <th>time</th>
-        <th>图片</th>    
-        <th>操作</th>
-        </tr>
-        </thead>
-        <tbody>
-            <?php if(is_array($list)): foreach($list as $key=>$vo): ?><tr id='tr<?php echo ($vo["t_id"]); ?>'>
-        <td><input name="" type="checkbox" value="" /></td>
-        <td><?php echo ($vo["t_id"]); ?></td>
-        <td><?php echo ($vo["t_name"]); ?></td>
-        <td><?php if($vo['cate_id']==1){echo '国内著名的软件培训高级讲师';} if($vo['cate_id']==2){echo '高级讲师、企业培训讲师';} if($vo['cate_id']==3){echo 'php项目经理';} if($vo['cate_id']==4){echo '架构师';} ?></td>
-        <td><?php echo mb_substr($vo['t_desc'],0,9,'utf-8'); ?></td>
-        <td><?php echo date('Y-m-d H:i:s',$vo['t_time']) ?></td>
-        <td><img width='100'height='50' src="/addbbs/Application/Common/Public/<?php echo ($vo["t_photo"]); ?>"</td>        
-        <td><a href="<?php echo U('teacher/see',array('t_id'=>$vo['t_id']));?>" class="tablelink">查看</a>     <a href="#" onclick="del('<?php echo ($vo["t_id"]); ?>')" class="tablelink"> 删除</a></td>
-        </tr><?php endforeach; endif; ?> 
-        </tbody>
-    </table>
-        <script>
-            function del(id){
-
-                if(confirm('确认删除么?')){
-                    $.ajax({
-                        type: "POST",
-                        url: "<?php echo U('teacher/del');?>",
-                        data: "id="+id,
-                        success: function(msg){ 
-                          if(msg){
-                              $("#tr"+id).remove()
-                          }else{
-                              alert('删除失败');
-                          }
-                        }
-                     }); 
-                }
-            }
-        </script>
-   
-    <div class="pagin">
-    	<div class="message"><?php echo ($page); ?></div>
-
+    <div class="xline"></div>
+    
+    <ul class="iconlist">
+    
+    <li><img src="/addbbs/Application/Common/admin/images/ico01.png" /><p><a href="#">管理设置</a></p></li>
+    <li><img src="/addbbs/Application/Common/admin/images/ico02.png" /><p><a href="#">发布文章</a></p></li>
+    <li><img src="/addbbs/Application/Common/admin/images/ico03.png" /><p><a href="#">数据统计</a></p></li>
+    <li><img src="/addbbs/Application/Common/admin/images/ico04.png" /><p><a href="#">文件上传</a></p></li>
+    <li><img src="/addbbs/Application/Common/admin/images/ico05.png" /><p><a href="#">目录管理</a></p></li>
+    <li><img src="/addbbs/Application/Common/admin/images/ico06.png" /><p><a href="#">查询</a></p></li> 
             
-        
+    </ul>
+    
+    <div class="ibox"><a class="ibtn"><img src="/addbbs/Application/Common/admin/images/iadd.png" />添加新的快捷功能</a></div>
+    
+    <div class="xline"></div>
+    <div class="box"></div>
+    
+    <div class="welinfo">
+    <span><img src="/addbbs/Application/Common/admin/images/dp.png" alt="提醒" /></span>
+    <b>Uimaker信息管理系统使用指南</b>
+    </div>
+    
+    <ul class="infolist">
+    <li><span>您可以快速进行文章发布管理操作</span><a class="ibtn">发布或管理文章</a></li>
+    <li><span>您可以快速发布产品</span><a class="ibtn">发布或管理产品</a></li>
+    <li><span>您可以进行密码修改、账户设置等操作</span><a class="ibtn">账户管理</a></li>
+    </ul>
+    
+    <div class="xline"></div>
+    
+    <div class="uimakerinfo"><b>查看Uimaker网站使用指南，您可以了解到多种风格的B/S后台管理界面,软件界面设计，图标设计，手机界面等相关信息。来源：<a href="http://www.mycodes.net/" target="_blank">源码之家</a></b></div>
+    
+    <ul class="umlist">
+    <li><a href="#">如何发布文章</a></li>
+    <li><a href="#">如何访问网站</a></li>
+    <li><a href="#">如何管理广告</a></li>
+    <li><a href="#">后台用户设置(权限)</a></li>
+    <li><a href="#">系统设置</a></li>
+    </ul>
+    
+    
     </div>
     
     
-    <div class="tip">
-    	<div class="tiptop"><span>提示信息</span><a></a></div>
-        
-      <div class="tipinfo">
-        <span><img src="/addbbs/Application/Common/admin/images/ticon.png" /></span>
-        <div class="tipright">
-        <p>是否确认对信息的修改 ？</p>
-        <cite>如果是请点击确定按钮 ，否则请点取消。</cite>
-        </div>
-        </div>
-        
-        <div class="tipbtn">
-        <input name="" type="button"  class="sure" value="确定" />&nbsp;
-        <input name="" type="button"  class="cancel" value="取消" />
-        </div>
-    
-    </div>
-    
-    
-    
-    
-    </div>
-    
-    <script type="text/javascript">
-	$('.tablelist tbody tr:odd').addClass('odd');
-	</script>
 
 </body>
 

@@ -33,7 +33,7 @@ $(function(){
     <div class="tools">
     
     	<ul class="toolbar">
-        <li class="click"><span><img src="__APP__/Application/Common/admin/images/t01.png" /></span>添加</li>
+        <li class="click"><a href="{:U('video/add')}"><span><img src="__APP__/Application/Common/admin/images/t01.png" /></span>添加</a></li>
         <li class="click"><span><img src="__APP__/Application/Common/admin/images/t02.png" /></span>修改</li>
         <li><span><img src="__APP__/Application/Common/admin/images/t03.png" /></span>删除</li>
         <li><span><img src="__APP__/Application/Common/admin/images/t04.png" /></span>统计</li>
@@ -51,13 +51,32 @@ $(function(){
     
         
         <foreach name='list' item='vo'>
-    <li class="selected">
-    <span><img src="" /></span>
+    <li class="selected" id="li{$vo.v_id}">
+    <span><img width='170' height='135' src="__ROOT__/Application/Common/Public/{$vo.v_thumb}" /></span>
     <h2><a href="#">{$vo.v_name}</a></h2>
-    <p><a href="#">编辑</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">删除</a></p>
+    <p><a href="{:U('video/see',array('v_id'=>$vo['v_id']))}">查看</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" onclick="del('{$vo.v_id}')">删除</a></p>
     </li>
     </foreach>
-   
+        <script >
+            
+             function del(id){
+
+                if(confirm('确认删除么?')){
+                    $.ajax({
+                        type: "POST",
+                        url: "{:U('video/del')}",
+                        data: "id="+id,
+                        success: function(msg){ 
+                          if(msg){
+                              $("#li"+id).remove()
+                          }else{
+                              alert('删除失败');
+                          }
+                        }
+                     }); 
+                }
+            }
+        </script>
     
     </ul>
     

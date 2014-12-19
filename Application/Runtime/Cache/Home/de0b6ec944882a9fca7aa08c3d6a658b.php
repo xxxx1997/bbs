@@ -52,8 +52,8 @@ $(function(){
     <span><img src="/addbbs/Application/Common/admin/images/leftico01.png" /></span>文章管理
     </div>
     	<ul class="menuson">
-        <li <?php if($Think.ACTION_NAME=='course'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('article/list');?>" >文章列表</a><i></i></li>
-         <li <?php if($Think.ACTION_NAME=='course'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('article/class_list');?>" >分类列表</a><i></i></li>
+        <li <?php if($Think.ACTION_NAME=='article_list'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('article/article_list');?>" >文章列表</a><i></i></li>
+         <li <?php if($Think.ACTION_NAME=='class_list'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('article/class_list');?>" >分类列表</a><i></i></li>
        
         </ul>
     </dd>
@@ -112,34 +112,9 @@ $(function(){
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>无标题文档</title>
+<title>添加教师</title>
 <link href="/addbbs/Application/Common/admin/css/style.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="/addbbs/Application/Common/admin/js/jquery.js"></script>
-
-<script type="text/javascript">
-$(document).ready(function(){
-  $(".click").click(function(){
-  $(".tip").fadeIn(200);
-  });
-  
-  $(".tiptop a").click(function(){
-  $(".tip").fadeOut(200);
-});
-
-  $(".sure").click(function(){
-  $(".tip").fadeOut(100);
-});
-
-  $(".cancel").click(function(){
-  $(".tip").fadeOut(100);
-});
-
-});
-</script>
-
-
 </head>
-
 
 <body>
 
@@ -147,110 +122,37 @@ $(document).ready(function(){
     <span>位置：</span>
     <ul class="placeul">
     <li><a href="#">首页</a></li>
-    <li><a href="#">数据表</a></li>
-    <li><a href="#">基本内容</a></li>
+    <li><a href="#">表单</a></li>
     </ul>
     </div>
     
-    <div class="rightinfo">
+    <div class="formbody">
     
-    <div class="tools">
+        <div class="formtitle"><a href="/addbbs/Home/Teacher/teacher_list"><span>列表</span></a></div>
+    <form action="<?php echo U('teacher/add_do');?>" method="post" enctype="multipart/form-data">
+    <ul class="forminfo">
+    <li><label>姓名</label><input name="t_name" type="text" class="dfinput" /><i></i></li>
     
-    	<ul class="toolbar">
-            <li class="click"><a href="<?php echo U('teacher/add');?>"><span><img src="/addbbs/Application/Common/admin/images/t01.png" /></span>添加</a></li>
-        <li class="click"><span><img src="/addbbs/Application/Common/admin/images/t02.png" /></span>修改</li>
-        <li><span><img src="/addbbs/Application/Common/admin/images/t03.png" /></span>删除</li>
-        <li><span><img src="/addbbs/Application/Common/admin/images/t04.png" /></span>统计</li>
-        </ul>
-        
-        
-        <ul class="toolbar1">
-        <li><span><img src="/addbbs/Application/Common/admin/images/t05.png" /></span>设置</li>
-        </ul>
-    
-    </div>
+    <li><label>描述</label><textarea name="t_desc" cols="" rows="" class="textinput"></textarea></li>
+    <li><label>上传</label><input name="t_photo" type="file" /></li>
+    <li><label>级别</label>
+        <select name='cate_id'>
+            <?php if(is_array($list)): foreach($list as $key=>$vo): ?><option value="<?php echo ($vo["cate_id"]); ?>"><?php echo ($vo["cate_name"]); ?></option><?php endforeach; endif; ?>
+        </select>
+     <i></i></li>
+ 
     
     
-    <table class="tablelist">
-    	<thead>
-    	<tr>
-        <th><input name="" type="checkbox" value="" checked="checked"/></th>
-        <th>编号<i class="sort"><img src="/addbbs/Application/Common/admin/images/px.gif" /></i></th>
-        <th>姓名</th>
-        <th>级别</th>
-        <th>描述</th>
-        <th>time</th>
-        <th>图片</th>    
-        <th>操作</th>
-        </tr>
-        </thead>
-        <tbody>
-            <?php if(is_array($list)): foreach($list as $key=>$vo): ?><tr id='tr<?php echo ($vo["t_id"]); ?>'>
-        <td><input name="" type="checkbox" value="" /></td>
-        <td><?php echo ($vo["t_id"]); ?></td>
-        <td><?php echo ($vo["t_name"]); ?></td>
-        <td><?php if($vo['cate_id']==1){echo '国内著名的软件培训高级讲师';} if($vo['cate_id']==2){echo '高级讲师、企业培训讲师';} if($vo['cate_id']==3){echo 'php项目经理';} if($vo['cate_id']==4){echo '架构师';} ?></td>
-        <td><?php echo mb_substr($vo['t_desc'],0,9,'utf-8'); ?></td>
-        <td><?php echo date('Y-m-d H:i:s',$vo['t_time']) ?></td>
-        <td><img width='100'height='50' src="/addbbs/Application/Common/Public/<?php echo ($vo["t_photo"]); ?>"</td>        
-        <td><a href="<?php echo U('teacher/see',array('t_id'=>$vo['t_id']));?>" class="tablelink">查看</a>     <a href="#" onclick="del('<?php echo ($vo["t_id"]); ?>')" class="tablelink"> 删除</a></td>
-        </tr><?php endforeach; endif; ?> 
-        </tbody>
-    </table>
-        <script>
-            function del(id){
+    
+    
+    
 
-                if(confirm('确认删除么?')){
-                    $.ajax({
-                        type: "POST",
-                        url: "<?php echo U('teacher/del');?>",
-                        data: "id="+id,
-                        success: function(msg){ 
-                          if(msg){
-                              $("#tr"+id).remove()
-                          }else{
-                              alert('删除失败');
-                          }
-                        }
-                     }); 
-                }
-            }
-        </script>
-   
-    <div class="pagin">
-    	<div class="message"><?php echo ($page); ?></div>
+    <li><label>&nbsp;</label><input name="" type="submit" class="btn" value="确认保存"/></li>
+    </ul>
+    
+    
+    </div>
 
-            
-        
-    </div>
-    
-    
-    <div class="tip">
-    	<div class="tiptop"><span>提示信息</span><a></a></div>
-        
-      <div class="tipinfo">
-        <span><img src="/addbbs/Application/Common/admin/images/ticon.png" /></span>
-        <div class="tipright">
-        <p>是否确认对信息的修改 ？</p>
-        <cite>如果是请点击确定按钮 ，否则请点取消。</cite>
-        </div>
-        </div>
-        
-        <div class="tipbtn">
-        <input name="" type="button"  class="sure" value="确定" />&nbsp;
-        <input name="" type="button"  class="cancel" value="取消" />
-        </div>
-    
-    </div>
-    
-    
-    
-    
-    </div>
-    
-    <script type="text/javascript">
-	$('.tablelist tbody tr:odd').addClass('odd');
-	</script>
 
 </body>
 
