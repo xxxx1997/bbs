@@ -193,7 +193,7 @@ $(document).ready(function(){
         <td><?php echo mb_substr($vo['t_desc'],0,9,'utf-8'); ?></td>
         <td><?php echo date('Y-m-d H:i:s',$vo['t_time']) ?></td>
         <td><img width='100'height='50' src="/addbbs/Application/Common/Public/<?php echo ($vo["t_photo"]); ?>"</td>        
-        <td><a href="<?php echo U('teacher/see',array('t_id'=>$vo['t_id']));?>" class="tablelink">查看</a>     <a href="#" onclick="del(<?php echo ($vo["t_id"]); ?>)" class="tablelink"> 删除</a></td>
+        <td><a href="<?php echo U('teacher/see',array('t_id'=>$vo['t_id']));?>" class="tablelink">查看</a>     <a href="#" onclick="del('<?php echo ($vo["t_id"]); ?>')" class="tablelink"> 删除</a></td>
         </tr><?php endforeach; endif; ?> 
         </tbody>
     </table>

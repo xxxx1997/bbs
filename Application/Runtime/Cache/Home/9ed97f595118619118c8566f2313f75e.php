@@ -52,8 +52,8 @@ $(function(){
     <span><img src="/addbbs/Application/Common/admin/images/leftico01.png" /></span>文章管理
     </div>
     	<ul class="menuson">
-        <li <?php if($Think.ACTION_NAME=='course'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('article/list');?>" >文章列表</a><i></i></li>
-         <li <?php if($Think.ACTION_NAME=='course'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('article/class_list');?>" >分类列表</a><i></i></li>
+        <li <?php if($Think.ACTION_NAME=='article_list'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('article/article_list');?>" >文章列表</a><i></i></li>
+         <li <?php if($Think.ACTION_NAME=='class_list'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('article/class_list');?>" >分类列表</a><i></i></li>
        
         </ul>
     </dd>
@@ -143,7 +143,7 @@ $(function(){
     <div class="tools">
     
     	<ul class="toolbar">
-        <li class="click"><span><img src="/addbbs/Application/Common/admin/images/t01.png" /></span>添加</li>
+        <li class="click"><a href="<?php echo U('video/add');?>"><span><img src="/addbbs/Application/Common/admin/images/t01.png" /></span>添加</a></li>
         <li class="click"><span><img src="/addbbs/Application/Common/admin/images/t02.png" /></span>修改</li>
         <li><span><img src="/addbbs/Application/Common/admin/images/t03.png" /></span>删除</li>
         <li><span><img src="/addbbs/Application/Common/admin/images/t04.png" /></span>统计</li>
@@ -160,12 +160,31 @@ $(function(){
     <ul class="imglist">
     
         
-        <?php if(is_array($list)): foreach($list as $key=>$vo): ?><li class="selected">
-    <span><img src="" /></span>
+        <?php if(is_array($list)): foreach($list as $key=>$vo): ?><li class="selected" id="li<?php echo ($vo["v_id"]); ?>">
+    <span><img width='170' height='135' src="/addbbs/Application/Common/Public/<?php echo ($vo["v_thumb"]); ?>" /></span>
     <h2><a href="#"><?php echo ($vo["v_name"]); ?></a></h2>
-    <p><a href="#">编辑</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">删除</a></p>
+    <p><a href="<?php echo U('video/see',array('v_id'=>$vo['v_id']));?>">查看</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" onclick="del('<?php echo ($vo["v_id"]); ?>')">删除</a></p>
     </li><?php endforeach; endif; ?>
-   
+        <script >
+            
+             function del(id){
+
+                if(confirm('确认删除么?')){
+                    $.ajax({
+                        type: "POST",
+                        url: "<?php echo U('video/del');?>",
+                        data: "id="+id,
+                        success: function(msg){ 
+                          if(msg){
+                              $("#li"+id).remove()
+                          }else{
+                              alert('删除失败');
+                          }
+                        }
+                     }); 
+                }
+            }
+        </script>
     
     </ul>
     
