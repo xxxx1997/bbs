@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="keywords" content="php培训,php教程,php视频,php下载,php视频教程" />
 <meta name="description" content="php培训的龙头老大,口碑最好的php培训机构,进来看看同学们的呐喊，就会知道我们是个怎么样的学校,问天下php培训机构谁与争锋?php培训课程内容包含目前最流行的zendframework、thinkphp框架、ECShop、dedecms等产品的二次开发" />
-<title>传智播客PHP学院官网-北京PHP培训_PHP网站开发培训_PHP程序员培训学校</title>
+<title>英雄四组</title>
 <link href="http://php.itcast.cn/style/css.css" type="text/css" rel="stylesheet" />
 <link href="http://php.itcast.cn/style/nav/nav_main.css" type="text/css" rel="stylesheet" />
 <link href="http://php.itcast.cn/style/image/imageswitch.css" type="text/css" rel="stylesheet" />
@@ -26,7 +26,7 @@
 
 	<div class="clear"></div>
 	<div class="top2">
-		<h1 class="fl"><a href="http://www.itcast.cn"><img src="http://php.itcast.cn/images/logo.gif" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
+		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
 		<div class="fl toubu">
 		<div class="toubu-font1">PHP学院</div>
 			 <!-- 校区 -->
