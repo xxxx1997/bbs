@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "/www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "/www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="/www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -26,7 +26,7 @@
 
 	<div class="clear"></div>
 	<div class="top2">
-		<h1 class="fl"><a href="http://www.itcast.cn"><img src="__APP__/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
+		<h1 class="fl"><a href="http://www.itcast.cn"><img src="http://php.itcast.cn/images/logo.gif" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
 		<div class="fl toubu">
 		<div class="toubu-font1">PHP学院</div>
 			 <!-- 校区 -->
@@ -43,22 +43,120 @@
 	</div>
 	<div class="clear"></div>
 		<ul id="nav">
-	<li><a href="{:U('index/index')}" id="nav_main">首 页</a></li>
-	<li class="widt"><a href="{:U('course/index')}" id="nav_course">PHP培训课程</a> </li> 
-	<li class="widt"><a href="{:U('video/index')}" id="nav_videodl">PHP视频下载</a> </li>
+	<li><a href="<?php echo U('index/index');?>" id="nav_main">首 页</a></li>
+	<li class="widt"><a href="<?php echo U('course/index');?>" id="nav_course">PHP培训课程</a> </li> 
+	<li class="widt"><a href="<?php echo U('video/index');?>" id="nav_videodl">PHP视频下载</a> </li>
     <li id="nav_personnel"><a href="http://www.itcast.cn/channel/personnel.shtml">人才服务</a></li>
     <li id="nav_life"><a href="http://www.itcast.cn/channel/campus.shtml">校园生活</a> </li>
-    <li id="nav_teacher"><a href="{:U('teacher/index')}">师资力量</a> </li>
-    <li id="nav_job"><a href="{:U('jyjb/index')}">就业信息</a> </li>
+    <li id="nav_teacher"><a href="<?php echo U('teacher/index');?>">师资力量</a> </li>
+    <li id="nav_job"><a href="<?php echo U('jyjb/index');?>">就业信息</a> </li>
     <li id="nav_flow"><a href="http://www.itcast.cn/channel/flow.shtml">报名流程</a> </li>
     <li id="nav_book"><a href="http://www.itcast.cn/channel/book.shtml">原创教材</a> </li>
-	<li id="nav_question"><a href="{:U('question/index')}">常见问题</a></li>
+	<li id="nav_question"><a href="<?php echo U('question/index');?>">常见问题</a></li>
 	<li><a href="http://www.itcast.cn/channel/contact.shtml">来校路线</a></li>
 	<li><a href="http://bbs.itcast.cn" target="_blank">技术论坛 </a></li>
 </ul>
 	</div>
 <!--输出-->
- {__CONTENT__}
+ <div id="box">
+  <div class="position"><a name="pagetop"/>您现在的位置：<span class="STYLE5"><a href="http://php.itcast.cn">PHP学院</a> &gt;&gt; PHP学院新闻 &gt;&gt; 正文</span></div>
+  <div id="left" class="fl" style="margin-top:8px;">
+    <div class="left_content1">
+      <div id="printarea">
+        <h1 class="infotitle">为前途来传智播客学PHP </h1>
+        <?php if(is_array($video)): foreach($video as $key=>$aa): ?><div class="editer">更新时间:<?php echo ($aa["v_time"]); ?> 来源:</div>
+        <div class="infor">
+         <center>
+	<?php echo ($aa["v_video"]); ?></center><?php endforeach; endif; ?>
+<div class="clear"></div>
+<div class="zhanshi"><a name="ld"> </a>
+<h4><a name="ld">劳动合同（点击可查看大图）</a></h4>
+<div class="blueline" style="width:556px; overflow:hidden;">
+<div style="width:800px;"><a name="ld"></a><a href="http://www.itcast.cn/files/image/201308/20130806100645852.jpg" target="_blank"><img src="http://www.itcast.cn/files/image/201308/20130806154204911.jpg" style="width: 160px; height: 226px;" /></a> <a href="http://www.itcast.cn/files/image/201308/20130806154235830.jpg" target="_blank"><img src="http://www.itcast.cn/files/image/201308/20130806100807565.jpg" style="width: 160px; height: 226px;" /></a> <a href="http://www.itcast.cn/files/image/201308/20130806154303099.jpg" target="_blank"><img src="http://www.itcast.cn/files/image/201308/20130806100837346.jpg" style="width: 160px; height: 226px;" /></a></div>
+</div>
+<a name="idcard"> </a>
+<h4><a name="idcard">毕业证书</a></h4>
+<div class="blueline"><a href="http://www.itcast.cn/files/image/201308/20130806100855005.jpg" name="idcard" target="_blank"><img src="http://www.itcast.cn/files/image/201308/20130806100904583.jpg" style="width: 296px; height: 187px;" /></a></div>
+</div>
+<a name="idcard"> </a> 
+	<script type="text/javascript" src="http://bbs.itcast.cn/api.php?mod=js&bid=94"></script>
+        </div>
+      </div>
+      <div class="pre">
+	               上一篇：<a target="_blank" href="/news/20130122/13585140788.shtml">三个月,薪资变3倍</a>
+       	  </div>
+      <div class="next">
+	              下一篇：<a target="_blank" href="/news/20130122/14014070017.shtml">测试转PHP,成万元户</a>
+      	  </div>
+
+      <div class="clear"></div>
+      <div class="share">
+	  <!-- Baidu share BEGIN -->
+    <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare">
+        <span class="bds_more">分享到：</span>
+        <a class="bds_sqq">QQ好友</a>
+		<a class="bds_qzone">QQ空间</a>
+		<a class="bds_tqq">腾讯微博</a>
+		<a class="bds_tsina">新浪微博</a>
+		<a class="bds_tieba">百度贴吧</a>
+		<a class="shareCount"></a>
+    </div>
+<!-- Baidu share END 需在页面底部添加baidushare.js -->	  
+	  </div>
+	  <div class="clear"></div>
+      <div class="print"><a href="#" id="printbutton">【打印】</a> <a href="#pagetop">【返回顶部】</a></div>
+      	  <!-- 评论区 -->
+	    	<script type="text/javascript">
+	           $(document).ready(function(){
+	              	loadcomment('20130122-14000221632', 1);
+               });   
+	       </script>
+	  <div id="commentcontent"></div>
+	  <form name="comment" style="padding:0;margin:0px;">
+        <input type="hidden" name="referenceSource" value="20130122-14000221632">
+        <input type="hidden" name="type" value="NEWS">
+        <textarea cols="85" rows="6" style="width:610px;" name="content"></textarea>
+        <div class="clear"></div>
+        <div class="fabiao">
+	      <span class="fl">请输入验证码：<input name="validatecode" type="text" style="width:80px;" />  <img src="http://manage.itcast.cn:8080/validatecode/comment.jpg" id="kaptchaImage" width="100"/></span><span class="fr"><input type='button' value="提 交" id="savebutton"/></span>
+	    </div>
+	  </form>
+	  <div id="dialog" title="评论保存结果"></div><!-- 对话框内容 -->
+      <!-- 评论区 -->
+	        <div class="clear"></div>
+      <div class="ad">
+      <!-- 广告区 -->
+      <!--<a href="http://icd.itcast.cn"><img border="0" src="http://www.itcast.cn/images/ad/icdad.gif" width="620" /></a>--> 
+      <!-- 广告区 -->
+      </div>
+    </div>
+    <div><img src="/images/leftbottom.gif"/></div>
+  </div>
+  <div id="right" class="fl">
+    <h4 class="righttitle1"><span class="fl">PHP视频下载</span><span class="fr"><a href="/php/video.shtml">+MORE</a></span></h4>
+    <ul class="rightkuang">
+       <ul>
+<li><a href="http://php.itcast.cn/news/caa9b58b/37b1/47f6/98e3/bd3600c98cfc.shtml">PHP入门到精通教程</a></li>
+<li><a href="http://php.itcast.cn/news/7acb031c/5958/42d8/be84/47796e2c1243.shtml">zend framework</a></li>
+<li><a href="http://php.itcast.cn/news/a632aeea/df9a/46bf/92f1/896679400a37.shtml">smarty模板引擎 </a></li>
+<li><a href="http://php.itcast.cn/news/2889f5ee/060a/4014/a6a8/cff645e79925.shtml">Ajax技术 </a></li>
+<li><a href="http://php.itcast.cn/news/166b4e78/01b0/4017/96ae/764cd57432a8.shtml">页面静态化</a></li>
+<li><a href="http://php.itcast.cn/news/50b67f71/dba5/4302/8749/b62bcc314bd0.shtml">Memcached缓存技术</a></li>
+<li><a href="http://php.itcast.cn/news/61ee8515/a34e/477d/9d5d/662dbff5e161.shtml#">Mysql优化</a></li>
+<li><a href="http://php.itcast.cn/news/fd551fd3/9db4/4360/9afa/57f438973108.shtml">轻松搞定网页设计</a></li>
+<li><a href="http://php.itcast.cn/news/5805c1ea/1b18/41eb/8fcc/6234659d8b40.shtml">PHP数据库陷阱</a></li>
+<li><a href="http://php.itcast.cn/news/94c86c32/a7c1/4d2f/b2b4/ded74c6e1113.shtml">PHP网上支付技术</a></li>
+<li><a href="http://php.itcast.cn/news/47d47284/bd39/4322/8aa6/fd48cd51f9df.shtml">PHP报表视频教程</a></li>
+<li><a href="http://php.itcast.cn/news/42366bc5/fc13/43f1/a69b/bc57132cfdc7.shtml">Linux视频教程</a></li>
+<li><a href="http://php.itcast.cn/news/c31baf40/8fa5/4803/ac4d/6e27086d009f.shtml">Oracle视频教程</a></li>
+</ul>
+
+    </ul>
+   
+  </div>
+</div>
+<div class="clear"></div>
+<!-- 页面底部 -->
  
  
         <!-- 页面底部 -->
@@ -151,7 +249,16 @@
 </script>
 
 
-
+<div id="webim">
+<dl class="dlstyle">
+	<dt class="dtstyle">
+		<strong id="webim_title">&nbsp;</strong><span id="webimclosebutton">关闭</span></dt>
+</dl>
+<dl>
+	<dd>
+		<a href="" id="webim_link" target="_blank"><img id="webim_img" src="" style="width: 280px; height: 188px" /></a></dd>
+</dl>
+</div>
 <script type="text/javascript">
   var arr = new Array(); 
 

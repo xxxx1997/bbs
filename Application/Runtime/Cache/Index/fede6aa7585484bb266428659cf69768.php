@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "/www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "/www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="/www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -26,7 +26,7 @@
 
 	<div class="clear"></div>
 	<div class="top2">
-		<h1 class="fl"><a href="http://www.itcast.cn"><img src="__APP__/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
+		<h1 class="fl"><a href="http://www.itcast.cn"><img src="http://php.itcast.cn/images/logo.gif" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
 		<div class="fl toubu">
 		<div class="toubu-font1">PHP学院</div>
 			 <!-- 校区 -->
@@ -43,22 +43,105 @@
 	</div>
 	<div class="clear"></div>
 		<ul id="nav">
-	<li><a href="{:U('index/index')}" id="nav_main">首 页</a></li>
-	<li class="widt"><a href="{:U('course/index')}" id="nav_course">PHP培训课程</a> </li> 
-	<li class="widt"><a href="{:U('video/index')}" id="nav_videodl">PHP视频下载</a> </li>
+	<li><a href="<?php echo U('index/index');?>" id="nav_main">首 页</a></li>
+	<li class="widt"><a href="<?php echo U('course/index');?>" id="nav_course">PHP培训课程</a> </li> 
+	<li class="widt"><a href="<?php echo U('video/index');?>" id="nav_videodl">PHP视频下载</a> </li>
     <li id="nav_personnel"><a href="http://www.itcast.cn/channel/personnel.shtml">人才服务</a></li>
     <li id="nav_life"><a href="http://www.itcast.cn/channel/campus.shtml">校园生活</a> </li>
-    <li id="nav_teacher"><a href="{:U('teacher/index')}">师资力量</a> </li>
-    <li id="nav_job"><a href="{:U('jyjb/index')}">就业信息</a> </li>
+    <li id="nav_teacher"><a href="<?php echo U('teacher/index');?>">师资力量</a> </li>
+    <li id="nav_job"><a href="<?php echo U('jyjb/index');?>">就业信息</a> </li>
     <li id="nav_flow"><a href="http://www.itcast.cn/channel/flow.shtml">报名流程</a> </li>
     <li id="nav_book"><a href="http://www.itcast.cn/channel/book.shtml">原创教材</a> </li>
-	<li id="nav_question"><a href="{:U('question/index')}">常见问题</a></li>
+	<li id="nav_question"><a href="<?php echo U('question/index');?>">常见问题</a></li>
 	<li><a href="http://www.itcast.cn/channel/contact.shtml">来校路线</a></li>
 	<li><a href="http://bbs.itcast.cn" target="_blank">技术论坛 </a></li>
 </ul>
 	</div>
 <!--输出-->
- {__CONTENT__}
+ 
+
+	<div id="box">
+		<div id="left" class="fl">
+			<div><img src="/images/lefttop.gif"/></div>
+			<div class="left_content">
+				<h2 class="title1"><span class="STYLE3">常见</span><span class="STYLE2">问题</span></h2>
+				<h3 class="title2">热点问题</h3>
+				<ul class="links">
+﻿<ul>
+<li><a href="http://www.itcast.cn/news/b391b18e/f306/44ab/aea2/649d74354f91.shtml" target="_blank">上课是全天授课吗？每天的上课时间安排？</a> 2012.06.05</li>
+<li><a href="http://www.itcast.cn/news/594de13e/b59a/467b/973c/a8ffdeda3625.shtml" target="_blank">传智播客上课是放视频吗？</a> 2012.06.05</li>
+<li><a href="http://www.itcast.cn/news/c9782dea/2c1a/413b/9be9/d40c54f15520.shtml" target="_blank">传智网站发布的视频我看就很多了，那看完这些后还有必要去参加面授培训吗？</a> 2012.06.05</li>
+<li><a href="http://www.itcast.cn/news/17dd6595/d6b5/40d4/919b/f35c421bcc94.shtml" target="_blank">可以试听几天吗？收费吗？</a> 2012.06.05</li>
+<li><a href="http://www.itcast.cn/news/b7b58883/5b79/4c6b/ac6e/0b32b3a2c458.shtml" target="_blank">为什么有人说你们的培训课程太高端，技术讲得很深，基础不好不要去？</a> 2012.06.05</li>
+<li><a href="http://www.itcast.cn/news/51e6e2b0/4398/4879/83a4/e574490ff614.shtml
+" target="_blank">基础不太好，能直接参加就业班吗？</a> 2012.06.05</li>
+<li><a href="http://www.itcast.cn/news/f4093e3e/b8d6/4b16/bf19/cad4a82b64f6.shtml" target="_blank">我不是计算机专业的能学会编程吗？</a>2012.06.05</li>
+<li><a href="http://www.itcast.cn/news/f04d2f43/ff59/410d/bc81/5ffb9dad1831.shtml
+" target="_blank">关于重读费用的问题？</a> 2012.06.05</li>
+<li><a href="http://www.itcast.cn/news/7242bbf8/4eec/4560/9747/de10c47eb859.shtml" target="_blank">现在企业招人都要求有工作经验，培训后没工作经验怎么找工作？</a> 2012.06.05</li>
+<li><a href="http://www.itcast.cn/news/0a7f17db/646d/496b/99cf/ac00b5bf0a00.shtml" target="_blank">不签协议工作有保障吗？</a> 2012.06.05</li>
+<li><a href="http://www.itcast.cn/news/431473d6/aae4/4787/8fa1/f7029fe0ce06.shtml" target="_blank">毕业后发证吗？</a> 2012.06.05</li>
+<li><a href="http://www.itcast.cn/news/78162e16/8f45/4a19/b910/117347722428.shtml
+" target="_blank">我是外地的，住宿怎么安排的？</a> 2012.06.05</li>
+<li><a href="http://www.itcast.cn/news/4d2cf66e/a1b6/475b/9bef/5cedd8b28c8f.shtml
+" target="_blank">我第一次去北京，怎么到你们那？</a> 2012.06.05</li>
+<li><a href="http://www.itcast.cn/news/f669c0d1/93e3/44a8/936d/16f942a7238a.shtml" target="_blank">学完了找不到工作怎么办？</a> 2012.06.05</li>
+<li><a href="http://www.itcast.cn/news/e0e277e1/c121/4ba9/bfe7/68b6933e59f8.shtml" target="_blank">我如何报名呢？</a> 2012.06.05</li>
+</ul>
+ 
+				</ul>
+				<h3 class="title2">PHP相关问题</h3>
+				<ul class="links">
+<ul>
+<li><a href="http://php.itcast.cn/news/20130409/11151678932.shtml" target="_blank">PHP的就业前景到底怎么样？</a><img height="15" src="/images/new.gif" width="29" /></li>
+<li><a href="http://php.itcast.cn/news/20130409/11292928854.shtml" target="_blank">什么样的公司需要php技术？</a><img height="15" src="/images/new.gif" width="29" /></li>
+<li><a href="http://php.itcast.cn/news/20130409/11303961319.shtml" target="_blank">php和java的区别在哪里？</a><img height="15" src="/images/new.gif" width="29" /></li>
+<li><a href="http://php.itcast.cn/news/20130409/1131470655.shtml" target="_blank">二三线城市学php好就业吗？</a><img height="15" src="/images/new.gif" width="29" /></li>
+<li><a href="http://php.itcast.cn/news/20130409/11325021761.shtml" target="_blank">学完php之后可以做什么？</a></li>
+<li><a href="http://php.itcast.cn/news/20130409/11334990300.shtml" target="_blank">前端的东西能学多少，有哪些？</a></li>
+<li><a href="http://php.itcast.cn/news/20130409/14473489532.shtml" target="_blank">php学完就业时都能出哪些类型的网站？</a></li>
+<li><a href="http://php.itcast.cn/news/20130409/14524497859.shtml" target="_blank">官网上为什么公布那么少php的招生公司？</a></li>
+<li><a href="http://php.itcast.cn/news/20130409/14543187053.shtml" target="_blank">用php做出来的比较有名气的网站或者作品？</a></li>
+<li><a href="http://php.itcast.cn/news/20130409/14565887024.shtml" target="_blank">怎么在短时间内充分掌握老师讲解的php知识？</a></li>
+<li><a href="http://php.itcast.cn/news/20130409/14580258105.shtml" target="_blank">基础班学完以后可以做什么?</a></li>
+<li><a href="http://php.itcast.cn/news/20130409/15001772469.shtml" target="_blank">学php需要具备哪些条件？</a></li>
+<li><a href="http://php.itcast.cn/news/20130409/15025732993.shtml" target="_blank">php入门简单是不是后期学习难？</a></li>
+</ul>
+
+			    </ul>
+			</div>
+			<div><img src="/images/leftbottom.gif"/></div>
+		</div>		
+		<div id="right" class="fl">
+			<h4 class="righttitle1"><span class="fl">PHP视频下载</span><span class="fr"><a href="/php/video.shtml">+MORE</a></span></h4>
+			<ul class="rightkuang">
+			<ul>
+<li><a href="http://net.itcast.cn/news/00666f00/c4c5/4aad/99e1/45f6673f7a31.shtml" target="_blank">C#编程基础视频教程</a></li>
+<li><a href="http://net.itcast.cn/news/770b900e/fcd4/4f10/bb25/bb0e99f0ab92.shtml" target="_blank">C#面向对象基础视频教程 </a></li>
+<li><a href="http://net.itcast.cn/news/047a81e7/616f/44fa/b103/2c38e5b51b48.shtml" target="_blank">wpf基础视频教程 </a></li>
+<li><a href="http://net.itcast.cn/news/4048960e/9f6f/4d71/8da4/07639e2bef0b.shtml" target="_blank">数据绑定和数据库开发基础 </a></li>
+<li><a href="http://net.itcast.cn/news/c804d7df/95b0/4e78/9505/7f6157220e59.shtml" target="_blank">Ado.Net项目开发教程 </a></li>
+<li><a href="http://net.itcast.cn/news/509b1bc4/5afc/4fe4/adf4/3757fc78b70c.shtml" target="_blank">HTML教程 </a></li>
+<li><a href="http://net.itcast.cn/news/bd4612c7/a940/4585/9153/487bbcc7fcd3.shtml" target="_blank">JavaScript教程</a></li>
+<li><a href="http://net.itcast.cn/news/68ac18e3/f435/45e8/999f/db6f32f9aeac.shtml" target="_blank">Dom教程</a></li>
+<li><a href="http://net.itcast.cn/subject/tegongnet/index.html" target="_blank">特供ASP.Net视频教程 </a></li>
+<li><a href="http://bbs.itcast.cn/thread-11528-1-1.html" target="_blank">Linux下运行ASP.Net网站(Mono)视频教程</a></li>
+<li><a href="http://bbs.itcast.cn/thread-11130-1-1.html" target="_blank">写程序自动识别验证码视频教程</a></li>
+<li><a href="http://bbs.itcast.cn/thread-14836-1-1.html" target="_blank">大型互联网技术Memcached视频教程</a></li>
+<li><a href="http://bbs.itcast.cn/thread-15261-1-1.html" target="_blank">ASP.Net MVC入门视频教程</a></li>
+<li><a href="http://bbs.itcast.cn/thread-15273-1-1.html" target="_blank">Unity3D游戏开发入门视频教程</a></li>
+<li><a href="http://bbs.itcast.cn/thread-11228-1-1.html" target="_blank">人事管理系统开发视频教程</a></li>
+<li><a href="http://bbs.itcast.cn/thread-19987-1-1.html" target="_blank">&quot;工作流&quot;开发视频教程</a></li>
+<li><a href="http://net.itcast.cn/subject/arrogant/index.shtml" target="_blank">毕业设计完整源码+文档下载</a></li>
+</ul>
+
+			</ul>
+			<div class="rightbottom"><img src="/images/rightbottom.jpg"/></div>
+	  </div>
+	</div>
+	<div class="clear"></div>
+ <!-- 页面底部 -->
+
  
  
         <!-- 页面底部 -->
@@ -151,7 +234,16 @@
 </script>
 
 
-
+<div id="webim">
+<dl class="dlstyle">
+	<dt class="dtstyle">
+		<strong id="webim_title">&nbsp;</strong><span id="webimclosebutton">关闭</span></dt>
+</dl>
+<dl>
+	<dd>
+		<a href="" id="webim_link" target="_blank"><img id="webim_img" src="" style="width: 280px; height: 188px" /></a></dd>
+</dl>
+</div>
 <script type="text/javascript">
   var arr = new Array(); 
 

@@ -26,7 +26,11 @@
 
 	<div class="clear"></div>
 	<div class="top2">
+<<<<<<< HEAD
 		<h1 class="fl"><a href="http://www.itcast.cn"><img src="http://php.itcast.cn/images/logo.gif" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
+=======
+		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
+>>>>>>> 4f6ed917674d72ff56463bbf851db2f3da02bbdf
 		<div class="fl toubu">
 		<div class="toubu-font1">PHP学院</div>
 			 <!-- 校区 -->
@@ -58,10 +62,14 @@
 </ul>
 	</div>
 <!--输出-->
+<<<<<<< HEAD
  
 
 		
 	<div id="box">
+=======
+ <div id="box">
+>>>>>>> 4f6ed917674d72ff56463bbf851db2f3da02bbdf
 		    <div class="mbx">
 			<!-- Baidu share BEGIN -->
     <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare">
@@ -125,6 +133,7 @@
                 <p class="kxsy-font1"><img src="http://www.itcast.cn/images/kxsy-tu6.jpg" /></p>
                 <!--  校园消息  -->
 				<ul class="huodong11">
+<<<<<<< HEAD
 <li><img src="http://php.itcast.cn/images/sanjiao-1.jpg" /><a href="http://php.itcast.cn/news/20141203/14264847561.shtml" target="_blank"><span style="color:#ff0000;">通知：2015年传智播客PHP学科学费价格表</span></a></li>
 <li><img src="http://php.itcast.cn/images/sanjiao-1.jpg" /><a href="http://bbs.itcast.cn/thread-41296-1-1.html" target="_blank"><span style="color:#ff0000;">PHP0701班,毕业8天,入职25人,平均薪资6240元！</span></a></li>
 <li><strong><img src="http://php.itcast.cn/images/sanjiao-1.jpg" /></strong><a href="http://php.itcast.cn/news/20140904/1456540144.shtml" target="_blank">从辍学到PHP技术总监-4个月,月薪15000元！</a></li>
@@ -139,6 +148,9 @@
 <li><img src="http://php.itcast.cn/images/sanjiao-1.jpg" /><a href="http://php.itcast.cn/news/20140408/09530743698.shtml" target="_blank">传智播客中级PHP项目答辩，学员应对自如！</a></li>
 <li><img src="http://php.itcast.cn/images/sanjiao-1.jpg" /><a href="http://www.itcast.cn/news/20140917/16571295116.shtml" target="_blank">看逗逼如何玩转传智生涯 </a></li>
 <li><img src="/images/sanjiao-1.jpg" /><a href="http://php.itcast.cn/subject/phpzty/phpzt/phpzly.html" target="_blank">学PHP编程，不做孬种程序员！</a></li>
+=======
+				<?php if(is_array($info)): foreach($info as $key=>$it): ?><li><img src="http://php.itcast.cn/images/sanjiao-1.jpg" /><a href="<?php echo U('index/show',array('aid'=>$it['aid']));?>" target="_blank"><span style="color:#000000;"><?php echo ($it["a_title"]); ?></span></a></li><?php endforeach; endif; ?>
+>>>>>>> 4f6ed917674d72ff56463bbf851db2f3da02bbdf
 <!--
 <li><img src="/images/sanjiao-1.jpg" /><a href="http://www.itcast.cn/news/20140917/17033478626.shtml" target="_blank">我为寻找最初的职业理想而来</a></li>
 <li><img src="/images/sanjiao-1.jpg" /><a href="http://dvd.itcast.cn/?php" target="_blank"><span style="color:#0000ff;">网速下载不给力，快来申请最新PHP学习光盘！</span></a></li>
@@ -157,6 +169,7 @@
 			  <div><img src="http://php.itcast.cn/images/lefttop.gif"  /></div>
 			  <div class="left_content2">
 			  <h4 class="title1"><span class="STYLE3">校园</span>动态</h4>
+<<<<<<< HEAD
 			  	<dl class="ganyan1 huodong1">
 	<dt class="fl">
 		<a href="http://php.itcast.cn/news/20131117/14525122556.shtml" target="_blank"><img src="http://www.itcast.cn/files/image/201311/20131117151902186.jpg" style="width: 286px; height: 215px;" /><br />
@@ -171,6 +184,17 @@
 		<li><font color="red"><img src="http://php.itcast.cn/images/great.jpg" /><a href="http://php.itcast.cn/news/20130422/17470617702.shtml" target="_blank">PHP学院2.28班海奥森&ldquo;HAPPY&rdquo;徒步之旅</a></font></li>
 		<li><font color="red"><img src="http://php.itcast.cn/images/great.jpg" /><a href="http://php.itcast.cn/news/20130422/10133870070.shtml" target="_blank">PHP学院3.30班学员香山一日游</a></font></li>
 		<li><font color="red"><img src="http://php.itcast.cn/images/great.jpg" /><a href="http://php.itcast.cn/news/20121231/17261928971.shtml" target="_blank">PHP学院12.29元旦晚会&mdash;不做孬种程序员</a></font></li>
+=======
+			  	
+				<dl class="ganyan1 huodong1">
+	<dt class="fl">
+		<a href="http://php.itcast.cn/news/20131117/14525122556.shtml" target="_blank"><img src="/Application/Common/index/images/4.jpg" style="width: 286px; height: 215px;" /><br />
+		天空一声巨响 四组闪亮登场</a></dt>
+	<dd class="huodongfr">
+		<h3 class="STYLE7">班级活动</h3>
+		<ul class="bjhd">
+		<?php if(is_array($list)): foreach($list as $key=>$it): ?><li><img src="http://php.itcast.cn/images/great.jpg" /><a href="<?php echo U('index/show',array('aid'=>$it['aid']));?>" target="_blank"><?php echo ($it["a_title"]); ?></a></li><?php endforeach; endif; ?>
+>>>>>>> 4f6ed917674d72ff56463bbf851db2f3da02bbdf
 		</ul>
 	</dd>
 </dl>
@@ -199,6 +223,7 @@
 	<dd class="huodongfr">
 		<h3 class="STYLE7">就业信息</h3>
 		<ul class="bjhd">
+<<<<<<< HEAD
 		<li><img src="http://www.itcast.cn/images/great.jpg" /><a href="http://php.itcast.cn/php/jyjb.shtml">张＊ 2014.10.22 &nbsp;北京树蛙＊＊ &nbsp;6000</a></li>
 		<li><img src="http://www.itcast.cn/images/great.jpg" /><a href="http://php.itcast.cn/php/jyjb.shtml">粟＊＊ 2014.10.21 &nbsp;智恒＊＊ &nbsp;5000</a></li>
 		<li><img src="http://www.itcast.cn/images/great.jpg" /><a href="http://php.itcast.cn/php/jyjb.shtml">王＊＊ 2014.10.20&nbsp; 淘伟＊＊公司 &nbsp;&nbsp;6000</a></li>
@@ -208,6 +233,9 @@
 		<li><img src="http://www.itcast.cn/images/great.jpg" /><a href="http://php.itcast.cn/php/jyjb.shtml">曹＊ 2014.10.14 &nbsp;国度＊＊公司 &nbsp;7000</a></li>
 		<li><img src="http://www.itcast.cn/images/great.jpg" /><a href="http://php.itcast.cn/php/jyjb.shtml">陈＊＊ 2014.10.13 &nbsp;北京弗兰＊＊公司 &nbsp;5500</a></li>
 		<li><img src="http://www.itcast.cn/images/great.jpg" /><a href="http://php.itcast.cn/php/jyjb.shtml"><font style="color: red"><b>&gt;&gt;查看更多就业信息</b></font></a></li>
+=======
+		<?php if(is_array($info3)): foreach($info3 as $key=>$it): ?><li><img src="http://www.itcast.cn/images/great.jpg" /><a href="<?php echo U('jyjb/index');?>"><?php echo ($it["jy_name"]); ?>&nbsp;<?php echo ($it["jy_company"]); ?>&nbsp;<?php echo ($it["jy_wage"]); ?></a></li><?php endforeach; endif; ?>
+>>>>>>> 4f6ed917674d72ff56463bbf851db2f3da02bbdf
 		</ul>
 	</dd>
 </dl>
@@ -226,6 +254,7 @@
 <dl class="ganyan1">
 	<dt class="fl">
 		<a href="http://php.itcast.cn/news/6c558812/4811/4576/b342/2307b12ae09a.shtml"><img alt="" src="http://php.itcast.cn/images/sypic/xygn03.jpg" style="width: 108px; height: 71px" /></a></dt>
+<<<<<<< HEAD
 	<dd class="fr">
 		<span class="STYLE6"><a href="http://php.itcast.cn/news/6c558812/4811/4576/b342/2307b12ae09a.shtml">[php学员]</a></span><a href="http://php.itcast.cn/news/6c558812/4811/4576/b342/2307b12ae09a.shtml">钟玲玉：传智，我人生中重要的一站</a></dd>
 </dl>
@@ -236,6 +265,17 @@
 <li><span class="STYLE6">[php学员]</span><a href="http://php.itcast.cn/news/fbe7a9c2/7cb8/40a0/93c7/3cddcecb76ba.shtml">杨*斌： 一个小学生的奋斗史..</a></li>
 <li><span class="STYLE6">[php学员]</span><a href="http://php.itcast.cn/news/a59c6523/b6ed/4304/a02f/cf7edb613bca.shtml">黄*：传智播客,让我月薪增长到..</a></li>
 <li><span class="STYLE6">[php学员]</span><a href="http://php.itcast.cn/news/7e39b618/ad36/48f4/b944/f0c088dc025d.shtml">刘传华：传智，我人生中的转折点..</a></li>
+=======
+		
+	<dd class="fr">
+		<a href="http://php.itcast.cn/news/6c558812/4811/4576/b342/2307b12ae09a.shtml">     [php学员]钟玲玉：传智，我人生中重要的一站</a>
+		</dd>
+		
+</dl>
+<div class="clear"></div>
+<ul>
+<?php if(is_array($rows)): foreach($rows as $key=>$it): ?><li><span class="STYLE6">[php学员]</span><a href="<?php echo U('index/show',array('aid'=>$it['aid']));?>"><?php echo ($it["a_title"]); ?></a></li><?php endforeach; endif; ?>
+>>>>>>> 4f6ed917674d72ff56463bbf851db2f3da02bbdf
 </ul>
 </div>
 <div class="ganyanleft fr3">
@@ -248,10 +288,13 @@
 <div class="clear"></div>
 <ul>
 <li><span class="STYLE6">[php学员]</span><a href="http://php.itcast.cn/news/20130902/14205610545.shtml">吴思阳：传智之旅-真正的升华..</a></li>
+<<<<<<< HEAD
 <li><span class="STYLE6">[php学员]</span><a href="http://php.itcast.cn/news/20130902/14273649772.shtml">郝建设：短暂时光的改变..</a></li>
 <li><span class="STYLE6">[php学员]</span><a href="http://php.itcast.cn/news/273e1200/65bb/4bf7/ad99/80f664bb5583.shtml">宋娇：幸好，我选择了传智..</a></li>
 <li><span class="STYLE6">[php学员]</span><a href="http://php.itcast.cn/news/83bef091/4cfc/44a5/b0d4/18a862cd5fd3.shtml">李玉宝：零基础学员,刚毕业就拿..</a></li>
 <li><a href="http://php.itcast.cn/news/list/0b8acc29-7202-4e1d-a6db-f6dfd3a639bb/1.shtml"><font style="color: red"><b>&gt;&gt;查看更多学员感言</b></font></a></li>
+=======
+>>>>>>> 4f6ed917674d72ff56463bbf851db2f3da02bbdf
 </ul>
 </div>
 </div>
@@ -267,6 +310,7 @@
 			  <div class="msdy">
 			    <div class="msdy-left"><img src="http://php.itcast.cn/images/wenhao-1.jpg" /></div>
 				<div class="msdy-right">
+<<<<<<< HEAD
 <ul>
 <li><a href="http://www.itcast.cn/news/20121005/12001594210.shtml"><span style="color:#ff0000;">PHP应该学什么,如何学好PHP(三) </span></a></li>
 <li><a href="http://www.itcast.cn/news/20120927/16401417864.shtml"><span style="color:#ff0000;">PHP应该学什么,如何学好PHP(二)</span></a></li>
@@ -283,6 +327,11 @@
 <li><a href="http://php.itcast.cn/news/84feccef/913f/443d/8bef/487d30b73cf5.shtml">一位农民工流动人员给韩老师一封信</a></li>
 <li><a href="http://php.itcast.cn/news/list/cba8c58c-b2d4-4f48-bf64-a10b59fb2666/1.shtml"><font style="color: red"><b>&gt;&gt;查看更多答疑信息</b></font></a></li>
 </ul>
+=======
+<?php if(is_array($arr)): foreach($arr as $key=>$it): ?><ul>
+<li><a href="<?php echo U('index/show',array('aid'=>$it['aid']));?>"><span style="color:#000000;"><?php echo ($it["a_title"]); ?></span></a></li>
+</ul><?php endforeach; endif; ?>
+>>>>>>> 4f6ed917674d72ff56463bbf851db2f3da02bbdf
 </div>
 <br />
 
@@ -297,6 +346,7 @@
 		<h4 class="righttitle1" style="margin-top:10px;"><span class="fl">PHP培训开班信息</span></h4>
 			<div class="jyjb-left" >
 			<ul>
+<<<<<<< HEAD
 <li style="border-bottom: medium none; float: left; color: #515151"><a href="http://php.itcast.cn/php/course/base.shtml"><b><font style="color: #515151">PHP基础班</font></b></a></li>
 <br />
 </ul>
@@ -323,6 +373,27 @@
 <li><a href="http://php.itcast.cn/news/981030b0/96d5/4005/9ae4/eba8bac4195a.shtml" target="_blank"><span class="time jyjb-font1"><b>爆满已开班</b></span>基础班--第33期(2014年11月27号)</a></li>
 <li><a href="http://php.itcast.cn/news/981030b0/96d5/4005/9ae4/eba8bac4195a.shtml" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span>就业班--第34期(2015年01月05号)</a></li>
 <li><a href="http://php.itcast.cn/news/981030b0/96d5/4005/9ae4/eba8bac4195a.shtml" target="_blank"><span class="time jyjb-font1"><b>爆满已开班</b></span>就业班--第33期(2014年11月21号)</a></li>
+=======
+<li style="border-bottom: medium none; float: left; color: #515151"><a href="/Index/Index/training"><b><font style="color: #515151">PHP基础班</font></b></a></li>
+<br />
+</ul>
+<ul style="clear: both">
+<?php if(is_array($ke1)): foreach($ke1 as $key=>$it): ?><li><a href="/Index/Index/training?id=<?php echo ($it["id"]); ?>" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
+</ul>
+<ul>
+<li style="border-bottom: medium none; float: left; color: #515151"><a href="/Index/Index/training?id=<?php echo ($it["id"]); ?>"><b><font style="color: #515151">PHP就业班</font></b></a></li>
+<br />
+</ul>
+<ul style="clear: both">
+<?php if(is_array($ke2)): foreach($ke2 as $key=>$it): ?><li><a href="/Index/Index/training" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
+</ul>
+<ul>
+<li style="border-bottom: medium none; float: left; color: #515151"><a href="/Index/Index/training"><b><font style="color: #515151">PHP远程班</font></b></a></li>
+<br />
+</ul>
+<ul style="clear: both">
+<?php if(is_array($ke3)): foreach($ke3 as $key=>$it): ?><li><a href="/Index/Index/training?id=<?php echo ($it["id"]); ?>" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
+>>>>>>> 4f6ed917674d72ff56463bbf851db2f3da02bbdf
 </ul>
 
             </div>
@@ -332,6 +403,7 @@
 			<p class="cent"> <img src="http://php.itcast.cn/images/select.jpg"  width="256" height="66" /></p>
                       <table border="0" cellpadding="0" cellspacing="0" class="zhaopinlist" height="124" style="margin-top: 5px" width="98%">
 <tbody>
+<<<<<<< HEAD
 	<tr>
 	<td class="td1" width="73%"><a href="http://www.itcast.cn/news/20141201/16233788127.shtml" target="_blank">上海北岸信息生物谷招聘</a></td>
 	<td width="11%">若干</td>
@@ -394,6 +466,13 @@
 	<td width="11%">若干</td>
 	<td width="16%">11.21</td>
 	</tr>
+=======
+    <?php if(is_array($zhao)): foreach($zhao as $key=>$it): ?><tr>
+	<td class="td1" width="73%"><a href="<?php echo U('index/show',array('aid'=>$it['aid']));?>" target="_blank"><?php echo ($it["a_title"]); ?></a></td>
+	<td width="11%">若干</td>
+	<td width="16%">11.28</td>
+	</tr><?php endforeach; endif; ?>
+>>>>>>> 4f6ed917674d72ff56463bbf851db2f3da02bbdf
 	<tr>
 	<td class="td1" width="73%"><a href="http://www.itcast.cn/news/list/20c133c0-6635-421c-acae-6125b0702b34/1.shtml" target="_blank"><span style="color:#ff0000;">更多企业招聘信息请点击&hellip;&hellip;</span></a></td>
 	<td width="11%"><a href="http://www.itcast.cn/news/list/20c133c0-6635-421c-acae-6125b0702b34/1.shtml" target="_blank"><span style="color:#ff0000;">查看</span></a></td>
@@ -411,6 +490,7 @@
 		  <div class="rightkuang1" style="padding-top:18px;">
 			<ul class="zhaopinlist wenti">
               <ul class="zhaopinlist wenti">
+<<<<<<< HEAD
 <li><a href="http://php.itcast.cn/news/20130723/11245447222.shtml" target="_blank">贵校php教学与**学校相比有哪些特色</a><img height="15" src="http://php.itcast.cn/images/new.gif" width="29" /></li>
 <li><a href="/news/6c691c56/0dae/41ff/996a/2d110a612490.shtml" target="_blank">你们的PHP培训为什么那么便宜？</a><img height="15" src="http://php.itcast.cn/images/new.gif" width="29" /></li>
 <li><a href="/news/28bc21c1/10ef/4bcb/ad34/c0b70fc9ab8a.shtml" target="_blank">你们入学需要什么样的基础</a><img height="15" src="http://php.itcast.cn/images/new.gif" width="29" /></li>
@@ -426,6 +506,9 @@
 <li><a href="http://php.itcast.cn/news/20130409/14473489532.shtml" target="_blank">PHP学完就业时都能出哪些类型的网站？</a></li>
 <li><a href="http://php.itcast.cn/news/20130409/14524497859.shtml" target="_blank">官网上为什么公布那么少PHP的招生公司？</a></li>
 <li><a href="http://php.itcast.cn/news/20130409/14543187053.shtml" target="_blank">用PHP做出来的比较有名气的网站或者作品？</a></li>
+=======
+			  <?php if(is_array($chang)): foreach($chang as $key=>$it): ?><li><a href="<?php echo U('index/show',array('aid'=>$it['aid']));?>" target="_blank"><?php echo ($it["a_title"]); ?></a></li><?php endforeach; endif; ?>
+>>>>>>> 4f6ed917674d72ff56463bbf851db2f3da02bbdf
 <!--<li><a href="http://php.itcast.cn/news/20130409/14565887024.shtml" target="_blank">怎么在短时间内充分掌握老师讲解的知识？</a></li>
 <li><a href="http://php.itcast.cn/news/20130409/14580258105.shtml" target="_blank">基础班学完以后可以做什么?</a></li>
 <li><a href="http://php.itcast.cn/news/20130409/15025732993.shtml" target="_blank">PHP入门简单是不是后期学习难？</a></li>
@@ -638,7 +721,20 @@
 </script>
 
 
+<<<<<<< HEAD
 
+=======
+<div id="webim">
+<dl class="dlstyle">
+	<dt class="dtstyle">
+		<strong id="webim_title">&nbsp;</strong><span id="webimclosebutton">关闭</span></dt>
+</dl>
+<dl>
+	<dd>
+		<a href="" id="webim_link" target="_blank"><img id="webim_img" src="" style="width: 280px; height: 188px" /></a></dd>
+</dl>
+</div>
+>>>>>>> 4f6ed917674d72ff56463bbf851db2f3da02bbdf
 <script type="text/javascript">
   var arr = new Array(); 
 
