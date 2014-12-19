@@ -52,8 +52,8 @@ $(function(){
     <span><img src="/addbbs/Application/Common/admin/images/leftico01.png" /></span>文章管理
     </div>
     	<ul class="menuson">
-        <li <?php if($Think.ACTION_NAME=='course'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('article/list');?>" >文章列表</a><i></i></li>
-         <li <?php if($Think.ACTION_NAME=='course'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('article/class_list');?>" >分类列表</a><i></i></li>
+        <li <?php if($Think.ACTION_NAME=='article_list'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('article/article_list');?>" >文章列表</a><i></i></li>
+         <li <?php if($Think.ACTION_NAME=='class_list'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('article/class_list');?>" >分类列表</a><i></i></li>
        
         </ul>
     </dd>
@@ -157,7 +157,7 @@ $(document).ready(function(){
     <div class="tools">
     
     	<ul class="toolbar">
-            <li class="click"><a href="<?php echo U('teacher/add');?>"><span><img src="/addbbs/Application/Common/admin/images/t01.png" /></span>添加</a></li>
+        <li class="click"><span><img src="/addbbs/Application/Common/admin/images/t01.png" /></span>添加</li>
         <li class="click"><span><img src="/addbbs/Application/Common/admin/images/t02.png" /></span>修改</li>
         <li><span><img src="/addbbs/Application/Common/admin/images/t03.png" /></span>删除</li>
         <li><span><img src="/addbbs/Application/Common/admin/images/t04.png" /></span>统计</li>
@@ -176,52 +176,130 @@ $(document).ready(function(){
     	<tr>
         <th><input name="" type="checkbox" value="" checked="checked"/></th>
         <th>编号<i class="sort"><img src="/addbbs/Application/Common/admin/images/px.gif" /></i></th>
-        <th>姓名</th>
-        <th>级别</th>
-        <th>描述</th>
-        <th>time</th>
-        <th>图片</th>    
+        <th>标题</th>
+        <th>用户</th>
+        <th>籍贯</th>
+        <th>发布时间</th>
+        <th>是否审核</th>
         <th>操作</th>
         </tr>
         </thead>
         <tbody>
-            <?php if(is_array($list)): foreach($list as $key=>$vo): ?><tr id='tr<?php echo ($vo["t_id"]); ?>'>
+        <tr>
         <td><input name="" type="checkbox" value="" /></td>
-        <td><?php echo ($vo["t_id"]); ?></td>
-        <td><?php echo ($vo["t_name"]); ?></td>
-        <td><?php if($vo['cate_id']==1){echo '国内著名的软件培训高级讲师';} if($vo['cate_id']==2){echo '高级讲师、企业培训讲师';} if($vo['cate_id']==3){echo 'php项目经理';} if($vo['cate_id']==4){echo '架构师';} ?></td>
-        <td><?php echo mb_substr($vo['t_desc'],0,9,'utf-8'); ?></td>
-        <td><?php echo date('Y-m-d H:i:s',$vo['t_time']) ?></td>
-        <td><img width='100'height='50' src="/addbbs/Application/Common/Public/<?php echo ($vo["t_photo"]); ?>"</td>        
-        <td><a href="<?php echo U('teacher/see',array('t_id'=>$vo['t_id']));?>" class="tablelink">查看</a>     <a href="#" onclick="del('<?php echo ($vo["t_id"]); ?>')" class="tablelink"> 删除</a></td>
-        </tr><?php endforeach; endif; ?> 
+        <td>20130908</td>
+        <td>12312的撒萨达四大四大</td>
+        <td>admin</td>
+        <td>江苏南京</td>
+        <td>2013-09-09 15:05</td>
+        <td>已审核</td>
+        <td><a href="#" class="tablelink">查看</a>     <a href="#" class="tablelink"> 删除</a></td>
+        </tr> 
+        
+        <tr>
+        <td><input name="" type="checkbox" value="" /></td>
+        <td>20130907</td>
+        <td>温州19名小学生中毒流鼻血续：周边部分企业关停</td>
+        <td>uimaker</td>
+        <td>山东济南</td>
+        <td>2013-09-08 14:02</td>
+        <td>未审核</td>
+        <td><a href="#" class="tablelink">查看</a>     <a href="#" class="tablelink">删除</a></td>
+        </tr>
+        
+        <tr>
+        <td><input name="" type="checkbox" value="" /></td>
+        <td>20130906</td>
+        <td>社科院:电子商务促进了农村经济结构和社会转型</td>
+        <td>user</td>
+        <td>江苏无锡</td>
+        <td>2013-09-07 13:16</td>
+        <td>未审核</td>
+        <td><a href="#" class="tablelink">查看</a>     <a href="#" class="tablelink">删除</a></td>
+        </tr>
+        
+        <tr>
+        <td><input name="" type="checkbox" value="" /></td>
+        <td>20130905</td>
+        <td>江西&quot;局长违规建豪宅&quot;：局长检讨</td>
+        <td>admin</td>
+        <td>北京市</td>
+        <td>2013-09-06 10:36</td>
+        <td>已审核</td>
+        <td><a href="#" class="tablelink">查看</a>     <a href="#" class="tablelink">删除</a></td>
+        </tr>
+        
+        <tr>
+        <td><input name="" type="checkbox" value="" /></td>
+        <td>20130904</td>
+        <td>中国2020年或迈入高收入国家行列</td>
+        <td>uimaker</td>
+        <td>江苏南京</td>
+        <td>2013-09-05 13:25</td>
+        <td>已审核</td>
+        <td><a href="#" class="tablelink">查看</a>     <a href="#" class="tablelink">删除</a></td>
+        </tr>
+        
+        <tr>
+        <td><input name="" type="checkbox" value="" /></td>
+        <td>20130903</td>
+        <td>深圳地铁车门因乘客拉闸打开 3人被挤入隧道</td>
+        <td>user</td>
+        <td>广东深圳</td>
+        <td>2013-09-04 12:00</td>
+        <td>已审核</td>
+        <td><a href="#" class="tablelink">查看</a>     <a href="#" class="tablelink">删除</a></td>
+        </tr>
+        
+        <tr>
+        <td><input name="" type="checkbox" value="" /></td>
+        <td>20130902</td>
+        <td>33次地表塌陷 村民不敢下地劳作(图)</td>
+        <td>admin</td>
+        <td>湖南长沙</td>
+        <td>2013-09-03 00:05</td>
+        <td>未审核</td>
+        <td><a href="#" class="tablelink">查看</a>     <a href="#" class="tablelink">删除</a></td>
+        </tr>
+        
+        <tr>
+        <td><input name="" type="checkbox" value="" /></td>
+        <td>20130901</td>
+        <td>医患关系：医生在替改革不彻底背黑锅</td>
+        <td>admin</td>
+        <td>江苏南京</td>
+        <td>2013-09-02 15:05</td>
+        <td>未审核</td>
+        <td><a href="#" class="tablelink">查看</a>     <a href="#" class="tablelink">删除</a></td>
+        </tr>
+        
+        <tr>
+        <td><input name="" type="checkbox" value="" /></td>
+        <td>20130900</td>
+        <td>山东章丘公车进饭店景点将自动向监控系统报警</td>
+        <td>uimaker</td>
+        <td>山东滨州</td>
+        <td>2013-09-01 10:26</td>
+        <td>已审核</td>
+        <td><a href="#" class="tablelink">查看</a>     <a href="#" class="tablelink">删除</a></td>
+        </tr>        
         </tbody>
     </table>
-        <script>
-            function del(id){
-
-                if(confirm('确认删除么?')){
-                    $.ajax({
-                        type: "POST",
-                        url: "<?php echo U('teacher/del');?>",
-                        data: "id="+id,
-                        success: function(msg){ 
-                          if(msg){
-                              $("#tr"+id).remove()
-                          }else{
-                              alert('删除失败');
-                          }
-                        }
-                     }); 
-                }
-            }
-        </script>
+    
    
     <div class="pagin">
-    	<div class="message"><?php echo ($page); ?></div>
-
-            
-        
+    	<div class="message">共<i class="blue">1256</i>条记录，当前显示第&nbsp;<i class="blue">2&nbsp;</i>页</div>
+        <ul class="paginList">
+        <li class="paginItem"><a href="javascript:;"><span class="pagepre"></span></a></li>
+        <li class="paginItem"><a href="javascript:;">1</a></li>
+        <li class="paginItem current"><a href="javascript:;">2</a></li>
+        <li class="paginItem"><a href="javascript:;">3</a></li>
+        <li class="paginItem"><a href="javascript:;">4</a></li>
+        <li class="paginItem"><a href="javascript:;">5</a></li>
+        <li class="paginItem more"><a href="javascript:;">...</a></li>
+        <li class="paginItem"><a href="javascript:;">10</a></li>
+        <li class="paginItem"><a href="javascript:;"><span class="pagenxt"></span></a></li>
+        </ul>
     </div>
     
     

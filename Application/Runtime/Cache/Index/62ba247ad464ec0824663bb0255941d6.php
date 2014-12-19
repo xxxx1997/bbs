@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "/www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "/www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="/www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -26,7 +26,7 @@
 
 	<div class="clear"></div>
 	<div class="top2">
-		<h1 class="fl"><a href="http://www.itcast.cn"><img src="__APP__/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
+		<h1 class="fl"><a href="http://www.itcast.cn"><img src="http://php.itcast.cn/images/logo.gif" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
 		<div class="fl toubu">
 		<div class="toubu-font1">PHP学院</div>
 			 <!-- 校区 -->
@@ -43,22 +43,131 @@
 	</div>
 	<div class="clear"></div>
 		<ul id="nav">
-	<li><a href="{:U('index/index')}" id="nav_main">首 页</a></li>
-	<li class="widt"><a href="{:U('course/index')}" id="nav_course">PHP培训课程</a> </li> 
-	<li class="widt"><a href="{:U('video/index')}" id="nav_videodl">PHP视频下载</a> </li>
+	<li><a href="<?php echo U('index/index');?>" id="nav_main">首 页</a></li>
+	<li class="widt"><a href="<?php echo U('course/index');?>" id="nav_course">PHP培训课程</a> </li> 
+	<li class="widt"><a href="<?php echo U('video/index');?>" id="nav_videodl">PHP视频下载</a> </li>
     <li id="nav_personnel"><a href="http://www.itcast.cn/channel/personnel.shtml">人才服务</a></li>
     <li id="nav_life"><a href="http://www.itcast.cn/channel/campus.shtml">校园生活</a> </li>
-    <li id="nav_teacher"><a href="{:U('teacher/index')}">师资力量</a> </li>
-    <li id="nav_job"><a href="{:U('jyjb/index')}">就业信息</a> </li>
+    <li id="nav_teacher"><a href="<?php echo U('teacher/index');?>">师资力量</a> </li>
+    <li id="nav_job"><a href="<?php echo U('jyjb/index');?>">就业信息</a> </li>
     <li id="nav_flow"><a href="http://www.itcast.cn/channel/flow.shtml">报名流程</a> </li>
     <li id="nav_book"><a href="http://www.itcast.cn/channel/book.shtml">原创教材</a> </li>
-	<li id="nav_question"><a href="{:U('question/index')}">常见问题</a></li>
+	<li id="nav_question"><a href="<?php echo U('question/index');?>">常见问题</a></li>
 	<li><a href="http://www.itcast.cn/channel/contact.shtml">来校路线</a></li>
 	<li><a href="http://bbs.itcast.cn" target="_blank">技术论坛 </a></li>
 </ul>
 	</div>
 <!--输出-->
- {__CONTENT__}
+ 
+<div id="box">
+  <div class="position"><a name="pagetop"/>您现在的位置：<span class="STYLE5"><a href="http://php.itcast.cn">PHP学院</a> &gt;&gt; PHP学院新闻 &gt;&gt; 正文</span></div>
+  <div id="left" class="fl" style="margin-top:8px;">
+    
+    <div class="left_content1">
+      <div id="printarea">
+        <h1 class="infotitle">罗弟华老师精彩视频  ①当当网-用户注册验证</h1>
+        <div class="editer"><?php echo date('Y-m-d H:i:s',$info['t_time']) ?>
+     来源:</div>
+        <div class="infor">
+            <p style="text-indent:0em;"><img alt="" src="/bbs/Application/Common/Public/<?php echo ($info['t_photo']); ?>" style="float:left;margin-right:15px;height:189px;width:155px;" /><span style="font-size:12px;"><span class="blue" style=""><strong><?php echo ($info['t_name']); ?></strong></span><br />
+            <strong>职 务：<?php echo ($info['cate_name']); ?></strong><br />
+&nbsp; &nbsp; <?php echo ($info['t_desc']); ?></span></p>
+<hr />
+<p></p>
+<p style="text-indent:0em;"><span style="font-size:12px;"><strong>课程内容介绍：</strong><br />
+&nbsp; &nbsp;JavaScript是一种基于对象和事件驱动并具有相对安全性的客户端脚本语言。同时也是一种广泛用于客户端Web开发的脚本语言，常用来给HTML网页添加动态功能，比如响应用户的各种操作。它最初由网景公司（Netscape）的Brendan Eich设计，是一种动态、弱类型、基于原型的语言，内置支持类。JavaScript是Sun公司的注册商标。Ecma国际以JavaScript为基础制定了ECMAScript标准。JavaScript也可以用于其他场合，如服务器端编程。完整的JavaScript实现包含三个部分：ECMAScript，文档对象模型，字节顺序记号。 本视频讲解了当当网用户注册页面在提交注册信息的时候所需要进行的客户端验证功能。讲解由浅入深，层层推进，完整地演示了一个较为复杂的表单验证功能的开发过程。</span></p>
+<div>
+<div><span style="font-size:12px;"><a href="http://php.itcast.cn/news/20130402/13535532097.shtml#">传智播客 罗第华 ①当当网-用户注册验证</a></span></div>
+<div><span style="font-size:12px;"><a href="http://php.itcast.cn/news/20130402/13541680189.shtml">传智播客 罗第华 ②当当网-用户注册验证</a></span></div>
+<div><span style="font-size:12px;"><a href="http://php.itcast.cn/news/20130402/13543556859.shtml">传智播客 罗第华 ③当当网-用户注册验证</a></span></div>
+<div><span style="font-size:12px;"><a href="http://php.itcast.cn/news/20130402/13545137111.shtml">传智播客 罗第华 ④当当网-用户注册验证</a></span></div>
+</div>
+<center>
+	<br />
+	<hr />
+	<br />
+	<p><span style="color:#0000cd;"><span style="font-size: 12px;">视频网站转码后分辨率不高，推荐同学们下载视频观看：<a href="http://dl.vmall.com/c0dnrgw6de" target="_blank">点此下载</a></span></span></p>
+	<p style="text-indent:0em;">①当当网-用户注册验证</p>
+	<p style="text-indent:0em;"><embed align="middle" allowfullscreen="true" allowscriptaccess="always" height="500" quality="high" src="http://player.youku.com/player.php/sid/XNTM2MTU0NTA4/v.swf" type="application/x-shockwave-flash" width="600"></embed></p>
+</center>
+
+	<script type="text/javascript" src="http://bbs.itcast.cn/api.php?mod=js&bid=94"></script>
+        </div>
+      </div>
+      <div class="pre">
+	               上一篇：<a target="_blank" href="/news/20130402/13381663039.shtml">韩忠康老师精彩视频  5 session保存的其他方法</a>
+       	  </div>
+      <div class="next">
+	              下一篇：<a target="_blank" href="/news/20130402/13541680189.shtml">罗弟华老师精彩视频  ②当当网-用户注册验证</a>
+      	  </div>
+
+      <div class="clear"></div>
+      <div class="share">
+	  <!-- Baidu share BEGIN -->
+    <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare">
+        <span class="bds_more">分享到：</span>
+        <a class="bds_sqq">QQ好友</a>
+		<a class="bds_qzone">QQ空间</a>
+		<a class="bds_tqq">腾讯微博</a>
+		<a class="bds_tsina">新浪微博</a>
+		<a class="bds_tieba">百度贴吧</a>
+		<a class="shareCount"></a>
+    </div>
+<!-- Baidu share END 需在页面底部添加baidushare.js -->	  
+	  </div>
+	  <div class="clear"></div>
+      <div class="print"><a href="#" id="printbutton">【打印】</a> <a href="#pagetop">【返回顶部】</a></div>
+      	  <!-- 评论区 -->
+	    	<script type="text/javascript">
+	           $(document).ready(function(){
+	              	loadcomment('20130402-13535532097', 1);
+               });   
+	       </script>
+	  <div id="commentcontent"></div>
+	  <form name="comment" style="padding:0;margin:0px;">
+        <input type="hidden" name="referenceSource" value="20130402-13535532097">
+        <input type="hidden" name="type" value="NEWS">
+        <textarea cols="85" rows="6" style="width:610px;" name="content"></textarea>
+        <div class="clear"></div>
+        <div class="fabiao">
+	      <span class="fl">请输入验证码：<input name="validatecode" type="text" style="width:80px;" />  <img src="/bbs/Public/images/comment.jpg" id="kaptchaImage" width="100"/></span><span class="fr"><input type='button' value="提 交" id="savebutton"/></span>
+	    </div>
+	  </form>
+	  <div id="dialog" title="评论保存结果"></div><!-- 对话框内容 -->
+      <!-- 评论区 -->
+	        <div class="clear"></div>
+      <div class="ad">
+      <!-- 广告区 -->
+      <!--<a href="http://icd.itcast.cn"><img border="0" src="http://www.itcast.cn/images/ad/icdad.gif" width="620" /></a>--> 
+      <!-- 广告区 -->
+      </div>
+    </div>
+    <div><img src="/bbs/Public/images/leftbottom.gif"/></div>
+  </div>
+  <div id="right" class="fl">
+    <h4 class="righttitle1"><span class="fl">PHP视频下载</span><span class="fr"><a href="/php/video.shtml">+MORE</a></span></h4>
+    <ul class="rightkuang">
+       <ul>
+<li><a href="http://php.itcast.cn/news/caa9b58b/37b1/47f6/98e3/bd3600c98cfc.shtml">PHP入门到精通教程</a></li>
+<li><a href="http://php.itcast.cn/news/7acb031c/5958/42d8/be84/47796e2c1243.shtml">zend framework</a></li>
+<li><a href="http://php.itcast.cn/news/a632aeea/df9a/46bf/92f1/896679400a37.shtml">smarty模板引擎 </a></li>
+<li><a href="http://php.itcast.cn/news/2889f5ee/060a/4014/a6a8/cff645e79925.shtml">Ajax技术 </a></li>
+<li><a href="http://php.itcast.cn/news/166b4e78/01b0/4017/96ae/764cd57432a8.shtml">页面静态化</a></li>
+<li><a href="http://php.itcast.cn/news/50b67f71/dba5/4302/8749/b62bcc314bd0.shtml">Memcached缓存技术</a></li>
+<li><a href="http://php.itcast.cn/news/61ee8515/a34e/477d/9d5d/662dbff5e161.shtml#">Mysql优化</a></li>
+<li><a href="http://php.itcast.cn/news/fd551fd3/9db4/4360/9afa/57f438973108.shtml">轻松搞定网页设计</a></li>
+<li><a href="http://php.itcast.cn/news/5805c1ea/1b18/41eb/8fcc/6234659d8b40.shtml">PHP数据库陷阱</a></li>
+<li><a href="http://php.itcast.cn/news/94c86c32/a7c1/4d2f/b2b4/ded74c6e1113.shtml">PHP网上支付技术</a></li>
+<li><a href="http://php.itcast.cn/news/47d47284/bd39/4322/8aa6/fd48cd51f9df.shtml">PHP报表视频教程</a></li>
+<li><a href="http://php.itcast.cn/news/42366bc5/fc13/43f1/a69b/bc57132cfdc7.shtml">Linux视频教程</a></li>
+<li><a href="http://php.itcast.cn/news/c31baf40/8fa5/4803/ac4d/6e27086d009f.shtml">Oracle视频教程</a></li>
+</ul>
+
+    </ul>
+    <div class="rightbottom"><img src="/bbs/Public/images/rightbottom.jpg"/></div>
+   
+  </div>
+</div>
  
  
         <!-- 页面底部 -->

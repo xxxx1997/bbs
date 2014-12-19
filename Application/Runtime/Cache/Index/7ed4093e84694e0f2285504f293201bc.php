@@ -26,7 +26,11 @@
 
 	<div class="clear"></div>
 	<div class="top2">
+<<<<<<< HEAD
 		<h1 class="fl"><a href="http://www.itcast.cn"><img src="http://php.itcast.cn/images/logo.gif" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
+=======
+		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
+>>>>>>> 310213350f1d5df76c8852010a9bac2f4562966b
 		<div class="fl toubu">
 		<div class="toubu-font1">PHP学院</div>
 			 <!-- 校区 -->
@@ -74,6 +78,7 @@
     </div>
 <!-- Baidu share END 需在页面底部添加baidushare.js -->
 			   <div style="padding-left:10px;float:left;">
+<<<<<<< HEAD
 			     <b>其它学院入口：</b>  <img src="/images/sanjiao.jpg" /> <a href="http://net.itcast.cn">.net学院</a> <img src="/images/sanjiao.jpg" /> <a href="http://java.itcast.cn">java学院</a>  <img src="/images/sanjiao.jpg" /> <a href="http://icd.itcast.cn">网页平面设计学院</a>
 			   </div>
 			</div>
@@ -81,6 +86,14 @@
 			<div><img src="/images/lefttop.gif"/></div>
 			<div class="jyjb">
 			<div><img src="/images/kcjs-tu.jpg" /></div>
+=======
+			     <b>其它学院入口：</b>  <img src="/Application/Common/index/images/sanjiao.jpg" /> <a href="http://net.itcast.cn">.net学院</a> <img src="/Application/Common/index/images/sanjiao.jpg" /> <a href="http://java.itcast.cn">java学院</a>  <img src="/Application/Common/index/images/sanjiao.jpg" /> <a href="http://icd.itcast.cn">网页平面设计学院</a>
+			   </div>
+			</div>
+			  <div id="left" class="fl"  style="margin-top:3px;">
+			<div class="jyjb">
+			<div><img src="/Application/Common/index/images/kcjs.jpg" /></div>
+>>>>>>> 310213350f1d5df76c8852010a9bac2f4562966b
 			 ﻿
 <div class="kcjs">
 <style type="text/css">
@@ -416,6 +429,9 @@
 </script>
 
 
+<<<<<<< HEAD
+
+=======
 <div id="webim">
 <dl class="dlstyle">
 	<dt class="dtstyle">
@@ -426,6 +442,7 @@
 		<a href="" id="webim_link" target="_blank"><img id="webim_img" src="" style="width: 280px; height: 188px" /></a></dd>
 </dl>
 </div>
+>>>>>>> 310213350f1d5df76c8852010a9bac2f4562966b
 <script type="text/javascript">
   var arr = new Array(); 
 

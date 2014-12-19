@@ -52,8 +52,8 @@ $(function(){
     <span><img src="/addbbs/Application/Common/admin/images/leftico01.png" /></span>文章管理
     </div>
     	<ul class="menuson">
-        <li <?php if($Think.ACTION_NAME=='course'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('article/list');?>" >文章列表</a><i></i></li>
-         <li <?php if($Think.ACTION_NAME=='course'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('article/class_list');?>" >分类列表</a><i></i></li>
+        <li <?php if($Think.ACTION_NAME=='article_list'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('article/article_list');?>" >文章列表</a><i></i></li>
+         <li <?php if($Think.ACTION_NAME=='class_list'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('article/class_list');?>" >分类列表</a><i></i></li>
        
         </ul>
     </dd>
@@ -157,7 +157,7 @@ $(document).ready(function(){
     <div class="tools">
     
     	<ul class="toolbar">
-            <li class="click"><a href="<?php echo U('teacher/add');?>"><span><img src="/addbbs/Application/Common/admin/images/t01.png" /></span>添加</a></li>
+            <li class="click"><a href="<?php echo U('article/add');?>"><span><img src="/addbbs/Application/Common/admin/images/t01.png" /></span>添加</a></li>
         <li class="click"><span><img src="/addbbs/Application/Common/admin/images/t02.png" /></span>修改</li>
         <li><span><img src="/addbbs/Application/Common/admin/images/t03.png" /></span>删除</li>
         <li><span><img src="/addbbs/Application/Common/admin/images/t04.png" /></span>统计</li>
@@ -176,24 +176,24 @@ $(document).ready(function(){
     	<tr>
         <th><input name="" type="checkbox" value="" checked="checked"/></th>
         <th>编号<i class="sort"><img src="/addbbs/Application/Common/admin/images/px.gif" /></i></th>
-        <th>姓名</th>
-        <th>级别</th>
-        <th>描述</th>
+        <th>标题</th>
+        <th>类别</th>
+        
         <th>time</th>
         <th>图片</th>    
         <th>操作</th>
         </tr>
         </thead>
         <tbody>
-            <?php if(is_array($list)): foreach($list as $key=>$vo): ?><tr id='tr<?php echo ($vo["t_id"]); ?>'>
+        <?php if(is_array($list)): foreach($list as $key=>$vo): ?><tr id='tr<?php echo ($vo["aid"]); ?>'>
         <td><input name="" type="checkbox" value="" /></td>
-        <td><?php echo ($vo["t_id"]); ?></td>
-        <td><?php echo ($vo["t_name"]); ?></td>
-        <td><?php if($vo['cate_id']==1){echo '国内著名的软件培训高级讲师';} if($vo['cate_id']==2){echo '高级讲师、企业培训讲师';} if($vo['cate_id']==3){echo 'php项目经理';} if($vo['cate_id']==4){echo '架构师';} ?></td>
-        <td><?php echo mb_substr($vo['t_desc'],0,9,'utf-8'); ?></td>
-        <td><?php echo date('Y-m-d H:i:s',$vo['t_time']) ?></td>
-        <td><img width='100'height='50' src="/addbbs/Application/Common/Public/<?php echo ($vo["t_photo"]); ?>"</td>        
-        <td><a href="<?php echo U('teacher/see',array('t_id'=>$vo['t_id']));?>" class="tablelink">查看</a>     <a href="#" onclick="del('<?php echo ($vo["t_id"]); ?>')" class="tablelink"> 删除</a></td>
+        <td><?php echo ($vo["aid"]); ?></td>
+        <td><?php echo ($vo["a_title"]); ?></td>
+        <td><?php echo ($vo["name"]); ?></td>
+        
+        <td><?php echo date('Y-m-d H:i:s',$vo['start_time']) ?></td>
+        <td><img width='100'height='50' src="/addbbs/Application/Common/Public/<?php echo ($vo["a_thumb"]); ?>"</td>        
+        <td><a href="<?php echo U('article/see',array('aid'=>$vo['aid']));?>" class="tablelink">查看</a>     <a href="#" onclick="del('<?php echo ($vo["t_id"]); ?>')" class="tablelink"> 删除</a></td>
         </tr><?php endforeach; endif; ?> 
         </tbody>
     </table>
@@ -218,7 +218,7 @@ $(document).ready(function(){
         </script>
    
     <div class="pagin">
-    	<div class="message"><?php echo ($page); ?></div>
+    	<div class="message"></div>
 
             
         
