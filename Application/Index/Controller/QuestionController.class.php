@@ -18,5 +18,23 @@ class QuestionController extends Controller {
         $this->assign("data",$res);
           $this->display();
     }
-  
+    
+    
+  public function verify_c(){  
+        $Verify = new \Think\Verify();  
+        $Verify->fontSize = 18;  
+        $Verify->length   = 4;  
+        $Verify->useNoise = false;  
+        $Verify->codeSet = '0123456789';  
+        $Verify->imageW = 130;  
+        $Verify->imageH = 50;  
+        //$Verify->expire = 600;  
+        $Verify->entry();  
+} 
+function check_verify($code, $id = ''){    
+    
+    $verify = new \Think\Verify();  
+        return $verify->check($code, $id);
+        
+}
 }

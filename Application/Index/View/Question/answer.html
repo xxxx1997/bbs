@@ -52,12 +52,12 @@
 	       </script>
 	  <div id="commentcontent"></div>
 	  <form name="comment" style="padding:0;margin:0px;">
-        <input type="hidden" name="referenceSource" value="20130409-11151678932">
+        <input type="hidden" name="referenceSource" value="">
         <input type="hidden" name="type" value="NEWS">
-        <textarea cols="85" rows="6" style="width:610px;" name="content"></textarea>
+        <textarea cols="85" rows="6" style="width:610px;" id="content" name="content"></textarea>
         <div class="clear"></div>
         <div class="fabiao">
-	      <span class="fl">请输入验证码：<input name="validatecode" type="text" style="width:80px;" />  <img src="http://manage.itcast.cn:8080/validatecode/comment.jpg" id="kaptchaImage" width="100"/></span><span class="fr"><input type='button' value="提 交" id="savebutton"/></span>
+	      <span class="fl">请输入验证码：<input name="validatecode" id="code" type="text" style="width:80px;" />  <img width="100" id="captcha-container" class="left15" alt="验证码" src="{:U('question/verify_c',array())}" title="点击刷新"> </span><span class="fr"><input type='button' value="提 交" id="savebutton" onclick="add()"/></span>
 	    </div>
 	  </form>
 	  <div id="dialog" title="评论保存结果"></div><!-- 对话框内容 -->
@@ -69,7 +69,15 @@
       <!-- 广告区 -->
       </div>
     </div>
-    <div><img src="/images/leftbottom.gif"/></div>
+      <script>
+          function add(){
+              content=$("#content").val();
+              code=$("#code").val();
+              $.ajax({
+                  
+              })
+          }
+      </script>
   </div>
   <div id="right" class="fl">
     <h4 class="righttitle1"><span class="fl">PHP视频下载</span><span class="fr"><a href="http://php.itcast.cn/php/video.shtml">+MORE</a></span></h4>
@@ -187,3 +195,16 @@
   </div>
 </div>
 <div class="clear"></div>
+<script>
+    // 验证码生成  
+var captcha_img = $('#captcha-container')
+var verifyimg = captcha_img.attr("src");  
+captcha_img.attr('title', '点击刷新');  
+captcha_img.click(function(){  
+    if( verifyimg.indexOf('?')>0){  
+        $(this).attr("src", verifyimg+'&random='+Math.random());  
+    }else{  
+        $(this).attr("src", verifyimg.replace(/\?.*$/,'')+'?'+Math.random());  
+    }  
+}); 
+</script>

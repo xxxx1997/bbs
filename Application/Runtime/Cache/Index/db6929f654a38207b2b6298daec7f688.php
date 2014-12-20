@@ -26,7 +26,7 @@
 
 	<div class="clear"></div>
 	<div class="top2">
-		<h1 class="fl"><a href="http://www.itcast.cn"><img src="http://php.itcast.cn/images/logo.gif" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
+		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
 		<div class="fl toubu">
 		<div class="toubu-font1">PHP学院</div>
 			 <!-- 校区 -->
@@ -62,13 +62,17 @@
 <div id="box">
   <div class="position"><a name="pagetop"/>您现在的位置：<span class="STYLE5"><a href="http://www.itcast.cn">首页</a> &gt;&gt; 常见问题 &gt;&gt; 正文</span></div>
   <div id="left" class="fl" style="margin-top:8px;">
+
     <div class="left_content1">
       <div id="printarea">
           <?php if(is_array($data)): foreach($data as $key=>$it): ?><h1 class="infotitle"><?php echo ($it["p_title"]); ?></h1>
         <div class="editer">更新时间:<?php echo date('Y-m-d H:i',$it['start_time']) ?> 来源:</div>
         <div class="infor">
          <?php echo ($it["p_content"]); ?>
-            <img alt="" src="/Application/Common/Public/<?php echo ($it["p_image"]); ?>" style="width: 600px; height: 417px;" /><br /><?php endforeach; endif; ?>
+         <?php if($it.p_image!=""){ ?>
+            <img alt="" src="/Application/Common/Public/<?php echo ($it["p_image"]); ?>" style="width: 600px; height: 417px;" /><br />
+            <?php
+ } endforeach; endif; ?>
 <br />
 
 <script type="text/javascript" src="http://bbs.itcast.cn/api.php?mod=js&bid=94"></script>
@@ -105,12 +109,12 @@
 	       </script>
 	  <div id="commentcontent"></div>
 	  <form name="comment" style="padding:0;margin:0px;">
-        <input type="hidden" name="referenceSource" value="20130409-11151678932">
+        <input type="hidden" name="referenceSource" value="">
         <input type="hidden" name="type" value="NEWS">
-        <textarea cols="85" rows="6" style="width:610px;" name="content"></textarea>
+        <textarea cols="85" rows="6" style="width:610px;" id="content" name="content"></textarea>
         <div class="clear"></div>
         <div class="fabiao">
-	      <span class="fl">请输入验证码：<input name="validatecode" type="text" style="width:80px;" />  <img src="http://manage.itcast.cn:8080/validatecode/comment.jpg" id="kaptchaImage" width="100"/></span><span class="fr"><input type='button' value="提 交" id="savebutton"/></span>
+	      <span class="fl">请输入验证码：<input name="validatecode" id="code" type="text" style="width:80px;" />  <img width="100" id="captcha-container" class="left15" alt="验证码" src="<?php echo U('question/verify_c',array());?>" title="点击刷新"> </span><span class="fr"><input type='button' value="提 交" id="savebutton" onclick="add()"/></span>
 	    </div>
 	  </form>
 	  <div id="dialog" title="评论保存结果"></div><!-- 对话框内容 -->
@@ -122,7 +126,15 @@
       <!-- 广告区 -->
       </div>
     </div>
-    <div><img src="/images/leftbottom.gif"/></div>
+      <script>
+          function add(){
+              content=$("#content").val();
+              code=$("#code").val();
+              $.ajax({
+                  
+              })
+          }
+      </script>
   </div>
   <div id="right" class="fl">
     <h4 class="righttitle1"><span class="fl">PHP视频下载</span><span class="fr"><a href="http://php.itcast.cn/php/video.shtml">+MORE</a></span></h4>
@@ -240,6 +252,19 @@
   </div>
 </div>
 <div class="clear"></div>
+<script>
+    // 验证码生成  
+var captcha_img = $('#captcha-container')
+var verifyimg = captcha_img.attr("src");  
+captcha_img.attr('title', '点击刷新');  
+captcha_img.click(function(){  
+    if( verifyimg.indexOf('?')>0){  
+        $(this).attr("src", verifyimg+'&random='+Math.random());  
+    }else{  
+        $(this).attr("src", verifyimg.replace(/\?.*$/,'')+'?'+Math.random());  
+    }  
+}); 
+</script>
  
  
         <!-- 页面底部 -->
