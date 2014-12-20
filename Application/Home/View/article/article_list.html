@@ -84,7 +84,7 @@ $(document).ready(function(){
         
         <td><php> echo date('Y-m-d H:i:s',$vo['start_time'])</php></td>
         <td><img width='100'height='50' src="__ROOT__/Application/Common/Public/{$vo.a_thumb}"</td>        
-        <td><a href="{:U('article/see',array('aid'=>$vo['aid']))}" class="tablelink">查看</a>     <a href="#" onclick="del('{$vo.t_id}')" class="tablelink"> 删除</a></td>
+        <td><a href="{:U('article/see',array('aid'=>$vo['aid']))}" class="tablelink">查看</a>     <a href="#" onclick="del('{$vo.aid}')" class="tablelink"> 删除</a></td>
         </tr> 
         </foreach> 
         </tbody>
@@ -95,7 +95,7 @@ $(document).ready(function(){
                 if(confirm('确认删除么?')){
                     $.ajax({
                         type: "POST",
-                        url: "{:U('teacher/del')}",
+                        url: "{:U('article/del')}",
                         data: "id="+id,
                         success: function(msg){ 
                           if(msg){

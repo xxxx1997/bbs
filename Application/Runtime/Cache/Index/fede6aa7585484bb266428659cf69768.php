@@ -26,7 +26,7 @@
 
 	<div class="clear"></div>
 	<div class="top2">
-		<h1 class="fl"><a href="http://www.itcast.cn"><img src="http://php.itcast.cn/images/logo.gif" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
+		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
 		<div class="fl toubu">
 		<div class="toubu-font1">PHP学院</div>
 			 <!-- 校区 -->
@@ -68,49 +68,18 @@
 				<h3 class="title2">热点问题</h3>
 				<ul class="links">
 ﻿<ul>
-<li><a href="http://www.itcast.cn/news/b391b18e/f306/44ab/aea2/649d74354f91.shtml" target="_blank">上课是全天授课吗？每天的上课时间安排？</a> 2012.06.05</li>
-<li><a href="http://www.itcast.cn/news/594de13e/b59a/467b/973c/a8ffdeda3625.shtml" target="_blank">传智播客上课是放视频吗？</a> 2012.06.05</li>
-<li><a href="http://www.itcast.cn/news/c9782dea/2c1a/413b/9be9/d40c54f15520.shtml" target="_blank">传智网站发布的视频我看就很多了，那看完这些后还有必要去参加面授培训吗？</a> 2012.06.05</li>
-<li><a href="http://www.itcast.cn/news/17dd6595/d6b5/40d4/919b/f35c421bcc94.shtml" target="_blank">可以试听几天吗？收费吗？</a> 2012.06.05</li>
-<li><a href="http://www.itcast.cn/news/b7b58883/5b79/4c6b/ac6e/0b32b3a2c458.shtml" target="_blank">为什么有人说你们的培训课程太高端，技术讲得很深，基础不好不要去？</a> 2012.06.05</li>
-<li><a href="http://www.itcast.cn/news/51e6e2b0/4398/4879/83a4/e574490ff614.shtml
-" target="_blank">基础不太好，能直接参加就业班吗？</a> 2012.06.05</li>
-<li><a href="http://www.itcast.cn/news/f4093e3e/b8d6/4b16/bf19/cad4a82b64f6.shtml" target="_blank">我不是计算机专业的能学会编程吗？</a>2012.06.05</li>
-<li><a href="http://www.itcast.cn/news/f04d2f43/ff59/410d/bc81/5ffb9dad1831.shtml
-" target="_blank">关于重读费用的问题？</a> 2012.06.05</li>
-<li><a href="http://www.itcast.cn/news/7242bbf8/4eec/4560/9747/de10c47eb859.shtml" target="_blank">现在企业招人都要求有工作经验，培训后没工作经验怎么找工作？</a> 2012.06.05</li>
-<li><a href="http://www.itcast.cn/news/0a7f17db/646d/496b/99cf/ac00b5bf0a00.shtml" target="_blank">不签协议工作有保障吗？</a> 2012.06.05</li>
-<li><a href="http://www.itcast.cn/news/431473d6/aae4/4787/8fa1/f7029fe0ce06.shtml" target="_blank">毕业后发证吗？</a> 2012.06.05</li>
-<li><a href="http://www.itcast.cn/news/78162e16/8f45/4a19/b910/117347722428.shtml
-" target="_blank">我是外地的，住宿怎么安排的？</a> 2012.06.05</li>
-<li><a href="http://www.itcast.cn/news/4d2cf66e/a1b6/475b/9bef/5cedd8b28c8f.shtml
-" target="_blank">我第一次去北京，怎么到你们那？</a> 2012.06.05</li>
-<li><a href="http://www.itcast.cn/news/f669c0d1/93e3/44a8/936d/16f942a7238a.shtml" target="_blank">学完了找不到工作怎么办？</a> 2012.06.05</li>
-<li><a href="http://www.itcast.cn/news/e0e277e1/c121/4ba9/bfe7/68b6933e59f8.shtml" target="_blank">我如何报名呢？</a> 2012.06.05</li>
+ <?php if(is_array($info)): foreach($info as $key=>$it): ?><li><a href="/Index/Question/answer?id=<?php echo ($it["p_id"]); ?>" target="_blank"><?php echo ($it["p_title"]); ?></a><?php echo date('Y-m-d',$it['start_time']) ?></li><?php endforeach; endif; ?>
 </ul>
  
 				</ul>
 				<h3 class="title2">PHP相关问题</h3>
 				<ul class="links">
 <ul>
-<li><a href="http://php.itcast.cn/news/20130409/11151678932.shtml" target="_blank">PHP的就业前景到底怎么样？</a><img height="15" src="/images/new.gif" width="29" /></li>
-<li><a href="http://php.itcast.cn/news/20130409/11292928854.shtml" target="_blank">什么样的公司需要php技术？</a><img height="15" src="/images/new.gif" width="29" /></li>
-<li><a href="http://php.itcast.cn/news/20130409/11303961319.shtml" target="_blank">php和java的区别在哪里？</a><img height="15" src="/images/new.gif" width="29" /></li>
-<li><a href="http://php.itcast.cn/news/20130409/1131470655.shtml" target="_blank">二三线城市学php好就业吗？</a><img height="15" src="/images/new.gif" width="29" /></li>
-<li><a href="http://php.itcast.cn/news/20130409/11325021761.shtml" target="_blank">学完php之后可以做什么？</a></li>
-<li><a href="http://php.itcast.cn/news/20130409/11334990300.shtml" target="_blank">前端的东西能学多少，有哪些？</a></li>
-<li><a href="http://php.itcast.cn/news/20130409/14473489532.shtml" target="_blank">php学完就业时都能出哪些类型的网站？</a></li>
-<li><a href="http://php.itcast.cn/news/20130409/14524497859.shtml" target="_blank">官网上为什么公布那么少php的招生公司？</a></li>
-<li><a href="http://php.itcast.cn/news/20130409/14543187053.shtml" target="_blank">用php做出来的比较有名气的网站或者作品？</a></li>
-<li><a href="http://php.itcast.cn/news/20130409/14565887024.shtml" target="_blank">怎么在短时间内充分掌握老师讲解的php知识？</a></li>
-<li><a href="http://php.itcast.cn/news/20130409/14580258105.shtml" target="_blank">基础班学完以后可以做什么?</a></li>
-<li><a href="http://php.itcast.cn/news/20130409/15001772469.shtml" target="_blank">学php需要具备哪些条件？</a></li>
-<li><a href="http://php.itcast.cn/news/20130409/15025732993.shtml" target="_blank">php入门简单是不是后期学习难？</a></li>
+   <?php if(is_array($data)): foreach($data as $key=>$it): ?><li><a href="/Index/Question/answer?id=<?php echo ($it["p_id"]); ?>" target="_blank"><?php echo ($it["p_title"]); ?></a></li><?php endforeach; endif; ?>
 </ul>
 
 			    </ul>
 			</div>
-			<div><img src="/images/leftbottom.gif"/></div>
 		</div>		
 		<div id="right" class="fl">
 			<h4 class="righttitle1"><span class="fl">PHP视频下载</span><span class="fr"><a href="/php/video.shtml">+MORE</a></span></h4>
@@ -136,7 +105,7 @@
 </ul>
 
 			</ul>
-			<div class="rightbottom"><img src="/images/rightbottom.jpg"/></div>
+
 	  </div>
 	</div>
 	<div class="clear"></div>
@@ -234,20 +203,7 @@
 </script>
 
 
-<<<<<<< HEAD
 
-=======
-<div id="webim">
-<dl class="dlstyle">
-	<dt class="dtstyle">
-		<strong id="webim_title">&nbsp;</strong><span id="webimclosebutton">关闭</span></dt>
-</dl>
-<dl>
-	<dd>
-		<a href="" id="webim_link" target="_blank"><img id="webim_img" src="" style="width: 280px; height: 188px" /></a></dd>
-</dl>
-</div>
->>>>>>> 310213350f1d5df76c8852010a9bac2f4562966b
 <script type="text/javascript">
   var arr = new Array(); 
 

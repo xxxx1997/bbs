@@ -1,23 +1,31 @@
+
 <div id="box">
-  <div class="position"><a name="pagetop"/>您现在的位置：<span class="STYLE5"><a href="http://www.itcast.cn">首页</a> &gt;&gt; 企业招聘 &gt;&gt; 正文</span></div>
+  <div class="position"><a name="pagetop"/>您现在的位置：<span class="STYLE5"><a href="http://www.itcast.cn">首页</a> &gt;&gt; 常见问题 &gt;&gt; 正文</span></div>
   <div id="left" class="fl" style="margin-top:8px;">
+
     <div class="left_content1">
       <div id="printarea">
-          <foreach name="info" item="in" >    
-        <h1 class="infotitle">{$in.a_title}</h1>
-        <div class="editer">更新时间: 来源:传智播客</div>
+          <foreach name="data" item="it">
+        <h1 class="infotitle">{$it.p_title}</h1>
+        <div class="editer">更新时间:<php> echo date('Y-m-d H:i',$it['start_time'])</php> 来源:</div>
         <div class="infor">
-         　　
-{$in.a_content}
+         {$it.p_content}
+         <?php if($it.p_image!=""){ ?>
+            <img alt="" src="__ROOT__/Application/Common/Public/{$it.p_image}" style="width: 600px; height: 417px;" /><br />
+            <?php
+                }
+            ?>
+            </foreach>
+<br />
+
 <script type="text/javascript" src="http://bbs.itcast.cn/api.php?mod=js&bid=94"></script>
         </div>
       </div>
-</foreach>
       <div class="pre">
-	               上一篇：<a target="_blank" href="/news/20141208/14061592998.shtml">{$info}</a>
+	               上一篇：<a target="_blank" href="/news/20130316/13545073144.shtml">我学完网页设计能找到多少钱的工作？</a>
        	  </div>
       <div class="next">
-	              下一篇：<a target="_blank" href="/news/20141215/14353014587.shtml">北京智胜终端互联市场顾问有限公司招聘</a>
+	              下一篇：<a target="_blank" href="/news/20130409/11171065480.shtml">PHP只能开发网站，是不是很单一呢？就不能开发出别的么？</a>
       	  </div>
 
       <div class="clear"></div>
@@ -34,44 +42,22 @@
     </div>
 <!-- Baidu share END 需在页面底部添加baidushare.js -->	  
 	  </div>
-      
-	  <div class="clear">
-              
-	  <!-- 评论列表 -->
-              <h3 class="reviewtitle"><span class="fl">四川省乐山市 联通ADSL网友 IP：221.10.117.* 游客 </span><span class="fr">2013-08-01 15:49:14 发表</span></h3>
-        <div class="reviewneirong">
-		   挺好    
-		  <!-- -- reply ---->
-		  		  <!-- -- reply ---->
-        </div>
-              <h3 class="reviewtitle"><span class="fl">北京市 联通网友 IP：114.249.224.* 游客 </span><span class="fr">2014-12-19 14:12:32 发表</span></h3>
-        <div class="reviewneirong">
-		   阿斯达萨达撒大声地    
-		  <!-- -- reply ---->
-		  		  <!-- -- reply ---->
-        </div>
-            <!-- 评论列表 -->
-        <div class="febgye">
-				       					   <a href="javascript:goPage(1)" title="首页">&lt;&lt;</a>
-					   		                 			              <span>1</span>
-		                 		               					   					   		</div>
-      
-          </div>
+	  <div class="clear"></div>
       <div class="print"><a href="#" id="printbutton">【打印】</a> <a href="#pagetop">【返回顶部】</a></div>
       	  <!-- 评论区 -->
 	    	<script type="text/javascript">
 	           $(document).ready(function(){
-	              	loadcomment('20141215-14223392440', 1);
+	              	loadcomment('20130409-11151678932', 1);
                });   
 	       </script>
 	  <div id="commentcontent"></div>
 	  <form name="comment" style="padding:0;margin:0px;">
-        <input type="hidden" name="referenceSource" value="20141215-14223392440">
+        <input type="hidden" name="referenceSource" value="">
         <input type="hidden" name="type" value="NEWS">
-        <textarea cols="85" rows="6" style="width:610px;" name="content"></textarea>
+        <textarea cols="85" rows="6" style="width:610px;" id="content" name="content"></textarea>
         <div class="clear"></div>
         <div class="fabiao">
-	      <span class="fl">请输入验证码：<input name="validatecode" type="text" style="width:80px;" />  <img src="http://manage.itcast.cn:8080/validatecode/comment.jpg" id="kaptchaImage" width="100"/></span><span class="fr"><input type='button' value="提 交" id="savebutton"/></span>
+	      <span class="fl">请输入验证码：<input name="validatecode" id="code" type="text" style="width:80px;" />  <img width="100" id="captcha-container" class="left15" alt="验证码" src="{:U('question/verify_c',array())}" title="点击刷新"> </span><span class="fr"><input type='button' value="提 交" id="savebutton" onclick="add()"/></span>
 	    </div>
 	  </form>
 	  <div id="dialog" title="评论保存结果"></div><!-- 对话框内容 -->
@@ -83,7 +69,15 @@
       <!-- 广告区 -->
       </div>
     </div>
-    <div><img src="/images/leftbottom.gif"/></div>
+      <script>
+          function add(){
+              content=$("#content").val();
+              code=$("#code").val();
+              $.ajax({
+                  
+              })
+          }
+      </script>
   </div>
   <div id="right" class="fl">
     <h4 class="righttitle1"><span class="fl">PHP视频下载</span><span class="fr"><a href="http://php.itcast.cn/php/video.shtml">+MORE</a></span></h4>
@@ -180,7 +174,6 @@
 <li><a href="http://icd.itcast.cn/news/20140301/16174712734.shtml">PS设计视频教程-ps精品课程实战演练</a></li>   --></ul>
 
     </ul>
-    
     <div class="rightbottom"><img src="/images/rightbottom.jpg" /></div>
     <h4 class="righttitle1"><span class="fl">JAVA视频下载</span><span class="fr"><a href="http://java.itcast.cn/java/video.shtml">+MORE</a></span></h4>
     <ul class="rightkuang">
@@ -202,6 +195,16 @@
   </div>
 </div>
 <div class="clear"></div>
-
-</body>
-</html>
+<script>
+    // 验证码生成  
+var captcha_img = $('#captcha-container')
+var verifyimg = captcha_img.attr("src");  
+captcha_img.attr('title', '点击刷新');  
+captcha_img.click(function(){  
+    if( verifyimg.indexOf('?')>0){  
+        $(this).attr("src", verifyimg+'&random='+Math.random());  
+    }else{  
+        $(this).attr("src", verifyimg.replace(/\?.*$/,'')+'?'+Math.random());  
+    }  
+}); 
+</script>

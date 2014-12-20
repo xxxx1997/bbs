@@ -27,6 +27,12 @@
 	<div class="clear"></div>
 	<div class="top2">
 <<<<<<< HEAD
+		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
+=======
+<<<<<<< HEAD
+		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/addbbs/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
+=======
+<<<<<<< HEAD
 		<h1 class="fl"><a href="http://www.itcast.cn"><img src="http://php.itcast.cn/images/logo.gif" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
 =======
 <<<<<<< HEAD
@@ -35,6 +41,8 @@
 		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
 >>>>>>> 4f6ed917674d72ff56463bbf851db2f3da02bbdf
 >>>>>>> 310213350f1d5df76c8852010a9bac2f4562966b
+>>>>>>> 8d00ff6f503a811dcc8aeecc10a3d7b428629001
+>>>>>>> f376cbe27799c336ee6f3dfe9b65ef50b83eb90c
 		<div class="fl toubu">
 		<div class="toubu-font1">PHP学院</div>
 			 <!-- 校区 -->
@@ -67,6 +75,12 @@
 	</div>
 <!--输出-->
 <<<<<<< HEAD
+ <div id="box">
+=======
+<<<<<<< HEAD
+ <div id="box">
+=======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 310213350f1d5df76c8852010a9bac2f4562966b
@@ -80,6 +94,8 @@
  <div id="box">
 >>>>>>> 4f6ed917674d72ff56463bbf851db2f3da02bbdf
 >>>>>>> 310213350f1d5df76c8852010a9bac2f4562966b
+>>>>>>> 8d00ff6f503a811dcc8aeecc10a3d7b428629001
+>>>>>>> f376cbe27799c336ee6f3dfe9b65ef50b83eb90c
 		    <div class="mbx">
 			<!-- Baidu share BEGIN -->
     <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare">
@@ -144,6 +160,12 @@
                 <!--  校园消息  -->
 				<ul class="huodong11">
 <<<<<<< HEAD
+				<?php if(is_array($info)): foreach($info as $key=>$it): ?><li><img src="http://php.itcast.cn/images/sanjiao-1.jpg" /><a href="<?php echo U('index/show',array('aid'=>$it['aid']));?>" target="_blank"><span style="color:#000000;"><?php echo ($it["a_title"]); ?></span></a></li><?php endforeach; endif; ?>
+=======
+<<<<<<< HEAD
+				<?php if(is_array($info)): foreach($info as $key=>$it): ?><li><img src="http://php.itcast.cn/images/sanjiao-1.jpg" /><a href="<?php echo U('index/show',array('aid'=>$it['aid']));?>" target="_blank"><span style="color:#000000;"><?php echo ($it["a_title"]); ?></span></a></li><?php endforeach; endif; ?>
+=======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 310213350f1d5df76c8852010a9bac2f4562966b
@@ -167,6 +189,8 @@
 				<?php if(is_array($info)): foreach($info as $key=>$it): ?><li><img src="http://php.itcast.cn/images/sanjiao-1.jpg" /><a href="<?php echo U('index/show',array('aid'=>$it['aid']));?>" target="_blank"><span style="color:#000000;"><?php echo ($it["a_title"]); ?></span></a></li><?php endforeach; endif; ?>
 >>>>>>> 4f6ed917674d72ff56463bbf851db2f3da02bbdf
 >>>>>>> 310213350f1d5df76c8852010a9bac2f4562966b
+>>>>>>> 8d00ff6f503a811dcc8aeecc10a3d7b428629001
+>>>>>>> f376cbe27799c336ee6f3dfe9b65ef50b83eb90c
 <!--
 <li><img src="/images/sanjiao-1.jpg" /><a href="http://www.itcast.cn/news/20140917/17033478626.shtml" target="_blank">我为寻找最初的职业理想而来</a></li>
 <li><img src="/images/sanjiao-1.jpg" /><a href="http://dvd.itcast.cn/?php" target="_blank"><span style="color:#0000ff;">网速下载不给力，快来申请最新PHP学习光盘！</span></a></li>
@@ -188,6 +212,10 @@
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
 >>>>>>> 310213350f1d5df76c8852010a9bac2f4562966b
 			  	<dl class="ganyan1 huodong1">
 	<dt class="fl">
@@ -206,17 +234,25 @@
 <<<<<<< HEAD
 =======
 =======
+>>>>>>> 8d00ff6f503a811dcc8aeecc10a3d7b428629001
+>>>>>>> f376cbe27799c336ee6f3dfe9b65ef50b83eb90c
 			  	
 				<dl class="ganyan1 huodong1">
 	<dt class="fl">
-		<a href="http://php.itcast.cn/news/20131117/14525122556.shtml" target="_blank"><img src="/Application/Common/index/images/4.jpg" style="width: 286px; height: 215px;" /><br />
+		<a href="http://php.itcast.cn/news/20131117/14525122556.shtml" target="_blank"><img src="/addbbs/Application/Common/index/images/4.jpg" style="width: 286px; height: 215px;" /><br />
 		天空一声巨响 四组闪亮登场</a></dt>
 	<dd class="huodongfr">
 		<h3 class="STYLE7">班级活动</h3>
 		<ul class="bjhd">
 		<?php if(is_array($list)): foreach($list as $key=>$it): ?><li><img src="http://php.itcast.cn/images/great.jpg" /><a href="<?php echo U('index/show',array('aid'=>$it['aid']));?>" target="_blank"><?php echo ($it["a_title"]); ?></a></li><?php endforeach; endif; ?>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
 >>>>>>> 4f6ed917674d72ff56463bbf851db2f3da02bbdf
 >>>>>>> 310213350f1d5df76c8852010a9bac2f4562966b
+>>>>>>> 8d00ff6f503a811dcc8aeecc10a3d7b428629001
+>>>>>>> f376cbe27799c336ee6f3dfe9b65ef50b83eb90c
 		</ul>
 	</dd>
 </dl>
@@ -246,6 +282,12 @@
 		<h3 class="STYLE7">就业信息</h3>
 		<ul class="bjhd">
 <<<<<<< HEAD
+		<?php if(is_array($info3)): foreach($info3 as $key=>$it): ?><li><img src="http://www.itcast.cn/images/great.jpg" /><a href="<?php echo U('jyjb/index');?>"><?php echo ($it["jy_name"]); ?>&nbsp;<?php echo ($it["jy_company"]); ?>&nbsp;<?php echo ($it["jy_wage"]); ?></a></li><?php endforeach; endif; ?>
+=======
+<<<<<<< HEAD
+		<?php if(is_array($info3)): foreach($info3 as $key=>$it): ?><li><img src="http://www.itcast.cn/images/great.jpg" /><a href="<?php echo U('jyjb/index');?>"><?php echo ($it["jy_name"]); ?>&nbsp;<?php echo ($it["jy_company"]); ?>&nbsp;<?php echo ($it["jy_wage"]); ?></a></li><?php endforeach; endif; ?>
+=======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 310213350f1d5df76c8852010a9bac2f4562966b
@@ -264,6 +306,8 @@
 		<?php if(is_array($info3)): foreach($info3 as $key=>$it): ?><li><img src="http://www.itcast.cn/images/great.jpg" /><a href="<?php echo U('jyjb/index');?>"><?php echo ($it["jy_name"]); ?>&nbsp;<?php echo ($it["jy_company"]); ?>&nbsp;<?php echo ($it["jy_wage"]); ?></a></li><?php endforeach; endif; ?>
 >>>>>>> 4f6ed917674d72ff56463bbf851db2f3da02bbdf
 >>>>>>> 310213350f1d5df76c8852010a9bac2f4562966b
+>>>>>>> 8d00ff6f503a811dcc8aeecc10a3d7b428629001
+>>>>>>> f376cbe27799c336ee6f3dfe9b65ef50b83eb90c
 		</ul>
 	</dd>
 </dl>
@@ -285,6 +329,10 @@
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
 >>>>>>> 310213350f1d5df76c8852010a9bac2f4562966b
 	<dd class="fr">
 		<span class="STYLE6"><a href="http://php.itcast.cn/news/6c558812/4811/4576/b342/2307b12ae09a.shtml">[php学员]</a></span><a href="http://php.itcast.cn/news/6c558812/4811/4576/b342/2307b12ae09a.shtml">钟玲玉：传智，我人生中重要的一站</a></dd>
@@ -299,6 +347,8 @@
 <<<<<<< HEAD
 =======
 =======
+>>>>>>> 8d00ff6f503a811dcc8aeecc10a3d7b428629001
+>>>>>>> f376cbe27799c336ee6f3dfe9b65ef50b83eb90c
 		
 	<dd class="fr">
 		<a href="http://php.itcast.cn/news/6c558812/4811/4576/b342/2307b12ae09a.shtml">     [php学员]钟玲玉：传智，我人生中重要的一站</a>
@@ -308,8 +358,14 @@
 <div class="clear"></div>
 <ul>
 <?php if(is_array($rows)): foreach($rows as $key=>$it): ?><li><span class="STYLE6">[php学员]</span><a href="<?php echo U('index/show',array('aid'=>$it['aid']));?>"><?php echo ($it["a_title"]); ?></a></li><?php endforeach; endif; ?>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
 >>>>>>> 4f6ed917674d72ff56463bbf851db2f3da02bbdf
 >>>>>>> 310213350f1d5df76c8852010a9bac2f4562966b
+>>>>>>> 8d00ff6f503a811dcc8aeecc10a3d7b428629001
+>>>>>>> f376cbe27799c336ee6f3dfe9b65ef50b83eb90c
 </ul>
 </div>
 <div class="ganyanleft fr3">
@@ -325,6 +381,10 @@
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
 >>>>>>> 310213350f1d5df76c8852010a9bac2f4562966b
 <li><span class="STYLE6">[php学员]</span><a href="http://php.itcast.cn/news/20130902/14273649772.shtml">郝建设：短暂时光的改变..</a></li>
 <li><span class="STYLE6">[php学员]</span><a href="http://php.itcast.cn/news/273e1200/65bb/4bf7/ad99/80f664bb5583.shtml">宋娇：幸好，我选择了传智..</a></li>
@@ -335,6 +395,8 @@
 =======
 >>>>>>> 4f6ed917674d72ff56463bbf851db2f3da02bbdf
 >>>>>>> 310213350f1d5df76c8852010a9bac2f4562966b
+>>>>>>> 8d00ff6f503a811dcc8aeecc10a3d7b428629001
+>>>>>>> f376cbe27799c336ee6f3dfe9b65ef50b83eb90c
 </ul>
 </div>
 </div>
@@ -350,6 +412,16 @@
 			  <div class="msdy">
 			    <div class="msdy-left"><img src="http://php.itcast.cn/images/wenhao-1.jpg" /></div>
 				<div class="msdy-right">
+<<<<<<< HEAD
+<?php if(is_array($arr)): foreach($arr as $key=>$it): ?><ul>
+<li><a href="<?php echo U('index/show',array('aid'=>$it['aid']));?>"><span style="color:#000000;"><?php echo ($it["a_title"]); ?></span></a></li>
+</ul><?php endforeach; endif; ?>
+=======
+<<<<<<< HEAD
+<?php if(is_array($arr)): foreach($arr as $key=>$it): ?><ul>
+<li><a href="<?php echo U('index/show',array('aid'=>$it['aid']));?>"><span style="color:#000000;"><?php echo ($it["a_title"]); ?></span></a></li>
+</ul><?php endforeach; endif; ?>
+=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -378,6 +450,8 @@
 </ul><?php endforeach; endif; ?>
 >>>>>>> 4f6ed917674d72ff56463bbf851db2f3da02bbdf
 >>>>>>> 310213350f1d5df76c8852010a9bac2f4562966b
+>>>>>>> 8d00ff6f503a811dcc8aeecc10a3d7b428629001
+>>>>>>> f376cbe27799c336ee6f3dfe9b65ef50b83eb90c
 </div>
 <br />
 
@@ -392,6 +466,15 @@
 		<h4 class="righttitle1" style="margin-top:10px;"><span class="fl">PHP培训开班信息</span></h4>
 			<div class="jyjb-left" >
 			<ul>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<li style="border-bottom: medium none; float: left; color: #515151"><a href="/addbbs/Index/Index/training"><b><font style="color: #515151">PHP基础班</font></b></a></li>
+<br />
+</ul>
+<ul style="clear: both">
+<?php if(is_array($ke1)): foreach($ke1 as $key=>$it): ?><li><a href="/addbbs/Index/Index/training?id=<?php echo ($it["id"]); ?>" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
+=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -425,27 +508,36 @@
 <<<<<<< HEAD
 =======
 =======
+>>>>>>> f376cbe27799c336ee6f3dfe9b65ef50b83eb90c
 <li style="border-bottom: medium none; float: left; color: #515151"><a href="/Index/Index/training"><b><font style="color: #515151">PHP基础班</font></b></a></li>
 <br />
 </ul>
 <ul style="clear: both">
 <?php if(is_array($ke1)): foreach($ke1 as $key=>$it): ?><li><a href="/Index/Index/training?id=<?php echo ($it["id"]); ?>" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
+>>>>>>> 8d00ff6f503a811dcc8aeecc10a3d7b428629001
 </ul>
 <ul>
-<li style="border-bottom: medium none; float: left; color: #515151"><a href="/Index/Index/training?id=<?php echo ($it["id"]); ?>"><b><font style="color: #515151">PHP就业班</font></b></a></li>
+<li style="border-bottom: medium none; float: left; color: #515151"><a href="/addbbs/Index/Index/training?id=<?php echo ($it["id"]); ?>"><b><font style="color: #515151">PHP就业班</font></b></a></li>
 <br />
 </ul>
 <ul style="clear: both">
-<?php if(is_array($ke2)): foreach($ke2 as $key=>$it): ?><li><a href="/Index/Index/training" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
+<?php if(is_array($ke2)): foreach($ke2 as $key=>$it): ?><li><a href="/addbbs/Index/Index/training" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
 </ul>
 <ul>
-<li style="border-bottom: medium none; float: left; color: #515151"><a href="/Index/Index/training"><b><font style="color: #515151">PHP远程班</font></b></a></li>
+<li style="border-bottom: medium none; float: left; color: #515151"><a href="/addbbs/Index/Index/training"><b><font style="color: #515151">PHP远程班</font></b></a></li>
 <br />
 </ul>
 <ul style="clear: both">
+<<<<<<< HEAD
+<?php if(is_array($ke3)): foreach($ke3 as $key=>$it): ?><li><a href="/addbbs/Index/Index/training?id=<?php echo ($it["id"]); ?>" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
+=======
 <?php if(is_array($ke3)): foreach($ke3 as $key=>$it): ?><li><a href="/Index/Index/training?id=<?php echo ($it["id"]); ?>" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
+<<<<<<< HEAD
+=======
 >>>>>>> 4f6ed917674d72ff56463bbf851db2f3da02bbdf
 >>>>>>> 310213350f1d5df76c8852010a9bac2f4562966b
+>>>>>>> 8d00ff6f503a811dcc8aeecc10a3d7b428629001
+>>>>>>> f376cbe27799c336ee6f3dfe9b65ef50b83eb90c
 </ul>
 
             </div>
@@ -455,6 +547,10 @@
 			<p class="cent"> <img src="http://php.itcast.cn/images/select.jpg"  width="256" height="66" /></p>
                       <table border="0" cellpadding="0" cellspacing="0" class="zhaopinlist" height="124" style="margin-top: 5px" width="98%">
 <tbody>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -524,13 +620,21 @@
 <<<<<<< HEAD
 =======
 =======
+>>>>>>> 8d00ff6f503a811dcc8aeecc10a3d7b428629001
+>>>>>>> f376cbe27799c336ee6f3dfe9b65ef50b83eb90c
     <?php if(is_array($zhao)): foreach($zhao as $key=>$it): ?><tr>
 	<td class="td1" width="73%"><a href="<?php echo U('index/show',array('aid'=>$it['aid']));?>" target="_blank"><?php echo ($it["a_title"]); ?></a></td>
 	<td width="11%">若干</td>
 	<td width="16%">11.28</td>
 	</tr><?php endforeach; endif; ?>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
 >>>>>>> 4f6ed917674d72ff56463bbf851db2f3da02bbdf
 >>>>>>> 310213350f1d5df76c8852010a9bac2f4562966b
+>>>>>>> 8d00ff6f503a811dcc8aeecc10a3d7b428629001
+>>>>>>> f376cbe27799c336ee6f3dfe9b65ef50b83eb90c
 	<tr>
 	<td class="td1" width="73%"><a href="http://www.itcast.cn/news/list/20c133c0-6635-421c-acae-6125b0702b34/1.shtml" target="_blank"><span style="color:#ff0000;">更多企业招聘信息请点击&hellip;&hellip;</span></a></td>
 	<td width="11%"><a href="http://www.itcast.cn/news/list/20c133c0-6635-421c-acae-6125b0702b34/1.shtml" target="_blank"><span style="color:#ff0000;">查看</span></a></td>
@@ -548,6 +652,12 @@
 		  <div class="rightkuang1" style="padding-top:18px;">
 			<ul class="zhaopinlist wenti">
               <ul class="zhaopinlist wenti">
+<<<<<<< HEAD
+			  <?php if(is_array($chang)): foreach($chang as $key=>$it): ?><li><a href="<?php echo U('index/show',array('aid'=>$it['aid']));?>" target="_blank"><?php echo ($it["a_title"]); ?></a></li><?php endforeach; endif; ?>
+=======
+<<<<<<< HEAD
+			  <?php if(is_array($chang)): foreach($chang as $key=>$it): ?><li><a href="<?php echo U('index/show',array('aid'=>$it['aid']));?>" target="_blank"><?php echo ($it["a_title"]); ?></a></li><?php endforeach; endif; ?>
+=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -573,6 +683,8 @@
 			  <?php if(is_array($chang)): foreach($chang as $key=>$it): ?><li><a href="<?php echo U('index/show',array('aid'=>$it['aid']));?>" target="_blank"><?php echo ($it["a_title"]); ?></a></li><?php endforeach; endif; ?>
 >>>>>>> 4f6ed917674d72ff56463bbf851db2f3da02bbdf
 >>>>>>> 310213350f1d5df76c8852010a9bac2f4562966b
+>>>>>>> 8d00ff6f503a811dcc8aeecc10a3d7b428629001
+>>>>>>> f376cbe27799c336ee6f3dfe9b65ef50b83eb90c
 <!--<li><a href="http://php.itcast.cn/news/20130409/14565887024.shtml" target="_blank">怎么在短时间内充分掌握老师讲解的知识？</a></li>
 <li><a href="http://php.itcast.cn/news/20130409/14580258105.shtml" target="_blank">基础班学完以后可以做什么?</a></li>
 <li><a href="http://php.itcast.cn/news/20130409/15025732993.shtml" target="_blank">PHP入门简单是不是后期学习难？</a></li>
@@ -785,8 +897,11 @@
 </script>
 
 
-<<<<<<< HEAD
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
 =======
 <<<<<<< HEAD
 
@@ -803,6 +918,8 @@
 </div>
 >>>>>>> 4f6ed917674d72ff56463bbf851db2f3da02bbdf
 >>>>>>> 310213350f1d5df76c8852010a9bac2f4562966b
+>>>>>>> 8d00ff6f503a811dcc8aeecc10a3d7b428629001
+>>>>>>> f376cbe27799c336ee6f3dfe9b65ef50b83eb90c
 <script type="text/javascript">
   var arr = new Array(); 
 

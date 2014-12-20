@@ -53,40 +53,17 @@ $(document).ready(function(e) {
     
   	</ul>
     </div> 
-        <form action="{:U('article/add_do')}" method="post" enctype="multipart/form-data">
+        <form action="{:U('article/upd_class',array('id'=>$_GET['id']))}" method="post" enctype="multipart/form-data">
   	<div id="tab1" class="tabson">
     
     <div class="formtext">Hi，<b>admin</b>，欢迎您试用信息发布功能！</div>
     
     <ul class="forminfo">
-    <li><label>标题<b>*</b></label><input name="a_title" type="text" class="dfinput" value=""  style="width:518px;"/></li>
+    <li><label>名称<b>*</b></label><input name="name" value='{$list.name}' type="text" class="dfinput" value=""  style="width:518px;"/></li>
    
-    <li><label>类别<b>*</b></label>  
     
-
-    <div class="vocation">
-        <select  name='t_id' class="select1" >
-            <foreach name='cate' item='vo'>
-                <option value="{$vo.id}"  >{$vo.name}</option>
-            </foreach>
-        </select>
-    </div>
     
-    </li>
     
-    <li><label>图片<b>*</b></label>
-    
-
-        <input type="file" name='a_thumb'/>
-    
-    </li>
-    
-    <li><label>通知内容<b>*</b></label>
-    
-
-    <textarea id="content7" name="a_content" style="width:700px;height:250px;visibility:hidden;"></textarea>
-    
-    </li>
     <li><label>&nbsp;</label><input name="" type="submit" class="btn" value="马上发布"/></li>
     </ul>
     
