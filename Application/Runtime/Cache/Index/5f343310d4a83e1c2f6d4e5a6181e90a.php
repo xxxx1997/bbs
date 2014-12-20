@@ -250,25 +250,25 @@
 		<h4 class="righttitle1" style="margin-top:10px;"><span class="fl">PHP培训开班信息</span></h4>
 			<div class="jyjb-left" >
 			<ul>
-<li style="border-bottom: medium none; float: left; color: #515151"><a href="/Index/Index/training"><b><font style="color: #515151">PHP基础班</font></b></a></li>
+<li style="border-bottom: medium none; float: left; color: #515151"><a href="<?php echo U('jyjb/training');?>"><b><font style="color: #515151">PHP基础班</font></b></a></li>
 <br />
 </ul>
 <ul style="clear: both">
-<?php if(is_array($ke1)): foreach($ke1 as $key=>$it): ?><li><a href="/Index/Index/training?id=<?php echo ($it["id"]); ?>" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
+<?php if(is_array($ke1)): foreach($ke1 as $key=>$it): ?><li><a href="<?php echo U('jyjb/training',array('id'=>$it['id']));?>" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
 </ul>
 <ul>
 <li style="border-bottom: medium none; float: left; color: #515151"><a href="/Index/Index/training?id=<?php echo ($it["id"]); ?>"><b><font style="color: #515151">PHP就业班</font></b></a></li>
 <br />
 </ul>
 <ul style="clear: both">
-<?php if(is_array($ke2)): foreach($ke2 as $key=>$it): ?><li><a href="/Index/Index/training" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
+<?php if(is_array($ke2)): foreach($ke2 as $key=>$it): ?><li><a href="<?php echo U('jyjb/training',array('id'=>$it['id']));?>" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
 </ul>
 <ul>
 <li style="border-bottom: medium none; float: left; color: #515151"><a href="/Index/Index/training"><b><font style="color: #515151">PHP远程班</font></b></a></li>
 <br />
 </ul>
 <ul style="clear: both">
-<?php if(is_array($ke3)): foreach($ke3 as $key=>$it): ?><li><a href="/Index/Index/training?id=<?php echo ($it["id"]); ?>" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
+<?php if(is_array($ke3)): foreach($ke3 as $key=>$it): ?><li><a href="<?php echo U('jyjb/training',array('id'=>$it['id']));?>" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
 </ul>
 
             </div>
@@ -513,16 +513,7 @@
 </script>
 
 
-<div id="webim">
-<dl class="dlstyle">
-	<dt class="dtstyle">
-		<strong id="webim_title">&nbsp;</strong><span id="webimclosebutton">关闭</span></dt>
-</dl>
-<dl>
-	<dd>
-		<a href="" id="webim_link" target="_blank"><img id="webim_img" src="" style="width: 280px; height: 188px" /></a></dd>
-</dl>
-</div>
+
 <script type="text/javascript">
   var arr = new Array(); 
 
