@@ -26,7 +26,7 @@
 
 	<div class="clear"></div>
 	<div class="top2">
-		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
+		<h1 class="fl"><a href="http://www.itcast.cn"><img src="http://php.itcast.cn/images/logo.gif" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
 		<div class="fl toubu">
 		<div class="toubu-font1">PHP学院</div>
 			 <!-- 校区 -->
@@ -59,165 +59,93 @@
 	</div>
 <!--输出-->
  
-
+		
 <div id="box">
-			<div id="left" class="fl"  style="margin-top:3px;">
-			<div class="jyjb">
-<?php if(is_array($img)): foreach($img as $key=>$io): ?><div class="jyjb-11">
-<ul>
-    
-<li class="fl jyjb-11-font1" style="height:96px;"><a href="/Index/Jyjb/video?id=<?php echo ($io["v_id"]); ?>"><img alt="传智播客php培训学院就业学生" src='/<?php echo ($io["v_image"]); ?>' style="width: 131px; height: 93px; " /></a></li>
-<li class="fl jyjb-11-font1" style="height:100px;"><span style="color:#000000;"><b><?php echo ($io["v_title"]); ?><br />
-<span class="jyjb-font2"><a href="http://php.itcast.cn/news/20130122/14000221632.shtml">[播放]</a></span></b></span></li>
-</ul>
-</div><?php endforeach; endif; ?>
+		  <div id="left" class="fl"  style="margin-top:3px;">
+			<div><img src="/bbs/Application/Common/index/images/lefttop.gif"/></div>
+			<div class="left_content2">
+			  <div style="width:100%; height:auto; overflow:hidden; border-bottom:1px solid #ccc;"> 
+			    <h4 class="ganyan">
+				<span class="STYLE3">
+				    <div class="bdshare_t bds_tools get-codes-bdshare" id="bdshare" style="float:right;"><span class='bds_more'>分享到：</span> <a class='bds_qzone'></a> <a class='bds_tsina'></a> <a class='bds_tqq'></a> <a class='bds_renren'></a> <a class='shareCount'></a>
+				    </div>
+				视频</span>下载
+                </h4>
+              </div>
+			  <div style="padding-bottom:40px">
+			  <!-- 内容主体 -->
+<div class="spxz" style="margin-top: 10px; clear: both">
+<div class="spxz_1">
+<div class="sp_pic">
+    <video width="320" height="260" controls="controls">
+      <source src="/bbs/Application/Common/Public/<?php echo ($info["v_path"]); ?>" type="video/mp4">
+     <ideo></div>
+<div class="sp_text">
+<p></p>
+<h1><?php echo ($info["v_name"]); ?></h1>
+讲　　师： <?php echo ($info["v_author"]); ?><br />
+系　　统： WinXP&amp;Win2003<br />
+定　　价： 免费
+<p></p>
+</div>
+</div>
+<div class="spml">
+<h4>视频描述</h4>
+<div><?php echo ($info["v_desc"]); ?></div>
+</div>
+<a href="http://edm.itcast.cn/?php" target="_blank"><img alt="" src="http://php.itcast.cn/files/image/201209/20120907135848045.png" style="width: 267px; height: 116px" /></a><br />
+<div class="spjs">
+<div class="spml">
+<h4>笔记目录：</h4>
+
+    <?php echo ($info["ml"]); ?>
+</foreach>
+</div>
+</div>
+</div>
 <br />
 
-			 <div class="clear"></div>
-			 <table border="0" cellpadding="0" cellspacing="0" class="jiuye" width="97%">
-<tbody>
-	<tr>
-	<th class="zhanshi" style="color:red;margin-bottom:0;border-bottom:0;font-
-
-size:12px;background-color:#ecf6fd;">
-		传智播客所有就业信息皆真实可靠，可联络就业学员验证；应企业和学员要求，企业名称和部分学员信息未呈现。</th>
-	</tr>
-</tbody>
-</table>
-<div class="zhanshi">
-<h4><span class="fr" style="font-weight: normal; margin-right: 30px"><a href="#">更多 </a></span>12月20日PHP就业班部分学员就业喜报</h4>
-<div><img alt="" src="/public/q.jpg" style="width: 628px; height: 266px;" /></div>
-</div>
-<table border="0" cellpadding="0" cellspacing="0" class="jiuye" width="97%">
-<tbody>
-	<tr>
-	<th bgcolor="#ecf6fd" width="10%">
-		姓名</th>
-	<th bgcolor="#ecf6fd" width="25%">
-		毕业学校</th>
-	<th bgcolor="#ecf6fd" width="15%">
-		入职时间</th>
-	<th bgcolor="#ecf6fd" width="30%">
-		入职公司</th>
-	<th bgcolor="#ecf6fd" class="STYLE6" width="20%">
-		薪资（￥）</th>
-	</tr>
-        <?php if(is_array($data)): foreach($data as $key=>$vo): ?><tr>
-	<td><?php echo ($vo["jy_name"]); ?></td>
-	<td><?php echo ($vo["jy_school"]); ?></td>
-	<td><?php echo ($vo["jy_time"]); ?></td>
-	<td><?php echo ($vo["jy_company"]); ?></td>
-	<td class="STYLE6">起薪<?php echo ($vo["jy_wage"]); ?>.00</td>
-	</tr><?php endforeach; endif; ?>
-</tbody>
-</table>
-<div class="zhanshi">
-<h4><span class="fr" style="font-weight: normal; margin-right: 30px"><a href="#">更多 </a></span>11月16日PHP就业班部分学员就业喜报</h4>
-<div><img alt="" src="/public/qq.jpg" style="width: 628px; height: 266px;" /></div>
-</div>
-<table border="0" cellpadding="0" cellspacing="0" class="jiuye" width="97%">
-<tbody>
-	<tr>
-	<th bgcolor="#ecf6fd" width="10%">
-		姓名</th>
-	<th bgcolor="#ecf6fd" width="25%">
-		毕业学校</th>
-	<th bgcolor="#ecf6fd" width="15%">
-		入职时间</th>
-	<th bgcolor="#ecf6fd" width="30%">
-		入职公司</th>
-	<th bgcolor="#ecf6fd" class="STYLE6" width="20%">
-		薪资（￥）</th>
-	</tr>
-        <?php if(is_array($data1)): foreach($data1 as $key=>$it): ?><tr>
-	<td><?php echo ($it["jy_name"]); ?></td>
-	<td><?php echo ($it["jy_school"]); ?></td>
-	<td><?php echo ($it["jy_time"]); ?></td>
-	<td><?php echo ($it["jy_company"]); ?></td>
-	<td class="STYLE6">起薪<?php echo ($it["jy_wage"]); ?>.00</td>
-	</tr><?php endforeach; endif; ?>
-</tbody>
-</table>
-<div class="zhanshi">
-<h4><span class="fr" style="font-weight: normal; margin-right: 30px"><a href="#">更多 </a></span>10月16日PHP就业班部分学员就业喜报</h4>
-<div><img alt="" src="/public/qqq.jpg" style="width: 628px; height: 266px;" /></div>
-</div>
-<table border="0" cellpadding="0" cellspacing="0" class="jiuye" width="97%">
-<tbody>
-	<tr>
-	<th bgcolor="#ecf6fd" width="10%">
-		姓名</th>
-	<th bgcolor="#ecf6fd" width="25%">
-		毕业学校</th>
-	<th bgcolor="#ecf6fd" width="15%">
-		入职时间</th>
-	<th bgcolor="#ecf6fd" width="30%">
-		入职公司</th>
-	<th bgcolor="#ecf6fd" class="STYLE6" width="20%">
-		薪资（￥）</th>
-	</tr>
-	<?php if(is_array($data2)): foreach($data2 as $key=>$it): ?><tr>
-	<td><?php echo ($it["jy_name"]); ?></td>
-	<td><?php echo ($it["jy_school"]); ?></td>
-	<td><?php echo ($it["jy_time"]); ?></td>
-	<td><?php echo ($it["jy_company"]); ?></td>
-	<td class="STYLE6">起薪<?php echo ($it["jy_wage"]); ?>.00</td>
-	</tr><?php endforeach; endif; ?>
-</tbody>
-</table>
-			   </div>
-			
-		</div>	
-		<div id="right" class="fl">			
-			<h4 class="righttitle1 zhaopin"><span class="blue">最新</span>企业招聘</h4>
-			<div class="rightkuang1">
-			<p class="cent"> <img src="/public/chenxu.jpg"  width="256" height="130" /></p>
-                  <table border="0" cellpadding="0" cellspacing="0" class="zhaopinlist" height="124" style="margin-top: 5px" width="98%">
-<tbody>
-    <?php if(is_array($info)): foreach($info as $key=>$in): ?><tr>
-	<td class="td1" width="73%"><a href="/Index/Jyjb/detailed?id=<?php echo ($in["aid"]); ?>" target="_blank"><?php echo ($in["a_title"]); ?></a></td>
-	<td width="16%"><?php echo date('m-d',$in['start_time']) ?></td>
-	</tr><?php endforeach; endif; ?>
-	<tr>
-	<td class="td1" width="73%"><a href="http://www.itcast.cn/news/list/20c133c0-6635-421c-acae-6125b0702b34/1.shtml" target="_blank"><span style="color:#ff0000;">更多企业招聘信息请点击&hellip;&hellip;</span></a></td>
-	<td width="11%"><a href="http://www.itcast.cn/news/list/20c133c0-6635-421c-acae-6125b0702b34/1.shtml" target="_blank"><span style="color:#ff0000;">查看</span></a></td>
-	<td width="16%"><a href="http://www.itcast.cn/news/list/20c133c0-6635-421c-acae-6125b0702b34/1.shtml" target="_blank"><span style="color:#ff0000;">更多</span></a></td>
-	</tr>
-</tbody>
-</table>
-
- <div class="clear"></div>
+<script type="text/javascript" src="http://bbs.itcast.cn/api.php?mod=js&bid=94"></script>
+			   <!-- 内容主体 -->
+      	  <!-- 评论区 -->
+	    	<script type="text/javascript">
+	           $(document).ready(function(){
+	              	loadcomment('20120913-18063829105', 1);
+               });   
+	       </script>
+	  <div id="commentcontent"></div>
+	  <form name="comment" style="padding:0;margin:0px;">
+        <input type="hidden" name="referenceSource" value="20120913-18063829105">
+        <input type="hidden" name="type" value="NEWS">
+        <textarea cols="85" rows="6" style="width:610px;" name="content"></textarea>
+        <div class="clear"></div>
+        <div class="fabiao">
+	      <span class="fl">请输入验证码：<input name="validatecode" type="text" style="width:80px;" />  <img src="http://manage.itcast.cn:8080/validatecode/comment.jpg" id="kaptchaImage" width="100"/></span><span class="fr"><input type='button' value="提 交" id="savebutton"/></span>
+	    </div>
+	  </form>
+	  <div id="dialog" title="评论保存结果"></div><!-- 对话框内容 -->
+           <!-- 评论区 -->
+     			  </div>
 			</div>
-			<h4 class="righttitle1" style="margin-top:5px;"><span class="fl">PHP培训开班信息</span></h4>
-			
-			<div class="jyjb-left" >
-                          
-			<ul>
-<li style="border-bottom: medium none; float: left; color: #515151"><a href="http://php.itcast.cn/php/course/base.shtml"><b><font style="color: #515151">PHP基础班</font></b></a></li>
-<br />
-</ul>
-<?php if(is_array($info1)): foreach($info1 as $key=>$a): ?><ul style="clear: both">
-<li><a href="/Index/Jyjb/training?id=<?php echo ($a["id"]); ?>" target="_blank"><span class="time jyjb-font2"><b><?php if($a['class_state']==1){ echo "预约报名"; }else{ echo "<font color='blue'>爆满已开班</font>"; } ?></b></span><?php echo ($a["class_title"]); ?>(<?php echo ($a["start_time"]); ?>)</a></li>
-</ul><?php endforeach; endif; ?>
-<ul>
-<li style="border-bottom: medium none; float: left; color: #515151"><a href="http://php.itcast.cn/php/course/php.shtml"><b><font style="color: #515151">PHP就业班</font></b></a></li>
-<br />
-</ul>
- <?php if(is_array($info2)): foreach($info2 as $key=>$a): ?><ul style="clear: both">
-<li><a href="/Index/Jyjb/training?id=<?php echo ($a["id"]); ?>" target="_blank"><span class="time jyjb-font2"><b><?php if($a['class_state']==1){ echo "预约报名"; }else{ echo "<font color='blue'>爆满已开班</font>"; } ?></b></span><?php echo ($a["class_title"]); ?>(<?php echo ($a["start_time"]); ?>)</a></li>
-</ul><?php endforeach; endif; ?>
-<ul>
-<li style="border-bottom: medium none; float: left; color: #515151"><a href="http://php.itcast.cn/news/981030b0/96d5/4005/9ae4/eba8bac4195a.shtml"><b><font style="color: #515151">PHP远程班</font></b></a></li>
-<br />
-</ul>
-<?php if(is_array($info3)): foreach($info3 as $key=>$a): ?><ul style="clear: both">
-<li><a href="/Index/Jyjb/training?id=<?php echo ($a["id"]); ?>" target="_blank"><span class="time jyjb-font2"><b><?php if($a['class_state']==1){ echo "预约报名"; }else{ echo "<font color='blue'>爆满已开班</font>"; } ?></b></span><?php echo ($a["class_title"]); ?>(<?php echo ($a["start_time"]); ?>)</a></li>
-</ul><?php endforeach; endif; ?>
+			<div><img src="/bbs/Application/Common/index/images/leftbottom.gif"/></div>
+		</div>		
+		<div id="right" class="fl">
+   <h4 class="righttitle1 zhaopin"><span class="blue">工具</span>下载</h4>
+         <div class="rightkuang1">
+<div style="width:275px; height:100px;">
+<p class="download" style="width:85px; height:100px; float:left;"><a href="http://player.qq.com/" target="_blank"><img alt="QQ影音" src="http://www.itcast.cn/files/image/201308/20130801111312850.jpg" style="width: 74px; height: 75px;" /><br />
+QQ影音</a></p>
+<p class="download" style="width:85px; height:100px; float:left;"><a href="http://www.emule.org.cn/download/" target="_blank"><img alt="电驴" src="/images/dianlv.jpg" /><br />
+电驴</a></p>
+<p class="download" style="width:85px; height:100px; float:left;"><a href="http://dl.xunlei.com/" target="_blank"><img alt="迅雷" src="/images/tengxun.jpg" /><br />
+迅雷</a></p>
+</div>
 
-			</div>
-			<h4 class="righttitle1 lianxi"><span class="fl"><span class="blue">课程</span>咨询</span></h4>
-			<div class="rightkuang">
-		<dl>
+		 </div>
+    <div class="rightbottom"><img src="/bbs/Application/Common/index/images/bottom1.gif"/></div>
+	    <h4 class="righttitle1 lianxi" style="margin-top:1px; background:url(/images/titl.jpg)"><span class="fl"><span class="blue">课程</span>咨询</span></h4>
+    <div class="rightkuang indexkuang" style="padding-bottom:26px; height:auto; overflow:hidden;" >
+      <dl>
 	<dt style="padding-bottom:20px;">
 		北京传智播客</dt>
 	<dd style="width:120px;height:40px;float:left;">
@@ -273,12 +201,12 @@ size:12px;background-color:#ecf6fd;">
 	<dd style="width:120px;height:40px;float:left;">
 		<a href="http://cnrdn.com/iP66" target="_blank"><img alt="西安传智播客QQ在线咨询" border="0" height="27" src="http://www.itcast.cn/images/qqkczx.jpg" width="99" /></a></dd>
 </dl>-->
-			<div class="clear"></div>		
-			</div>
+      <div class="clear"></div>
+    </div>
+    <div class="rightbottom"><img src="/bbs/Application/Common/index/images/rightbottom.jpg"/></div>
 	  </div>
 	</div>		
-	<div class="clear"></div>
-    <!-- 页面底部 -->
+
 
  
  
