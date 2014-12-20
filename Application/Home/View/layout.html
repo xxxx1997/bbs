@@ -52,8 +52,8 @@ $(function(){
     <span><img src="__APP__/Application/Common/admin/images/leftico01.png" /></span>文章管理
     </div>
     	<ul class="menuson">
-        <li <php>if($Think.ACTION_NAME=='course'){ echo "class='active'";}</php>><cite></cite><a href="{:U('article/list')}" >文章列表</a><i></i></li>
-         <li <php>if($Think.ACTION_NAME=='course'){ echo "class='active'";}</php>><cite></cite><a href="{:U('article/class_list')}" >分类列表</a><i></i></li>
+        <li <php>if($Think.ACTION_NAME=='article_list'){ echo "class='active'";}</php>><cite></cite><a href="{:U('article/article_list')}" >文章列表</a><i></i></li>
+         <li <php>if($Think.ACTION_NAME=='class_list'){ echo "class='active'";}</php>><cite></cite><a href="{:U('article/class_list')}" >分类列表</a><i></i></li>
        
         </ul>
     </dd>

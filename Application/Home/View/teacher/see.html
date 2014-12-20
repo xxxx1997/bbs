@@ -26,7 +26,7 @@
     <li><label>描述</label><textarea name="t_desc" cols="" rows="" class="textinput">{$list.t_desc}</textarea></li>
     <li><label>上传</label><input name="t_photo" type="file" /></li>
     <li><label>级别</label>
-        <select name='cate_id'>
+        <select name='cate_id' class="selected">
             <foreach name='cate' item='vo'>
                 <option value="{$vo['cate_id']}"  <php>if($vo['cate_id']==$list['cate_id']){echo 'selected';}</php> >{$vo.cate_name}</option>
                 

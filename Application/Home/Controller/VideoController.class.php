@@ -24,7 +24,7 @@ class VideoController extends Controller {
         $this->display(); // 输出模板      
     }
     public function del(){
-        $res=M('teacher')->where('t_id='.I('post.id'))->delete(); 
+        $res=M('Videos')->where('v_id='.I('post.id'))->delete(); 
         if($res){
             echo 1;
         }else{
@@ -33,23 +33,24 @@ class VideoController extends Controller {
         }
     }
     public function add(){
-        $list=M('teacher_cate')->select();
+        $list=M('Videos_cate')->select();
         $this->assign('list',$list);
         $this->display();
     }
     public function see(){
         //echo $_GET['t_id'];
-        $list=M("teacher")->where("t_id=".$_GET['t_id'])->find();
-        $cate=M('teacher_cate')->select();
-//        /dump($list);die;
+        $list=M("videos")->where("v_id=".$_GET['v_id'])->find();
+        $cate=M('videos_cate')->select();
+        
+        //dump($cate);die;
         $this->assign('list',$list);
         $this->assign('cate',$cate);
         $this->display();
     }
     public function update(){
-        $res=M('teacher')->where("t_id=".$_GET['t_id'])->save($_POST); 
+        $res=M('videos')->where("v_id=".$_GET['t_id'])->save($_POST); 
         if($res){
-            $this->success('更新成功',U('teacher/teacher_list'));
+            $this->success('更新成功',U('video/video_list'));
         }else{
            
             $this->error('更新失败');
@@ -60,22 +61,21 @@ class VideoController extends Controller {
        // dump($_FILES);
         $upload = new \Think\Upload();// 实例化上传类
         $upload->maxSize   =     3145728 ;// 设置附件上传大小
-        $upload->exts      =     array('jpg', 'gif', 'png', 'jpeg');// 设置附件上传类型
+        $upload->exts      =     array('jpg', 'gif', 'png', 'jpeg','mp4');// 设置附件上传类型
         $upload->rootPath = COMMON_PATH.'/Public/';
         $upload->savePath  =  'Images/'; // 设置附件上传目录
         //$upload->savename = time();
 
         $info   =   $upload->upload();
-          
+      
         if($info) {// 上传错误提示错误信息
-           
-           foreach($info as $file){  
-               $_POST['t_photo']=$file['savepath'].$file['savename'];   
-           }
-           $_POST['t_time']=time();
-           $res=M('teacher')->data($_POST)->add();
+
+           $_POST['v_thumb']=$info['v_thumb']['savepath'].$info['v_thumb']['savename'];   
+           $_POST['v_path']=$info['v_path']['savepath'].$info['v_path']['savename'];   
+           $_POST['time']=time();
+           $res=M('videos')->data($_POST)->add();
            if($res){
-               $this->success('添加成功',U('teacher/teacher_list'));    
+               $this->success('添加成功',U('video/video_list'));    
            }else{
                $this->error($res->getError());    
            }

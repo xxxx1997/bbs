@@ -13,7 +13,7 @@
 <table bgcolor="#e2f1f8" border="0" cellpadding="0" cellspacing="1" class="videodown" width="100%">
 <tbody>
 	<tr>
-	<td bgcolor="#ffffff" class="downpic" rowspan="2" width="106"><img alt="" height="71" src="__ROOT__{$it.v_thumb}" width="96" /></td>
+	<td bgcolor="#ffffff" class="downpic" rowspan="2" width="106"><img alt="" height="71" src="__ROOT__/Application/Common/Public/{$it.v_thumb}" width="96" /></td>
 	<td bgcolor="#ffffff" width="272">
 	<div class="jiaochengmz"><a href="{:U('Video/details',array('v_id'=>$it['v_id']))}">{$it.v_name}</a></div>
 	</td>
@@ -22,6 +22,16 @@
 	<tr>
 	<td bgcolor="#ffffff">
 	<div class="jianshi">主讲：{$it.v_author} <span class="blue">{$it.cate_name} </span></div>
+        </td>
+        <td align="right" bgcolor="#ffffff">
+	<div class="bdshare_t bds_tools get-codes-bdshare" id="bdshare">
+          <span class="bds_more">分享到：</span>
+        <a class="bds_qzone" title="分享到QQ空间" href="#"></a>
+        <a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+        <a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+        <a class="bds_renren" title="分享到人人网" href="#"></a>
+        <a class="shareCount" href="#" title="累计分享755次">755</a>  
+        </div>
 	</td>
 	<td align="right" bgcolor="#ffffff">
 	<div class="bdshare_t bds_tools get-codes-bdshare" id="bdshare"></div>
@@ -84,10 +94,10 @@ QQ影音</a></p>
 
 		 </div>
    
-    <div class="rightbottom"><img src="__APP__/Application/Common/index/images/rightbottom.jpg"  /></div>
+    
     <h4 class="righttitle1 zhaopin"><span class="blue">最新</span>企业招聘</h4>
     <div class="rightkuang1">
-      <p class="cent"> <img src="/images/select.jpg"  width="256" height="66"/></p>
+      <p class="cent"> <img src="__APP__/Application/Common/Public/Images/2014-12-18/select.jpg"  width="256" height="66"/></p>
        <table border="0" cellpadding="0" cellspacing="0" class="zhaopinlist" height="124" style="margin-top: 5px" width="98%">
 <tbody>
 	<tr>

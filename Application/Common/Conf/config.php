@@ -12,7 +12,7 @@ return array(
      "DB_DEPLOY_TYPE"=>1, //是否启用分布式
      'DB_RW_SEPARATE'=>true, //是否启用智能读写分离
      'DB_TYPE' => 'mysql', //数据库类型
-     'DB_HOST' => '192.168.1.119,192.168.1.110', //服务器地址
+     'DB_HOST' => '192.168.1.110,192.168.1.98', //服务器地址
      'DB_NAME' => 'bbs', //数据库名
      'DB_USER' => 'root,root', //用户名
      'DB_PWD' =>  'root,root', //密码

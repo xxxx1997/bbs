@@ -26,7 +26,7 @@
 
 	<div class="clear"></div>
 	<div class="top2">
-		<h1 class="fl"><a href="http://www.itcast.cn"><img src="http://php.itcast.cn/images/logo.gif" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
+		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
 		<div class="fl toubu">
 		<div class="toubu-font1">PHP学院</div>
 			 <!-- 校区 -->
@@ -92,7 +92,29 @@
     </div>
 <!-- Baidu share END 需在页面底部添加baidushare.js -->	  
 	  </div>
-	  <div class="clear"></div>
+      
+	  <div class="clear">
+              
+	  <!-- 评论列表 -->
+              <h3 class="reviewtitle"><span class="fl">四川省乐山市 联通ADSL网友 IP：221.10.117.* 游客 </span><span class="fr">2013-08-01 15:49:14 发表</span></h3>
+        <div class="reviewneirong">
+		   挺好    
+		  <!-- -- reply ---->
+		  		  <!-- -- reply ---->
+        </div>
+              <h3 class="reviewtitle"><span class="fl">北京市 联通网友 IP：114.249.224.* 游客 </span><span class="fr">2014-12-19 14:12:32 发表</span></h3>
+        <div class="reviewneirong">
+		   阿斯达萨达撒大声地    
+		  <!-- -- reply ---->
+		  		  <!-- -- reply ---->
+        </div>
+            <!-- 评论列表 -->
+        <div class="febgye">
+				       					   <a href="javascript:goPage(1)" title="首页">&lt;&lt;</a>
+					   		                 			              <span>1</span>
+		                 		               					   					   		</div>
+      
+          </div>
       <div class="print"><a href="#" id="printbutton">【打印】</a> <a href="#pagetop">【返回顶部】</a></div>
       	  <!-- 评论区 -->
 	    	<script type="text/javascript">
@@ -216,6 +238,7 @@
 <li><a href="http://icd.itcast.cn/news/20140301/16174712734.shtml">PS设计视频教程-ps精品课程实战演练</a></li>   --></ul>
 
     </ul>
+    
     <div class="rightbottom"><img src="/images/rightbottom.jpg" /></div>
     <h4 class="righttitle1"><span class="fl">JAVA视频下载</span><span class="fr"><a href="http://java.itcast.cn/java/video.shtml">+MORE</a></span></h4>
     <ul class="rightkuang">
@@ -332,16 +355,7 @@
 </script>
 
 
-<div id="webim">
-<dl class="dlstyle">
-	<dt class="dtstyle">
-		<strong id="webim_title">&nbsp;</strong><span id="webimclosebutton">关闭</span></dt>
-</dl>
-<dl>
-	<dd>
-		<a href="" id="webim_link" target="_blank"><img id="webim_img" src="" style="width: 280px; height: 188px" /></a></dd>
-</dl>
-</div>
+
 <script type="text/javascript">
   var arr = new Array(); 
 

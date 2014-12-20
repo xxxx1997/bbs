@@ -26,7 +26,7 @@
     <li><label>描述</label><textarea name="t_desc" cols="" rows="" class="textinput"></textarea></li>
     <li><label>上传</label><input name="t_photo" type="file" /></li>
     <li><label>级别</label>
-        <select name='cate_id'>
+        <select name='cate_id' class="selected">
             <foreach name='list' item='vo'>
                 <option value="{$vo.cate_id}">{$vo.cate_name}</option>
             </foreach>

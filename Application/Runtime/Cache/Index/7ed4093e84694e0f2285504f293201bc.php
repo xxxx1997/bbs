@@ -26,7 +26,7 @@
 
 	<div class="clear"></div>
 	<div class="top2">
-		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
+		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/bbs/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
 		<div class="fl toubu">
 		<div class="toubu-font1">PHP学院</div>
 			 <!-- 校区 -->
@@ -72,12 +72,12 @@
     </div>
 <!-- Baidu share END 需在页面底部添加baidushare.js -->
 			   <div style="padding-left:10px;float:left;">
-			     <b>其它学院入口：</b>  <img src="/Application/Common/index/images/sanjiao.jpg" /> <a href="http://net.itcast.cn">.net学院</a> <img src="/Application/Common/index/images/sanjiao.jpg" /> <a href="http://java.itcast.cn">java学院</a>  <img src="/Application/Common/index/images/sanjiao.jpg" /> <a href="http://icd.itcast.cn">网页平面设计学院</a>
+			     <b>其它学院入口：</b>  <img src="/bbs/Application/Common/index/images/sanjiao.jpg" /> <a href="http://net.itcast.cn">.net学院</a> <img src="/bbs/Application/Common/index/images/sanjiao.jpg" /> <a href="http://java.itcast.cn">java学院</a>  <img src="/bbs/Application/Common/index/images/sanjiao.jpg" /> <a href="http://icd.itcast.cn">网页平面设计学院</a>
 			   </div>
 			</div>
 			  <div id="left" class="fl"  style="margin-top:3px;">
 			<div class="jyjb">
-			<div><img src="/Application/Common/index/images/kcjs.jpg" /></div>
+			<div><img src="/bbs/Application/Common/index/images/kcjs.jpg" /></div>
 			 ﻿
 <div class="kcjs">
 <style type="text/css">
