@@ -19,7 +19,7 @@ class ArticleController extends Controller {
         $this->display(); // 输出模板      
     }
     public function del(){
-        $res=M('teacher')->where('t_id='.I('post.id'))->delete(); 
+        $res=M('article')->where('aid='.I('post.id'))->delete(); 
         if($res){
             echo 1;
         }else{
@@ -42,13 +42,56 @@ class ArticleController extends Controller {
         $this->display();
     }
     public function update(){
-        $res=M('teacher')->where("t_id=".$_GET['t_id'])->save($_POST); 
+        $res=M('article')->where("aid=".$_GET['aid'])->save($_POST); 
         if($res){
-            $this->success('更新成功',U('teacher/teacher_list'));
+            $this->success('更新成功',U('article/article_list'));
         }else{
            
             $this->error('更新失败');
         }
+    }
+    public function class_list(){
+        $list=M('type')->select();
+        $this->assign('list',$list);// 赋值数据集
+        //dump($list);die;
+        $this->display();
+    }
+    public function add_class(){
+       
+        $this->display();
+    }
+     public function see_class(){
+        $list=M("type")->where("id=".$_GET['id'])->find();
+        $this->assign('list',$list);
+       
+        $this->display();
+    }
+    public function upd_class(){
+         $res=M('type')->where("id=".$_GET['id'])->save($_POST); 
+        if($res){
+            $this->success('更新成功',U('article/class_list'));
+        }else{
+           
+            $this->error('更新失败');
+        }
+    }
+    public function del_class(){
+         $res=M('type')->where('id='.I('post.id'))->delete(); 
+         echo M()->getlastsql();die;
+        if($res){
+            echo 1;
+        }else{
+            
+            echo 0;
+        }
+    }
+    public function add_class_do(){
+       $res=M('type')->data($_POST)->add();
+         if($res){
+               $this->success('添加成功',U('article/class_list'));    
+           }else{
+               $this->error('添加失败');    
+         }
     }
     public function add_do(){
        // dump($_POST);
