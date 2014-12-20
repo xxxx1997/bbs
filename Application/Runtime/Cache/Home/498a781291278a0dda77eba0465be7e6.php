@@ -163,13 +163,13 @@ $(document).ready(function(e) {
     
   	</ul>
     </div> 
-    
+        <form action="<?php echo U('article/update',array('aid'=>$_GET['aid']));?>" method="post" enctype="multipart/form-data">
   	<div id="tab1" class="tabson">
     
     <div class="formtext">Hi，<b>admin</b>，欢迎您试用信息发布功能！</div>
     
     <ul class="forminfo">
-    <li><label>标题<b>*</b></label><input name="" type="text" class="dfinput" value=""  style="width:518px;"/></li>
+    <li><label>标题<b>*</b></label><input name="a_title" type="text" class="dfinput" value="<?php echo ($list["a_title"]); ?>"  style="width:518px;"/></li>
    
     <li><label>类别<b>*</b></label>  
     
@@ -186,20 +186,25 @@ $(document).ready(function(e) {
     
 
         <input type="file" name='a_thumb'/>
+        <?php
+ if($list['a_thumb']!=''){ ?>  
+            <img width='100' height='50' src="/addbbs/Application/Common/Public/<?php echo ($list["a_thumb"]); ?>"/>
+            <?php
+ } ?>
     
     </li>
     
     <li><label>通知内容<b>*</b></label>
     
 
-    <textarea id="content7" name="a_content" style="width:700px;height:250px;visibility:hidden;"></textarea>
+    <textarea id="content7" name="a_content" style="width:700px;height:250px;visibility:hidden;"><?php echo ($list["a_content"]); ?></textarea>
     
     </li>
-    <li><label>&nbsp;</label><input name="" type="button" class="btn" value="马上发布"/></li>
+    <li><label>&nbsp;</label><input name="" type="submit" class="btn" value="马上发布"/></li>
     </ul>
     
     </div> 
-    
+    </form>
     
   	
        
