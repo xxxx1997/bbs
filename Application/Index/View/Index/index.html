@@ -200,12 +200,12 @@
 		<h4 class="righttitle1" style="margin-top:10px;"><span class="fl">PHP培训开班信息</span></h4>
 			<div class="jyjb-left" >
 			<ul>
-<li style="border-bottom: medium none; float: left; color: #515151"><a href="__URL__/training"><b><font style="color: #515151">PHP基础班</font></b></a></li>
+<li style="border-bottom: medium none; float: left; color: #515151"><a href="{:U('jyjb/training')}"><b><font style="color: #515151">PHP基础班</font></b></a></li>
 <br />
 </ul>
 <ul style="clear: both">
 <foreach name="ke1" item="it">
-<li><a href="__URL__/training?id={$it.id}" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span>{$it.class_title}({$it.start_time})</a></li>
+<li><a href="{:U('jyjb/training',array('id'=>$it['id']))}" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span>{$it.class_title}({$it.start_time})</a></li>
 </foreach>
 </ul>
 <ul>
@@ -214,7 +214,7 @@
 </ul>
 <ul style="clear: both">
 <foreach name="ke2" item="it">
-<li><a href="__URL__/training" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span>{$it.class_title}({$it.start_time})</a></li>
+<li><a href="{:U('jyjb/training',array('id'=>$it['id']))}" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span>{$it.class_title}({$it.start_time})</a></li>
 </foreach>
 </ul>
 <ul>
@@ -223,7 +223,7 @@
 </ul>
 <ul style="clear: both">
 <foreach name="ke3" item="it">
-<li><a href="__URL__/training?id={$it.id}" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span>{$it.class_title}({$it.start_time})</a></li>
+<li><a href="{:U('jyjb/training',array('id'=>$it['id']))}" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span>{$it.class_title}({$it.start_time})</a></li>
 </foreach>
 </ul>
 

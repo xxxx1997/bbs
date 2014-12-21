@@ -250,25 +250,108 @@
 		<h4 class="righttitle1" style="margin-top:10px;"><span class="fl">PHP培训开班信息</span></h4>
 			<div class="jyjb-left" >
 			<ul>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<li style="border-bottom: medium none; float: left; color: #515151"><a href="<?php echo U('jyjb/training');?>"><b><font style="color: #515151">PHP基础班</font></b></a></li>
+<br />
+</ul>
+<ul style="clear: both">
+<?php if(is_array($ke1)): foreach($ke1 as $key=>$it): ?><li><a href="<?php echo U('jyjb/training',array('id'=>$it['id']));?>" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<li style="border-bottom: medium none; float: left; color: #515151"><a href="/addbbs/Index/Index/training"><b><font style="color: #515151">PHP基础班</font></b></a></li>
+<br />
+</ul>
+<ul style="clear: both">
+<?php if(is_array($ke1)): foreach($ke1 as $key=>$it): ?><li><a href="/addbbs/Index/Index/training?id=<?php echo ($it["id"]); ?>" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 310213350f1d5df76c8852010a9bac2f4562966b
+<li style="border-bottom: medium none; float: left; color: #515151"><a href="http://php.itcast.cn/php/course/base.shtml"><b><font style="color: #515151">PHP基础班</font></b></a></li>
+<br />
+</ul>
+<ul style="clear: both">
+<li><a href="http://php.itcast.cn/php/course/base.shtml" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span>北京--第34期(2015年01月10号)</a></li>
+<li><a href="http://php.itcast.cn/php/course/base.shtml" target="_blank"><span class="time jyjb-font1"><b>爆满已开班</b></span>北京--第33期(2014年11月27号)</a></li>
+<li><a href="http://php.itcast.cn/php/course/base.shtml" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span>广州--第08期(2014年12月25号)</a></li>
+</ul>
+<ul>
+<li style="border-bottom: medium none; float: left; color: #515151"><a href="http://php.itcast.cn/php/course/php.shtml"><b><font style="color: #515151">PHP就业班</font></b></a></li>
+<br />
+</ul>
+<ul style="clear: both">
+<li><a href="http://php.itcast.cn/php/course/php.shtml" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span>北京--第34期(2015年01月05号)</a></li>
+<li><a href="http://php.itcast.cn/php/course/php.shtml" target="_blank"><span class="time jyjb-font1"><b>爆满已开班</b></span>北京--第33期(2014年11月21号)</a></li>
+<li><a href="http://php.itcast.cn/php/course/php.shtml" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span>广州--第07期(2014年12月18号)</a></li>
+</ul>
+<ul>
+<li style="border-bottom: medium none; float: left; color: #515151"><a href="http://php.itcast.cn/news/981030b0/96d5/4005/9ae4/eba8bac4195a.shtml"><b><font style="color: #515151">PHP远程班</font></b></a></li>
+<br />
+</ul>
+<ul style="clear: both">
+<li><a href="http://php.itcast.cn/news/981030b0/96d5/4005/9ae4/eba8bac4195a.shtml" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span>基础班--第34期(2015年01月10号)</a></li>
+<li><a href="http://php.itcast.cn/news/981030b0/96d5/4005/9ae4/eba8bac4195a.shtml" target="_blank"><span class="time jyjb-font1"><b>爆满已开班</b></span>基础班--第33期(2014年11月27号)</a></li>
+<li><a href="http://php.itcast.cn/news/981030b0/96d5/4005/9ae4/eba8bac4195a.shtml" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span>就业班--第34期(2015年01月05号)</a></li>
+<li><a href="http://php.itcast.cn/news/981030b0/96d5/4005/9ae4/eba8bac4195a.shtml" target="_blank"><span class="time jyjb-font1"><b>爆满已开班</b></span>就业班--第33期(2014年11月21号)</a></li>
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> f376cbe27799c336ee6f3dfe9b65ef50b83eb90c
+>>>>>>> ef690aaed58988b9a6452c04b2585fc3af390d5b
 <li style="border-bottom: medium none; float: left; color: #515151"><a href="/Index/Index/training"><b><font style="color: #515151">PHP基础班</font></b></a></li>
 <br />
 </ul>
 <ul style="clear: both">
 <?php if(is_array($ke1)): foreach($ke1 as $key=>$it): ?><li><a href="/Index/Index/training?id=<?php echo ($it["id"]); ?>" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
+<<<<<<< HEAD
+=======
+>>>>>>> 8d00ff6f503a811dcc8aeecc10a3d7b428629001
+>>>>>>> eed612c58e81fdaf3823e38e44dd919d665733fb
+>>>>>>> ef690aaed58988b9a6452c04b2585fc3af390d5b
 </ul>
 <ul>
 <li style="border-bottom: medium none; float: left; color: #515151"><a href="/Index/Index/training?id=<?php echo ($it["id"]); ?>"><b><font style="color: #515151">PHP就业班</font></b></a></li>
 <br />
 </ul>
 <ul style="clear: both">
+<<<<<<< HEAD
 <?php if(is_array($ke2)): foreach($ke2 as $key=>$it): ?><li><a href="/Index/Index/training" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
+=======
+<<<<<<< HEAD
+<?php if(is_array($ke2)): foreach($ke2 as $key=>$it): ?><li><a href="<?php echo U('jyjb/training',array('id'=>$it['id']));?>" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
+=======
+<?php if(is_array($ke2)): foreach($ke2 as $key=>$it): ?><li><a href="/addbbs/Index/Index/training" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
+>>>>>>> eed612c58e81fdaf3823e38e44dd919d665733fb
+>>>>>>> ef690aaed58988b9a6452c04b2585fc3af390d5b
 </ul>
 <ul>
 <li style="border-bottom: medium none; float: left; color: #515151"><a href="/Index/Index/training"><b><font style="color: #515151">PHP远程班</font></b></a></li>
 <br />
 </ul>
 <ul style="clear: both">
+<<<<<<< HEAD
 <?php if(is_array($ke3)): foreach($ke3 as $key=>$it): ?><li><a href="/Index/Index/training?id=<?php echo ($it["id"]); ?>" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
+=======
+<<<<<<< HEAD
+<?php if(is_array($ke3)): foreach($ke3 as $key=>$it): ?><li><a href="<?php echo U('jyjb/training',array('id'=>$it['id']));?>" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
+=======
+<<<<<<< HEAD
+<?php if(is_array($ke3)): foreach($ke3 as $key=>$it): ?><li><a href="/addbbs/Index/Index/training?id=<?php echo ($it["id"]); ?>" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
+=======
+<?php if(is_array($ke3)): foreach($ke3 as $key=>$it): ?><li><a href="/Index/Index/training?id=<?php echo ($it["id"]); ?>" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
+<<<<<<< HEAD
+=======
+>>>>>>> 4f6ed917674d72ff56463bbf851db2f3da02bbdf
+>>>>>>> 310213350f1d5df76c8852010a9bac2f4562966b
+>>>>>>> 8d00ff6f503a811dcc8aeecc10a3d7b428629001
+>>>>>>> f376cbe27799c336ee6f3dfe9b65ef50b83eb90c
+>>>>>>> eed612c58e81fdaf3823e38e44dd919d665733fb
+>>>>>>> ef690aaed58988b9a6452c04b2585fc3af390d5b
 </ul>
 
             </div>
@@ -514,6 +597,34 @@
 
 
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+
+=======
+<div id="webim">
+<dl class="dlstyle">
+	<dt class="dtstyle">
+		<strong id="webim_title">&nbsp;</strong><span id="webimclosebutton">关闭</span></dt>
+</dl>
+<dl>
+	<dd>
+		<a href="" id="webim_link" target="_blank"><img id="webim_img" src="" style="width: 280px; height: 188px" /></a></dd>
+</dl>
+</div>
+>>>>>>> 4f6ed917674d72ff56463bbf851db2f3da02bbdf
+>>>>>>> 310213350f1d5df76c8852010a9bac2f4562966b
+>>>>>>> 8d00ff6f503a811dcc8aeecc10a3d7b428629001
+>>>>>>> f376cbe27799c336ee6f3dfe9b65ef50b83eb90c
+>>>>>>> eed612c58e81fdaf3823e38e44dd919d665733fb
+>>>>>>> ef690aaed58988b9a6452c04b2585fc3af390d5b
 <script type="text/javascript">
   var arr = new Array(); 
 
