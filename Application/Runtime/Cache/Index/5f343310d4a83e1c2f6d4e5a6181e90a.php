@@ -29,7 +29,11 @@
 
 	<div class="clear"></div>
 	<div class="top2">
+<<<<<<< HEAD
 		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/bbs/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
+=======
+		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
+>>>>>>> 0eb3888630779aca000b2a0064eb4a949cf1bc52
 		<div class="fl toubu">
 		<div class="toubu-font1">PHP学院</div>
 			 <!-- 校区 -->
@@ -141,7 +145,11 @@
 			  	
 				<dl class="ganyan1 huodong1">
 	<dt class="fl">
+<<<<<<< HEAD
 		<a href="http://php.itcast.cn/news/20131117/14525122556.shtml" target="_blank"><img src="/bbs/Application/Common/index/images/4.jpg" style="width: 286px; height: 215px;" /><br />
+=======
+		<a href="http://php.itcast.cn/news/20131117/14525122556.shtml" target="_blank"><img src="/Application/Common/index/images/4.jpg" style="width: 286px; height: 215px;" /><br />
+>>>>>>> 0eb3888630779aca000b2a0064eb4a949cf1bc52
 		天空一声巨响 四组闪亮登场</a></dt>
 	<dd class="huodongfr">
 		<h3 class="STYLE7">班级活动</h3>
@@ -247,7 +255,23 @@
 		<h4 class="righttitle1" style="margin-top:10px;"><span class="fl">PHP培训开班信息</span></h4>
 			<div class="jyjb-left" >
 			<ul>
+<<<<<<< HEAD
 <li style="border-bottom: medium none; float: left; color: #515151"><a href="/bbs/Index/Index/training"><b><font style="color: #515151">PHP基础班</font></b></a></li>
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<li style="border-bottom: medium none; float: left; color: #515151"><a href="<?php echo U('jyjb/training');?>"><b><font style="color: #515151">PHP基础班</font></b></a></li>
+<br />
+</ul>
+<ul style="clear: both">
+<?php if(is_array($ke1)): foreach($ke1 as $key=>$it): ?><li><a href="<?php echo U('jyjb/training',array('id'=>$it['id']));?>" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<li style="border-bottom: medium none; float: left; color: #515151"><a href="/addbbs/Index/Index/training"><b><font style="color: #515151">PHP基础班</font></b></a></li>
+>>>>>>> 0eb3888630779aca000b2a0064eb4a949cf1bc52
 <br />
 </ul>
 <ul style="clear: both">
@@ -261,11 +285,76 @@
 <?php if(is_array($ke2)): foreach($ke2 as $key=>$it): ?><li><a href="/bbs/Index/Index/training" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
 </ul>
 <ul>
+<<<<<<< HEAD
 <li style="border-bottom: medium none; float: left; color: #515151"><a href="/bbs/Index/Index/training"><b><font style="color: #515151">PHP远程班</font></b></a></li>
 <br />
 </ul>
 <ul style="clear: both">
 <?php if(is_array($ke3)): foreach($ke3 as $key=>$it): ?><li><a href="/bbs/Index/Index/training?id=<?php echo ($it["id"]); ?>" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
+=======
+<li style="border-bottom: medium none; float: left; color: #515151"><a href="http://php.itcast.cn/news/981030b0/96d5/4005/9ae4/eba8bac4195a.shtml"><b><font style="color: #515151">PHP远程班</font></b></a></li>
+<br />
+</ul>
+<ul style="clear: both">
+<li><a href="http://php.itcast.cn/news/981030b0/96d5/4005/9ae4/eba8bac4195a.shtml" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span>基础班--第34期(2015年01月10号)</a></li>
+<li><a href="http://php.itcast.cn/news/981030b0/96d5/4005/9ae4/eba8bac4195a.shtml" target="_blank"><span class="time jyjb-font1"><b>爆满已开班</b></span>基础班--第33期(2014年11月27号)</a></li>
+<li><a href="http://php.itcast.cn/news/981030b0/96d5/4005/9ae4/eba8bac4195a.shtml" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span>就业班--第34期(2015年01月05号)</a></li>
+<li><a href="http://php.itcast.cn/news/981030b0/96d5/4005/9ae4/eba8bac4195a.shtml" target="_blank"><span class="time jyjb-font1"><b>爆满已开班</b></span>就业班--第33期(2014年11月21号)</a></li>
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> f376cbe27799c336ee6f3dfe9b65ef50b83eb90c
+>>>>>>> ef690aaed58988b9a6452c04b2585fc3af390d5b
+<li style="border-bottom: medium none; float: left; color: #515151"><a href="/Index/Index/training"><b><font style="color: #515151">PHP基础班</font></b></a></li>
+<br />
+</ul>
+<ul style="clear: both">
+<?php if(is_array($ke1)): foreach($ke1 as $key=>$it): ?><li><a href="/Index/Index/training?id=<?php echo ($it["id"]); ?>" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
+<<<<<<< HEAD
+=======
+>>>>>>> 8d00ff6f503a811dcc8aeecc10a3d7b428629001
+>>>>>>> eed612c58e81fdaf3823e38e44dd919d665733fb
+>>>>>>> ef690aaed58988b9a6452c04b2585fc3af390d5b
+</ul>
+<ul>
+<li style="border-bottom: medium none; float: left; color: #515151"><a href="/Index/Index/training?id=<?php echo ($it["id"]); ?>"><b><font style="color: #515151">PHP就业班</font></b></a></li>
+<br />
+</ul>
+<ul style="clear: both">
+<<<<<<< HEAD
+<?php if(is_array($ke2)): foreach($ke2 as $key=>$it): ?><li><a href="/Index/Index/training" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
+=======
+<<<<<<< HEAD
+<?php if(is_array($ke2)): foreach($ke2 as $key=>$it): ?><li><a href="<?php echo U('jyjb/training',array('id'=>$it['id']));?>" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
+=======
+<?php if(is_array($ke2)): foreach($ke2 as $key=>$it): ?><li><a href="/addbbs/Index/Index/training" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
+>>>>>>> eed612c58e81fdaf3823e38e44dd919d665733fb
+>>>>>>> ef690aaed58988b9a6452c04b2585fc3af390d5b
+</ul>
+<ul>
+<li style="border-bottom: medium none; float: left; color: #515151"><a href="/Index/Index/training"><b><font style="color: #515151">PHP远程班</font></b></a></li>
+<br />
+</ul>
+<ul style="clear: both">
+<<<<<<< HEAD
+<?php if(is_array($ke3)): foreach($ke3 as $key=>$it): ?><li><a href="/Index/Index/training?id=<?php echo ($it["id"]); ?>" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
+=======
+<<<<<<< HEAD
+<?php if(is_array($ke3)): foreach($ke3 as $key=>$it): ?><li><a href="<?php echo U('jyjb/training',array('id'=>$it['id']));?>" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
+=======
+<<<<<<< HEAD
+<?php if(is_array($ke3)): foreach($ke3 as $key=>$it): ?><li><a href="/addbbs/Index/Index/training?id=<?php echo ($it["id"]); ?>" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
+=======
+<?php if(is_array($ke3)): foreach($ke3 as $key=>$it): ?><li><a href="/Index/Index/training?id=<?php echo ($it["id"]); ?>" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
+<<<<<<< HEAD
+=======
+>>>>>>> 4f6ed917674d72ff56463bbf851db2f3da02bbdf
+>>>>>>> 310213350f1d5df76c8852010a9bac2f4562966b
+>>>>>>> 8d00ff6f503a811dcc8aeecc10a3d7b428629001
+>>>>>>> f376cbe27799c336ee6f3dfe9b65ef50b83eb90c
+>>>>>>> eed612c58e81fdaf3823e38e44dd919d665733fb
+>>>>>>> ef690aaed58988b9a6452c04b2585fc3af390d5b
+>>>>>>> 0eb3888630779aca000b2a0064eb4a949cf1bc52
 </ul>
 
             </div>
@@ -511,6 +600,37 @@
 
 
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+
+=======
+<div id="webim">
+<dl class="dlstyle">
+	<dt class="dtstyle">
+		<strong id="webim_title">&nbsp;</strong><span id="webimclosebutton">关闭</span></dt>
+</dl>
+<dl>
+	<dd>
+		<a href="" id="webim_link" target="_blank"><img id="webim_img" src="" style="width: 280px; height: 188px" /></a></dd>
+</dl>
+</div>
+>>>>>>> 4f6ed917674d72ff56463bbf851db2f3da02bbdf
+>>>>>>> 310213350f1d5df76c8852010a9bac2f4562966b
+>>>>>>> 8d00ff6f503a811dcc8aeecc10a3d7b428629001
+>>>>>>> f376cbe27799c336ee6f3dfe9b65ef50b83eb90c
+>>>>>>> eed612c58e81fdaf3823e38e44dd919d665733fb
+>>>>>>> ef690aaed58988b9a6452c04b2585fc3af390d5b
+>>>>>>> 0eb3888630779aca000b2a0064eb4a949cf1bc52
 <script type="text/javascript">
   var arr = new Array(); 
 

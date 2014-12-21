@@ -29,7 +29,11 @@
 
 	<div class="clear"></div>
 	<div class="top2">
+<<<<<<< HEAD
+		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
+=======
 		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/bbs/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
+>>>>>>> ef690aaed58988b9a6452c04b2585fc3af390d5b
 		<div class="fl toubu">
 		<div class="toubu-font1">PHP学院</div>
 			 <!-- 校区 -->
@@ -59,7 +63,7 @@
 		
 <div id="box">
 		  <div id="left" class="fl"  style="margin-top:3px;">
-			<div><img src="/bbs/Application/Common/index/images/lefttop.gif"/></div>
+			<div><img src="/Application/Common/index/images/lefttop.gif"/></div>
 			<div class="left_content2">
 			  <div style="width:100%; height:auto; overflow:hidden; border-bottom:1px solid #ccc;"> 
 			    <h4 class="ganyan">
@@ -75,7 +79,7 @@
 <div class="spxz_1">
 <div class="sp_pic">
     <video width="320" height="260" controls="controls">
-      <source src="/bbs/Application/Common/Public/<?php echo ($info["v_path"]); ?>" type="video/mp4">
+      <source src="/Application/Common/Public/<?php echo ($info["v_path"]); ?>" type="video/mp4">
      <ideo></div>
 <div class="sp_text">
 <p></p>
@@ -124,7 +128,7 @@
            <!-- 评论区 -->
      			  </div>
 			</div>
-			<div><img src="/bbs/Application/Common/index/images/leftbottom.gif"/></div>
+			<div><img src="/Application/Common/index/images/leftbottom.gif"/></div>
 		</div>		
 		<div id="right" class="fl">
    <h4 class="righttitle1 zhaopin"><span class="blue">工具</span>下载</h4>
@@ -139,7 +143,7 @@ QQ影音</a></p>
 </div>
 
 		 </div>
-    <div class="rightbottom"><img src="/bbs/Application/Common/index/images/bottom1.gif"/></div>
+    <div class="rightbottom"><img src="/Application/Common/index/images/bottom1.gif"/></div>
 	    <h4 class="righttitle1 lianxi" style="margin-top:1px; background:url(/images/titl.jpg)"><span class="fl"><span class="blue">课程</span>咨询</span></h4>
     <div class="rightkuang indexkuang" style="padding-bottom:26px; height:auto; overflow:hidden;" >
       <dl>
@@ -200,7 +204,7 @@ QQ影音</a></p>
 </dl>-->
       <div class="clear"></div>
     </div>
-    <div class="rightbottom"><img src="/bbs/Application/Common/index/images/rightbottom.jpg"/></div>
+    <div class="rightbottom"><img src="/Application/Common/index/images/rightbottom.jpg"/></div>
 	  </div>
 	</div>		
 
