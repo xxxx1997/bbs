@@ -1,7 +1,7 @@
 <?php
 namespace Index\Controller;
 use Think\Controller;
-class QuestionController extends Controller {
+class QuestionController extends IndexController {
     public function index(){
         $Prob=M("problem");
         $info=$Prob->where("t_id=1")->select();

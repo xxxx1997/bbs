@@ -1,7 +1,7 @@
 <?php
 namespace Index\Controller;
 use Think\Controller;
-class JyjbController extends Controller {
+class JyjbController extends IndexController {
     public function index(){
         $Emp = M('employment');
         $Video = M('video');
