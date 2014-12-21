@@ -1,12 +1,9 @@
 <?php
 namespace Index\Controller;
 use Think\Controller;
-<<<<<<< HEAD
+
 class QuestionController extends IndexController {
-=======
-class QuestionController extends Controller {
-    #显示常见问题的列表
->>>>>>> 0eb3888630779aca000b2a0064eb4a949cf1bc52
+
     public function index(){
         $Prob=M("problem");
         $info=$Prob->where("t_id=1")->select();
