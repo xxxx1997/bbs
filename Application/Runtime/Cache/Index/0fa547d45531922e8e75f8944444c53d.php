@@ -26,7 +26,7 @@
 
 	<div class="clear"></div>
 	<div class="top2">
-		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/bbs/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
+		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
 		<div class="fl toubu">
 		<div class="toubu-font1">PHP学院</div>
 			 <!-- 校区 -->
@@ -60,14 +60,14 @@
 <!--输出-->
  
 <div id="box">
-  <div style="width:960px; height:149px; margin:0 auto;"><img src="/bbs/Application/Common/index/images/teacherpic.jpg"  /></div>
+  <div style="width:960px; height:149px; margin:0 auto;"><img src="/Application/Common/index/images/teacherpic.jpg"  /></div>
   <div id="left" class="fl"  style="margin-top:3px;">
-    <div><img src="/bbs/Application/Common/index/images/lefttop.gif"/></div>
+    <div><img src="/Application/Common/index/images/lefttop.gif"/></div>
     <div class="left_content2">
       <h4 class="ganyan"><span class="STYLE3">师资</span>介绍</h4>
       <div class="teacher_z" style="height: auto; overflow: hidden">
 <?php if(is_array($info)): foreach($info as $key=>$it): ?><div class="teacher">
-<p class="fl"><img alt="" src="/bbs/Application/Common/Public/<?php echo ($it["t_photo"]); ?>" style="width: 155px; height: 189px;" /></p>
+<p class="fl"><img alt="" src="/Application/Common/Public/<?php echo ($it["t_photo"]); ?>" style="width: 155px; height: 189px;" /></p>
 <dl class="fr">
 	<dt>
         <strong><a  target="_blank" href="<?php echo U('teacher/det',array('t_id'=>$it['t_id']));?>"><?php echo ($it["t_name"]); ?></a></strong></dt>
@@ -84,35 +84,35 @@
 <br />
 
     </div>
-    <div><img src="/bbs/Application/Common/index/images/leftbottom.gif"/></div>
+    <div><img src="/Application/Common/index/images/leftbottom.gif"/></div>
   </div>
   <div id="right" class="fl">
     <h4 class="righttitle1 zhaopin"><span class="blue">讲师</span>招聘</h4>
     <div class="rightkuang1">
-      <p class="cent"><img src="/bbs/Application/Common/index/images/xuanze.jpg" width="256" height="66" /></p>
+      <p class="cent"><img src="/Application/Common/index/images/xuanze.jpg" width="256" height="66" /></p>
       <div class="clear"> </div>
       <p class="miaoshu"> 中国的软件教育已经坑害了不少软件工程师苗子，传智播客自成立之日起就立志于改变中国的软件教育，目前已经出版IT教程书籍十多本，教学视频几十套，发表各类技术文章几百篇，已经开始对中国的软件教育有所影响。随着传智播客的事业被越来越多的人认知，加盟到传智播客愿意为此事业奋斗终生的技术牛人也越来越多。尽管加盟到传智播客的技术牛人很多，但要从政策上改变中国的软件教育，我们的力量还很小，小到可以说是微不足道。所以我们需要各路英雄豪杰加盟传智播客，为改变中国的软件教育而奋斗不息。</p>
-      <p class="cent"><a href="/news/9838ccfe/74aa/4532/915e/f905284de34e.shtml" target="_blank"><img src="/bbs/Application/Common/index/images/liulan.jpg" width="142" height="23"/></a></p>
+      <p class="cent"><a href="/news/9838ccfe/74aa/4532/915e/f905284de34e.shtml" target="_blank"><img src="/Application/Common/index/images/liulan.jpg" width="142" height="23"/></a></p>
     </div>
-    <div class="rightbottom"><img src="/bbs/Application/Common/index/images/bottom1.gif"/></div>
+    <div class="rightbottom"><img src="/Application/Common/index/images/bottom1.gif"/></div>
     <h4 class="righttitle1"><span class="fl">我们出版的书籍</span><span class="fr"><a href="/channel/book.shtml">+MORE</a></span></h4>
     <div class="rightkuang chuban" style="height:auto; overflow:hidden;">
        <dl>
-        <dt><a href="http://product.dangdang.com/product.aspx?product_id=8758723" target="_blank"><img src="/bbs/Application/Common/index/images/book04.jpg"/></a></dt>
+        <dt><a href="http://product.dangdang.com/product.aspx?product_id=8758723" target="_blank"><img src="/Application/Common/index/images/book04.jpg"/></a></dt>
         <dd><span class="blue"><strong><a href="http://product.dangdang.com/product.aspx?product_id=8758723" target="_blank">《Java就业培训教程》</a></strong></span></dd>
         <dd>作 者：<span class="STYLE4">张孝祥</span> </dd>
         <dd>定价：<span class="STYLE6"><strong>￥39.00元</strong> </span></dd>
         <dd>页数：<span class="STYLE4">394</span> </dd>
 </dl>
 <dl>
-        <dt><a href="http://product.dangdang.com/product.aspx?product_id=20280496" target="_blank"><img src="/bbs/Application/Common/index/images/book01.jpg"/></a></dt>
+        <dt><a href="http://product.dangdang.com/product.aspx?product_id=20280496" target="_blank"><img src="/Application/Common/index/images/book01.jpg"/></a></dt>
         <dd><span class="blue"><strong><a href="http://product.dangdang.com/product.aspx?product_id=20280496" target="_blank">《EJB3.0入门经典》</a></strong></span></dd>
         <dd>作 者：<span class="STYLE4">黎活明</span> </dd>
         <dd>定价：<span class="STYLE6"><strong>￥59.80 元</strong> </span></dd>
         <dd>页数：<span class="STYLE4">479</span> </dd>
 </dl> 
     </div>
-    <div class="rightbottom"><img src="/bbs/Application/Common/index/images/rightbottom.jpg"/></div>
+    <div class="rightbottom"><img src="/Application/Common/index/images/rightbottom.jpg"/></div>
     <h4 class="righttitle1 lianxi"><span class="fl"><span class="blue">课程</span>咨询</span></h4>
     <div class="rightkuang">
       <dl>
@@ -173,7 +173,7 @@
 </dl>-->
       <div class="clear"></div>
     </div>
-    <div class="rightbottom"><img src="/bbs/Application/Common/index/images/rightbottom.jpg"/></div>
+    <div class="rightbottom"><img src="/Application/Common/index/images/rightbottom.jpg"/></div>
   </div>
 </div>
 <div class="clear"></div>
