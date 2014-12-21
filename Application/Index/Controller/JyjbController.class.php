@@ -44,7 +44,6 @@ class JyjbController extends Controller {
     public function detailed(){
         $Acticle = M('article');
         $id=$_GET["id"];
-        
         $info=$Acticle->where("aid=$id")->select();
         //dump($info);
         //die;
