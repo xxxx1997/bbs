@@ -4,9 +4,9 @@
 <title>英雄四组</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-<link href="/addbbs/Application/Common/admin/css/style.css" rel="stylesheet" type="text/css" />
-<script language="JavaScript" src="/addbbs/Application/Common/admin/js/jquery.js"></script>
-<img src="/addbbs/Application/Common/admin/images/c.jpg" alt="" width="100%" height="150"/>
+<link href="/bbs/Application/Common/admin/css/style.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="/bbs/Application/Common/admin/js/jquery.js"></script>
+<img src="/bbs/Application/Common/admin/images/c.jpg" alt="" width="100%" height="150"/>
 <script type="text/javascript">
 $(function(){	
 	//导航切换
@@ -40,7 +40,7 @@ $(function(){
         
     <dd>
     <div class="title">
-    <span><img src="/addbbs/Application/Common/admin/images/leftico01.png" /></span>培训课程
+    <span><img src="/bbs/Application/Common/admin/images/leftico01.png" /></span>培训课程
     </div>
     	<ul class="menuson">
         <li <?php if($Think.ACTION_NAME=='course'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('admin/course');?>" >课程管理</a><i></i></li>
@@ -49,7 +49,7 @@ $(function(){
     </dd>
      <dd>
     <div class="title">
-    <span><img src="/addbbs/Application/Common/admin/images/leftico01.png" /></span>文章管理
+    <span><img src="/bbs/Application/Common/admin/images/leftico01.png" /></span>文章管理
     </div>
     	<ul class="menuson">
         <li <?php if($Think.ACTION_NAME=='article_list'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('article/article_list');?>" >文章列表</a><i></i></li>
@@ -60,7 +60,7 @@ $(function(){
     
     <dd>
     <div class="title">
-    <span><img src="/addbbs/Application/Common/admin/images/leftico02.png" /></span>视频
+    <span><img src="/bbs/Application/Common/admin/images/leftico02.png" /></span>视频
     </div>
     <ul class="menuson">
         <li <?php if($Think.ACTION_NAME=='video'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('video/video_list');?>">列表</a><i></i></li>
@@ -70,7 +70,7 @@ $(function(){
     </dd> 
     
     
-    <dd><div class="title"><span><img src="/addbbs/Application/Common/admin/images/leftico01.png" /></span>师资力量</div>
+    <dd><div class="title"><span><img src="/bbs/Application/Common/admin/images/leftico01.png" /></span>师资力量</div>
     <ul class="menuson">
         <li <?php if($Think.ACTION_NAME=='teacher_list'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('teacher/teacher_list');?>">列表</a><i></i></li>
 
@@ -79,7 +79,7 @@ $(function(){
             
             
             
-        <dd><div class="title"><span><img src="/addbbs/Application/Common/admin/images/leftico01.png" /></span>就业信息</div>
+        <dd><div class="title"><span><img src="/bbs/Application/Common/admin/images/leftico01.png" /></span>就业信息</div>
     <ul class="menuson">
         <li <?php if($Think.ACTION_NAME=='jyjb'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('admin/jyjb');?>">列表</a><i></i></li>
 
@@ -87,13 +87,13 @@ $(function(){
     </dd>
             
      
-    <dd><div class="title"><span><img src="/addbbs/Application/Common/admin/images/leftico01.png" /></span>常见问题</div>
+    <dd><div class="title"><span><img src="/bbs/Application/Common/admin/images/leftico01.png" /></span>常见问题</div>
     <ul class="menuson">
         <li <?php if($Think.ACTION_NAME=='question'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('admin/question');?>">列表</a><i></i></li>
 
     </ul>    
     </dd>
-       <dd><div class="title"><span><img src="/addbbs/Application/Common/admin/images/leftico01.png" /></span>系统管理</div>
+       <dd><div class="title"><span><img src="/bbs/Application/Common/admin/images/leftico01.png" /></span>系统管理</div>
     <ul class="menuson">
         <li><cite></cite><a href="#">统计</a><i></i></li>
          <li <?php if($Think.ACTION_NAME=='aa'){ echo "class='active'";} ?>><cite></cite><a href="right.html" target="rightFrame">数据列表</a><i></i></li>
@@ -113,7 +113,7 @@ $(function(){
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>添加教师</title>
-<link href="/addbbs/Application/Common/admin/css/style.css" rel="stylesheet" type="text/css" />
+<link href="/bbs/Application/Common/admin/css/style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -128,13 +128,13 @@ $(function(){
     
     <div class="formbody">
     
-        <div class="formtitle"><a href="/addbbs/Home/Video/video_list"><span>列表</span></a></div>
+        <div class="formtitle"><a href="/bbs/Home/Video/video_list"><span>列表</span></a></div>
         <form action="<?php echo U('video/add_do'),array('v_id'=>$_GET['v_id']);?>" method="post" enctype="multipart/form-data">
     <ul class="forminfo">
         <li><label>标题</label><input name="v_name" value="<?php echo ($list["v_name"]); ?>" type="text" class="dfinput" /><i></i></li>
     
     <li><label>作者</label><input name="v_author"value="<?php echo ($list["v_author"]); ?>" type="text" class="dfinput" /></li>
-    <li><label>上传封面图片</label><input name="v_thumb" type="file" /><img width='170' height="135" src="/addbbs/Application/Common/Public/<?php echo ($list["v_thumb"]); ?>" /></li>
+    <li><label>上传封面图片</label><input name="v_thumb" type="file" /><img width='170' height="135" src="/bbs/Application/Common/Public/<?php echo ($list["v_thumb"]); ?>" /></li>
     <li><label>视频连接</label><textarea name="v_label" cols="" rows="" class="textinput"><?php echo ($list["v_label"]); ?></textarea><i>你可以添加视频地址或者上传视频</i></li>
 
     <li><label>类别</label>
@@ -148,7 +148,7 @@ $(function(){
  if($list['v_label']==''){ ?>
       <video width="320" height="260" controls="controls">
 
-      <source src="/addbbs/Application/Common/Public/<?php echo ($list["v_path"]); ?>" type="video/mp4">
+      <source src="/bbs/Application/Common/Public/<?php echo ($list["v_path"]); ?>" type="video/mp4">
 
      </video>
 <?php

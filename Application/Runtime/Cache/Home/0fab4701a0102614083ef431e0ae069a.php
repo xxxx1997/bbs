@@ -163,7 +163,7 @@ $(document).ready(function(){
     <div class="tools">
     
     	<ul class="toolbar">
-            <li class="click"><a href="<?php echo U('teacher/add');?>"><span><img src="/bbs/Application/Common/admin/images/t01.png" /></span>添加</a></li>
+            <li><a href="<?php echo U('nav/nav_add');?>"><span><img src="/bbs/Application/Common/admin/images/t01.png" /></span>添加</a></li>
         <li class="click"><span><img src="/bbs/Application/Common/admin/images/t02.png" /></span>修改</li>
         <li><span><img src="/bbs/Application/Common/admin/images/t03.png" /></span>删除</li>
         <li><span><img src="/bbs/Application/Common/admin/images/t04.png" /></span>统计</li>
@@ -182,24 +182,22 @@ $(document).ready(function(){
     	<tr>
         <th><input name="" type="checkbox" value="" checked="checked"/></th>
         <th>编号<i class="sort"><img src="/bbs/Application/Common/admin/images/px.gif" /></i></th>
-        <th>姓名</th>
-        <th>级别</th>
-        <th>描述</th>
-        <th>time</th>
-        <th>图片</th>    
+
+        <th>name</th>
+        <th>url</th>
+  
         <th>操作</th>
         </tr>
         </thead>
         <tbody>
-            <?php if(is_array($list)): foreach($list as $key=>$vo): ?><tr id='tr<?php echo ($vo["t_id"]); ?>'>
+        <?php if(is_array($info)): foreach($info as $key=>$vo): ?><tr id='tr<?php echo ($vo["n_id"]); ?>'>
         <td><input name="" type="checkbox" value="" /></td>
-        <td><?php echo ($vo["t_id"]); ?></td>
-        <td><?php echo ($vo["t_name"]); ?></td>
-        <td><?php if($vo['cate_id']==1){echo '国内著名的软件培训高级讲师';} if($vo['cate_id']==2){echo '高级讲师、企业培训讲师';} if($vo['cate_id']==3){echo 'php项目经理';} if($vo['cate_id']==4){echo '架构师';} ?></td>
-        <td><?php echo mb_substr($vo['t_desc'],0,9,'utf-8'); ?></td>
-        <td><?php echo date('Y-m-d H:i:s',$vo['t_time']) ?></td>
-        <td><img width='100'height='50' src="/bbs/Application/Common/Public/<?php echo ($vo["t_photo"]); ?>"</td>        
-        <td><a href="<?php echo U('teacher/see',array('t_id'=>$vo['t_id']));?>" class="tablelink">查看</a>     <a href="#" onclick="del('<?php echo ($vo["t_id"]); ?>')" class="tablelink"> 删除</a></td>
+        <td><?php echo ($vo["n_id"]); ?></td>
+        <td><?php echo ($vo["n_name"]); ?></td>
+        <td><?php echo ($vo["n_url"]); ?></td>
+  
+             
+        <td><a href="#" onclick="del('<?php echo ($vo["id"]); ?>')" class="tablelink"> 删除</a></td>
         </tr><?php endforeach; endif; ?> 
         </tbody>
     </table>
@@ -209,7 +207,7 @@ $(document).ready(function(){
                 if(confirm('确认删除么?')){
                     $.ajax({
                         type: "POST",
-                        url: "<?php echo U('teacher/del');?>",
+                        url: "<?php echo U('article/del_class');?>",
                         data: "id="+id,
                         success: function(msg){ 
                           if(msg){
@@ -224,7 +222,7 @@ $(document).ready(function(){
         </script>
    
     <div class="pagin">
-    	<div class="message"><?php echo ($page); ?></div>
+    	<div class="message"></div>
 
             
         
