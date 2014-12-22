@@ -1,4 +1,7 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "/www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php if (!defined('THINK_PATH')) exit();?>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "/www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="/www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -26,7 +29,11 @@
 
 	<div class="clear"></div>
 	<div class="top2">
+<<<<<<< HEAD
+		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
+=======
 		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/bbs/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
+>>>>>>> ef690aaed58988b9a6452c04b2585fc3af390d5b
 		<div class="fl toubu">
 		<div class="toubu-font1">PHP学院</div>
 			 <!-- 校区 -->
@@ -42,27 +49,21 @@
 		<p class="fr"><img src="http://php.itcast.cn/images/topword.gif" alt="改变中国教育，我们正在行动..." class="png"/></p>
 	</div>
 	<div class="clear"></div>
-		<ul id="nav">
-	<li><a href="<?php echo U('index/index');?>" id="nav_main">首 页</a></li>
-	<li class="widt"><a href="<?php echo U('course/index');?>" id="nav_course">PHP培训课程</a> </li> 
-	<li class="widt"><a href="<?php echo U('video/index');?>" id="nav_videodl">PHP视频下载</a> </li>
-    <li id="nav_personnel"><a href="http://www.itcast.cn/channel/personnel.shtml">人才服务</a></li>
-    <li id="nav_life"><a href="http://www.itcast.cn/channel/campus.shtml">校园生活</a> </li>
-    <li id="nav_teacher"><a href="<?php echo U('teacher/index');?>">师资力量</a> </li>
-    <li id="nav_job"><a href="<?php echo U('jyjb/index');?>">就业信息</a> </li>
-    <li id="nav_flow"><a href="http://www.itcast.cn/channel/flow.shtml">报名流程</a> </li>
-    <li id="nav_book"><a href="http://www.itcast.cn/channel/book.shtml">原创教材</a> </li>
-	<li id="nav_question"><a href="<?php echo U('question/index');?>">常见问题</a></li>
-	<li><a href="http://www.itcast.cn/channel/contact.shtml">来校路线</a></li>
-	<li><a href="http://bbs.itcast.cn" target="_blank">技术论坛 </a></li>
-</ul>
+	<ul id="nav">
+	<?php foreach($a as $k=>$v){ ?>
+
+	<li><a href="<?php echo U($v['n_url']) ?>" ><?php echo $v['n_name']?></a></li>
+	 
+   <?php }?>
+	</ul>
+
 	</div>
 <!--输出-->
  
 		
 <div id="box">
 		  <div id="left" class="fl"  style="margin-top:3px;">
-			<div><img src="/bbs/Application/Common/index/images/lefttop.gif"/></div>
+			<div><img src="/Application/Common/index/images/lefttop.gif"/></div>
 			<div class="left_content2">
 			  <div style="width:100%; height:auto; overflow:hidden; border-bottom:1px solid #ccc;"> 
 			    <h4 class="ganyan">
@@ -78,7 +79,7 @@
 <div class="spxz_1">
 <div class="sp_pic">
     <video width="320" height="260" controls="controls">
-      <source src="/bbs/Application/Common/Public/<?php echo ($info["v_path"]); ?>" type="video/mp4">
+      <source src="/Application/Common/Public/<?php echo ($info["v_path"]); ?>" type="video/mp4">
      <ideo></div>
 <div class="sp_text">
 <p></p>
@@ -93,7 +94,7 @@
 <h4>视频描述</h4>
 <div><?php echo ($info["v_desc"]); ?></div>
 </div>
-<a href="http://edm.itcast.cn/?php" target="_blank"><img alt="" src="http://php.itcast.cn/files/image/201209/20120907135848045.png" style="width: 267px; height: 116px" /></a><br />
+
 <div class="spjs">
 <div class="spml">
 <h4>笔记目录：</h4>
@@ -127,7 +128,7 @@
            <!-- 评论区 -->
      			  </div>
 			</div>
-			<div><img src="/bbs/Application/Common/index/images/leftbottom.gif"/></div>
+			<div><img src="/Application/Common/index/images/leftbottom.gif"/></div>
 		</div>		
 		<div id="right" class="fl">
    <h4 class="righttitle1 zhaopin"><span class="blue">工具</span>下载</h4>
@@ -142,7 +143,7 @@ QQ影音</a></p>
 </div>
 
 		 </div>
-    <div class="rightbottom"><img src="/bbs/Application/Common/index/images/bottom1.gif"/></div>
+    <div class="rightbottom"><img src="/Application/Common/index/images/bottom1.gif"/></div>
 	    <h4 class="righttitle1 lianxi" style="margin-top:1px; background:url(/images/titl.jpg)"><span class="fl"><span class="blue">课程</span>咨询</span></h4>
     <div class="rightkuang indexkuang" style="padding-bottom:26px; height:auto; overflow:hidden;" >
       <dl>
@@ -203,7 +204,7 @@ QQ影音</a></p>
 </dl>-->
       <div class="clear"></div>
     </div>
-    <div class="rightbottom"><img src="/bbs/Application/Common/index/images/rightbottom.jpg"/></div>
+    <div class="rightbottom"><img src="/Application/Common/index/images/rightbottom.jpg"/></div>
 	  </div>
 	</div>		
 

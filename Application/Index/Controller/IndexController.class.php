@@ -3,6 +3,14 @@ namespace Index\Controller;
 use Think\Controller;
 header("content-type='textml' charset='utf8'");
 class IndexController extends Controller {
+
+	  public function __construct() {
+         parent::__construct();
+		 $a=M('nav')->select();
+        //print_r($info);die;
+        $this->assign('a',$a);
+   
+    }
     public function index(){
 		$video = M('employment');
 		$class=M('class');

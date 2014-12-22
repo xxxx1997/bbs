@@ -1,7 +1,8 @@
 <?php
 namespace Index\Controller;
 use Think\Controller;
-class CourseController extends Controller {
+class CourseController extends IndexController {
+	
     public function index(){
 		$class=M('class');
 		$list=M()->query("select * from __PREFIX__content");

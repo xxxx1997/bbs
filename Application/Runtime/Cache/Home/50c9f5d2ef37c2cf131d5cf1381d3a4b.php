@@ -3,9 +3,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>欢迎登录后台管理系统</title>
-<link href="/addbbs/Application/Common/admin/css/style.css" rel="stylesheet" type="text/css" />
-<script language="JavaScript" src="/addbbs/Application/Common/admin/js/jquery.js"></script>
-<script src="/addbbs/Application/Common/admin/js/cloud.js" type="text/javascript"></script>
+<link href="/bbs/Application/Common/admin/css/style.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="/bbs/Application/Common/admin/js/jquery.js"></script>
+<script src="/bbs/Application/Common/admin/js/cloud.js" type="text/javascript"></script>
 
 <script language="javascript">
 	$(function(){

@@ -1,4 +1,7 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "/www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php if (!defined('THINK_PATH')) exit();?>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "/www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="/www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -42,20 +45,14 @@
 		<p class="fr"><img src="http://php.itcast.cn/images/topword.gif" alt="改变中国教育，我们正在行动..." class="png"/></p>
 	</div>
 	<div class="clear"></div>
-		<ul id="nav">
-	<li><a href="<?php echo U('index/index');?>" id="nav_main">首 页</a></li>
-	<li class="widt"><a href="<?php echo U('course/index');?>" id="nav_course">PHP培训课程</a> </li> 
-	<li class="widt"><a href="<?php echo U('video/index');?>" id="nav_videodl">PHP视频下载</a> </li>
-    <li id="nav_personnel"><a href="http://www.itcast.cn/channel/personnel.shtml">人才服务</a></li>
-    <li id="nav_life"><a href="http://www.itcast.cn/channel/campus.shtml">校园生活</a> </li>
-    <li id="nav_teacher"><a href="<?php echo U('teacher/index');?>">师资力量</a> </li>
-    <li id="nav_job"><a href="<?php echo U('jyjb/index');?>">就业信息</a> </li>
-    <li id="nav_flow"><a href="http://www.itcast.cn/channel/flow.shtml">报名流程</a> </li>
-    <li id="nav_book"><a href="http://www.itcast.cn/channel/book.shtml">原创教材</a> </li>
-	<li id="nav_question"><a href="<?php echo U('question/index');?>">常见问题</a></li>
-	<li><a href="http://www.itcast.cn/channel/contact.shtml">来校路线</a></li>
-	<li><a href="http://bbs.itcast.cn" target="_blank">技术论坛 </a></li>
-</ul>
+	<ul id="nav">
+	<?php foreach($a as $k=>$v){ ?>
+
+	<li><a href="<?php echo U($v['n_url']) ?>" ><?php echo $v['n_name']?></a></li>
+	 
+   <?php }?>
+	</ul>
+
 	</div>
 <!--输出-->
  <div id="box">
@@ -85,7 +82,7 @@
 	.kcnr-table li{ list-style-image:url(http://www.itcast.cn/files/image/201207/20120718144154342.jpg); margin-left:15px;;</style>
 </div>
 <ul>
-<?php if(is_array($list)): foreach($list as $key=>$it): ?><li class="fl" style="width:141px;"><img src="/Application/Common/Public/<?php echo ($it["thumb"]); ?>" /></li>
+<?php if(is_array($list)): foreach($list as $key=>$it): ?><li class="fl" style="width:141px;"><img src="/bbs/Application/Common/Public/<?php echo ($it["thumb"]); ?>" /></li>
 <li class="fl jyjb-11-font1" style=" width:470px;"><b class="jyjb-11-font2"><a href="http://php.itcast.cn/php/course/base.shtml" target="_blank">PHP基础班</a></b>
 <p>本课程适合没有任何软件编程基础和网页设计经验，想先从基础入手的PHP开发爱好者。课程重点培养掌握HTML、CSS、Javascript等网站开发所必备的基础知识，另外帮助学员快速入门Apache服务器搭建、MySQL数据库和PHP编程基础，为以后深入学习PHP就业课程打下坚实基础。</p>
 </li><?php endforeach; endif; ?>
@@ -232,14 +229,14 @@
 <?php if(is_array($ke1)): foreach($ke1 as $key=>$it): ?><li><a href="<?php echo U('jyjb/training',array('id'=>$it['id']));?>" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
 </ul>
 <ul>
-<li style="border-bottom: medium none; float: left; color: #515151"><a href="/Index/Course/training?id=<?php echo ($it["id"]); ?>"><b><font style="color: #515151">PHP就业班</font></b></a></li>
+<li style="border-bottom: medium none; float: left; color: #515151"><a href="/bbs/Index/Course/training?id=<?php echo ($it["id"]); ?>"><b><font style="color: #515151">PHP就业班</font></b></a></li>
 <br />
 </ul>
 <ul style="clear: both">
 <?php if(is_array($ke2)): foreach($ke2 as $key=>$it): ?><li><a href="<?php echo U('jyjb/training',array('id'=>$it['id']));?>" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
 </ul>
 <ul>
-<li style="border-bottom: medium none; float: left; color: #515151"><a href="/Index/Course/training"><b><font style="color: #515151">PHP远程班</font></b></a></li>
+<li style="border-bottom: medium none; float: left; color: #515151"><a href="/bbs/Index/Course/training"><b><font style="color: #515151">PHP远程班</font></b></a></li>
 <br />
 </ul>
 <ul style="clear: both">

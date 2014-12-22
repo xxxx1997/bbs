@@ -1,4 +1,7 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "/www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php if (!defined('THINK_PATH')) exit();?>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "/www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="/www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -26,7 +29,7 @@
 
 	<div class="clear"></div>
 	<div class="top2">
-		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
+		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/bbs/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
 		<div class="fl toubu">
 		<div class="toubu-font1">PHP学院</div>
 			 <!-- 校区 -->
@@ -42,40 +45,33 @@
 		<p class="fr"><img src="http://php.itcast.cn/images/topword.gif" alt="改变中国教育，我们正在行动..." class="png"/></p>
 	</div>
 	<div class="clear"></div>
-		<ul id="nav">
-	<li><a href="<?php echo U('index/index');?>" id="nav_main">首 页</a></li>
-	<li class="widt"><a href="<?php echo U('course/index');?>" id="nav_course">PHP培训课程</a> </li> 
-	<li class="widt"><a href="<?php echo U('video/index');?>" id="nav_videodl">PHP视频下载</a> </li>
-    <li id="nav_personnel"><a href="http://www.itcast.cn/channel/personnel.shtml">人才服务</a></li>
-    <li id="nav_life"><a href="http://www.itcast.cn/channel/campus.shtml">校园生活</a> </li>
-    <li id="nav_teacher"><a href="<?php echo U('teacher/index');?>">师资力量</a> </li>
-    <li id="nav_job"><a href="<?php echo U('jyjb/index');?>">就业信息</a> </li>
-    <li id="nav_flow"><a href="http://www.itcast.cn/channel/flow.shtml">报名流程</a> </li>
-    <li id="nav_book"><a href="http://www.itcast.cn/channel/book.shtml">原创教材</a> </li>
-	<li id="nav_question"><a href="<?php echo U('question/index');?>">常见问题</a></li>
-	<li><a href="http://www.itcast.cn/channel/contact.shtml">来校路线</a></li>
-	<li><a href="http://bbs.itcast.cn" target="_blank">技术论坛 </a></li>
-</ul>
+	<ul id="nav">
+	<?php foreach($a as $k=>$v){ ?>
+
+	<li><a href="<?php echo U($v['n_url']) ?>" ><?php echo $v['n_name']?></a></li>
+	 
+   <?php }?>
+	</ul>
+
 	</div>
 <!--输出-->
  
 
 	<div id="box">
 		<div id="left" class="fl">
-			<div><img src="/images/lefttop.gif"/></div>
 			<div class="left_content">
 				<h2 class="title1"><span class="STYLE3">常见</span><span class="STYLE2">问题</span></h2>
 				<h3 class="title2">热点问题</h3>
 				<ul class="links">
 ﻿<ul>
- <?php if(is_array($info)): foreach($info as $key=>$it): ?><li><a href="/Index/Question/answer?id=<?php echo ($it["p_id"]); ?>" target="_blank"><?php echo ($it["p_title"]); ?></a><?php echo date('Y-m-d',$it['start_time']) ?></li><?php endforeach; endif; ?>
+ <?php if(is_array($info)): foreach($info as $key=>$it): ?><li><a href="/bbs/Index/Question/answer?id=<?php echo ($it["p_id"]); ?>" target="_blank"><?php echo ($it["p_title"]); ?></a><?php echo date('Y-m-d',$it['start_time']) ?></li><?php endforeach; endif; ?>
 </ul>
  
 				</ul>
 				<h3 class="title2">PHP相关问题</h3>
 				<ul class="links">
 <ul>
-   <?php if(is_array($data)): foreach($data as $key=>$it): ?><li><a href="/Index/Question/answer?id=<?php echo ($it["p_id"]); ?>" target="_blank"><?php echo ($it["p_title"]); ?></a></li><?php endforeach; endif; ?>
+   <?php if(is_array($data)): foreach($data as $key=>$it): ?><li><a href="/bbs/Index/Question/answer?id=<?php echo ($it["p_id"]); ?>" target="_blank"><?php echo ($it["p_title"]); ?></a></li><?php endforeach; endif; ?>
 </ul>
 
 			    </ul>
@@ -85,23 +81,7 @@
 			<h4 class="righttitle1"><span class="fl">PHP视频下载</span><span class="fr"><a href="/php/video.shtml">+MORE</a></span></h4>
 			<ul class="rightkuang">
 			<ul>
-<li><a href="http://net.itcast.cn/news/00666f00/c4c5/4aad/99e1/45f6673f7a31.shtml" target="_blank">C#编程基础视频教程</a></li>
-<li><a href="http://net.itcast.cn/news/770b900e/fcd4/4f10/bb25/bb0e99f0ab92.shtml" target="_blank">C#面向对象基础视频教程 </a></li>
-<li><a href="http://net.itcast.cn/news/047a81e7/616f/44fa/b103/2c38e5b51b48.shtml" target="_blank">wpf基础视频教程 </a></li>
-<li><a href="http://net.itcast.cn/news/4048960e/9f6f/4d71/8da4/07639e2bef0b.shtml" target="_blank">数据绑定和数据库开发基础 </a></li>
-<li><a href="http://net.itcast.cn/news/c804d7df/95b0/4e78/9505/7f6157220e59.shtml" target="_blank">Ado.Net项目开发教程 </a></li>
-<li><a href="http://net.itcast.cn/news/509b1bc4/5afc/4fe4/adf4/3757fc78b70c.shtml" target="_blank">HTML教程 </a></li>
-<li><a href="http://net.itcast.cn/news/bd4612c7/a940/4585/9153/487bbcc7fcd3.shtml" target="_blank">JavaScript教程</a></li>
-<li><a href="http://net.itcast.cn/news/68ac18e3/f435/45e8/999f/db6f32f9aeac.shtml" target="_blank">Dom教程</a></li>
-<li><a href="http://net.itcast.cn/subject/tegongnet/index.html" target="_blank">特供ASP.Net视频教程 </a></li>
-<li><a href="http://bbs.itcast.cn/thread-11528-1-1.html" target="_blank">Linux下运行ASP.Net网站(Mono)视频教程</a></li>
-<li><a href="http://bbs.itcast.cn/thread-11130-1-1.html" target="_blank">写程序自动识别验证码视频教程</a></li>
-<li><a href="http://bbs.itcast.cn/thread-14836-1-1.html" target="_blank">大型互联网技术Memcached视频教程</a></li>
-<li><a href="http://bbs.itcast.cn/thread-15261-1-1.html" target="_blank">ASP.Net MVC入门视频教程</a></li>
-<li><a href="http://bbs.itcast.cn/thread-15273-1-1.html" target="_blank">Unity3D游戏开发入门视频教程</a></li>
-<li><a href="http://bbs.itcast.cn/thread-11228-1-1.html" target="_blank">人事管理系统开发视频教程</a></li>
-<li><a href="http://bbs.itcast.cn/thread-19987-1-1.html" target="_blank">&quot;工作流&quot;开发视频教程</a></li>
-<li><a href="http://net.itcast.cn/subject/arrogant/index.shtml" target="_blank">毕业设计完整源码+文档下载</a></li>
+           <?php if(is_array($video)): foreach($video as $key=>$it): ?><li><a href="<?php echo U('Video/details',array('v_id'=>$it['v_id']));?>"><?php echo ($it["v_name"]); ?></a></li><?php endforeach; endif; ?>
 </ul>
 
 			</ul>

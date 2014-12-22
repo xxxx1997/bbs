@@ -1,7 +1,7 @@
 <?php
 namespace Index\Controller;
 use Think\Controller;
-class JyjbController extends Controller {
+class JyjbController extends IndexController {
     public function index(){
         $Emp = M('employment');
         $Video = M('video');
@@ -44,7 +44,6 @@ class JyjbController extends Controller {
     public function detailed(){
         $Acticle = M('article');
         $id=$_GET["id"];
-        
         $info=$Acticle->where("aid=$id")->select();
         //dump($info);
         //die;
