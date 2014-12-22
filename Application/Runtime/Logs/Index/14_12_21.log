@@ -1,4 +1,27 @@
 <<<<<<< HEAD
+[ 2014-12-21T19:04:51+08:00 ] 127.0.0.1 /addbbs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.067004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Index\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\addbbs\Application\Index\Controller\IndexController.class.php 第 39 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\addbbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_employment` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `bbs_class` [ RunTime:0.003000s ]
+SQL: select * from bbs_article where t_id=1 [ RunTime:0.003001s ]
+SQL: select * from bbs_article where t_id=2 [ RunTime:0.002000s ]
+SQL: select * from bbs_article where t_id=3 and state=0 [ RunTime:0.002000s ]
+SQL: select * from bbs_article where t_id=4 [ RunTime:0.002000s ]
+SQL: select * from bbs_article where t_id=5 [ RunTime:0.003000s ]
+SQL: select * from bbs_article where t_id=6 [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=1 )  [ RunTime:0.003001s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=2 )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=3 )  [ RunTime:0.002000s ]
+SQL: select * from bbs_employment  limit 0,8 [ RunTime:0.002000s ]
+=======
+<<<<<<< HEAD
 [ 2014-12-21T18:37:46+08:00 ] 127.0.0.1 /bbs/
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
@@ -33001,10 +33024,18 @@ SQL: SELECT * FROM `bbs_class` WHERE ( class_type=1 )  [ RunTime:0.003000s ]
 SQL: SELECT * FROM `bbs_class` WHERE ( class_type=2 )  [ RunTime:0.002000s ]
 SQL: SELECT * FROM `bbs_class` WHERE ( class_type=3 )  [ RunTime:0.002000s ]
 SQL: select * from bbs_employment  limit 0,8 [ RunTime:0.003000s ]
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
 INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
 INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+<<<<<<< HEAD
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.144008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.144008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.020001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020001s ]
+=======
 INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089006s ]
 INFO: [ view_parse ] --END-- [ RunTime:0.090006s ]
 INFO: [ view_filter ] --START--
@@ -33123,10 +33154,14 @@ INFO: [ view_parse ] --END-- [ RunTime:0.048003s ]
 INFO: [ view_filter ] --START--
 INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
 
+<<<<<<< HEAD
+[ 2014-12-21T19:04:54+08:00 ] 127.0.0.1 /addbbs/Index/portal/index.html
+=======
 [ 2014-12-21T20:22:59+08:00 ] 127.0.0.1 /bbs/Index/video/index.html
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
@@ -33153,12 +33188,18 @@ INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.031002s ]
 INFO: [ app_end ] --END-- [ RunTime:0.032002s ]
 
 [ 2014-12-21T19:59:55+08:00 ] 127.0.0.1 /Index/Question/verify_c
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+<<<<<<< HEAD
+ERR: 模板不存在:./Application/Index/View/Portal/index.html
+
+[ 2014-12-21T19:07:04+08:00 ] 127.0.0.1 /addbbs/Index/portal/index.html
+=======
 INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
@@ -33227,23 +33268,35 @@ INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009001s ]
 INFO: [ app_end ] --END-- [ RunTime:0.009001s ]
 
 [ 2014-12-21T20:00:05+08:00 ] 127.0.0.1 /Index/Question/verify_c
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+<<<<<<< HEAD
+ERR: 模板不存在:./Application/Index/View/Portal/index.html
+
+[ 2014-12-21T19:07:05+08:00 ] 127.0.0.1 /addbbs/Index/portal/index.html
+=======
 INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
 [ 2014-12-21T20:00:16+08:00 ] 127.0.0.1 /Index/Question/answer?id=16
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+<<<<<<< HEAD
+ERR: 模板不存在:./Application/Index/View/Portal/index.html
+
+[ 2014-12-21T19:07:06+08:00 ] 127.0.0.1 /addbbs/Index/portal/index.html
+=======
 NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
 SQL: SHOW COLUMNS FROM `bbs_problem` [ RunTime:0.004000s ]
 SQL: SELECT * FROM `bbs_problem` WHERE ( p_id=16 )  [ RunTime:0.004000s ]
@@ -33312,12 +33365,18 @@ INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
 
 [ 2014-12-21T20:00:46+08:00 ] 127.0.0.1 /Index/Question/answer?id=16
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+<<<<<<< HEAD
+ERR: 模板不存在:./Application/Index/View/Portal/index.html
+
+[ 2014-12-21T19:08:07+08:00 ] 127.0.0.1 /addbbs/Index/portal/index.html
+=======
 NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
 SQL: SHOW COLUMNS FROM `bbs_problem` [ RunTime:0.009001s ]
 SQL: SELECT * FROM `bbs_problem` WHERE ( p_id=16 )  [ RunTime:0.002000s ]
@@ -33390,12 +33449,24 @@ INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
 
 [ 2014-12-21T20:00:55+08:00 ] 127.0.0.1 /Index/Question/answer?id=16
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+<<<<<<< HEAD
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+=======
 NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
 SQL: SHOW COLUMNS FROM `bbs_problem` [ RunTime:0.002000s ]
 SQL: SELECT * FROM `bbs_problem` WHERE ( p_id=16 )  [ RunTime:0.002000s ]
@@ -33425,17 +33496,30 @@ INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
+<<<<<<< HEAD
+[ 2014-12-21T19:18:18+08:00 ] 127.0.0.1 /addbbs/Index/portal/index.html
+=======
 [ 2014-12-21T20:01:00+08:00 ] 127.0.0.1 /Index/Question/answer?id=16
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+<<<<<<< HEAD
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+=======
 NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
 SQL: SHOW COLUMNS FROM `bbs_problem` [ RunTime:0.002000s ]
 SQL: SELECT * FROM `bbs_problem` WHERE ( p_id=16 )  [ RunTime:0.001000s ]
@@ -33488,6 +33572,7 @@ INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
 INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
 INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077005s ]
 INFO: [ view_parse ] --END-- [ RunTime:0.077005s ]
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ view_filter ] --START--
 INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
@@ -33495,6 +33580,23 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
 
+<<<<<<< HEAD
+[ 2014-12-21T19:30:23+08:00 ] 127.0.0.1 /addbbs/Index/portal/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+=======
 [ 2014-12-21T20:24:59+08:00 ] 127.0.0.1 /bbs/Index/course/index.html
 =======
 NOTIC: [8] Use of undefined constant p_image - assumed 'p_image' D:\bbs\Application\Runtime\Cache\Index\db6929f654a38207b2b6298daec7f688.php 第 72 行.
@@ -33504,17 +33606,59 @@ INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
 INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
 INFO: [ view_filter ] --START--
 INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
 INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
+<<<<<<< HEAD
+[ 2014-12-21T19:36:24+08:00 ] 127.0.0.1 /addbbs/Index/portal/index.html
+=======
 [ 2014-12-21T20:01:00+08:00 ] 127.0.0.1 /Index/Question/verify_c
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+<<<<<<< HEAD
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-21T19:36:36+08:00 ] 127.0.0.1 /addbbs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Index\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\addbbs\Application\Index\Controller\IndexController.class.php 第 39 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\addbbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_employment` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_class` [ RunTime:0.003000s ]
+SQL: select * from bbs_article where t_id=1 [ RunTime:0.002000s ]
+SQL: select * from bbs_article where t_id=2 [ RunTime:0.002000s ]
+SQL: select * from bbs_article where t_id=3 and state=0 [ RunTime:0.001000s ]
+SQL: select * from bbs_article where t_id=4 [ RunTime:0.002000s ]
+SQL: select * from bbs_article where t_id=5 [ RunTime:0.003000s ]
+SQL: select * from bbs_article where t_id=6 [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=1 )  [ RunTime:0.003001s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=2 )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=3 )  [ RunTime:0.002000s ]
+SQL: select * from bbs_employment  limit 0,8 [ RunTime:0.001000s ]
+=======
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
@@ -33533,19 +33677,51 @@ SQL: SELECT * FROM `bbs_problem` WHERE ( p_id=16 )  [ RunTime:0.000000s ]
 SQL: SHOW COLUMNS FROM `bbs_comment` [ RunTime:0.002000s ]
 SQL: SELECT COUNT(*) AS tp_count FROM `bbs_comment` WHERE ( a_id=16 ) LIMIT 1   [ RunTime:0.001000s ]
 SQL: SELECT * FROM `bbs_comment` WHERE ( a_id=16 ) ORDER BY start_time LIMIT 3,3   [ RunTime:0.001000s ]
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
 INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
 INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+<<<<<<< HEAD
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+=======
 NOTIC: [8] Use of undefined constant p_image - assumed 'p_image' D:\bbs\Application\Runtime\Cache\Index\db6929f654a38207b2b6298daec7f688.php 第 72 行.
 NOTIC: [8] Array to string conversion D:\bbs\Application\Runtime\Cache\Index\db6929f654a38207b2b6298daec7f688.php 第 72 行.
 NOTIC: [8] Undefined index: id D:\bbs\Application\Runtime\Cache\Index\db6929f654a38207b2b6298daec7f688.php 第 146 行.
 INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
 INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ view_filter ] --START--
 INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
 INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_end ] --START--
+<<<<<<< HEAD
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-12-21T19:36:42+08:00 ] 127.0.0.1 /addbbs/Index/portal/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-12-21T19:44:55+08:00 ] 127.0.0.1 /addbbs/Index/portal/index.html
+=======
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008001s ]
 INFO: [ app_end ] --END-- [ RunTime:0.009001s ]
 
@@ -33568,10 +33744,29 @@ INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
 [ 2014-12-21T20:02:40+08:00 ] 127.0.0.1 /Index/Question/answer?id=16
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_begin ] --START--
+<<<<<<< HEAD
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-21T19:45:05+08:00 ] 127.0.0.1 /addbbs/Index/portal/index.html
+=======
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
 NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
@@ -33610,10 +33805,15 @@ INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
 [ 2014-12-21T20:02:40+08:00 ] 127.0.0.1 /Index/Question/verify_c
 >>>>>>> 0eb3888630779aca000b2a0064eb4a949cf1bc52
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
+<<<<<<< HEAD
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+=======
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
 <<<<<<< HEAD
 INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
@@ -33622,18 +33822,30 @@ SQL: SHOW COLUMNS FROM `bbs_videos` [ RunTime:0.004000s ]
 SQL: SELECT * FROM bbs_videos v,bbs_videos_cate c WHERE ( v.cate_id=c.cate_id ) ORDER BY v_id   [ RunTime:0.016001s ]
 SQL: SHOW COLUMNS FROM `bbs_problem` [ RunTime:0.003000s ]
 SQL: SELECT * FROM `bbs_problem` ORDER BY start_time desc LIMIT 5   [ RunTime:0.002001s ]
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
 INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
 INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+<<<<<<< HEAD
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+=======
 NOTIC: [8] Undefined variable: a E:\weike\bbs\Application\Runtime\Cache\Index\a45aff6309318cfd71247acb505cb3db.php 第 49 行.
 NOTIC: [2] Invalid argument supplied for foreach() E:\weike\bbs\Application\Runtime\Cache\Index\a45aff6309318cfd71247acb505cb3db.php 第 49 行.
 INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054003s ]
 INFO: [ view_parse ] --END-- [ RunTime:0.055003s ]
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ view_filter ] --START--
 INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_end ] --START--
+<<<<<<< HEAD
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-21T20:00:48+08:00 ] 127.0.0.1 /addbbs/Index/portal/index.html
+=======
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
 
@@ -33646,10 +33858,15 @@ INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
 
 [ 2014-12-21T20:03:15+08:00 ] 127.0.0.1 /Index/Question/answer?id=16
 >>>>>>> 0eb3888630779aca000b2a0064eb4a949cf1bc52
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
+<<<<<<< HEAD
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+=======
 <<<<<<< HEAD
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
@@ -33671,10 +33888,29 @@ SQL: SHOW COLUMNS FROM `bbs_comment` [ RunTime:0.006001s ]
 SQL: SELECT COUNT(*) AS tp_count FROM `bbs_comment` WHERE ( a_id=16 ) LIMIT 1   [ RunTime:0.001000s ]
 SQL: SELECT * FROM `bbs_comment` WHERE ( a_id=16 ) ORDER BY start_time LIMIT 0,3   [ RunTime:0.002000s ]
 >>>>>>> 0eb3888630779aca000b2a0064eb4a949cf1bc52
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
 INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
 INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+<<<<<<< HEAD
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-12-21T20:01:31+08:00 ] 127.0.0.1 /addbbs/Index/portal/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+=======
 <<<<<<< HEAD
 INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041003s ]
 INFO: [ view_parse ] --END-- [ RunTime:0.041003s ]
@@ -33724,10 +33960,43 @@ SQL: SELECT * FROM `bbs_class` WHERE ( class_type=1 )  [ RunTime:0.003000s ]
 SQL: SELECT * FROM `bbs_class` WHERE ( class_type=2 )  [ RunTime:0.003000s ]
 SQL: SELECT * FROM `bbs_class` WHERE ( class_type=3 )  [ RunTime:0.004000s ]
 SQL: select * from bbs_employment  limit 0,8 [ RunTime:0.003001s ]
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
 INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
 INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+<<<<<<< HEAD
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-21T20:02:12+08:00 ] 127.0.0.1 /addbbs/Index/portal/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-12-21T20:02:48+08:00 ] 127.0.0.1 /addbbs/Index/portal/index.html
+=======
 INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.105006s ]
 INFO: [ view_parse ] --END-- [ RunTime:0.105006s ]
 INFO: [ view_filter ] --START--
@@ -33762,12 +34031,21 @@ INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
 [ 2014-12-21T20:03:20+08:00 ] 127.0.0.1 /Index/Question/answer?id=16
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+<<<<<<< HEAD
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+=======
 NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
 SQL: SHOW COLUMNS FROM `bbs_problem` [ RunTime:0.001000s ]
 SQL: SELECT * FROM `bbs_problem` WHERE ( p_id=16 )  [ RunTime:0.007000s ]
@@ -33784,10 +34062,29 @@ NOTIC: [8] Undefined index: id D:\bbs\Application\Runtime\Cache\Index\db6929f654
 INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
 INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
 >>>>>>> 0eb3888630779aca000b2a0064eb4a949cf1bc52
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ view_filter ] --START--
 INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_end ] --START--
+<<<<<<< HEAD
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-21T20:11:16+08:00 ] 127.0.0.1 /addbbs/Index/portal/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+=======
 <<<<<<< HEAD
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
@@ -33813,10 +34110,43 @@ INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
 INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
 INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044003s ]
 INFO: [ view_parse ] --END-- [ RunTime:0.044003s ]
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ view_filter ] --START--
 INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_end ] --START--
+<<<<<<< HEAD
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-21T20:11:28+08:00 ] 127.0.0.1 /addbbs/Index/portal/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-21T20:11:52+08:00 ] 127.0.0.1 /addbbs/Index/portal/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+=======
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
 
@@ -33861,10 +34191,63 @@ SQL: SHOW COLUMNS FROM `bbs_comment` [ RunTime:0.005000s ]
 SQL: SELECT COUNT(*) AS tp_count FROM `bbs_comment` WHERE ( a_id=16 ) LIMIT 1   [ RunTime:0.001000s ]
 SQL: SELECT * FROM `bbs_comment` WHERE ( a_id=16 ) ORDER BY start_time LIMIT 0,3   [ RunTime:0.007000s ]
 >>>>>>> 0eb3888630779aca000b2a0064eb4a949cf1bc52
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
 INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
 INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+<<<<<<< HEAD
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-21T20:15:44+08:00 ] 127.0.0.1 /addbbs/Index/portal/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-12-21T20:19:17+08:00 ] 127.0.0.1 /addbbs/Index/portal/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-21T20:19:17+08:00 ] 127.0.0.1 /addbbs/Index/portal/data/cache/style_8_common.css?cg8
+=======
 <<<<<<< HEAD
 INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056003s ]
 INFO: [ view_parse ] --END-- [ RunTime:0.056003s ]
@@ -33913,12 +34296,45 @@ INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
 [ 2014-12-21T20:03:41+08:00 ] 127.0.0.1 /Index/Question/answer/id/16/p/2.html
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+<<<<<<< HEAD
+ERR: 非法操作:data
+
+[ 2014-12-21T20:19:17+08:00 ] 127.0.0.1 /addbbs/Index/portal/static/js/portal.js?cg8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:static
+
+[ 2014-12-21T20:19:17+08:00 ] 127.0.0.1 /addbbs/Index/portal/static/js/common.js?cg8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:static
+
+[ 2014-12-21T20:19:17+08:00 ] 127.0.0.1 /addbbs/Index/portal/template/veikei_dz_portal_20131130_texture/images/nv.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:template
+
+[ 2014-12-21T20:19:17+08:00 ] 127.0.0.1 /addbbs/Index/portal/home.php?mod=misc&ac=sendmail&rand=1419159150
+=======
 NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
 SQL: SHOW COLUMNS FROM `bbs_problem` [ RunTime:0.002000s ]
 SQL: SELECT * FROM `bbs_problem` WHERE ( p_id=16 )  [ RunTime:0.001001s ]
@@ -33979,12 +34395,18 @@ INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
 [ 2014-12-21T20:04:10+08:00 ] 127.0.0.1 /Index/Question/comment?content=%E5%8F%97%E5%88%B0%E5%B9%BF%E6%B3%9B%E5%8F%97%E5%88%B0%E7%9B%91%E7%AE%A1%E6%96%B9%E5%BC%8F%E7%9A%84%E4%BB%B7%E6%A0%BC%E7%A6%8F%E5%BB%BA%E7%9C%81%E7%9A%84%E5%AE%98%E6%96%B9%E6%A0%B8%E5%AE%9E%E7%9A%84%E8%82%A1%E4%BB%BD%E5%85%AC%E5%8F%B8%E7%9A%84%E5%88%86%E5%85%AC%E5%8F%B8%E7%9A%84%E5%88%86%E5%85%AC%E5%8F%B8%E7%9A%84%E8%B4%AD%E6%88%BF%E4%BA%A4%E6%B0%B4%E7%94%B5%E8%B4%B9&code=3477&region=%E5%8C%97%E4%BA%AC%E7%9C%81%E5%8C%97%E4%BA%AC%E5%B8%82++%E7%BD%91%E9%80%9A%E7%BD%91%E5%8F%8B+ip%EF%BC%9A123.117.233.0+%E6%B8%B8%E5%AE%A2&a_id=16
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+<<<<<<< HEAD
+ERR: 非法操作:home.php
+
+[ 2014-12-21T20:19:20+08:00 ] 127.0.0.1 /addbbs/Index/portal/index.html
+=======
 NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
 SQL: SHOW COLUMNS FROM `bbs_comment` [ RunTime:0.002001s ]
 NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
@@ -33995,10 +34417,15 @@ INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
 [ 2014-12-21T20:06:42+08:00 ] 127.0.0.1 /Index/Question/answer?id=16
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
+<<<<<<< HEAD
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+=======
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
 NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
@@ -34008,10 +34435,59 @@ SQL: SHOW COLUMNS FROM `bbs_comment` [ RunTime:0.004000s ]
 SQL: SELECT COUNT(*) AS tp_count FROM `bbs_comment` WHERE ( a_id=16 ) LIMIT 1   [ RunTime:0.005000s ]
 SQL: SELECT * FROM `bbs_comment` WHERE ( a_id=16 ) ORDER BY start_time LIMIT 0,3   [ RunTime:0.003001s ]
 >>>>>>> 0eb3888630779aca000b2a0064eb4a949cf1bc52
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
 INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
 INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+<<<<<<< HEAD
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-21T20:19:20+08:00 ] 127.0.0.1 /addbbs/Index/portal/static/js/common.js?cg8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:static
+
+[ 2014-12-21T20:19:20+08:00 ] 127.0.0.1 /addbbs/Index/portal/data/cache/style_8_common.css?cg8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:data
+
+[ 2014-12-21T20:19:20+08:00 ] 127.0.0.1 /addbbs/Index/portal/static/js/portal.js?cg8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:static
+
+[ 2014-12-21T20:19:20+08:00 ] 127.0.0.1 /addbbs/Index/portal/template/veikei_dz_portal_20131130_texture/images/nv.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:template
+
+[ 2014-12-21T20:19:20+08:00 ] 127.0.0.1 /addbbs/Index/portal/home.php?mod=misc&ac=sendmail&rand=1419159150
+=======
 <<<<<<< HEAD
 INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
 INFO: [ view_parse ] --END-- [ RunTime:0.053003s ]
@@ -34091,12 +34567,18 @@ INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
 [ 2014-12-21T20:06:52+08:00 ] 127.0.0.1 /Index/Question/comment?content=%E5%9C%A3%E8%AF%9E%E8%8A%82%E5%BC%80%E6%94%BE%E5%BC%8F%E7%9A%84%E8%82%8C%E8%82%A4%E5%85%AC%E5%8F%B8%E7%9A%84%E5%81%A5%E5%BA%B7%E6%B3%95%E8%A7%84%E5%92%8C%E6%8A%80%E6%9C%AF%E7%9A%84%E5%9B%BD%E9%98%B2%E7%94%9F%E7%9A%84%E9%AA%A8%E7%81%B0%E7%BA%A7%E7%B2%89%E4%B8%9D%E7%9A%84%E5%9B%BD%E9%98%B2%E7%94%9F%E7%9A%84%E7%BB%93%E6%9E%84%E5%8F%91%E7%94%9F%E7%9A%84%E7%A6%8F%E5%BB%BA%E7%9C%81%E7%9A%84%E5%B7%A5%E4%BC%9A%E7%BB%8F%E8%B4%B9%E5%85%AC%E5%8F%B8%E7%9A%84%E6%9C%BA%E5%85%B3%E7%BB%8F%E8%B4%B9&code=2410&region=%E5%8C%97%E4%BA%AC%E7%9C%81%E5%8C%97%E4%BA%AC%E5%B8%82++%E7%BD%91%E9%80%9A%E7%BD%91%E5%8F%8B+ip%EF%BC%9A123.117.233.0+%E6%B8%B8%E5%AE%A2&a_id=16
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+<<<<<<< HEAD
+ERR: 非法操作:home.php
+
+[ 2014-12-21T20:19:45+08:00 ] 127.0.0.1 /addbbs/Index/portal/index.html
+=======
 NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
 SQL: SHOW COLUMNS FROM `bbs_comment` [ RunTime:0.002001s ]
 NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
@@ -34107,11 +34589,15 @@ INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
 
 [ 2014-12-21T20:08:27+08:00 ] 127.0.0.1 /Index/Question/answer?id=16
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+<<<<<<< HEAD
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+=======
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
 NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
 SQL: SHOW COLUMNS FROM `bbs_problem` [ RunTime:0.002001s ]
@@ -34119,10 +34605,29 @@ SQL: SELECT * FROM `bbs_problem` WHERE ( p_id=16 )  [ RunTime:0.007000s ]
 SQL: SHOW COLUMNS FROM `bbs_comment` [ RunTime:0.005000s ]
 SQL: SELECT COUNT(*) AS tp_count FROM `bbs_comment` WHERE ( a_id=16 ) LIMIT 1   [ RunTime:0.003001s ]
 SQL: SELECT * FROM `bbs_comment` WHERE ( a_id=16 ) ORDER BY start_time LIMIT 0,3   [ RunTime:0.003000s ]
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
 INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
 INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+<<<<<<< HEAD
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-21T20:20:32+08:00 ] 127.0.0.1 /addbbs/Index/portal/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+=======
 NOTIC: [8] Use of undefined constant p_image - assumed 'p_image' D:\bbs\Application\Runtime\Cache\Index\db6929f654a38207b2b6298daec7f688.php 第 72 行.
 NOTIC: [8] Array to string conversion D:\bbs\Application\Runtime\Cache\Index\db6929f654a38207b2b6298daec7f688.php 第 72 行.
 NOTIC: [8] Undefined index: id D:\bbs\Application\Runtime\Cache\Index\db6929f654a38207b2b6298daec7f688.php 第 144 行.
@@ -34198,15 +34703,21 @@ SQL: SELECT * FROM `bbs_problem` WHERE ( p_id=16 )  [ RunTime:0.002000s ]
 SQL: SHOW COLUMNS FROM `bbs_comment` [ RunTime:0.003000s ]
 SQL: SELECT COUNT(*) AS tp_count FROM `bbs_comment` WHERE ( a_id=16 ) LIMIT 1   [ RunTime:0.001001s ]
 SQL: SELECT * FROM `bbs_comment` WHERE ( a_id=16 ) ORDER BY start_time desc LIMIT 0,3   [ RunTime:0.002000s ]
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
 INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
 INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+<<<<<<< HEAD
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+=======
 NOTIC: [8] Use of undefined constant p_image - assumed 'p_image' D:\bbs\Application\Runtime\Cache\Index\db6929f654a38207b2b6298daec7f688.php 第 72 行.
 NOTIC: [8] Array to string conversion D:\bbs\Application\Runtime\Cache\Index\db6929f654a38207b2b6298daec7f688.php 第 72 行.
 NOTIC: [8] Undefined index: id D:\bbs\Application\Runtime\Cache\Index\db6929f654a38207b2b6298daec7f688.php 第 144 行.
 INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
 INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ view_filter ] --START--
 INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
@@ -34214,6 +34725,45 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
+<<<<<<< HEAD
+[ 2014-12-21T20:20:32+08:00 ] 127.0.0.1 /addbbs/Index/portal/static/js/portal.js?cg8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:static
+
+[ 2014-12-21T20:20:32+08:00 ] 127.0.0.1 /addbbs/Index/portal/template/veikei_dz_portal_20131130_texture/images/nv.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:template
+
+[ 2014-12-21T20:20:32+08:00 ] 127.0.0.1 /addbbs/Index/portal/static/js/common_extra.js?cg8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:static
+
+[ 2014-12-21T20:20:32+08:00 ] 127.0.0.1 /addbbs/Index/portal/home.php?mod=misc&ac=sendmail&rand=1419159150
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:home.php
+
+[ 2014-12-21T20:21:12+08:00 ] 127.0.0.1 /addbbs/Index/portal/index.html
+=======
 [ 2014-12-21T20:09:14+08:00 ] 127.0.0.1 /Index/Question/verify_c
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
@@ -34288,10 +34838,29 @@ INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
 INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
 
 [ 2014-12-21T20:33:18+08:00 ] 127.0.0.1 /bbs/Index/question/verify_c.html?0.21095762165378418
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
+<<<<<<< HEAD
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-12-21T20:21:12+08:00 ] 127.0.0.1 /addbbs/Index/portal/static/js/portal.js?cg8
+=======
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
 NOTIC: [2048] Declaration of Index\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\weike\bbs\Application\Index\Controller\IndexController.class.php 第 47 行.
@@ -34303,10 +34872,83 @@ INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
 
 [ 2014-12-21T20:33:19+08:00 ] 127.0.0.1 /bbs/Index/question/verify_c.html?0.45040725898761136
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
+<<<<<<< HEAD
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:static
+
+[ 2014-12-21T20:21:12+08:00 ] 127.0.0.1 /addbbs/Index/portal/template/veikei_dz_portal_20131130_texture/images/nv.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:template
+
+[ 2014-12-21T20:21:12+08:00 ] 127.0.0.1 /addbbs/Index/portal/static/js/common_extra.js?cg8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:static
+
+[ 2014-12-21T20:21:12+08:00 ] 127.0.0.1 /addbbs/Index/portal/home.php?mod=misc&ac=sendmail&rand=1419159150
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:home.php
+
+[ 2014-12-21T20:22:02+08:00 ] 127.0.0.1 /addbbs/Index/portal/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-21T20:22:02+08:00 ] 127.0.0.1 /addbbs/Index/portal/static/js/portal.js?cg8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:static
+
+[ 2014-12-21T20:22:02+08:00 ] 127.0.0.1 /addbbs/Index/portal/template/veikei_dz_portal_20131130_texture/images/nv.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:template
+
+[ 2014-12-21T20:22:02+08:00 ] 127.0.0.1 /addbbs/Index/portal/static/js/common_extra.js?cg8
+=======
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
 NOTIC: [2048] Declaration of Index\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\weike\bbs\Application\Index\Controller\IndexController.class.php 第 47 行.
@@ -34408,10 +35050,18 @@ INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
 
 [ 2014-12-21T20:33:20+08:00 ] 127.0.0.1 /bbs/Index/question/verify_c.html?0.9646040129954886
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
+<<<<<<< HEAD
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:static
+
+[ 2014-12-21T20:22:02+08:00 ] 127.0.0.1 /addbbs/Index/portal/home.php?mod=misc&ac=sendmail&rand=1419159150
+=======
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
 NOTIC: [2048] Declaration of Index\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\weike\bbs\Application\Index\Controller\IndexController.class.php 第 47 行.
@@ -34425,10 +35075,32 @@ INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
 [ 2014-12-21T20:33:20+08:00 ] 127.0.0.1 /bbs/Index/question/verify_c.html?0.40577401728030793
 =======
 [ 2014-12-21T20:09:21+08:00 ] 127.0.0.1 /Index/Question/comment?content=%E9%98%BF%E6%96%AF%E8%BE%BE%E6%92%92%E5%A4%A7%E5%A3%B0%E5%A4%A7%E5%A3%B0%E5%A4%A7%E5%A3%B0&code=0120&region=%E5%8C%97%E4%BA%AC%E7%9C%81%E5%8C%97%E4%BA%AC%E5%B8%82++%E7%BD%91%E9%80%9A%E7%BD%91%E5%8F%8B+ip%EF%BC%9A123.117.233.0+%E6%B8%B8%E5%AE%A2&a_id=16
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_begin ] --START--
+<<<<<<< HEAD
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:home.php
+
+[ 2014-12-21T20:26:23+08:00 ] 127.0.0.1 /addbbs/Index/portal/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+=======
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
 NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
@@ -34464,39 +35136,92 @@ INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
 INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
 INFO: [ view_filter ] --START--
 INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
+<<<<<<< HEAD
+[ 2014-12-21T20:26:23+08:00 ] 127.0.0.1 /addbbs/Index/portal/static/js/portal.js?cg8
+=======
 [ 2014-12-21T20:11:13+08:00 ] 127.0.0.1 /Index/Question/verify_c
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+<<<<<<< HEAD
+ERR: 非法操作:static
+
+[ 2014-12-21T20:26:23+08:00 ] 127.0.0.1 /addbbs/Index/portal/static/js/common_extra.js?cg8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:static
+
+[ 2014-12-21T20:28:28+08:00 ] 127.0.0.1 /addbbs/Index/portal/index.html
+=======
 INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
 [ 2014-12-21T20:11:27+08:00 ] 127.0.0.1 /Index/Question/answer?id=11
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+<<<<<<< HEAD
+=======
 NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
 SQL: SHOW COLUMNS FROM `bbs_problem` [ RunTime:0.005000s ]
 SQL: SELECT * FROM `bbs_problem` WHERE ( p_id=11 )  [ RunTime:0.002001s ]
 SQL: SHOW COLUMNS FROM `bbs_comment` [ RunTime:0.006000s ]
 SQL: SELECT COUNT(*) AS tp_count FROM `bbs_comment` WHERE ( a_id=11 ) LIMIT 1   [ RunTime:0.002000s ]
 SQL: SELECT * FROM `bbs_comment` WHERE ( a_id=11 ) ORDER BY start_time desc LIMIT 0,3   [ RunTime:0.005000s ]
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
 INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
 INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+<<<<<<< HEAD
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-12-21T20:28:28+08:00 ] 127.0.0.1 /addbbs/Index/portal/static/js/portal.js?cg8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:static
+
+[ 2014-12-21T20:28:28+08:00 ] 127.0.0.1 /addbbs/Index/portal/static/js/common_extra.js?cg8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:static
+
+[ 2014-12-21T20:30:17+08:00 ] 127.0.0.1 /addbbs/Index/portal/index.html
+=======
 NOTIC: [8] Use of undefined constant p_image - assumed 'p_image' D:\bbs\Application\Runtime\Cache\Index\db6929f654a38207b2b6298daec7f688.php 第 72 行.
 NOTIC: [8] Array to string conversion D:\bbs\Application\Runtime\Cache\Index\db6929f654a38207b2b6298daec7f688.php 第 72 行.
 NOTIC: [8] Undefined index: id D:\bbs\Application\Runtime\Cache\Index\db6929f654a38207b2b6298daec7f688.php 第 144 行.
@@ -34510,16 +35235,41 @@ INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
 
 [ 2014-12-21T20:11:27+08:00 ] 127.0.0.1 /Index/Question/verify_c
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+<<<<<<< HEAD
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+=======
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
+<<<<<<< HEAD
+[ 2014-12-21T20:30:17+08:00 ] 127.0.0.1 /addbbs/Index/portal/static/js/portal.js?cg8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:static
+
+[ 2014-12-21T20:30:18+08:00 ] 127.0.0.1 /addbbs/Index/portal/static/js/common_extra.js?cg8
+=======
 [ 2014-12-21T20:11:33+08:00 ] 127.0.0.1 /Index/Question/comment?content=%E9%98%BF%E6%96%AF%E8%BE%BE%E6%92%92%E5%A4%A7%E5%A3%B0%E5%A4%A7%E5%A3%B0%E5%A4%A7%E5%A3%B0%E7%9A%84&code=3356&region=%E5%8C%97%E4%BA%AC%E7%9C%81%E5%8C%97%E4%BA%AC%E5%B8%82++%E7%BD%91%E9%80%9A%E7%BD%91%E5%8F%8B+ip%EF%BC%9A123.117.233.0+%E6%B8%B8%E5%AE%A2&a_id=11
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
@@ -34537,21 +35287,47 @@ INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
 
 [ 2014-12-21T20:11:36+08:00 ] 127.0.0.1 /Index/Question/verify_c?0.19655160522157988
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+<<<<<<< HEAD
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:static
+
+[ 2014-12-21T20:30:29+08:00 ] 127.0.0.1 /addbbs/Index/portal/index.html
+=======
 INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
 [ 2014-12-21T20:11:39+08:00 ] 127.0.0.1 /Index/Question/comment?content=%E9%98%BF%E6%96%AF%E9%A1%BF%E5%8F%91%E7%94%9F%E7%9A%84%E5%8F%91%E7%94%9F%E5%8F%91%E7%9A%84%E9%93%BE%E6%8E%A5%E5%BC%80%E5%85%B3%E5%8F%91%E7%94%9F%E7%9A%84%E7%BA%A0%E7%BA%B7%E7%9A%84%E5%90%88%E6%B3%95&code=1433&region=%E5%8C%97%E4%BA%AC%E7%9C%81%E5%8C%97%E4%BA%AC%E5%B8%82++%E7%BD%91%E9%80%9A%E7%BD%91%E5%8F%8B+ip%EF%BC%9A123.117.233.0+%E6%B8%B8%E5%AE%A2&a_id=11
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_begin ] --START--
+<<<<<<< HEAD
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-12-21T20:30:29+08:00 ] 127.0.0.1 /addbbs/Index/portal/static/js/portal.js?cg8
+=======
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
 NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
@@ -34564,12 +35340,42 @@ INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
 [ 2014-12-21T20:11:42+08:00 ] 127.0.0.1 /Index/Question/verify_c?0.7289510086297696
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+<<<<<<< HEAD
+ERR: 非法操作:static
+
+[ 2014-12-21T20:30:29+08:00 ] 127.0.0.1 /addbbs/Index/portal/static/js/common_extra.js?cg8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:static
+
+[ 2014-12-21T20:30:40+08:00 ] 127.0.0.1 /addbbs/Index/forum/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+=======
 INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
@@ -34586,28 +35392,69 @@ SQL: SHOW COLUMNS FROM `bbs_comment` [ RunTime:0.002000s ]
 NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
 SQL: INSERT INTO `bbs_comment` (`a_id`,`c_comment`,`c_region`,`start_time`) VALUES (11,'剩蛋快乐发生的机会规范化建设的法规和速度回家分公司登记','北京省北京市  网通网友 ip：123.117.233.0 游客',1419163905) [ RunTime:0.017001s ]
 SQL: SELECT * FROM `bbs_comment` WHERE ( a_id=11 ) ORDER BY start_time desc LIMIT 3   [ RunTime:0.001000s ]
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
+<<<<<<< HEAD
+[ 2014-12-21T20:30:40+08:00 ] 127.0.0.1 /addbbs/Index/forum/static/js/portal.js?cg8
+=======
 [ 2014-12-21T20:11:50+08:00 ] 127.0.0.1 /Index/Question/verify_c?0.28037788997316004
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+<<<<<<< HEAD
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:static
+
+[ 2014-12-21T20:30:40+08:00 ] 127.0.0.1 /addbbs/Index/forum/source/plugin/study_nge/images/nge.css?cg8
+=======
 INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
 
 [ 2014-12-21T20:11:53+08:00 ] 127.0.0.1 /Index/Question/comment?content=%E5%BF%AB%E4%BA%86%E9%80%9F%E5%BA%A6%E4%B8%8E%E9%A3%9E%E6%9C%BA%E5%BF%AB%E7%B4%AF%E6%AD%BB%E7%9A%84%E8%A7%84%E5%88%92%E5%88%86%E5%85%AC%E5%8F%B8%E7%9A%84%E5%8A%9F%E5%A4%AB%E6%98%AF%E6%89%93%E9%A3%9E%E6%9C%BA&code=6758&region=%E5%8C%97%E4%BA%AC%E7%9C%81%E5%8C%97%E4%BA%AC%E5%B8%82++%E7%BD%91%E9%80%9A%E7%BD%91%E5%8F%8B+ip%EF%BC%9A123.117.233.0+%E6%B8%B8%E5%AE%A2&a_id=11
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+<<<<<<< HEAD
+ERR: 非法操作:source
+
+[ 2014-12-21T20:30:40+08:00 ] 127.0.0.1 /addbbs/Index/forum/static/js/common_extra.js?cg8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:static
+
+[ 2014-12-21T20:32:22+08:00 ] 127.0.0.1 /addbbs/Index/forum/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+=======
 NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
 SQL: SHOW COLUMNS FROM `bbs_comment` [ RunTime:0.002001s ]
 NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
@@ -34624,10 +35471,103 @@ INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
+<<<<<<< HEAD
+[ 2014-12-21T20:32:22+08:00 ] 127.0.0.1 /addbbs/Index/forum/static/js/portal.js?cg8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:static
+
+[ 2014-12-21T20:32:22+08:00 ] 127.0.0.1 /addbbs/Index/forum/source/plugin/study_nge/images/nge.css?cg8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:source
+
+[ 2014-12-21T20:32:23+08:00 ] 127.0.0.1 /addbbs/Index/forum/static/js/common_extra.js?cg8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:static
+
+[ 2014-12-21T20:32:27+08:00 ] 127.0.0.1 /addbbs/Index/forum/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-12-21T20:32:27+08:00 ] 127.0.0.1 /addbbs/Index/forum/static/js/portal.js?cg8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:static
+
+[ 2014-12-21T20:32:27+08:00 ] 127.0.0.1 /addbbs/Index/forum/source/plugin/study_nge/images/nge.css?cg8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:source
+
+[ 2014-12-21T20:32:27+08:00 ] 127.0.0.1 /addbbs/Index/forum/static/js/common_extra.js?cg8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:static
+
+[ 2014-12-21T20:33:59+08:00 ] 127.0.0.1 /addbbs/Index/forum/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+=======
 [ 2014-12-21T20:12:09+08:00 ] 127.0.0.1 /Index/Question/comment?content=%E5%9B%9B%E5%A4%A7%E5%90%8D%EF%BC%8C%E6%B3%95%E8%A7%84%E5%92%8C%E5%8F%97%E5%88%B0%E5%B9%BF%E6%B3%9B%E5%8F%97%E5%88%B0%E5%92%8C%E5%85%AC%E5%8F%B8%E7%9A%84%E6%B3%95%E5%9B%BD%E6%81%A2%E5%A4%8D%E9%80%9F%E5%BA%A6%E5%92%8C%E8%A7%84%E8%8C%83%E5%9C%A3%E8%AF%9E%E8%8A%82&code=9660&region=%E5%8C%97%E4%BA%AC%E7%9C%81%E5%8C%97%E4%BA%AC%E5%B8%82++%E7%BD%91%E9%80%9A%E7%BD%91%E5%8F%8B+ip%EF%BC%9A123.117.233.0+%E6%B8%B8%E5%AE%A2&a_id=11
 >>>>>>> 0eb3888630779aca000b2a0064eb4a949cf1bc52
 INFO: [ app_init ] --START--
@@ -34707,10 +35647,23 @@ INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
 
+<<<<<<< HEAD
+[ 2014-12-21T20:33:59+08:00 ] 127.0.0.1 /addbbs/Index/forum/source/plugin/study_nge/images/nge.css?cg8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:source
+
+[ 2014-12-21T20:33:59+08:00 ] 127.0.0.1 /addbbs/Index/forum/static/js/common_extra.js?cg8
+=======
 [ 2014-12-21T20:12:15+08:00 ] 127.0.0.1 /Index/Question/comment?content=%E5%9B%9B%E5%A4%A7%E5%90%8D%EF%BC%8C%E6%B3%95%E8%A7%84%E5%92%8C%E5%8F%97%E5%88%B0%E5%B9%BF%E6%B3%9B%E5%8F%97%E5%88%B0%E5%92%8C%E5%85%AC%E5%8F%B8%E7%9A%84%E6%B3%95%E5%9B%BD%E6%81%A2%E5%A4%8D%E9%80%9F%E5%BA%A6%E5%92%8C%E8%A7%84%E8%8C%83%E5%9C%A3%E8%AF%9E%E8%8A%82&code=5129&region=%E5%8C%97%E4%BA%AC%E7%9C%81%E5%8C%97%E4%BA%AC%E5%B8%82++%E7%BD%91%E9%80%9A%E7%BD%91%E5%8F%8B+ip%EF%BC%9A123.117.233.0+%E6%B8%B8%E5%AE%A2&a_id=11
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
@@ -34728,27 +35681,45 @@ INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
 [ 2014-12-21T20:12:23+08:00 ] 127.0.0.1 /Index/Question/answer?id=11
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+<<<<<<< HEAD
+ERR: 非法操作:static
+
+[ 2014-12-21T20:34:01+08:00 ] 127.0.0.1 /addbbs/Index/portal/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+=======
 NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
 SQL: SHOW COLUMNS FROM `bbs_problem` [ RunTime:0.014001s ]
 SQL: SELECT * FROM `bbs_problem` WHERE ( p_id=11 )  [ RunTime:0.002000s ]
 SQL: SHOW COLUMNS FROM `bbs_comment` [ RunTime:0.002000s ]
 SQL: SELECT COUNT(*) AS tp_count FROM `bbs_comment` WHERE ( a_id=11 ) LIMIT 1   [ RunTime:0.001001s ]
 SQL: SELECT * FROM `bbs_comment` WHERE ( a_id=11 ) ORDER BY start_time desc LIMIT 0,3   [ RunTime:0.001000s ]
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
 INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
 INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+<<<<<<< HEAD
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+=======
 NOTIC: [8] Use of undefined constant p_image - assumed 'p_image' D:\bbs\Application\Runtime\Cache\Index\db6929f654a38207b2b6298daec7f688.php 第 72 行.
 NOTIC: [8] Array to string conversion D:\bbs\Application\Runtime\Cache\Index\db6929f654a38207b2b6298daec7f688.php 第 72 行.
 NOTIC: [8] Undefined index: id D:\bbs\Application\Runtime\Cache\Index\db6929f654a38207b2b6298daec7f688.php 第 144 行.
 INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
 INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ view_filter ] --START--
 INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
@@ -34756,6 +35727,38 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
+<<<<<<< HEAD
+[ 2014-12-21T20:34:01+08:00 ] 127.0.0.1 /addbbs/Index/portal/static/js/common_extra.js?cg8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:static
+
+[ 2014-12-21T20:34:02+08:00 ] 127.0.0.1 /addbbs/Index/forum/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-12-21T20:34:02+08:00 ] 127.0.0.1 /addbbs/Index/forum/source/plugin/study_nge/images/nge.css?cg8
+=======
 [ 2014-12-21T20:12:23+08:00 ] 127.0.0.1 /Index/Question/verify_c
 >>>>>>> 0eb3888630779aca000b2a0064eb4a949cf1bc52
 INFO: [ app_init ] --START--
@@ -34789,10 +35792,51 @@ INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
 
 [ 2014-12-21T20:33:21+08:00 ] 127.0.0.1 /bbs/Index/question/verify_c.html?0.6840785854732341
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
+<<<<<<< HEAD
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:source
+
+[ 2014-12-21T20:34:02+08:00 ] 127.0.0.1 /addbbs/Index/forum/static/js/common_extra.js?cg8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:static
+
+[ 2014-12-21T20:34:12+08:00 ] 127.0.0.1 /addbbs/Index/forum/ask.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:ask.php
+
+[ 2014-12-21T20:34:15+08:00 ] 127.0.0.1 /addbbs/Index/forum/static/js/common_extra.js?cg8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:static
+
+[ 2014-12-21T20:37:27+08:00 ] 127.0.0.1 /addbbs/Index/forum/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+=======
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
 NOTIC: [2048] Declaration of Index\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\weike\bbs\Application\Index\Controller\IndexController.class.php 第 47 行.
@@ -34879,15 +35923,21 @@ SQL: SELECT * FROM `bbs_problem` WHERE ( p_id=11 )  [ RunTime:0.002000s ]
 SQL: SHOW COLUMNS FROM `bbs_comment` [ RunTime:0.003000s ]
 SQL: SELECT COUNT(*) AS tp_count FROM `bbs_comment` WHERE ( a_id=11 ) LIMIT 1   [ RunTime:0.003000s ]
 SQL: SELECT * FROM `bbs_comment` WHERE ( a_id=11 ) ORDER BY start_time desc LIMIT 0,3   [ RunTime:0.001000s ]
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
 INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
 INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+<<<<<<< HEAD
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+=======
 NOTIC: [8] Use of undefined constant p_image - assumed 'p_image' D:\bbs\Application\Runtime\Cache\Index\db6929f654a38207b2b6298daec7f688.php 第 72 行.
 NOTIC: [8] Array to string conversion D:\bbs\Application\Runtime\Cache\Index\db6929f654a38207b2b6298daec7f688.php 第 72 行.
 NOTIC: [8] Undefined index: id D:\bbs\Application\Runtime\Cache\Index\db6929f654a38207b2b6298daec7f688.php 第 144 行.
 INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
 INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ view_filter ] --START--
 INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
@@ -34895,12 +35945,130 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
+<<<<<<< HEAD
+[ 2014-12-21T20:37:28+08:00 ] 127.0.0.1 /addbbs/Index/forum/source/plugin/study_nge/images/nge.css?cg8
+=======
 [ 2014-12-21T20:14:40+08:00 ] 127.0.0.1 /Index/Question/verify_c
 >>>>>>> 0eb3888630779aca000b2a0064eb4a949cf1bc52
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
+<<<<<<< HEAD
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:source
+
+[ 2014-12-21T20:37:28+08:00 ] 127.0.0.1 /addbbs/Index/forum/static/js/common_extra.js?cg8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:static
+
+[ 2014-12-21T20:37:29+08:00 ] 127.0.0.1 /addbbs/Index/ask/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-21T20:37:30+08:00 ] 127.0.0.1 /addbbs/Index/ask/template/veikei_dz_portal_20131130_texture/ask/js/card.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+ERR: 非法操作:template
+
+[ 2014-12-21T20:37:30+08:00 ] 127.0.0.1 /addbbs/Index/ask/template/veikei_dz_portal_20131130_texture/ask/style/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:template
+
+[ 2014-12-21T20:39:11+08:00 ] 127.0.0.1 /addbbs/Index/ask/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-12-21T20:40:04+08:00 ] 127.0.0.1 /addbbs/Index/ask/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-12-21T20:45:20+08:00 ] 127.0.0.1 /addbbs/Index/ask/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-12-21T20:45:23+08:00 ] 127.0.0.1 /addbbs/Index/portal/index.html
+=======
 <<<<<<< HEAD
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
@@ -35013,10 +36181,44 @@ INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
 
 [ 2014-12-21T20:33:23+08:00 ] 127.0.0.1 /bbs/Index/question/verify_c.html?0.46361303140942955
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
+<<<<<<< HEAD
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-12-21T20:45:23+08:00 ] 127.0.0.1 /addbbs/Index/portal/static/js/common_extra.js?cg8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:static
+
+[ 2014-12-21T20:45:24+08:00 ] 127.0.0.1 /addbbs/Index/forum/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+=======
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
 NOTIC: [2048] Declaration of Index\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\weike\bbs\Application\Index\Controller\IndexController.class.php 第 47 行.
@@ -35065,27 +36267,47 @@ SQL: SELECT * FROM `bbs_problem` WHERE ( p_id=11 )  [ RunTime:0.002000s ]
 SQL: SHOW COLUMNS FROM `bbs_comment` [ RunTime:0.004000s ]
 SQL: SELECT COUNT(*) AS tp_count FROM `bbs_comment` WHERE ( a_id=11 ) LIMIT 1   [ RunTime:0.002000s ]
 SQL: SELECT * FROM `bbs_comment` WHERE ( a_id=11 ) ORDER BY start_time desc LIMIT 0,3   [ RunTime:0.002000s ]
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
 INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
 INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+<<<<<<< HEAD
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+=======
 NOTIC: [8] Use of undefined constant p_image - assumed 'p_image' D:\bbs\Application\Runtime\Cache\Index\db6929f654a38207b2b6298daec7f688.php 第 72 行.
 NOTIC: [8] Array to string conversion D:\bbs\Application\Runtime\Cache\Index\db6929f654a38207b2b6298daec7f688.php 第 72 行.
 NOTIC: [8] Undefined index: id D:\bbs\Application\Runtime\Cache\Index\db6929f654a38207b2b6298daec7f688.php 第 144 行.
 INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
 INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ view_filter ] --START--
 INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_end ] --START--
+<<<<<<< HEAD
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-21T20:45:24+08:00 ] 127.0.0.1 /addbbs/Index/forum/source/plugin/study_nge/images/nge.css?cg8
+=======
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
 [ 2014-12-21T20:14:51+08:00 ] 127.0.0.1 /Index/Question/verify_c
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_begin ] --START--
+<<<<<<< HEAD
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:source
+
+[ 2014-12-21T20:45:24+08:00 ] 127.0.0.1 /addbbs/Index/forum/static/js/common_extra.js?cg8
+=======
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_end ] --START--
@@ -35093,10 +36315,18 @@ INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
 [ 2014-12-21T20:17:19+08:00 ] 127.0.0.1 /Index/Question/answer?id=11
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_begin ] --START--
+<<<<<<< HEAD
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:static
+
+[ 2014-12-21T20:45:25+08:00 ] 127.0.0.1 /addbbs/Index/ask/index.html
+=======
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
 NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
@@ -35124,23 +36354,55 @@ INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
 
 [ 2014-12-21T20:17:19+08:00 ] 127.0.0.1 /Index/Question/verify_c
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+<<<<<<< HEAD
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-21T20:45:26+08:00 ] 127.0.0.1 /addbbs/Index/ask/zine.php
+=======
 INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
 
 [ 2014-12-21T20:18:32+08:00 ] 127.0.0.1 /Index/Question/answer?id=11
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+<<<<<<< HEAD
+ERR: 非法操作:zine.php
+
+[ 2014-12-21T20:45:29+08:00 ] 127.0.0.1 /addbbs/Index/ask/zine.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:zine.php
+
+[ 2014-12-21T20:51:48+08:00 ] 127.0.0.1 /addbbs/Index/ask/index.html
+=======
 NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
 SQL: SHOW COLUMNS FROM `bbs_problem` [ RunTime:0.000000s ]
 SQL: SELECT * FROM `bbs_problem` WHERE ( p_id=11 )  [ RunTime:0.000000s ]
@@ -35177,11 +36439,15 @@ INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
 [ 2014-12-21T20:18:36+08:00 ] 127.0.0.1 /Index/Question/answer?id=11
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+<<<<<<< HEAD
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+=======
 INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
 NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
 SQL: SHOW COLUMNS FROM `bbs_problem` [ RunTime:0.004000s ]
@@ -35191,19 +36457,37 @@ SQL: SELECT COUNT(*) AS tp_count FROM `bbs_comment` WHERE ( a_id=11 ) LIMIT 1   
 SQL: SELECT * FROM `bbs_comment` WHERE ( a_id=11 ) ORDER BY start_time desc LIMIT 0,3   [ RunTime:0.003000s ]
 SQL: SHOW COLUMNS FROM `bbs_videos` [ RunTime:0.007000s ]
 SQL: SELECT * FROM `bbs_videos`  [ RunTime:0.004000s ]
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
 INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
 INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+<<<<<<< HEAD
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+=======
 NOTIC: [8] Use of undefined constant p_image - assumed 'p_image' D:\bbs\Application\Runtime\Cache\Index\db6929f654a38207b2b6298daec7f688.php 第 72 行.
 NOTIC: [8] Array to string conversion D:\bbs\Application\Runtime\Cache\Index\db6929f654a38207b2b6298daec7f688.php 第 72 行.
 NOTIC: [8] Undefined index: id D:\bbs\Application\Runtime\Cache\Index\db6929f654a38207b2b6298daec7f688.php 第 144 行.
 INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
 INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ view_filter ] --START--
 INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_end ] --START--
+<<<<<<< HEAD
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2014-12-21T20:51:50+08:00 ] 127.0.0.1 /addbbs/Index/plugin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+=======
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.008000s ]
 
@@ -35233,13 +36517,17 @@ SQL: SELECT COUNT(*) AS tp_count FROM `bbs_comment` WHERE ( a_id=11 ) LIMIT 1   
 SQL: SELECT * FROM `bbs_comment` WHERE ( a_id=11 ) ORDER BY start_time desc LIMIT 0,3   [ RunTime:0.000000s ]
 SQL: SHOW COLUMNS FROM `bbs_videos` [ RunTime:0.000000s ]
 SQL: SELECT * FROM `bbs_videos`  [ RunTime:0.010000s ]
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
 INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
 INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+<<<<<<< HEAD
+=======
 NOTIC: [8] Use of undefined constant p_image - assumed 'p_image' D:\bbs\Application\Runtime\Cache\Index\db6929f654a38207b2b6298daec7f688.php 第 72 行.
 NOTIC: [8] Array to string conversion D:\bbs\Application\Runtime\Cache\Index\db6929f654a38207b2b6298daec7f688.php 第 72 行.
 NOTIC: [8] Undefined index: id D:\bbs\Application\Runtime\Cache\Index\db6929f654a38207b2b6298daec7f688.php 第 144 行.
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
 INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
 INFO: [ view_filter ] --START--
@@ -35249,6 +36537,54 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
 
+<<<<<<< HEAD
+[ 2014-12-21T20:51:50+08:00 ] 127.0.0.1 /addbbs/Index/plugin/source/plugin/auction/template/style_auction.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:source
+
+[ 2014-12-21T20:51:51+08:00 ] 127.0.0.1 /addbbs/Index/plugin/forum.php?mod=image&aid=54483&size=140x140&key=c95b1808929c9c99
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:forum.php
+
+[ 2014-12-21T20:51:51+08:00 ] 127.0.0.1 /addbbs/Index/plugin/forum.php?mod=image&aid=51161&size=140x140&key=e0da1b1bd73565b6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:forum.php
+
+[ 2014-12-21T20:51:51+08:00 ] 127.0.0.1 /addbbs/Index/plugin/forum.php?mod=image&aid=51165&size=140x140&key=602e40311f9b3d04
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 非法操作:forum.php
+
+[ 2014-12-21T20:51:51+08:00 ] 127.0.0.1 /addbbs/Index/plugin/forum.php?mod=image&aid=51167&size=140x140&key=174af558002e3670
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:forum.php
+
+[ 2014-12-21T20:52:30+08:00 ] 127.0.0.1 /addbbs/Index/plugin/index.html
+=======
 [ 2014-12-21T20:18:38+08:00 ] 127.0.0.1 /Index/Question/verify_c
 >>>>>>> 0eb3888630779aca000b2a0064eb4a949cf1bc52
 INFO: [ app_init ] --START--
@@ -35369,21 +36705,32 @@ INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
 [ 2014-12-21T20:21:08+08:00 ] 127.0.0.1 /Index/Video/details/v_id/4.html
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_begin ] --START--
+<<<<<<< HEAD
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+=======
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
 NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
 SQL: SHOW COLUMNS FROM `bbs_videos` [ RunTime:0.005000s ]
 SQL: SELECT * FROM bbs_videos v,bbs_videos_cate c WHERE ( v.cate_id=c.cate_id and v_id=4 ) ORDER BY v_id  LIMIT 1   [ RunTime:0.001000s ]
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
 INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
 INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+<<<<<<< HEAD
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+=======
 INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
 INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ view_filter ] --START--
 INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
 INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
@@ -35391,12 +36738,86 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
+<<<<<<< HEAD
+[ 2014-12-21T20:52:30+08:00 ] 127.0.0.1 /addbbs/Index/plugin/forum.php?mod=image&aid=54483&size=140x140&key=c95b1808929c9c99
+=======
 [ 2014-12-21T20:21:40+08:00 ] 127.0.0.1 /Index/question/index.html
 >>>>>>> 0eb3888630779aca000b2a0064eb4a949cf1bc52
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
+<<<<<<< HEAD
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:forum.php
+
+[ 2014-12-21T20:52:30+08:00 ] 127.0.0.1 /addbbs/Index/plugin/forum.php?mod=image&aid=51167&size=140x140&key=174af558002e3670
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:forum.php
+
+[ 2014-12-21T20:52:30+08:00 ] 127.0.0.1 /addbbs/Index/plugin/forum.php?mod=image&aid=51165&size=140x140&key=602e40311f9b3d04
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:forum.php
+
+[ 2014-12-21T20:52:30+08:00 ] 127.0.0.1 /addbbs/Index/plugin/forum.php?mod=image&aid=51161&size=140x140&key=e0da1b1bd73565b6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:forum.php
+
+[ 2014-12-21T20:52:31+08:00 ] 127.0.0.1 /addbbs/Index/plugin/forum.php?mod=image&aid=51165&size=140x140&key=602e40311f9b3d04
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:forum.php
+
+[ 2014-12-21T20:52:31+08:00 ] 127.0.0.1 /addbbs/Index/plugin/forum.php?mod=image&aid=54483&size=140x140&key=c95b1808929c9c99
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:forum.php
+
+[ 2014-12-21T20:52:31+08:00 ] 127.0.0.1 /addbbs/Index/plugin/forum.php?mod=image&aid=51167&size=140x140&key=174af558002e3670
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:forum.php
+
+[ 2014-12-21T20:52:31+08:00 ] 127.0.0.1 /addbbs/Index/plugin/forum.php?mod=image&aid=51161&size=140x140&key=e0da1b1bd73565b6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:forum.php
+
+[ 2014-12-21T20:56:28+08:00 ] 127.0.0.1 /addbbs/Index/plugin/index.html
+=======
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
 <<<<<<< HEAD
@@ -35571,10 +36992,15 @@ INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
 INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
 
 [ 2014-12-21T20:23:17+08:00 ] 127.0.0.1 /Index/jyjb/index.html
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
+<<<<<<< HEAD
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+=======
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
 NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
@@ -35590,12 +37016,18 @@ SQL: SELECT * FROM `bbs_class` WHERE ( class_type=1 )  [ RunTime:0.003000s ]
 SQL: SELECT * FROM `bbs_class` WHERE ( class_type=2 )  [ RunTime:0.002000s ]
 SQL: SELECT * FROM `bbs_class` WHERE ( class_type=3 )  [ RunTime:0.002000s ]
 SQL: SELECT * FROM `bbs_video`  [ RunTime:0.001000s ]
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
 INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
 INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+<<<<<<< HEAD
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+=======
 INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
 INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ view_filter ] --START--
 INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
@@ -35603,11 +37035,31 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
+<<<<<<< HEAD
+[ 2014-12-21T20:56:28+08:00 ] 127.0.0.1 /addbbs/Index/plugin/forum.php?mod=image&aid=54483&size=140x140&key=c95b1808929c9c99
+=======
 [ 2014-12-21T20:25:34+08:00 ] 127.0.0.1 /
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_begin ] --START--
+<<<<<<< HEAD
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:forum.php
+
+[ 2014-12-21T20:56:28+08:00 ] 127.0.0.1 /addbbs/Index/plugin/forum.php?mod=image&aid=51167&size=140x140&key=174af558002e3670
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:forum.php
+
+[ 2014-12-21T20:56:28+08:00 ] 127.0.0.1 /addbbs/Index/plugin/forum.php?mod=image&aid=51165&size=140x140&key=602e40311f9b3d04
+=======
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
 NOTIC: [2048] Declaration of Index\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\bbs\Application\Index\Controller\IndexController.class.php 第 39 行.
@@ -35734,12 +37186,18 @@ INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
 [ 2014-12-21T20:26:22+08:00 ] 127.0.0.1 /Index/Jyjb/video?id=1
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+<<<<<<< HEAD
+ERR: 非法操作:forum.php
+
+[ 2014-12-21T20:56:28+08:00 ] 127.0.0.1 /addbbs/Index/plugin/forum.php?mod=image&aid=51161&size=140x140&key=e0da1b1bd73565b6
+=======
 NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
 SQL: SHOW COLUMNS FROM `bbs_video` [ RunTime:0.002000s ]
 SQL: SELECT * FROM `bbs_video` WHERE ( v_id=1 )  [ RunTime:0.001001s ]
@@ -35758,10 +37216,45 @@ INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
 
 [ 2014-12-21T20:26:40+08:00 ] 127.0.0.1 /Index/jyjb/index.html
 >>>>>>> 0eb3888630779aca000b2a0064eb4a949cf1bc52
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
+<<<<<<< HEAD
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:forum.php
+
+[ 2014-12-21T20:56:28+08:00 ] 127.0.0.1 /addbbs/Index/plugin/forum.php?mod=image&aid=54483&size=140x140&key=c95b1808929c9c99
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:forum.php
+
+[ 2014-12-21T20:56:28+08:00 ] 127.0.0.1 /addbbs/Index/plugin/forum.php?mod=image&aid=51167&size=140x140&key=174af558002e3670
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:forum.php
+
+[ 2014-12-21T20:56:28+08:00 ] 127.0.0.1 /addbbs/Index/plugin/forum.php?mod=image&aid=51165&size=140x140&key=602e40311f9b3d04
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 非法操作:forum.php
+
+[ 2014-12-21T20:56:28+08:00 ] 127.0.0.1 /addbbs/Index/plugin/forum.php?mod=image&aid=51161&size=140x140&key=e0da1b1bd73565b6
+=======
 <<<<<<< HEAD
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
@@ -35883,12 +37376,47 @@ INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
 
 [ 2014-12-21T20:26:51+08:00 ] 127.0.0.1 /Index/Jyjb/detailed?id=44
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+<<<<<<< HEAD
+ERR: 非法操作:forum.php
+
+[ 2014-12-21T20:56:30+08:00 ] 127.0.0.1 /addbbs/Index/luckdraw/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.308017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.308017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-21T20:56:30+08:00 ] 127.0.0.1 /addbbs/Index/luckdraw/source/plugin/itcast_lottery_draw/template/red/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:source
+
+[ 2014-12-21T20:56:30+08:00 ] 127.0.0.1 /addbbs/Index/luckdraw/source/plugin/itcast_lottery_draw/template/red/js/jquery.min.js
+=======
 NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
 SQL: SHOW COLUMNS FROM `bbs_article` [ RunTime:0.004000s ]
 SQL: SELECT * FROM `bbs_article` WHERE ( aid=44 )  [ RunTime:0.005001s ]
@@ -35963,10 +37491,118 @@ INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
 
 [ 2014-12-21T20:28:04+08:00 ] 127.0.0.1 /Index/question/index.html
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_begin ] --START--
+<<<<<<< HEAD
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:source
+
+[ 2014-12-21T20:56:30+08:00 ] 127.0.0.1 /addbbs/Index/luckdraw/source/plugin/itcast_lottery_draw/template/red/js/jqueryui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:source
+
+[ 2014-12-21T20:56:30+08:00 ] 127.0.0.1 /addbbs/Index/luckdraw/source/plugin/itcast_lottery_draw/template/red/css/reset.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:source
+
+[ 2014-12-21T20:56:31+08:00 ] 127.0.0.1 /addbbs/Index/luckdraw/source/plugin/itcast_lottery_draw/template/red/css/jqueryui/jqueryui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:source
+
+[ 2014-12-21T20:57:47+08:00 ] 127.0.0.1 /addbbs/Index/luckdraw/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-21T20:57:48+08:00 ] 127.0.0.1 /addbbs/Index/luckdraw/static/js/common.js?eIs&_=1419166668977
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:static
+
+[ 2014-12-21T21:09:39+08:00 ] 127.0.0.1 /addbbs/Index/luckdraw/static/js/ajax.js?cg8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:static
+
+[ 2014-12-21T21:22:37+08:00 ] 127.0.0.1 /addbbs/Index/luckdraw/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-21T21:22:38+08:00 ] 127.0.0.1 /addbbs/Index/luckdraw/static/js/common.js?eIs&_=1419168158826
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:static
+
+[ 2014-12-21T21:22:44+08:00 ] 127.0.0.1 /addbbs/Index/luckdraw/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+=======
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
 NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
@@ -36089,6 +37725,7 @@ INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 >>>>>>> 0eb3888630779aca000b2a0064eb4a949cf1bc52
 
+<<<<<<< HEAD
 [ 2014-12-21T20:45:09+08:00 ] 127.0.0.1 /Index/Question/answer?id=11
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
@@ -36113,24 +37750,173 @@ NOTIC: [8] Array to string conversion D:\bbs\Application\Runtime\Cache\Index\db6
 NOTIC: [8] Undefined index: id D:\bbs\Application\Runtime\Cache\Index\db6929f654a38207b2b6298daec7f688.php 第 144 行.
 INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
 INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+=======
+[ 2014-12-21T20:46:15+08:00 ] 127.0.0.1 /bbs/Index/course/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Index\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\weike\bbs\Application\Index\Controller\IndexController.class.php 第 47 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\weike\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `bbs_nav`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `bbs_class` [ RunTime:0.004000s ]
+SQL: select * from bbs_content [ RunTime:0.061004s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=1 )  [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=2 )  [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=3 )  [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2014-12-21T20:46:22+08:00 ] 127.0.0.1 /bbs/Index/question/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-21T20:46:34+08:00 ] 127.0.0.1 /bbs/Index/question/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+
+[ 2014-12-21T20:47:11+08:00 ] 127.0.0.1 /bbs/Index/question/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Index\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\weike\bbs\Application\Index\Controller\IndexController.class.php 第 47 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\weike\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.009001s ]
+SQL: SELECT * FROM `bbs_nav`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `bbs_problem` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `bbs_problem` WHERE ( t_id=1 )  [ RunTime:0.008000s ]
+SQL: SELECT * FROM `bbs_problem` WHERE ( t_id=2 )  [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `bbs_videos` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `bbs_videos`  [ RunTime:0.010000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096006s ]
+>>>>>>> 202fdae12d6c072f861a94e7c0ce4b0a27f5e324
 INFO: [ view_filter ] --START--
 INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
 INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
 INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+<<<<<<< HEAD
 INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
 
 [ 2014-12-21T20:45:10+08:00 ] 127.0.0.1 /Index/Question/verify_c
+=======
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-21T20:47:23+08:00 ] 127.0.0.1 /bbs/Index/course/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+NOTIC: [2048] Declaration of Index\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\weike\bbs\Application\Index\Controller\IndexController.class.php 第 47 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\weike\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bbs_nav`  [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `bbs_class` [ RunTime:0.004000s ]
+SQL: select * from bbs_content [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=1 )  [ RunTime:0.002001s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=2 )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=3 )  [ RunTime:0.003000s ]
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+<<<<<<< HEAD
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-21T21:22:45+08:00 ] 127.0.0.1 /addbbs/Index/luckdraw/static/js/common.js?eIs&_=1419168165472
+>>>>>>> 202fdae12d6c072f861a94e7c0ce4b0a27f5e324
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+<<<<<<< HEAD
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+=======
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:static
+
+[ 2014-12-21T21:23:30+08:00 ] 127.0.0.1 /addbbs/Index/luckdraw/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
+[ 2014-12-21T21:23:30+08:00 ] 127.0.0.1 /addbbs/Index/luckdraw/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+>>>>>>> 202fdae12d6c072f861a94e7c0ce4b0a27f5e324
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+<<<<<<< HEAD
 [ 2014-12-21T20:46:07+08:00 ] 127.0.0.1 /
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
@@ -36152,12 +37938,116 @@ SQL: SELECT * FROM `bbs_class` WHERE ( class_type=1 )  [ RunTime:0.010000s ]
 SQL: SELECT * FROM `bbs_class` WHERE ( class_type=2 )  [ RunTime:0.000000s ]
 SQL: SELECT * FROM `bbs_class` WHERE ( class_type=3 )  [ RunTime:0.000000s ]
 SQL: select * from bbs_employment  limit 0,8 [ RunTime:0.000000s ]
+=======
+[ 2014-12-21T21:23:30+08:00 ] 127.0.0.1 /addbbs/Index/luckdraw/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+=======
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-12-21T20:47:25+08:00 ] 127.0.0.1 /bbs/Index/teacher/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+NOTIC: [2048] Declaration of Index\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\weike\bbs\Application\Index\Controller\IndexController.class.php 第 47 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\weike\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `bbs_nav`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `bbs_teacher` [ RunTime:0.003001s ]
+SQL: SELECT * FROM bbs_teacher tea,bbs_teacher_cate cate WHERE ( tea.cate_id=cate.cate_id ) ORDER BY t_id asc  [ RunTime:0.005000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: page E:\weike\bbs\Application\Runtime\Cache\Index\0fa547d45531922e8e75f8944444c53d.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011000s ]
+
+[ 2014-12-21T20:47:27+08:00 ] 127.0.0.1 /bbs/Index/video/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Index\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\weike\bbs\Application\Index\Controller\IndexController.class.php 第 47 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\weike\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `bbs_nav`  [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `bbs_videos` [ RunTime:0.003000s ]
+SQL: SELECT * FROM bbs_videos v,bbs_videos_cate c WHERE ( v.cate_id=c.cate_id ) ORDER BY v_id   [ RunTime:0.015001s ]
+SQL: SHOW COLUMNS FROM `bbs_problem` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_problem` ORDER BY start_time desc LIMIT 5   [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008000s ]
+
+[ 2014-12-21T20:47:28+08:00 ] 127.0.0.1 /bbs/Index/jyjb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Index\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\weike\bbs\Application\Index\Controller\IndexController.class.php 第 47 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\weike\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bbs_nav`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_employment` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `bbs_video` [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `bbs_article` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `bbs_class` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_employment` WHERE ( jy_type=1 )  [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bbs_employment` WHERE ( jy_type=2 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `bbs_employment` WHERE ( jy_type=3 )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bbs_article` WHERE ( t_id=5 )  [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=1 )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=2 )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=3 )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bbs_video`  [ RunTime:0.002000s ]
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
+>>>>>>> 202fdae12d6c072f861a94e7c0ce4b0a27f5e324
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
 INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
 INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+<<<<<<< HEAD
 INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030000s ]
 INFO: [ view_parse ] --END-- [ RunTime:0.030000s ]
+=======
+<<<<<<< HEAD
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+>>>>>>> 202fdae12d6c072f861a94e7c0ce4b0a27f5e324
 INFO: [ view_filter ] --START--
 INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
 INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
@@ -36165,6 +38055,7 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
 
+<<<<<<< HEAD
 [ 2014-12-21T20:47:29+08:00 ] 127.0.0.1 /Index/jyjb/index.html
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
@@ -36185,16 +38076,44 @@ SQL: SELECT * FROM `bbs_class` WHERE ( class_type=1 )  [ RunTime:0.000000s ]
 SQL: SELECT * FROM `bbs_class` WHERE ( class_type=2 )  [ RunTime:0.000000s ]
 SQL: SELECT * FROM `bbs_class` WHERE ( class_type=3 )  [ RunTime:0.000000s ]
 SQL: SELECT * FROM `bbs_video`  [ RunTime:0.000000s ]
+=======
+[ 2014-12-21T21:23:30+08:00 ] 127.0.0.1 /addbbs/Index/luckdraw/index.html
+=======
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2014-12-21T20:47:35+08:00 ] 127.0.0.1 /bbs/Index/course/index.html
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+<<<<<<< HEAD
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+>>>>>>> 202fdae12d6c072f861a94e7c0ce4b0a27f5e324
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
 INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
 INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+<<<<<<< HEAD
 INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030000s ]
 INFO: [ view_parse ] --END-- [ RunTime:0.030000s ]
+=======
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+>>>>>>> 202fdae12d6c072f861a94e7c0ce4b0a27f5e324
 INFO: [ view_filter ] --START--
 INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
 INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_end ] --START--
+<<<<<<< HEAD
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
 
@@ -36221,16 +38140,103 @@ SQL: SELECT * FROM `bbs_class` WHERE ( class_type=1 )  [ RunTime:0.001000s ]
 SQL: SELECT * FROM `bbs_class` WHERE ( class_type=2 )  [ RunTime:0.001000s ]
 SQL: SELECT * FROM `bbs_class` WHERE ( class_type=3 )  [ RunTime:0.001000s ]
 SQL: SELECT * FROM `bbs_video`  [ RunTime:0.001000s ]
+=======
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2014-12-21T21:23:31+08:00 ] 127.0.0.1 /addbbs/Index/luckdraw/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+=======
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Index\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\weike\bbs\Application\Index\Controller\IndexController.class.php 第 47 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\weike\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bbs_nav`  [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `bbs_class` [ RunTime:0.004000s ]
+SQL: select * from bbs_content [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=1 )  [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=2 )  [ RunTime:0.003001s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=3 )  [ RunTime:0.003000s ]
+>>>>>>> 202fdae12d6c072f861a94e7c0ce4b0a27f5e324
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
 INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
 INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+<<<<<<< HEAD
 INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
 INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+=======
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-21T20:47:46+08:00 ] 127.0.0.1 /bbs/Index/question/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Index\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\weike\bbs\Application\Index\Controller\IndexController.class.php 第 47 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\weike\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `bbs_nav`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `bbs_problem` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bbs_problem` WHERE ( t_id=1 )  [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bbs_problem` WHERE ( t_id=2 )  [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `bbs_videos` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `bbs_videos`  [ RunTime:0.008000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053003s ]
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+<<<<<<< HEAD
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006001s ]
+
+[ 2014-12-21T21:23:31+08:00 ] 127.0.0.1 /addbbs/Index/luckdraw/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+>>>>>>> 202fdae12d6c072f861a94e7c0ce4b0a27f5e324
 INFO: [ view_filter ] --START--
 INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
 INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_end ] --START--
+<<<<<<< HEAD
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.018001s ]
 
@@ -36263,10 +38269,135 @@ INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
 INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
 INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
 INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+=======
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-21T21:23:32+08:00 ] 127.0.0.1 /addbbs/Index/luckdraw/static/js/common.js?eIs&_=1419168212011
+=======
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2014-12-21T20:48:38+08:00 ] 127.0.0.1 /bbs/Index/course/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [2048] Declaration of Index\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\weike\bbs\Application\Index\Controller\IndexController.class.php 第 47 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\weike\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bbs_nav`  [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `bbs_class` [ RunTime:0.004000s ]
+SQL: select * from bbs_content [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=1 )  [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=2 )  [ RunTime:0.003001s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=3 )  [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-21T20:48:41+08:00 ] 127.0.0.1 /bbs/Index/index/index.html
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+<<<<<<< HEAD
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:static
+
+[ 2014-12-21T21:23:40+08:00 ] 127.0.0.1 /addbbs/Index/luckdraw/static/js/ajax.js?cg8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:static
+=======
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Index\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\weike\bbs\Application\Index\Controller\IndexController.class.php 第 47 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\weike\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_nav`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `bbs_employment` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `bbs_class` [ RunTime:0.007001s ]
+SQL: select * from bbs_article where t_id=1 [ RunTime:0.004000s ]
+SQL: select * from bbs_article where t_id=2 [ RunTime:0.002000s ]
+SQL: select * from bbs_article where t_id=3 and state=0 [ RunTime:0.002001s ]
+SQL: select * from bbs_article where t_id=4 [ RunTime:0.002000s ]
+SQL: select * from bbs_article where t_id=5 [ RunTime:0.003000s ]
+SQL: select * from bbs_article where t_id=6 [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=1 )  [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=2 )  [ RunTime:0.005001s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=3 )  [ RunTime:0.003000s ]
+SQL: select * from bbs_employment  limit 0,8 [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080005s ]
+>>>>>>> 202fdae12d6c072f861a94e7c0ce4b0a27f5e324
 INFO: [ view_filter ] --START--
 INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_end ] --START--
+<<<<<<< HEAD
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.009000s ]
+=======
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-21T20:56:07+08:00 ] 127.0.0.1 /bbs/Index/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Index\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\weike\bbs\Application\Index\Controller\IndexController.class.php 第 47 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\weike\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.013001s ]
+SQL: SELECT * FROM `bbs_nav`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `bbs_employment` [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `bbs_class` [ RunTime:0.003000s ]
+SQL: select * from bbs_article where t_id=1 [ RunTime:0.003000s ]
+SQL: select * from bbs_article where t_id=2 [ RunTime:0.002000s ]
+SQL: select * from bbs_article where t_id=3 and state=0 [ RunTime:0.010001s ]
+SQL: select * from bbs_article where t_id=4 [ RunTime:0.006000s ]
+SQL: select * from bbs_article where t_id=5 [ RunTime:0.004000s ]
+SQL: select * from bbs_article where t_id=6 [ RunTime:0.006001s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=1 )  [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=2 )  [ RunTime:0.009001s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=3 )  [ RunTime:0.003000s ]
+SQL: select * from bbs_employment  limit 0,8 [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+>>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
+>>>>>>> 202fdae12d6c072f861a94e7c0ce4b0a27f5e324
 
