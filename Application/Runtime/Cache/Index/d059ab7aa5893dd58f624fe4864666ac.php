@@ -1,4 +1,7 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "/www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php if (!defined('THINK_PATH')) exit();?>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "/www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="/www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -42,6 +45,7 @@
 		<p class="fr"><img src="http://php.itcast.cn/images/topword.gif" alt="改变中国教育，我们正在行动..." class="png"/></p>
 	</div>
 	<div class="clear"></div>
+
 		<ul id="nav">
 	<li><a href="<?php echo U('index/index');?>" id="nav_main">首 页</a></li>
 	<li class="widt"><a href="<?php echo U('course/index');?>" id="nav_course">PHP培训课程</a> </li> 
@@ -54,8 +58,17 @@
     <li id="nav_book"><a href="http://www.itcast.cn/channel/book.shtml">原创教材</a> </li>
 	<li id="nav_question"><a href="<?php echo U('question/index');?>">常见问题</a></li>
 	<li><a href="http://www.itcast.cn/channel/contact.shtml">来校路线</a></li>
-	<li><a href="http://bbs.itcast.cn" target="_blank">技术论坛 </a></li>
+	<li><a href="<?php echo U('portal/index');?>" target="_blank">技术论坛 </a></li>
 </ul>
+
+	<ul id="nav">
+	<?php foreach($a as $k=>$v){ ?>
+
+	<li><a href="<?php echo U($v['n_url']) ?>" ><?php echo $v['n_name']?></a></li>
+	 
+   <?php }?>
+	</ul>
+
 	</div>
 <!--输出-->
  <div id="box">

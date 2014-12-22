@@ -29,7 +29,7 @@
 
 	<div class="clear"></div>
 	<div class="top2">
-		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/bbs/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
+		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
 		<div class="fl toubu">
 		<div class="toubu-font1">PHP学院</div>
 			 <!-- 校区 -->
@@ -45,6 +45,22 @@
 		<p class="fr"><img src="http://php.itcast.cn/images/topword.gif" alt="改变中国教育，我们正在行动..." class="png"/></p>
 	</div>
 	<div class="clear"></div>
+
+		<ul id="nav">
+	<li><a href="<?php echo U('index/index');?>" id="nav_main">首 页</a></li>
+	<li class="widt"><a href="<?php echo U('course/index');?>" id="nav_course">PHP培训课程</a> </li> 
+	<li class="widt"><a href="<?php echo U('video/index');?>" id="nav_videodl">PHP视频下载</a> </li>
+    <li id="nav_personnel"><a href="http://www.itcast.cn/channel/personnel.shtml">人才服务</a></li>
+    <li id="nav_life"><a href="http://www.itcast.cn/channel/campus.shtml">校园生活</a> </li>
+    <li id="nav_teacher"><a href="<?php echo U('teacher/index');?>">师资力量</a> </li>
+    <li id="nav_job"><a href="<?php echo U('jyjb/index');?>">就业信息</a> </li>
+    <li id="nav_flow"><a href="http://www.itcast.cn/channel/flow.shtml">报名流程</a> </li>
+    <li id="nav_book"><a href="http://www.itcast.cn/channel/book.shtml">原创教材</a> </li>
+	<li id="nav_question"><a href="<?php echo U('question/index');?>">常见问题</a></li>
+	<li><a href="http://www.itcast.cn/channel/contact.shtml">来校路线</a></li>
+	<li><a href="<?php echo U('portal/index');?>" target="_blank">技术论坛 </a></li>
+</ul>
+
 	<ul id="nav">
 	<?php foreach($a as $k=>$v){ ?>
 
@@ -64,14 +80,14 @@
 				<h3 class="title2">热点问题</h3>
 				<ul class="links">
 ﻿<ul>
- <?php if(is_array($info)): foreach($info as $key=>$it): ?><li><a href="/bbs/Index/Question/answer?id=<?php echo ($it["p_id"]); ?>" target="_blank"><?php echo ($it["p_title"]); ?></a><?php echo date('Y-m-d',$it['start_time']) ?></li><?php endforeach; endif; ?>
+ <?php if(is_array($info)): foreach($info as $key=>$it): ?><li><a href="/Index/Question/answer?id=<?php echo ($it["p_id"]); ?>" target="_blank"><?php echo ($it["p_title"]); ?></a><?php echo date('Y-m-d',$it['start_time']) ?></li><?php endforeach; endif; ?>
 </ul>
  
 				</ul>
 				<h3 class="title2">PHP相关问题</h3>
 				<ul class="links">
 <ul>
-   <?php if(is_array($data)): foreach($data as $key=>$it): ?><li><a href="/bbs/Index/Question/answer?id=<?php echo ($it["p_id"]); ?>" target="_blank"><?php echo ($it["p_title"]); ?></a></li><?php endforeach; endif; ?>
+   <?php if(is_array($data)): foreach($data as $key=>$it): ?><li><a href="/Index/Question/answer?id=<?php echo ($it["p_id"]); ?>" target="_blank"><?php echo ($it["p_title"]); ?></a></li><?php endforeach; endif; ?>
 </ul>
 
 			    </ul>

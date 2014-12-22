@@ -221,3 +221,712 @@ INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
 >>>>>>> 202fdae12d6c072f861a94e7c0ce4b0a27f5e324
 
+[ 2014-12-22T08:08:27+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Index\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\bbs\Application\Index\Controller\IndexController.class.php 第 47 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_nav`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_employment` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_class` [ RunTime:0.000000s ]
+SQL: select * from bbs_article where t_id=1 [ RunTime:0.000000s ]
+SQL: select * from bbs_article where t_id=2 [ RunTime:0.015600s ]
+SQL: select * from bbs_article where t_id=3 and state=0 [ RunTime:0.000000s ]
+SQL: select * from bbs_article where t_id=4 [ RunTime:0.000000s ]
+SQL: select * from bbs_article where t_id=5 [ RunTime:0.000000s ]
+SQL: select * from bbs_article where t_id=6 [ RunTime:0.015600s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=3 )  [ RunTime:0.000000s ]
+SQL: select * from bbs_employment  limit 0,8 [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2014-12-22T08:08:40+08:00 ] 127.0.0.1 /Index/question/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [2048] Declaration of Index\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\bbs\Application\Index\Controller\IndexController.class.php 第 47 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_nav`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_problem` [ RunTime:0.015600s ]
+SQL: SELECT * FROM `bbs_problem` WHERE ( t_id=1 )  [ RunTime:0.015600s ]
+SQL: SELECT * FROM `bbs_problem` WHERE ( t_id=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_videos` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_videos`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-12-22T08:09:25+08:00 ] 127.0.0.1 /Index/question/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Index\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\bbs\Application\Index\Controller\IndexController.class.php 第 47 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bbs_nav`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `bbs_problem` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_problem` WHERE ( t_id=1 )  [ RunTime:0.001001s ]
+SQL: SELECT * FROM `bbs_problem` WHERE ( t_id=2 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_videos` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bbs_videos`  [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-22T08:09:31+08:00 ] 127.0.0.1 /Index/jyjb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Index\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\bbs\Application\Index\Controller\IndexController.class.php 第 47 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bbs_nav`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_employment` [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `bbs_video` [ RunTime:0.038002s ]
+SQL: SHOW COLUMNS FROM `bbs_article` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `bbs_class` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bbs_employment` WHERE ( jy_type=1 )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bbs_employment` WHERE ( jy_type=2 )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bbs_employment` WHERE ( jy_type=3 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `bbs_article` WHERE ( t_id=5 )  [ RunTime:0.004001s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=1 )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=2 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=3 )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bbs_video`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-12-22T08:09:34+08:00 ] 127.0.0.1 /Index/Jyjb/training?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Index\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\bbs\Application\Index\Controller\IndexController.class.php 第 47 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.033002s ]
+SQL: SELECT * FROM `bbs_nav`  [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `bbs_class` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( id=1 )  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-22T08:09:39+08:00 ] 127.0.0.1 /Index/question/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Index\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\bbs\Application\Index\Controller\IndexController.class.php 第 47 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.061004s ]
+SQL: SELECT * FROM `bbs_nav`  [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `bbs_problem` [ RunTime:0.078005s ]
+SQL: SELECT * FROM `bbs_problem` WHERE ( t_id=1 )  [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_problem` WHERE ( t_id=2 )  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `bbs_videos` [ RunTime:0.081005s ]
+SQL: SELECT * FROM `bbs_videos`  [ RunTime:0.009000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-22T08:09:40+08:00 ] 127.0.0.1 /Index/Jyjb/detailed?id=52
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Index\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\bbs\Application\Index\Controller\IndexController.class.php 第 47 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `bbs_nav`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_article` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_article` WHERE ( aid=52 )  [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Array to string conversion D:\bbs\Application\Runtime\Cache\Index\d059ab7aa5893dd58f624fe4864666ac.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-22T08:15:51+08:00 ] 127.0.0.1 /Index/portal/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013001s ]
+
+[ 2014-12-22T08:15:51+08:00 ] 127.0.0.1 /Index/portal/static/js/common_extra.js?cg8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:static
+
+[ 2014-12-22T13:36:06+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Index\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\bbs\Application\Index\Controller\IndexController.class.php 第 47 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.020000s ]
+SQL: SELECT * FROM `bbs_nav`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_employment` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `bbs_class` [ RunTime:0.070000s ]
+SQL: select * from bbs_article where t_id=1 [ RunTime:0.050000s ]
+SQL: select * from bbs_article where t_id=2 [ RunTime:0.000000s ]
+SQL: select * from bbs_article where t_id=3 and state=0 [ RunTime:0.000000s ]
+SQL: select * from bbs_article where t_id=4 [ RunTime:0.000000s ]
+SQL: select * from bbs_article where t_id=5 [ RunTime:0.000000s ]
+SQL: select * from bbs_article where t_id=6 [ RunTime:0.010000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=1 )  [ RunTime:0.010000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=3 )  [ RunTime:0.000000s ]
+SQL: select * from bbs_employment  limit 0,8 [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.200000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.200000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.040000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.040000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.020000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020000s ]
+
+[ 2014-12-22T13:38:01+08:00 ] 127.0.0.1 /Index/jyjb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Index\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\bbs\Application\Index\Controller\IndexController.class.php 第 47 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_nav`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_employment` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `bbs_video` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `bbs_article` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `bbs_class` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `bbs_employment` WHERE ( jy_type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_employment` WHERE ( jy_type=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_employment` WHERE ( jy_type=3 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_article` WHERE ( t_id=5 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=1 )  [ RunTime:0.010000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=3 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_video`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2014-12-22T13:39:00+08:00 ] 127.0.0.1 /Index/jyjb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Index\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\bbs\Application\Index\Controller\IndexController.class.php 第 47 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.002500s ]
+SQL: SELECT * FROM `bbs_nav`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_employment` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `bbs_video` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `bbs_article` [ RunTime:0.007500s ]
+SQL: SHOW COLUMNS FROM `bbs_class` [ RunTime:0.007500s ]
+SQL: SELECT * FROM `bbs_employment` WHERE ( jy_type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_employment` WHERE ( jy_type=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_employment` WHERE ( jy_type=3 )  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `bbs_article` WHERE ( t_id=5 )  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=1 )  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=3 )  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `bbs_video`  [ RunTime:0.002500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2014-12-22T13:40:32+08:00 ] 127.0.0.1 /Index/jyjb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Index\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\bbs\Application\Index\Controller\IndexController.class.php 第 47 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_nav`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_employment` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_video` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `bbs_article` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_class` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `bbs_employment` WHERE ( jy_type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_employment` WHERE ( jy_type=2 )  [ RunTime:0.010000s ]
+SQL: SELECT * FROM `bbs_employment` WHERE ( jy_type=3 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_article` WHERE ( t_id=5 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=2 )  [ RunTime:0.010000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=3 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_video`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-12-22T13:41:11+08:00 ] 127.0.0.1 /Index/jyjb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Index\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\bbs\Application\Index\Controller\IndexController.class.php 第 47 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.002500s ]
+SQL: SELECT * FROM `bbs_nav`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_employment` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `bbs_video` [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `bbs_article` [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `bbs_class` [ RunTime:0.007500s ]
+SQL: SELECT * FROM `bbs_employment` WHERE ( jy_type=1 )  [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_employment` WHERE ( jy_type=2 )  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `bbs_employment` WHERE ( jy_type=3 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_article` WHERE ( t_id=5 )  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=2 )  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=3 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_video`  [ RunTime:0.002500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2014-12-22T13:41:55+08:00 ] 127.0.0.1 /Index/jyjb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+NOTIC: [2048] Declaration of Index\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\bbs\Application\Index\Controller\IndexController.class.php 第 47 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_nav`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_employment` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `bbs_video` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `bbs_article` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_class` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_employment` WHERE ( jy_type=1 )  [ RunTime:0.010000s ]
+SQL: SELECT * FROM `bbs_employment` WHERE ( jy_type=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_employment` WHERE ( jy_type=3 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_article` WHERE ( t_id=5 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=1 )  [ RunTime:0.010000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=3 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_video`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2014-12-22T13:42:09+08:00 ] 127.0.0.1 /Index/jyjb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000500s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+NOTIC: [2048] Declaration of Index\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\bbs\Application\Index\Controller\IndexController.class.php 第 47 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.001500s ]
+SQL: SELECT * FROM `bbs_nav`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_employment` [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `bbs_video` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `bbs_article` [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `bbs_class` [ RunTime:0.004501s ]
+SQL: SELECT * FROM `bbs_employment` WHERE ( jy_type=1 )  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `bbs_employment` WHERE ( jy_type=2 )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bbs_employment` WHERE ( jy_type=3 )  [ RunTime:0.001500s ]
+SQL: SELECT * FROM `bbs_article` WHERE ( t_id=5 )  [ RunTime:0.003001s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=1 )  [ RunTime:0.010001s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=2 )  [ RunTime:0.001500s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=3 )  [ RunTime:0.002001s ]
+SQL: SELECT * FROM `bbs_video`  [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-22T13:42:33+08:00 ] 127.0.0.1 /Index/jyjb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Index\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\bbs\Application\Index\Controller\IndexController.class.php 第 47 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_nav`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_employment` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `bbs_video` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_article` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `bbs_class` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_employment` WHERE ( jy_type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_employment` WHERE ( jy_type=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_employment` WHERE ( jy_type=3 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_article` WHERE ( t_id=5 )  [ RunTime:0.010000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=3 )  [ RunTime:0.010000s ]
+SQL: SELECT * FROM `bbs_video`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2014-12-22T13:42:43+08:00 ] 127.0.0.1 /Index/jyjb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [2048] Declaration of Index\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\bbs\Application\Index\Controller\IndexController.class.php 第 47 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.002500s ]
+SQL: SELECT * FROM `bbs_nav`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_employment` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `bbs_video` [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `bbs_article` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `bbs_class` [ RunTime:0.002500s ]
+SQL: SELECT * FROM `bbs_employment` WHERE ( jy_type=1 )  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `bbs_employment` WHERE ( jy_type=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_employment` WHERE ( jy_type=3 )  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `bbs_article` WHERE ( t_id=5 )  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=1 )  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=3 )  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `bbs_video`  [ RunTime:0.005000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002500s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010001s ]
+
+[ 2014-12-22T13:42:59+08:00 ] 127.0.0.1 /Index/jyjb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Index\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\bbs\Application\Index\Controller\IndexController.class.php 第 47 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_nav`  [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `bbs_employment` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `bbs_video` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `bbs_article` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_class` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_employment` WHERE ( jy_type=1 )  [ RunTime:0.010000s ]
+SQL: SELECT * FROM `bbs_employment` WHERE ( jy_type=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_employment` WHERE ( jy_type=3 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_article` WHERE ( t_id=5 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=3 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_video`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2014-12-22T13:43:14+08:00 ] 127.0.0.1 /Index/jyjb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [2048] Declaration of Index\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\bbs\Application\Index\Controller\IndexController.class.php 第 47 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.019003s ]
+SQL: SELECT * FROM `bbs_nav`  [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `bbs_employment` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_video` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_article` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `bbs_class` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_employment` WHERE ( jy_type=1 )  [ RunTime:0.010000s ]
+SQL: SELECT * FROM `bbs_employment` WHERE ( jy_type=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_employment` WHERE ( jy_type=3 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_article` WHERE ( t_id=5 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=3 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_video`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-12-22T13:43:31+08:00 ] 127.0.0.1 /Index/jyjb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Index\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\bbs\Application\Index\Controller\IndexController.class.php 第 47 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_nav`  [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `bbs_employment` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `bbs_video` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_article` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_class` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `bbs_employment` WHERE ( jy_type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_employment` WHERE ( jy_type=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_employment` WHERE ( jy_type=3 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_article` WHERE ( t_id=5 )  [ RunTime:0.010000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=3 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_video`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2014-12-22T13:43:54+08:00 ] 127.0.0.1 /Index/jyjb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Index\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\bbs\Application\Index\Controller\IndexController.class.php 第 47 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_nav`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_employment` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_video` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `bbs_article` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_class` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `bbs_employment` WHERE ( jy_type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_employment` WHERE ( jy_type=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_employment` WHERE ( jy_type=3 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_article` WHERE ( t_id=5 )  [ RunTime:0.010000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=2 )  [ RunTime:0.010000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=3 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_video`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
