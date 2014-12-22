@@ -29,7 +29,7 @@
 
 	<div class="clear"></div>
 	<div class="top2">
-		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
+		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/bbs/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
 		<div class="fl toubu">
 		<div class="toubu-font1">PHP学院</div>
 			 <!-- 校区 -->
@@ -63,7 +63,7 @@
 <?php if(is_array($img)): foreach($img as $key=>$io): ?><div class="jyjb-11">
 <ul>
     
-<li class="fl jyjb-11-font1" style="height:96px;"><a href="/Index/Jyjb/video?id=<?php echo ($io["v_id"]); ?>"><img alt="传智播客php培训学院就业学生" src='/<?php echo ($io["v_image"]); ?>' style="width: 131px; height: 93px; " /></a></li>
+<li class="fl jyjb-11-font1" style="height:96px;"><a href="/bbs/Index/Jyjb/video?id=<?php echo ($io["v_id"]); ?>"><img alt="传智播客php培训学院就业学生" src='/bbs/<?php echo ($io["v_image"]); ?>' style="width: 131px; height: 93px; " /></a></li>
 <li class="fl jyjb-11-font1" style="height:100px;"><span style="color:#000000;"><b><?php echo ($io["v_title"]); ?><br />
 <span class="jyjb-font2"><a href="http://php.itcast.cn/news/20130122/14000221632.shtml">[播放]</a></span></b></span></li>
 </ul>
@@ -83,7 +83,7 @@ size:12px;background-color:#ecf6fd;">
 </table>
 <div class="zhanshi">
 <h4><span class="fr" style="font-weight: normal; margin-right: 30px"><a href="#">更多 </a></span>12月20日PHP就业班部分学员就业喜报</h4>
-<div><img alt="" src="/public/q.jpg" style="width: 628px; height: 266px;" /></div>
+<div><img alt="" src="/bbs/public/q.jpg" style="width: 628px; height: 266px;" /></div>
 </div>
 <table border="0" cellpadding="0" cellspacing="0" class="jiuye" width="97%">
 <tbody>
@@ -110,7 +110,7 @@ size:12px;background-color:#ecf6fd;">
 </table>
 <div class="zhanshi">
 <h4><span class="fr" style="font-weight: normal; margin-right: 30px"><a href="#">更多 </a></span>11月16日PHP就业班部分学员就业喜报</h4>
-<div><img alt="" src="/public/qq.jpg" style="width: 628px; height: 266px;" /></div>
+<div><img alt="" src="/bbs/public/qq.jpg" style="width: 628px; height: 266px;" /></div>
 </div>
 <table border="0" cellpadding="0" cellspacing="0" class="jiuye" width="97%">
 <tbody>
@@ -137,7 +137,7 @@ size:12px;background-color:#ecf6fd;">
 </table>
 <div class="zhanshi">
 <h4><span class="fr" style="font-weight: normal; margin-right: 30px"><a href="#">更多 </a></span>10月16日PHP就业班部分学员就业喜报</h4>
-<div><img alt="" src="/public/qqq.jpg" style="width: 628px; height: 266px;" /></div>
+<div><img alt="" src="/bbs/public/qqq.jpg" style="width: 628px; height: 266px;" /></div>
 </div>
 <table border="0" cellpadding="0" cellspacing="0" class="jiuye" width="97%">
 <tbody>
@@ -168,11 +168,11 @@ size:12px;background-color:#ecf6fd;">
 		<div id="right" class="fl">			
 			<h4 class="righttitle1 zhaopin"><span class="blue">最新</span>企业招聘</h4>
 			<div class="rightkuang1">
-			<p class="cent"> <img src="/public/chenxu.jpg"  width="256" height="130" /></p>
+			<p class="cent"> <img src="/bbs/public/chenxu.jpg"  width="256" height="130" /></p>
                   <table border="0" cellpadding="0" cellspacing="0" class="zhaopinlist" height="124" style="margin-top: 5px" width="98%">
 <tbody>
     <?php if(is_array($info)): foreach($info as $key=>$in): ?><tr>
-	<td class="td1" width="73%"><a href="/Index/Jyjb/detailed?id=<?php echo ($in["aid"]); ?>" target="_blank"><?php echo ($in["a_title"]); ?></a></td>
+	<td class="td1" width="73%"><a href="/bbs/Index/Jyjb/detailed?id=<?php echo ($in["aid"]); ?>" target="_blank"><?php echo ($in["a_title"]); ?></a></td>
 	<td width="16%"><?php echo date('m-d',$in['start_time']) ?></td>
 	</tr><?php endforeach; endif; ?>
 	<tr>
@@ -194,21 +194,21 @@ size:12px;background-color:#ecf6fd;">
 <br />
 </ul>
 <?php if(is_array($info1)): foreach($info1 as $key=>$a): ?><ul style="clear: both">
-<li><a href="/Index/Jyjb/training?id=<?php echo ($a["id"]); ?>" target="_blank"><span class="time jyjb-font2"><b><?php if($a['class_state']==1){ echo "预约报名"; }else{ echo "<font color='blue'>爆满已开班</font>"; } ?></b></span><?php echo ($a["class_title"]); ?>(<?php echo ($a["start_time"]); ?>)</a></li>
+<li><a href="/bbs/Index/Jyjb/training?id=<?php echo ($a["id"]); ?>" target="_blank"><span class="time jyjb-font2"><b><?php if($a['class_state']==1){ echo "预约报名"; }else{ echo "<font color='blue'>爆满已开班</font>"; } ?></b></span><?php echo ($a["class_title"]); ?>(<?php echo ($a["start_time"]); ?>)</a></li>
 </ul><?php endforeach; endif; ?>
 <ul>
 <li style="border-bottom: medium none; float: left; color: #515151"><a href="http://php.itcast.cn/php/course/php.shtml"><b><font style="color: #515151">PHP就业班</font></b></a></li>
 <br />
 </ul>
  <?php if(is_array($info2)): foreach($info2 as $key=>$a): ?><ul style="clear: both">
-<li><a href="/Index/Jyjb/training?id=<?php echo ($a["id"]); ?>" target="_blank"><span class="time jyjb-font2"><b><?php if($a['class_state']==1){ echo "预约报名"; }else{ echo "<font color='blue'>爆满已开班</font>"; } ?></b></span><?php echo ($a["class_title"]); ?>(<?php echo ($a["start_time"]); ?>)</a></li>
+<li><a href="/bbs/Index/Jyjb/training?id=<?php echo ($a["id"]); ?>" target="_blank"><span class="time jyjb-font2"><b><?php if($a['class_state']==1){ echo "预约报名"; }else{ echo "<font color='blue'>爆满已开班</font>"; } ?></b></span><?php echo ($a["class_title"]); ?>(<?php echo ($a["start_time"]); ?>)</a></li>
 </ul><?php endforeach; endif; ?>
 <ul>
 <li style="border-bottom: medium none; float: left; color: #515151"><a href="http://php.itcast.cn/news/981030b0/96d5/4005/9ae4/eba8bac4195a.shtml"><b><font style="color: #515151">PHP远程班</font></b></a></li>
 <br />
 </ul>
 <?php if(is_array($info3)): foreach($info3 as $key=>$a): ?><ul style="clear: both">
-<li><a href="/Index/Jyjb/training?id=<?php echo ($a["id"]); ?>" target="_blank"><span class="time jyjb-font2"><b><?php if($a['class_state']==1){ echo "预约报名"; }else{ echo "<font color='blue'>爆满已开班</font>"; } ?></b></span><?php echo ($a["class_title"]); ?>(<?php echo ($a["start_time"]); ?>)</a></li>
+<li><a href="/bbs/Index/Jyjb/training?id=<?php echo ($a["id"]); ?>" target="_blank"><span class="time jyjb-font2"><b><?php if($a['class_state']==1){ echo "预约报名"; }else{ echo "<font color='blue'>爆满已开班</font>"; } ?></b></span><?php echo ($a["class_title"]); ?>(<?php echo ($a["start_time"]); ?>)</a></li>
 </ul><?php endforeach; endif; ?>
 
 			</div>
