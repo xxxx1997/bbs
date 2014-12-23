@@ -39,6 +39,37 @@ class NavController extends Controller {
  
 
     }
+    //修改
+    public function  upd(){
+        $n_id=$_GET['n_id'];
+        $list=M('nav')->where("n_id=".$n_id)->find();
+        //print_r($i);die;
+        $this->assign('list',$list);
+        $this->display();
+        
+    }
+        //修改_do
+    public function  nav_upd_do(){
+       // print_r($_POST);die;
+        $res=M('nav')->where("n_id=".$_POST['n_id'])->save($_POST); 
+        if($res){
+            $this->success('更新成功',U('nav/nav_list'));
+        }else{
+           
+            $this->error('更新失败');
+        }
+    }
+      //删除
+        public function nav_del(){
+         $res=M('nav')->where('n_id='.I('post.id'))->delete(); 
+         
+        if($res){
+            echo 1;
+        }else{
+            
+            echo 0;
+        }
+    }
 
 
 }

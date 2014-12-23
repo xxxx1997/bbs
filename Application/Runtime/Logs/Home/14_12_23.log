@@ -1,23 +1,37 @@
+<<<<<<< HEAD
 [ 2014-12-23T09:27:16+08:00 ] 127.0.0.1 /home
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 
 [ 2014-12-23T09:27:17+08:00 ] 127.0.0.1 /Home/login/login.html
+=======
+[ 2014-12-23T08:35:40+08:00 ] 127.0.0.1 /two/Home
+>>>>>>> 6599f6b847b396825cf87220a11cc29d4c42918c
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 
+<<<<<<< HEAD
 [ 2014-12-23T09:27:22+08:00 ] 127.0.0.1 /Home/login/login_do.html
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 
 [ 2014-12-23T09:27:23+08:00 ] 127.0.0.1 /Home/admin/index.html
+=======
+[ 2014-12-23T08:35:45+08:00 ] 127.0.0.1 /two/Home/nav/nav_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-23T08:39:26+08:00 ] 127.0.0.1 /two/Home/nav/nav_list.html
+>>>>>>> 6599f6b847b396825cf87220a11cc29d4c42918c
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 
+<<<<<<< HEAD
 [ 2014-12-23T09:27:58+08:00 ] 127.0.0.1 /Home/nav/nav_list.html
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
@@ -49,10 +63,14 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 
 [ 2014-12-23T09:29:47+08:00 ] 127.0.0.1 /Home/article/class_list.html
+=======
+[ 2014-12-23T08:39:30+08:00 ] 127.0.0.1 /two/Home/
+>>>>>>> 6599f6b847b396825cf87220a11cc29d4c42918c
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 
+<<<<<<< HEAD
 [ 2014-12-23T09:29:57+08:00 ] 127.0.0.1 /Home/article/see_class/id/2.html
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
@@ -80,10 +98,20 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 
 [ 2014-12-23T09:41:09+08:00 ] 127.0.0.1 /Home/video/video_list.html
+=======
+[ 2014-12-23T08:39:35+08:00 ] 127.0.0.1 /two/Home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Index
+
+[ 2014-12-23T08:39:40+08:00 ] 127.0.0.1 /two/Home/admin
+>>>>>>> 6599f6b847b396825cf87220a11cc29d4c42918c
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 
+<<<<<<< HEAD
 [ 2014-12-23T09:41:09+08:00 ] 127.0.0.1 /Home/video/js/jquery.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
@@ -106,10 +134,19 @@ INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
 INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
 
 [ 2014-12-23T09:41:29+08:00 ] 127.0.0.1 /Home/teacher/teacher_list.html
+=======
+[ 2014-12-23T08:41:04+08:00 ] 127.0.0.1 /two/home
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 
+[ 2014-12-23T08:41:08+08:00 ] 127.0.0.1 /two/Home/nav/nav_list.html
+>>>>>>> 6599f6b847b396825cf87220a11cc29d4c42918c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+<<<<<<< HEAD
 [ 2014-12-23T09:41:41+08:00 ] 127.0.0.1 /Home/teacher/right.html
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
@@ -141,10 +178,24 @@ INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 ERR: 非法操作:right
 
 [ 2014-12-23T09:41:57+08:00 ] 127.0.0.1 /Home/nav/nav_list.html
+=======
+[ 2014-12-23T08:41:11+08:00 ] 127.0.0.1 /two/Home/nav/upd/n_id/7.html
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 
+[ 2014-12-23T08:41:18+08:00 ] 127.0.0.1 /two/Home/nav/nav_upd_do.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-12-23T08:41:20+08:00 ] 127.0.0.1 /two/Home/nav/nav_list.html
+>>>>>>> 6599f6b847b396825cf87220a11cc29d4c42918c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+<<<<<<< HEAD
 [ 2014-12-23T09:42:02+08:00 ] 127.0.0.1 /Home/nav/nav_add.html
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
@@ -239,4 +290,20 @@ NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be rem
 SQL: DELETE FROM `bbs_type` WHERE ( id= ) [ RunTime:0.002000s ]
 ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
  [ SQL语句 ] : DELETE FROM `bbs_type` WHERE ( id= )
+=======
+[ 2014-12-23T08:41:22+08:00 ] 127.0.0.1 /two/Home/nav/upd/n_id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-12-23T08:41:39+08:00 ] 127.0.0.1 /two/Home/nav/nav_upd_do.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+
+[ 2014-12-23T08:41:41+08:00 ] 127.0.0.1 /two/Home/nav/nav_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+>>>>>>> 6599f6b847b396825cf87220a11cc29d4c42918c
 
