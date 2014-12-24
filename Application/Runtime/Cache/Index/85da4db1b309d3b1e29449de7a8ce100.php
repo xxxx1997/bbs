@@ -483,7 +483,7 @@ document.write("</font>")
         	<tr style="TEXT-ALIGN:center;">
         		<td class="nge_inactive" style="border-right:none;">精华推荐</td>
 </tr>
-       </tbody>
+       </tbody>11111
     </table>
 </td>
     
@@ -508,7 +508,7 @@ document.write("</font>")
     <td width="450px" align=center class="nge_border_right" style="border-top:none;">
     <table border="0" cellSpacing=0 cellPadding=0 width="450">
       <tbody>
-        <tr>
+        <tr><img src="/two/Application/Common/Public/Images/2014-12-18/3.jpg" width="450" height="250" alt="newpic"/>
         	<td align="center" style="position: relative;">
 
 <div>
@@ -1158,91 +1158,11 @@ runslideshow();
 
 </div>
 </div>
-        		<div class="nge_list_div">
-        			<div style="float:right;margin-right:5px;display:inline;overflow:hidden;text-overflow:ellipsis;">
-&nbsp;
+        		
 
-        				
-        			
-        			</div>
-        			<div style="display:inline;overflow:hidden;text-overflow:ellipsis;">
-        			
-<a href="thread-10548-1-1.html" title="版块: 衣食住行
-标题: 畅游古刹八大处，尽显讲师年少时—记传智首个讲师日活
-发表: 刘晓曲老师 (2013-04-08 02:30)
-浏览:  6116 次 回复: 5 次
-回复: 仇邓强 (2013-05-31 16:43)"   target="_blank" name="xxx">畅游古刹八大处，尽显讲师年少时—记传智首个讲师日活</a>
 
-</div>
-</div>
-        		<div class="nge_list_div">
-        			<div style="float:right;margin-right:5px;display:inline;overflow:hidden;text-overflow:ellipsis;">
-&nbsp;
 
-        				
-        			
-        			</div>
-        			<div style="display:inline;overflow:hidden;text-overflow:ellipsis;">
-        			
-<a href="thread-10437-1-1.html" title="版块: 衣食住行
-标题: 毕姥爷突击查寝暖人心——上海传智播客住宿生活篇（一
-发表: 王平 (2013-04-02 16:20)
-浏览:  8686 次 回复: 25 次
-回复: 茹红 (2014-12-10 14:01)"   target="_blank" name="xxx">毕姥爷突击查寝暖人心——上海传智播客住宿生活篇（一</a>
 
-</div>
-</div>
-        		<div class="nge_list_div">
-        			<div style="float:right;margin-right:5px;display:inline;overflow:hidden;text-overflow:ellipsis;">
-&nbsp;
-
-        				
-        			
-        			</div>
-        			<div style="display:inline;overflow:hidden;text-overflow:ellipsis;">
-        			
-<a href="thread-10233-1-1.html" title="版块: 衣食住行
-标题: 爱心之火成燎原之势——浩荣 成都传智播客支持你
-发表: 成都中心 (2013-03-27 14:17)
-浏览:  1952 次 回复: 1 次
-回复: 成都中心 (2013-03-27 14:37)"   target="_blank" name="xxx">爱心之火成燎原之势——浩荣 成都传智播客支持你</a>
-
-</div>
-</div>
-        		<div class="nge_list_div">
-        			<div style="float:right;margin-right:5px;display:inline;overflow:hidden;text-overflow:ellipsis;">
-&nbsp;
-
-        				
-        			
-        			</div>
-        			<div style="display:inline;overflow:hidden;text-overflow:ellipsis;">
-        			
-<a href="thread-7632-1-1.html" title="版块: 衣食住行
-标题: 必看！！！java&amp;平面联谊元旦晚会图文直播 精彩不断啊
-发表: 王平 (2013-01-08 15:19)
-浏览:  4432 次 回复: 6 次
-回复: 左手牵右手 (2013-02-27 23:37)"   target="_blank" name="xxx">必看！！！java&amp;平面联谊元旦晚会图文直播 精彩不断啊</a>
-
-</div>
-</div>
-        		<div class="nge_list_div">
-        			<div style="float:right;margin-right:5px;display:inline;overflow:hidden;text-overflow:ellipsis;">
-&nbsp;
-
-        				
-        			
-        			</div>
-        			<div style="display:inline;overflow:hidden;text-overflow:ellipsis;">
-        			
-<a href="thread-7465-1-1.html" title="版块: 衣食住行
-标题: 期盼2013 high爆了 java班元旦晚会
-发表: 冯佳老师 (2012-12-31 16:22)
-浏览:  1910 次 回复: 2 次
-回复: 指弹 (2012-12-31 19:44)"   target="_blank" name="xxx">期盼2013 high爆了 java班元旦晚会</a>
-
-</div>
-</div>
 
         	</div>
 

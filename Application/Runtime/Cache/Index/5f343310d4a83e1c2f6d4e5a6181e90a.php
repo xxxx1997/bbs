@@ -54,8 +54,9 @@
 	<li><a href="<?php echo U($v['n_url']) ?>" ><?php echo $v['n_name']?></a></li>
 	 
    <?php }?>
-	</ul>
 
+	<li><a href="http://www.discuz.com/upload/forum.php" target=_blank>技术论坛</a></li>
+</ul>
 	</div>
 <!--输出-->
  <div id="box">
@@ -162,7 +163,7 @@
 			<div class="left_content2">
 			  <h4 class="ganyan"><span class="STYLE3">论坛</span>热贴<span class="fr"><a href="http://bbs.itcast.cn">+MORE</a></span></h4>	
 <div class="tie">		  
-<script type="text/javascript" src="http://bbs.itcast.cn/api.php?mod=js&bid=67"></script>
+<?php if(is_array($discuz)): foreach($discuz as $key=>$it): ?><li><a href="http://www.discuz.com/upload/forum.php?mod=viewthread&tid=<?php echo ($it["tid"]); ?>" target=_blank><?php echo ($it["subject"]); ?>&nbsp;</a></li><?php endforeach; endif; ?>
 </div>
 			  <div class="clear"></div>
 		  </div>
