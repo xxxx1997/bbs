@@ -106,7 +106,9 @@
 			<div class="left_content2">
 			  <h4 class="ganyan"><span class="STYLE3">论坛</span>热贴<span class="fr"><a href="http://bbs.itcast.cn">+MORE</a></span></h4>	
 <div class="tie">		  
-<script type="text/javascript" src="http://bbs.itcast.cn/api.php?mod=js&bid=67"></script>
+<foreach name="discuz" item="it">
+		<li><a href="http://www.discuz.com/upload/forum.php?mod=viewthread&tid={$it.tid}" target=_blank>{$it.subject}&nbsp;</a></li>
+</foreach>
 </div>
 			  <div class="clear"></div>
 		  </div>

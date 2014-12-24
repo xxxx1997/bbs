@@ -1,0 +1,7 @@
+<?php
+//Discuz! cache file, DO NOT modify me!
+//Identify: 5e421e8f5f8d3f3ac7f4948e40c502cb
+
+$piclist='PGxpIHN0eWxlPSJ3aWR0aDoxMDAlO2hlaWdodDoyNzlweDtkaXNwbGF5OiBibG9jazsiPjxhIGhyZWY9ImZvcnVtLnBocD9tb2Q9dmlld3RocmVhZCZ0aWQ9MSIgdGFyZ2V0PSJfYmxhbmsiPjxpbWcgc3JjPSJkYXRhL2F0dGFjaG1lbnQvZm9ydW0vMjAxNDEyLzI0LzE0MjA0MXdtOXhuOWU4Z3plOHhlMTEuanBnIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIyNzlweCI+PC9hPjxzcGFuIGNsYXNzPSJ0aXRsZSI+6Iux6ZuE5Zub57uE77yBPC9zcGFuPjwvbGk+';
+$lasttime=1419402900;
+?>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[nimba_nge.plugin]]></item>
+	<item id="RevisionID"><![CDATA[19395]]></item>
+	<item id="SN"><![CDATA[20141224144f9RF190fF]]></item>
+	<item id="RevisionDateline"><![CDATA[1373623202]]></item>
+	<item id="Data">
+		<item id="/addon.inc.php"><![CDATA[af9a4d588d9f02a4b7e8263aa31287bb]]></item>
+		<item id="/cache.inc.php"><![CDATA[968bea15e5a09b08fc6db989f0ce42ee]]></item>
+		<item id="/checkinfo.php"><![CDATA[5374349f1639497dd70e6986f66f62df]]></item>
+		<item id="/discuz_plugin_nimba_nge_SC_GBK.xml"><![CDATA[5f0698b843c8d18ad159bb2739b533b3]]></item>
+		<item id="/discuz_plugin_nimba_nge_SC_UTF8.xml"><![CDATA[b36cd70c86098429b49b87612c14eda6]]></item>
+		<item id="/discuz_plugin_nimba_nge_TC_BIG5.xml"><![CDATA[ed0ef9f14cc184cc67051ff406da84ee]]></item>
+		<item id="/discuz_plugin_nimba_nge_TC_UTF8.xml"><![CDATA[79cd5c0de285fd7cb4734d91c08cd3c3]]></item>
+		<item id="/hook.class.php"><![CDATA[2484b647d82c327c23b3153d2ece3726]]></item>
+		<item id="/install.php"><![CDATA[ac8990199f25d6c39563350212f1b0fb]]></item>
+		<item id="/template/nge.htm"><![CDATA[a77481b7edb620bb7498a30e0d9da9ed]]></item>
+		<item id="/template/style.css"><![CDATA[e6616519430905d784227f66d83e8691]]></item>
+		<item id="/uninstall.php"><![CDATA[9c40f3a482959e3795550333c000df14]]></item>
+		<item id="/upgrade.php"><![CDATA[13f8d9f1f34997f38f7302d3707a8e55]]></item>
+	</item>
+</root>

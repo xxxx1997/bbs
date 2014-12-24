@@ -1,7 +1,6 @@
 <?php
 namespace Index\Controller;
 use Think\Controller;
-
 class QuestionController extends IndexController {
     #显示常见问题的列表
     public function index(){

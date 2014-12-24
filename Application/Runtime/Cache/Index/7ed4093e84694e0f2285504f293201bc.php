@@ -29,7 +29,11 @@
 
 	<div class="clear"></div>
 	<div class="top2">
+<<<<<<< HEAD
 		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
+=======
+		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/two/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
+>>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
 		<div class="fl toubu">
 		<div class="toubu-font1">PHP学院</div>
 			 <!-- 校区 -->
@@ -45,14 +49,18 @@
 		<p class="fr"><img src="http://php.itcast.cn/images/topword.gif" alt="改变中国教育，我们正在行动..." class="png"/></p>
 	</div>
 	<div class="clear"></div>
+
+
+
 	<ul id="nav">
 	<?php foreach($a as $k=>$v){ ?>
 
 	<li><a href="<?php echo U($v['n_url']) ?>" ><?php echo $v['n_name']?></a></li>
 	 
    <?php }?>
-	</ul>
 
+	<li><a href="http://www.discuz.com/upload/forum.php" target=_blank>技术论坛</a></li>
+</ul>
 	</div>
 <!--输出-->
  <div id="box">
@@ -69,12 +77,20 @@
     </div>
 <!-- Baidu share END 需在页面底部添加baidushare.js -->
 			   <div style="padding-left:10px;float:left;">
+<<<<<<< HEAD
 			     <b>其它学院入口：</b>  <img src="/Application/Common/index/images/sanjiao.jpg" /> <a href="http://net.itcast.cn">.net学院</a> <img src="/Application/Common/index/images/sanjiao.jpg" /> <a href="http://java.itcast.cn">java学院</a>  <img src="/Application/Common/index/images/sanjiao.jpg" /> <a href="http://icd.itcast.cn">网页平面设计学院</a>
+=======
+			     <b>其它学院入口：</b>  <img src="/two/Application/Common/index/images/sanjiao.jpg" /> <a href="http://net.itcast.cn">.net学院</a> <img src="/two/Application/Common/index/images/sanjiao.jpg" /> <a href="http://java.itcast.cn">java学院</a>  <img src="/two/Application/Common/index/images/sanjiao.jpg" /> <a href="http://icd.itcast.cn">网页平面设计学院</a>
+>>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
 			   </div>
 			</div>
 			  <div id="left" class="fl"  style="margin-top:3px;">
 			<div class="jyjb">
+<<<<<<< HEAD
 			<div><img src="/Application/Common/index/images/kcjs.jpg" /></div>
+=======
+			<div><img src="/two/Application/Common/index/images/kcjs.jpg" /></div>
+>>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
 			 ﻿
 <div class="kcjs">
 <style type="text/css">
@@ -82,7 +98,11 @@
 	.kcnr-table li{ list-style-image:url(http://www.itcast.cn/files/image/201207/20120718144154342.jpg); margin-left:15px;;</style>
 </div>
 <ul>
+<<<<<<< HEAD
 <?php if(is_array($list)): foreach($list as $key=>$it): ?><li class="fl" style="width:141px;"><img src="/Application/Common/Public/<?php echo ($it["thumb"]); ?>" /></li>
+=======
+<?php if(is_array($list)): foreach($list as $key=>$it): ?><li class="fl" style="width:141px;"><img src="/two/Application/Common/Public/<?php echo ($it["thumb"]); ?>" /></li>
+>>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
 <li class="fl jyjb-11-font1" style=" width:470px;"><b class="jyjb-11-font2"><a href="http://php.itcast.cn/php/course/base.shtml" target="_blank">PHP基础班</a></b>
 <p>本课程适合没有任何软件编程基础和网页设计经验，想先从基础入手的PHP开发爱好者。课程重点培养掌握HTML、CSS、Javascript等网站开发所必备的基础知识，另外帮助学员快速入门Apache服务器搭建、MySQL数据库和PHP编程基础，为以后深入学习PHP就业课程打下坚实基础。</p>
 </li><?php endforeach; endif; ?>
@@ -229,14 +249,22 @@
 <?php if(is_array($ke1)): foreach($ke1 as $key=>$it): ?><li><a href="<?php echo U('jyjb/training',array('id'=>$it['id']));?>" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
 </ul>
 <ul>
+<<<<<<< HEAD
 <li style="border-bottom: medium none; float: left; color: #515151"><a href="/Index/Course/training?id=<?php echo ($it["id"]); ?>"><b><font style="color: #515151">PHP就业班</font></b></a></li>
+=======
+<li style="border-bottom: medium none; float: left; color: #515151"><a href="/two/Index/Course/training?id=<?php echo ($it["id"]); ?>"><b><font style="color: #515151">PHP就业班</font></b></a></li>
+>>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
 <br />
 </ul>
 <ul style="clear: both">
 <?php if(is_array($ke2)): foreach($ke2 as $key=>$it): ?><li><a href="<?php echo U('jyjb/training',array('id'=>$it['id']));?>" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
 </ul>
 <ul>
+<<<<<<< HEAD
 <li style="border-bottom: medium none; float: left; color: #515151"><a href="/Index/Course/training"><b><font style="color: #515151">PHP远程班</font></b></a></li>
+=======
+<li style="border-bottom: medium none; float: left; color: #515151"><a href="/two/Index/Course/training"><b><font style="color: #515151">PHP远程班</font></b></a></li>
+>>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
 <br />
 </ul>
 <ul style="clear: both">

@@ -1,4 +1,7 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "/www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php if (!defined('THINK_PATH')) exit();?>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "/www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="/www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -42,20 +45,16 @@
 		<p class="fr"><img src="http://php.itcast.cn/images/topword.gif" alt="改变中国教育，我们正在行动..." class="png"/></p>
 	</div>
 	<div class="clear"></div>
-		<ul id="nav">
-	<li><a href="<?php echo U('index/index');?>" id="nav_main">首 页</a></li>
-	<li class="widt"><a href="<?php echo U('course/index');?>" id="nav_course">PHP培训课程</a> </li> 
-	<li class="widt"><a href="<?php echo U('video/index');?>" id="nav_videodl">PHP视频下载</a> </li>
-    <li id="nav_personnel"><a href="http://www.itcast.cn/channel/personnel.shtml">人才服务</a></li>
-    <li id="nav_life"><a href="http://www.itcast.cn/channel/campus.shtml">校园生活</a> </li>
-    <li id="nav_teacher"><a href="<?php echo U('teacher/index');?>">师资力量</a> </li>
-    <li id="nav_job"><a href="<?php echo U('jyjb/index');?>">就业信息</a> </li>
-    <li id="nav_flow"><a href="http://www.itcast.cn/channel/flow.shtml">报名流程</a> </li>
-    <li id="nav_book"><a href="http://www.itcast.cn/channel/book.shtml">原创教材</a> </li>
-	<li id="nav_question"><a href="<?php echo U('question/index');?>">常见问题</a></li>
-	<li><a href="http://www.itcast.cn/channel/contact.shtml">来校路线</a></li>
-	<li><a href="http://bbs.itcast.cn" target="_blank">技术论坛 </a></li>
-</ul>
+
+
+	<ul id="nav">
+	<?php foreach($a as $k=>$v){ ?>
+
+	<li><a href="<?php echo U($v['n_url']) ?>" ><?php echo $v['n_name']?></a></li>
+	 
+   <?php }?>
+	</ul>
+
 	</div>
 <!--输出-->
  
@@ -461,67 +460,76 @@
 .bm .bm_con .right input:hover{ background:#5aa3e9;}
 .bm .bm_con .right p{font-size:12px; color:#666; margin-top:25px;}	
 </style>
-<script type="text/javascript" src="http://www.itcast.cn/js/jquery-1.7.2.min.js"></script>
+
 <script type="text/javascript">
 function check(){
 	var realname=$("#realname");
 	var phone=$("#phone");
-	var email=$("#email");
 	var qq=$("#qq");
 	var address=$("#address");
-	
+                     var cid=$("#cid").val();
+	//alert(cid);
 	var realnamereg=/^[\u4E00-\u9FA5]+$/;
 	var phonereg=/^[1][3-9][0-9]{9}$/;
 	var qqreg=/^[1-9]\d{4,}$/;
-	var emailreg=/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/;
 	var shuoreg=/(http[s]?|ftp):\/\/[^\/\.]+?\..+\w$/i;
-
-	
+        
 	if(!realnamereg.test(realname.val())){
 		realname.focus().val('');
 		alert('请输入正确的中文名称！');
 		return false;
-	}else if(!phonereg.test(phone.val())){
+	}
+        if(!phonereg.test(phone.val())){
 		phone.focus().val('');
 		alert('请输入正确的手机！');
 		return false;
-	}else if(address.val() == 0){
+	}
+        if(address.val() == 0){
 		alert('请选择所在省份！');
 		return false;
-	}else if( typeof qq.val() != 'undefined' && !qqreg.test(qq.val()) ){
+	}
+        if( typeof qq.val() != 'undefined' && !qqreg.test(qq.val()) ){
 		qq.focus().val('');
 		alert('请输入正确的QQ号码！');
 		return false;
-	}else if( typeof email.val() != 'undefined' && !emailreg.test(email.val())){
-		email.focus().val('');
-		alert('请输入正确的邮箱地址！');
-		return false;
 	}
-	else{
-	$.post("", {
-	realname: realname.val() , 
-	phone: phone.val(),
-	address: address.val(),
-	email: email.val(),
-	qq: qq.val(),
-	cid: 6,
-	t:new Date().getTime()
-	});
-	
-	alert('申请成功！\r\n咨询客服人员将会主动联系您，请耐心等待！');
-	realname.val('');
-	phone.val('');
-	address.val('');
-	email.val('');
-	qq.val('');
-	$("input[name='source']:checked").removeAttr("checked");
-	}
+                       realname=$("#realname").val();
+	phone=$("#phone").val();
+	qq=$("#qq").val();
+                       address=$("#address").val();
+                       cid=$("#cid").val();
+                   $.ajax({
+                  url:"/Index/Jyjb/check",
+                  data:{"realname":realname,"phone":phone,"qq":qq,"address":address,"cid":cid},
+                  dataType:"json",
+                  type:"get",
+                  success:function(res){
+                    if(res==0){
+                        alert("由于网络原因，报名失败");
+                    }else{
+                        alert("报名成功，马上会有相关老师联系您！");
+                        $("#realname").val("");
+	$("#phone").val("");
+	$("#qq").val("");
+                     $("#address").val("");
+                       $("#cid").val("");
+                        
+                    }
+                  }
+                  
+              })
+                           
+                           
+                           
+                           
+
 }
 </script>
+<input type="hidden" id="cid" value="<?php echo $info[0]['id']?>">
 <div class="bm">
 	<h2>每期开班座位有限,预报名可优先享有占座特权哦！</h2>
 	<div class="bm_con">
-	<form id="addform" action="/Api/Subject/networkapply.html" method="post">
+	<form id="addform" action="" method="post" >
 		<div class="left">
 			<ul>
 				<li>
@@ -544,7 +552,7 @@ function check(){
 			<br />
 		</div>
 		<div class="right">
-			<input type="button" value="现在预报名"  onClick="check()" />
+			<input type="button" value="现在预报名"  onclick="check()" />
 			<p>温馨提示：请保持手机畅通，咨询老师将为您提供专属的一对一报名服务。</p>
 		</div>
 	</form>

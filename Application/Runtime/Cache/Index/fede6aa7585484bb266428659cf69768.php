@@ -45,6 +45,8 @@
 		<p class="fr"><img src="http://php.itcast.cn/images/topword.gif" alt="改变中国教育，我们正在行动..." class="png"/></p>
 	</div>
 	<div class="clear"></div>
+
+
 	<ul id="nav">
 	<?php foreach($a as $k=>$v){ ?>
 

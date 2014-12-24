@@ -29,11 +29,7 @@
 
 	<div class="clear"></div>
 	<div class="top2">
-<<<<<<< HEAD
 		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
-=======
-		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/bbs/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
->>>>>>> ef690aaed58988b9a6452c04b2585fc3af390d5b
 		<div class="fl toubu">
 		<div class="toubu-font1">PHP学院</div>
 			 <!-- 校区 -->
@@ -49,6 +45,8 @@
 		<p class="fr"><img src="http://php.itcast.cn/images/topword.gif" alt="改变中国教育，我们正在行动..." class="png"/></p>
 	</div>
 	<div class="clear"></div>
+
+
 	<ul id="nav">
 	<?php foreach($a as $k=>$v){ ?>
 
