@@ -159,7 +159,7 @@ $(document).ready(function(e) {
     <span>位置：</span>
     <ul class="placeul">
     <li><a href="#">首页</a></li>
-    <li><a href="#">导航管理</a></li>
+    <li><a href="#">系统设置</a></li>
     </ul>
     </div>
     
@@ -170,52 +170,34 @@ $(document).ready(function(e) {
     
     <div class="itab">
   	<ul> 
-    <li><a href="#tab1" class="selected">添加</a></li> 
+    <li><a href="#tab1" class="selected">发布通知</a></li> 
     
   	</ul>
     </div> 
-        <form action="<?php echo U('nav/nav_add_do');?>" method="post" enctype="multipart/form-data">
+        <form action="<?php echo U('rec/update',array('aid'=>$_GET['aid']));?>" method="post" enctype="multipart/form-data">
   	<div id="tab1" class="tabson">
     
     <div class="formtext">Hi，<b>admin</b>，欢迎您试用信息发布功能！</div>
     
     <ul class="forminfo">
-    <li><label>名称<b>*</b></label><input name="name" type="text" class="dfinput" value=""  style="width:518px;"/></li>
-    <li><label>url<b>*</b></label><input name="url" type="text" class="dfinput" value=""  style="width:518px;"/>       <font color="red">a/b a控制器 b方法名</font></li>
-    
-   
-    
-    
-    
-    <li><label>&nbsp;</label><input name="" type="submit" class="btn" value="添加"/></li>
+    <li><label>标题<b>*</b></label><input name="a_title" type="text" class="dfinput" value="<?php echo ($list["a_title"]); ?>"  style="width:518px;"/></li>    
+    <li><label>通知内容<b>*</b></label>
+    <textarea id="content7" name="a_content" style="width:700px;height:250px;visibility:hidden;"><?php echo ($list["a_content"]); ?></textarea>
+    </li>
+    <li><label>&nbsp;</label><input name="" type="submit" class="btn" value="马上发布"/></li>
     </ul>
-    
     </div> 
-    
-    </form>
-  	
-       
+    </form>    
 	</div> 
- 
 	<script type="text/javascript"> 
       $("#usual1 ul").idTabs(); 
     </script>
-    
     <script type="text/javascript">
 	$('.tablelist tbody tr:odd').addClass('odd');
 	</script>
-    
-    
-    
-    
-    
     </div>
-
-
 </body>
-
 </html>
-
         </div>
 </body>
 </html>

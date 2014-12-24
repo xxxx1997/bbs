@@ -99,6 +99,11 @@ $(function(){
 
     </ul>    
     </dd>
+	  <dd><div class="title"><span><img src="/Application/Common/admin/images/leftico01.png" /></span>企业招聘</div>
+    <ul class="menuson">
+        <li <?php if($Think.ACTION_NAME=='rec'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('rec/rec_list');?>">列表</a><i></i></li>
+    </ul>    
+    </dd>
        <dd><div class="title"><span><img src="/Application/Common/admin/images/leftico01.png" /></span>系统管理</div>
     <ul class="menuson">
         <li><cite></cite><a href="#">统计</a><i></i></li>
@@ -112,7 +117,7 @@ $(function(){
     </dd>
     </dl>
    
-        <div style='float: left; margin-top: 188; width: 86%'>
+        <div style='float: left; margin-top: 188; width: 85%'>
             
              <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">

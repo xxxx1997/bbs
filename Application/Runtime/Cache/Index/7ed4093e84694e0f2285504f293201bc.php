@@ -82,7 +82,7 @@
 	.kcnr-table li{ list-style-image:url(http://www.itcast.cn/files/image/201207/20120718144154342.jpg); margin-left:15px;;</style>
 </div>
 <ul>
-<?php if(is_array($list)): foreach($list as $key=>$it): ?><li class="fl" style="width:141px;"><img src="/bbs/Application/Common/Public/<?php echo ($it["thumb"]); ?>" /></li>
+<?php if(is_array($list)): foreach($list as $key=>$it): ?><li class="fl" style="width:141px;"><img src="/Application/Common/Public/<?php echo ($it["thumb"]); ?>" /></li>
 <li class="fl jyjb-11-font1" style=" width:470px;"><b class="jyjb-11-font2"><a href="http://php.itcast.cn/php/course/base.shtml" target="_blank">PHP基础班</a></b>
 <p>本课程适合没有任何软件编程基础和网页设计经验，想先从基础入手的PHP开发爱好者。课程重点培养掌握HTML、CSS、Javascript等网站开发所必备的基础知识，另外帮助学员快速入门Apache服务器搭建、MySQL数据库和PHP编程基础，为以后深入学习PHP就业课程打下坚实基础。</p>
 </li><?php endforeach; endif; ?>
@@ -229,14 +229,14 @@
 <?php if(is_array($ke1)): foreach($ke1 as $key=>$it): ?><li><a href="<?php echo U('jyjb/training',array('id'=>$it['id']));?>" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
 </ul>
 <ul>
-<li style="border-bottom: medium none; float: left; color: #515151"><a href="/bbs/Index/Course/training?id=<?php echo ($it["id"]); ?>"><b><font style="color: #515151">PHP就业班</font></b></a></li>
+<li style="border-bottom: medium none; float: left; color: #515151"><a href="/Index/Course/training?id=<?php echo ($it["id"]); ?>"><b><font style="color: #515151">PHP就业班</font></b></a></li>
 <br />
 </ul>
 <ul style="clear: both">
 <?php if(is_array($ke2)): foreach($ke2 as $key=>$it): ?><li><a href="<?php echo U('jyjb/training',array('id'=>$it['id']));?>" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
 </ul>
 <ul>
-<li style="border-bottom: medium none; float: left; color: #515151"><a href="/bbs/Index/Course/training"><b><font style="color: #515151">PHP远程班</font></b></a></li>
+<li style="border-bottom: medium none; float: left; color: #515151"><a href="/Index/Course/training"><b><font style="color: #515151">PHP远程班</font></b></a></li>
 <br />
 </ul>
 <ul style="clear: both">

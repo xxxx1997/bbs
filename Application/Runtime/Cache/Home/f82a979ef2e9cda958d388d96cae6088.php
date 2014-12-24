@@ -174,14 +174,14 @@ $(document).ready(function(e) {
     
   	</ul>
     </div> 
-        <form action="<?php echo U('nav/nav_add_do');?>" method="post" enctype="multipart/form-data">
-  	<div id="tab1" class="tabson">
-    
-    <div class="formtext">Hi，<b>admin</b>，欢迎您试用信息发布功能！</div>
-    
+        <form action="<?php echo U('rec/rec_add_do');?>" method="post" enctype="multipart/form-data">
+		<input type="hidden" name="t_id" value="5">
+		<input type="hidden" name="start_time" value="<?php echo time();?>">
+		<input type="hidden" name="state" value="0">
+  	<div id="tab1" class="tabson">    
     <ul class="forminfo">
-    <li><label>名称<b>*</b></label><input name="name" type="text" class="dfinput" value=""  style="width:518px;"/></li>
-    <li><label>url<b>*</b></label><input name="url" type="text" class="dfinput" value=""  style="width:518px;"/>       <font color="red">a/b a控制器 b方法名</font></li>
+    <li><label>公司名称<b>*</b></label><input name="a_title" type="text" class="dfinput" value=""  style="width:518px;"/></li>
+    <li><label>招聘内容<b>*</b></label><textarea name="a_content" rows="" cols="" style="width:518px;"></textarea></li>
     
    
     
@@ -215,7 +215,6 @@ $(document).ready(function(e) {
 </body>
 
 </html>
-
         </div>
 </body>
 </html>
