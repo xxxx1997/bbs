@@ -46,7 +46,10 @@
 	</div>
 	<div class="clear"></div>
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 82e8606454f2b64bb7f49cc755a5a72410f3f2aa
 
 	<ul id="nav">
 	<?php foreach($a as $k=>$v){ ?>
