@@ -121,11 +121,7 @@ window.onerror = killErrors;
  <div id="hd">
   <div class="wp">
     <div class="hdc cl"> 
-<<<<<<< HEAD
             <h2><a href="./" title="传智论坛-IT学习社区"><img src="/Application/Common/index/images/logo.png" alt="传智论坛-IT学习社区" border="0" /></a></h2>
-=======
-            <h2><a href="./" title="传智论坛-IT学习社区"><img src="/two/Application/Common/index/images/logo.png" alt="传智论坛-IT学习社区" border="0" /></a></h2>
->>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
       
       <div id="scbar_logo_r" class="y cl">
 <form id="scbar_form" method="post" autocomplete="off" onsubmit="searchFocus($('scbar_txt'))" action="search.php?searchsubmit=yes" target="_blank">
@@ -512,7 +508,7 @@ document.write("</font>")
     <td width="450px" align=center class="nge_border_right" style="border-top:none;">
     <table border="0" cellSpacing=0 cellPadding=0 width="450">
       <tbody>
-        <tr><img src="/two/Application/Common/Public/Images/2014-12-18/3.jpg" width="450" height="250" alt="newpic"/>
+        <tr><img src="/Application/Common/Public/Images/2014-12-18/3.jpg" width="450" height="250" alt="newpic"/>
         	<td align="center" style="position: relative;">
 
 <div>

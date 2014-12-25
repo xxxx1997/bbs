@@ -28,7 +28,7 @@ class IndexController extends Controller {
 		$d=M()->query("select * from pre_forum_post where first=1   order by pid desc limit 6");
 		//$d=M("pre_forum_post")->select();
 
-		print_r($d);die;
+		//print_r($d);die;
 		$this->assign("discuz",$d);
 		$this->assign('ke1',$ke1);
 		$this->assign('ke2',$ke2);

@@ -1,7 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit();?>
-
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "/www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "/www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="/www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -29,8 +26,8 @@
 
 	<div class="clear"></div>
 	<div class="top2">
-<<<<<<< HEAD
 		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
@@ -38,6 +35,8 @@
 		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/two/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
 >>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
 >>>>>>> 60d7c42115ddbed0910584fb91afd1ec00e37b49
+=======
+>>>>>>> 8b388b05a480beaa3f1b26c6fc3cf1fcf705f888
 		<div class="fl toubu">
 		<div class="toubu-font1">PHP学院</div>
 			 <!-- 校区 -->
@@ -54,6 +53,7 @@
 	</div>
 	<div class="clear"></div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 <<<<<<< HEAD
@@ -65,6 +65,8 @@
 
 >>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
 >>>>>>> 60d7c42115ddbed0910584fb91afd1ec00e37b49
+=======
+>>>>>>> 8b388b05a480beaa3f1b26c6fc3cf1fcf705f888
 	<ul id="nav">
 	<?php foreach($a as $k=>$v){ ?>
 
@@ -72,11 +74,8 @@
 	 
    <?php }?>
 
-<<<<<<< HEAD
-=======
 	<li><a href="http://www.discuz.com/upload/forum.php" target=_blank>技术论坛</a></li>
 </ul>
->>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
 	</div>
 <!--输出-->
  <div id="box">
@@ -165,8 +164,8 @@
 			  	
 				<dl class="ganyan1 huodong1">
 	<dt class="fl">
-<<<<<<< HEAD
 		<a href="http://php.itcast.cn/news/20131117/14525122556.shtml" target="_blank"><img src="/Application/Common/index/images/4.jpg" style="width: 286px; height: 215px;" /><br />
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 		<a href="http://php.itcast.cn/news/20131117/14525122556.shtml" target="_blank"><img src="/Application/Common/index/images/4.jpg" style="width: 286px; height: 215px;" /><br />
@@ -174,6 +173,8 @@
 		<a href="http://php.itcast.cn/news/20131117/14525122556.shtml" target="_blank"><img src="/two/Application/Common/index/images/4.jpg" style="width: 286px; height: 215px;" /><br />
 >>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
 >>>>>>> 60d7c42115ddbed0910584fb91afd1ec00e37b49
+=======
+>>>>>>> 8b388b05a480beaa3f1b26c6fc3cf1fcf705f888
 		天空一声巨响 四组闪亮登场</a></dt>
 	<dd class="huodongfr">
 		<h3 class="STYLE7">班级活动</h3>
@@ -286,8 +287,8 @@
 <?php if(is_array($ke1)): foreach($ke1 as $key=>$it): ?><li><a href="<?php echo U('jyjb/training',array('id'=>$it['id']));?>" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
 </ul>
 <ul>
-<<<<<<< HEAD
 <li style="border-bottom: medium none; float: left; color: #515151"><a href="/Index/Index/training?id=<?php echo ($it["id"]); ?>"><b><font style="color: #515151">PHP就业班</font></b></a></li>
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <li style="border-bottom: medium none; float: left; color: #515151"><a href="/Index/Index/training?id=<?php echo ($it["id"]); ?>"><b><font style="color: #515151">PHP就业班</font></b></a></li>
@@ -295,14 +296,16 @@
 <li style="border-bottom: medium none; float: left; color: #515151"><a href="/two/Index/Index/training?id=<?php echo ($it["id"]); ?>"><b><font style="color: #515151">PHP就业班</font></b></a></li>
 >>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
 >>>>>>> 60d7c42115ddbed0910584fb91afd1ec00e37b49
+=======
+>>>>>>> 8b388b05a480beaa3f1b26c6fc3cf1fcf705f888
 <br />
 </ul>
 <ul style="clear: both">
 <?php if(is_array($ke2)): foreach($ke2 as $key=>$it): ?><li><a href="<?php echo U('jyjb/training',array('id'=>$it['id']));?>" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
 </ul>
 <ul>
-<<<<<<< HEAD
 <li style="border-bottom: medium none; float: left; color: #515151"><a href="/Index/Index/training"><b><font style="color: #515151">PHP远程班</font></b></a></li>
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <li style="border-bottom: medium none; float: left; color: #515151"><a href="/Index/Index/training"><b><font style="color: #515151">PHP远程班</font></b></a></li>
@@ -310,6 +313,8 @@
 <li style="border-bottom: medium none; float: left; color: #515151"><a href="/two/Index/Index/training"><b><font style="color: #515151">PHP远程班</font></b></a></li>
 >>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
 >>>>>>> 60d7c42115ddbed0910584fb91afd1ec00e37b49
+=======
+>>>>>>> 8b388b05a480beaa3f1b26c6fc3cf1fcf705f888
 <br />
 </ul>
 <ul style="clear: both">
