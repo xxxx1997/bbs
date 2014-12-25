@@ -95,7 +95,7 @@ window.onerror = killErrors;
 </div>
  
       
-      <a class="top_login" href="member.php?mod=logging&amp;action=login&amp;referer=" onClick="showWindow('login', this.href);return false;"  title="登录" > 登录 </a> <a class="top_reg"  href="member.php?mod=register"  title="Register" > 注册会员 </a> <a class="top_find_psw" href="javascript:;" onClick="showWindow('login', 'member.php?mod=logging&action=login&viewlostpw=1')"> 找回密码 </a> 
+     欢迎&nbsp;&nbsp;<font color="red"><?php echo session('user')['user_name'];?></font>&nbsp;&nbsp;登陆&nbsp;&nbsp;  <a class="top_reg"  href="member.php?mod=register"  title="Register" > 注册会员 </a><a href="<?php echo U('login/logout');?>"> 退出</a> 
        
       
        
@@ -121,7 +121,7 @@ window.onerror = killErrors;
  <div id="hd">
   <div class="wp">
     <div class="hdc cl"> 
-            <h2><a href="./" title="传智论坛-IT学习社区"><img src="/two/Application/Common/index/images/logo.png" alt="传智论坛-IT学习社区" border="0" /></a></h2>
+            <h2><a href="./" title="传智论坛-IT学习社区"><img src="/Application/Common/index/images/logo.png" alt="传智论坛-IT学习社区" border="0" /></a></h2>
       
       <div id="scbar_logo_r" class="y cl">
 <form id="scbar_form" method="post" autocomplete="off" onsubmit="searchFocus($('scbar_txt'))" action="search.php?searchsubmit=yes" target="_blank">
@@ -508,7 +508,7 @@ document.write("</font>")
     <td width="450px" align=center class="nge_border_right" style="border-top:none;">
     <table border="0" cellSpacing=0 cellPadding=0 width="450">
       <tbody>
-        <tr><img src="/two/Application/Common/Public/Images/2014-12-18/3.jpg" width="450" height="250" alt="newpic"/>
+        <tr><img src="/Application/Common/Public/Images/2014-12-18/3.jpg" width="450" height="250" alt="newpic"/>
         	<td align="center" style="position: relative;">
 
 <div>

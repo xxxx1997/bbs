@@ -34,7 +34,7 @@ class JyjbController extends IndexController {
         $id=$_GET["id"];
         //echo $id;
         //die;
-        $video=$Video->where("v_id=$id")->select();
+        $video=$Video->where("v_id=$id")->find();
         //dump($video);
         //die;
         $videos=M("videos")->select();

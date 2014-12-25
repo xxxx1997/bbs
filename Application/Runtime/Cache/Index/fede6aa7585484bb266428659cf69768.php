@@ -46,7 +46,6 @@
 	</div>
 	<div class="clear"></div>
 
-
 	<ul id="nav">
 	<?php foreach($a as $k=>$v){ ?>
 

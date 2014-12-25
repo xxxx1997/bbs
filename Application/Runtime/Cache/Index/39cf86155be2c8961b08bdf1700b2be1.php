@@ -46,7 +46,6 @@
 	</div>
 	<div class="clear"></div>
 
-
 	<ul id="nav">
 	<?php foreach($a as $k=>$v){ ?>
 
@@ -63,10 +62,14 @@
     <div class="left_content1">
       <div id="printarea">
         <h1 class="infotitle">为前途来传智播客学PHP </h1>
-        <?php if(is_array($video)): foreach($video as $key=>$aa): ?><div class="editer">更新时间:<?php echo ($aa["v_time"]); ?> 来源:</div>
+
+        <div class="editer">更新时间:<?php echo date("Y-m-d H:i" ,$info['v_time'])?> 来源:</div>
         <div class="infor">
-         <center>
-	<?php echo ($aa["v_video"]); ?></center><?php endforeach; endif; ?>
+         <center><video width="500" height="500" controls="controls">
+
+      <source src="/Application/Common/Public/<?php echo ($video["v_path"]); ?>" type="video/mp4">
+
+     </video></center>
 <div class="clear"></div>
 <div class="zhanshi"><a name="ld"> </a>
 <h4><a name="ld">劳动合同（点击可查看大图）</a></h4>
