@@ -12,6 +12,8 @@ class IndexController extends Controller {
    
     }
     public function index(){
+		
+		
 		$video = M('employment');
 		$class=M('class');
 		$info=M()->query("select * from __PREFIX__article where t_id=1");
@@ -28,7 +30,7 @@ class IndexController extends Controller {
 		$d=M()->query("select * from pre_forum_post where first=1   order by pid desc limit 6");
 		//$d=M("pre_forum_post")->select();
 
-		print_r($d);die;
+		//print_r($d);die;
 		$this->assign("discuz",$d);
 		$this->assign('ke1',$ke1);
 		$this->assign('ke2',$ke2);
@@ -44,10 +46,59 @@ class IndexController extends Controller {
     }
 
 	public function show(){
+		
 		$id=$_GET['aid'];
+		 if(!empty($info=S('a'))){
+		   $this->assign("info",$info);
+		   $state="来自缓存";
+		   $this->assign("state",$state);
+		 }else{
 		 $info=M()->query("select * from __PREFIX__article where aid=$id");
+		 S('a',$info,10);
 		 $this->assign("info",$info);
+		 }
+		
+		 
 		 $this->display();
 	}
+	//登陆
+		public function login(){
+		$this->display();
+		}
+	public function login_do(){
+			include './config.inc.php';
+			include './uc_client/client.php';
+			$name=$_POST['name'];
+			$pwd=$_POST['pwd'];
+			list($uid, $username, $password, $email) = uc_user_login($name,$pwd);
+			if($uid > 0) {
+				   session('n_name',$name); 
+				   //echo session('n_name');die;
+				   echo uc_user_synlogin($uid);
+			 echo "<script>location.href='index/index'</script>";
+			} elseif($uid == -1) {
+					echo '用户不存在,或者被删除';
+			} elseif($uid == -2) {
+					echo '密码错';
+			} else {
+					echo '未定义';
+			}
+		}
+		//退出
+		public function logout(){
+			include './config.inc.php';
+			include './uc_client/client.php';
+			 session('n_name',null);
+			echo  uc_user_synlogout();
+			 echo "<script>location.href='index/index'</script>";
+		    // $this->display();
+		}
+
+	//注册
+		public function reg(){
+		$this->display();
+		}
+		
+		
   
 }

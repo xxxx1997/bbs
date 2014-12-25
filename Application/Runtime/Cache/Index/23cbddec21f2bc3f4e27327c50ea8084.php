@@ -47,7 +47,6 @@
 	<div class="clear"></div>
 
 
-
 	<ul id="nav">
 	<?php foreach($a as $k=>$v){ ?>
 
@@ -61,8 +60,9 @@
 <!--输出-->
  <!-- 主站导航 -->
 </div>
+<?php echo ($state); ?>
 <div id="box">
-  <div class="position"><a name="pagetop"/>您现在的位置：<span class="STYLE5"><a href="http://www.itcast.cn">首页</a> &gt;&gt; 公司动态 &gt;&gt; 正文</span></div>
+  <div class="position"><a name="pagetop"/>您现在的位置：<span class="STYLE5"><a href="http://www.itcast.cn">首页<?php echo ($state); ?></a> &gt;&gt; 公司动态 &gt;&gt; 正文</span></div>
   <div id="left" class="fl" style="margin-top:8px;">
     <div class="infotop"><img src="/images/infotop.gif"/></div>
     <div class="left_content1">
