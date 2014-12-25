@@ -4,15 +4,9 @@
 <title>英雄四组</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-<<<<<<< HEAD
 <link href="/Application/Common/admin/css/style.css" rel="stylesheet" type="text/css" />
 <script language="JavaScript" src="/Application/Common/admin/js/jquery.js"></script>
 <img src="/Application/Common/admin/images/c.jpg" alt="" width="100%" height="150"/>
-=======
-<link href="/two/Application/Common/admin/css/style.css" rel="stylesheet" type="text/css" />
-<script language="JavaScript" src="/two/Application/Common/admin/js/jquery.js"></script>
-<img src="/two/Application/Common/admin/images/c.jpg" alt="" width="100%" height="150"/>
->>>>>>> 6599f6b847b396825cf87220a11cc29d4c42918c
 <script type="text/javascript">
 $(function(){	
 	//导航切换
@@ -46,11 +40,7 @@ $(function(){
         
     <dd>
     <div class="title">
-<<<<<<< HEAD
     <span><img src="/Application/Common/admin/images/leftico01.png" /></span>培训课程
-=======
-    <span><img src="/two/Application/Common/admin/images/leftico01.png" /></span>培训课程
->>>>>>> 6599f6b847b396825cf87220a11cc29d4c42918c
     </div>
     	<ul class="menuson">
         <li <?php if($Think.ACTION_NAME=='course'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('admin/course');?>" >课程管理</a><i></i></li>
@@ -59,11 +49,7 @@ $(function(){
     </dd>
      <dd>
     <div class="title">
-<<<<<<< HEAD
     <span><img src="/Application/Common/admin/images/leftico01.png" /></span>文章管理
-=======
-    <span><img src="/two/Application/Common/admin/images/leftico01.png" /></span>文章管理
->>>>>>> 6599f6b847b396825cf87220a11cc29d4c42918c
     </div>
     	<ul class="menuson">
         <li <?php if($Think.ACTION_NAME=='article_list'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('article/article_list');?>" >文章列表</a><i></i></li>
@@ -74,11 +60,7 @@ $(function(){
     
     <dd>
     <div class="title">
-<<<<<<< HEAD
     <span><img src="/Application/Common/admin/images/leftico02.png" /></span>视频
-=======
-    <span><img src="/two/Application/Common/admin/images/leftico02.png" /></span>视频
->>>>>>> 6599f6b847b396825cf87220a11cc29d4c42918c
     </div>
     <ul class="menuson">
         <li <?php if($Think.ACTION_NAME=='video'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('video/video_list');?>">列表</a><i></i></li>
@@ -88,11 +70,7 @@ $(function(){
     </dd> 
     
     
-<<<<<<< HEAD
     <dd><div class="title"><span><img src="/Application/Common/admin/images/leftico01.png" /></span>师资力量</div>
-=======
-    <dd><div class="title"><span><img src="/two/Application/Common/admin/images/leftico01.png" /></span>师资力量</div>
->>>>>>> 6599f6b847b396825cf87220a11cc29d4c42918c
     <ul class="menuson">
         <li <?php if($Think.ACTION_NAME=='teacher_list'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('teacher/teacher_list');?>">列表</a><i></i></li>
 
@@ -101,47 +79,31 @@ $(function(){
             
             
             
-<<<<<<< HEAD
         <dd><div class="title"><span><img src="/Application/Common/admin/images/leftico01.png" /></span>就业信息</div>
-=======
-        <dd><div class="title"><span><img src="/two/Application/Common/admin/images/leftico01.png" /></span>就业信息</div>
->>>>>>> 6599f6b847b396825cf87220a11cc29d4c42918c
     <ul class="menuson">
-        <li <?php if($Think.ACTION_NAME=='jyjb'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('admin/jyjb');?>">列表</a><i></i></li>
+        <li <?php if($Think.ACTION_NAME=='jyjb'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('jyjb/index');?>">列表</a><i></i></li>
 
     </ul>
     </dd>
             
      
-<<<<<<< HEAD
     <dd><div class="title"><span><img src="/Application/Common/admin/images/leftico01.png" /></span>常见问题</div>
-=======
-    <dd><div class="title"><span><img src="/two/Application/Common/admin/images/leftico01.png" /></span>常见问题</div>
->>>>>>> 6599f6b847b396825cf87220a11cc29d4c42918c
     <ul class="menuson">
-        <li <?php if($Think.ACTION_NAME=='question'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('admin/question');?>">列表</a><i></i></li>
+        <li <?php if($Think.ACTION_NAME=='question'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('question/question');?>">列表</a><i></i></li>
 
     </ul>    
     </dd>
-<<<<<<< HEAD
     <dd><div class="title"><span><img src="/Application/Common/admin/images/leftico01.png" /></span>导航管理</div>
-=======
-    <dd><div class="title"><span><img src="/two/Application/Common/admin/images/leftico01.png" /></span>导航管理</div>
->>>>>>> 6599f6b847b396825cf87220a11cc29d4c42918c
     <ul class="menuson">
         <li <?php if($Think.ACTION_NAME=='nav'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('nav/nav_list');?>">列表</a><i></i></li>
 
     </ul>    
     </dd>
-<<<<<<< HEAD
        <dd><div class="title"><span><img src="/Application/Common/admin/images/leftico01.png" /></span>系统管理</div>
-=======
-       <dd><div class="title"><span><img src="/two/Application/Common/admin/images/leftico01.png" /></span>系统管理</div>
->>>>>>> 6599f6b847b396825cf87220a11cc29d4c42918c
     <ul class="menuson">
-        <li><cite></cite><a href="#">统计</a><i></i></li>
+        <li><cite></cite><a href="<?php echo U('pv/pv');?>">统计</a><i></i></li>
          <li <?php if($Think.ACTION_NAME=='aa'){ echo "class='active'";} ?>><cite></cite><a href="right.html" target="rightFrame">数据列表</a><i></i></li>
-        <li><cite></cite><a href="tools.html" target="rightFrame">常用工具</a><i></i></li>
+        <li><cite></cite><a href="<?php echo U('game/game');?>" target="rightFrame">娱乐</a><i></i></li>
         <li><cite></cite><a href="filelist.html" target="rightFrame">信息管理</a><i></i></li>
         <li><cite></cite><a href="tab.html" target="rightFrame">Tab页</a><i></i></li>
         <li><cite></cite><a href="error.html" target="rightFrame">404页面</a><i></i></li>
@@ -157,13 +119,8 @@ $(function(){
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>无标题文档</title>
-<<<<<<< HEAD
 <link href="/Application/Common/admin/css/style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="/Application/Common/admin/js/jquery.js"></script>
-=======
-<link href="/two/Application/Common/admin/css/style.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="/two/Application/Common/admin/js/jquery.js"></script>
->>>>>>> 6599f6b847b396825cf87220a11cc29d4c42918c
 
 </head>
 
@@ -181,21 +138,13 @@ $(function(){
     
     
     <div class="welinfo">
-<<<<<<< HEAD
     <span><img src="/Application/Common/admin/images/sun.png" alt="天气" /></span>
-=======
-    <span><img src="/two/Application/Common/admin/images/sun.png" alt="天气" /></span>
->>>>>>> 6599f6b847b396825cf87220a11cc29d4c42918c
     <b>Admin早上好，欢迎使用信息管理系统</b>(admin@uimaker.com)
     <a href="#">帐号设置</a>
     </div>
     
     <div class="welinfo">
-<<<<<<< HEAD
     <span><img src="/Application/Common/admin/images/time.png" alt="时间" /></span>
-=======
-    <span><img src="/two/Application/Common/admin/images/time.png" alt="时间" /></span>
->>>>>>> 6599f6b847b396825cf87220a11cc29d4c42918c
     <i>您上次登录的时间：2013-10-09 15:22</i> （不是您登录的？<a href="#">请点这里</a>）
     </div>
     
@@ -203,7 +152,6 @@ $(function(){
     
     <ul class="iconlist">
     
-<<<<<<< HEAD
     <li><img src="/Application/Common/admin/images/ico01.png" /><p><a href="#">管理设置</a></p></li>
     <li><img src="/Application/Common/admin/images/ico02.png" /><p><a href="#">发布文章</a></p></li>
     <li><img src="/Application/Common/admin/images/ico03.png" /><p><a href="#">数据统计</a></p></li>
@@ -214,28 +162,12 @@ $(function(){
     </ul>
     
     <div class="ibox"><a class="ibtn"><img src="/Application/Common/admin/images/iadd.png" />添加新的快捷功能</a></div>
-=======
-    <li><img src="/two/Application/Common/admin/images/ico01.png" /><p><a href="#">管理设置</a></p></li>
-    <li><img src="/two/Application/Common/admin/images/ico02.png" /><p><a href="#">发布文章</a></p></li>
-    <li><img src="/two/Application/Common/admin/images/ico03.png" /><p><a href="#">数据统计</a></p></li>
-    <li><img src="/two/Application/Common/admin/images/ico04.png" /><p><a href="#">文件上传</a></p></li>
-    <li><img src="/two/Application/Common/admin/images/ico05.png" /><p><a href="#">目录管理</a></p></li>
-    <li><img src="/two/Application/Common/admin/images/ico06.png" /><p><a href="#">查询</a></p></li> 
-            
-    </ul>
-    
-    <div class="ibox"><a class="ibtn"><img src="/two/Application/Common/admin/images/iadd.png" />添加新的快捷功能</a></div>
->>>>>>> 6599f6b847b396825cf87220a11cc29d4c42918c
     
     <div class="xline"></div>
     <div class="box"></div>
     
     <div class="welinfo">
-<<<<<<< HEAD
     <span><img src="/Application/Common/admin/images/dp.png" alt="提醒" /></span>
-=======
-    <span><img src="/two/Application/Common/admin/images/dp.png" alt="提醒" /></span>
->>>>>>> 6599f6b847b396825cf87220a11cc29d4c42918c
     <b>Uimaker信息管理系统使用指南</b>
     </div>
     

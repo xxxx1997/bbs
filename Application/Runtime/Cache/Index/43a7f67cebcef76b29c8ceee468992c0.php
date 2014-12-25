@@ -46,7 +46,6 @@
 	</div>
 	<div class="clear"></div>
 
-
 	<ul id="nav">
 	<?php foreach($a as $k=>$v){ ?>
 
@@ -65,7 +64,7 @@
 <?php if(is_array($img)): foreach($img as $key=>$io): ?><div class="jyjb-11">
 <ul>
     
-<li class="fl jyjb-11-font1" style="height:96px;"><a href="/Index/Jyjb/video?id=<?php echo ($io["v_id"]); ?>"><img alt="传智播客php培训学院就业学生" src='/<?php echo ($io["v_image"]); ?>' style="width: 131px; height: 93px; " /></a></li>
+<li class="fl jyjb-11-font1" style="height:96px;"><a href="/Index/Jyjb/video?id=<?php echo ($io["v_id"]); ?>"><img alt="传智播客php培训学院就业学生" src='/Application/Common/Public/<?php echo ($io["v_image"]); ?>' style="width: 131px; height: 93px; " /></a></li>
 <li class="fl jyjb-11-font1" style="height:100px;"><span style="color:#000000;"><b><?php echo ($io["v_title"]); ?><br />
 <span class="jyjb-font2"><a href="http://php.itcast.cn/news/20130122/14000221632.shtml">[播放]</a></span></b></span></li>
 </ul>

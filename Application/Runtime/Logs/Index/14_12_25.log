@@ -1,0 +1,55 @@
+[ 2014-12-25T08:04:13+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.076005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.034002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.034002s ]
+NOTIC: [2048] Declaration of Index\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\bbs\Application\Index\Controller\IndexController.class.php ç¬¬ 47 è¡Œ.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ç¬¬ 52 è¡Œ.
+NOTIC: [2] mysql_connect():  D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ç¬¬ 52 è¡Œ.
+ERR: ÓÉÓÚÁ¬½Ó·½ÔÚÒ»¶ÎÊ±¼äºóÃ»ÓÐÕýÈ·´ð¸´»òÁ¬½ÓµÄÖ÷»úÃ»ÓÐ·´Ó¦£¬Á¬½Ó³¢ÊÔÊ§°Ü¡£
+
+
+[ 2014-12-25T08:05:18+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Index\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\bbs\Application\Index\Controller\IndexController.class.php ç¬¬ 47 è¡Œ.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ç¬¬ 52 è¡Œ.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bbs_nav`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_employment` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `bbs_class` [ RunTime:0.003000s ]
+SQL: select * from bbs_article where t_id=1 [ RunTime:0.001000s ]
+SQL: select * from bbs_article where t_id=2 [ RunTime:0.001000s ]
+SQL: select * from bbs_article where t_id=3 and state=0 [ RunTime:0.000000s ]
+SQL: select * from bbs_article where t_id=4 [ RunTime:0.001000s ]
+SQL: select * from bbs_article where t_id=5 [ RunTime:0.001000s ]
+SQL: select * from bbs_article where t_id=6 [ RunTime:0.001000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=2 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=3 )  [ RunTime:0.002000s ]
+SQL: select * from bbs_employment  limit 0,8 [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.039002s ]
+SQL: SELECT * FROM `bbs_pv` WHERE ( start_time='2014-12-25' ) LIMIT 1   [ RunTime:0.004001s ]
+SQL: SELECT * FROM `bbs_pv` WHERE ( start_time='All' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ç¬¬ 52 è¡Œ.
+SQL: INSERT INTO `bbs_pv` (`start_time`,`pv`) VALUES ('2014-12-25',1) [ RunTime:0.052003s ]
+SQL: UPDATE `bbs_pv` SET `pv`=1 WHERE ( start_time='All' ) [ RunTime:0.002000s ]
+

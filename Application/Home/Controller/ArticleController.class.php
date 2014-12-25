@@ -117,11 +117,9 @@ class ArticleController extends Controller {
            }else{
                $this->error($res->getError());    
            }
-            
         }else{
                // 上传成功        
             $this->error($upload->getError());    
-            
         }
             
         

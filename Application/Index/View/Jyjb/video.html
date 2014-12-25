@@ -4,12 +4,14 @@
     <div class="left_content1">
       <div id="printarea">
         <h1 class="infotitle">为前途来传智播客学PHP </h1>
-        <foreach name="video" item="aa" >
-        <div class="editer">更新时间:{$aa.v_time} 来源:</div>
+
+        <div class="editer">更新时间:<?php echo date("Y-m-d H:i" ,$info['v_time'])?> 来源:</div>
         <div class="infor">
-         <center>
-	{$aa.v_video}</center>
-        </foreach>
+         <center><video width="500" height="500" controls="controls">
+
+      <source src="__ROOT__/Application/Common/Public/{$video.v_path}" type="video/mp4">
+
+     </video></center>
 <div class="clear"></div>
 <div class="zhanshi"><a name="ld"> </a>
 <h4><a name="ld">劳动合同（点击可查看大图）</a></h4>
