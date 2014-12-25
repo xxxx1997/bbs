@@ -2,16 +2,11 @@
 namespace Home\Controller;
 use Think\Controller;
 class LoginController extends Controller {
-    
-
     public function login(){
         layout(false);
-        
         $this->display();
     }
-
     public function login_do(){
-     
       $data['user_name']=I('post.user_name'); 
       $data['user_password']=  md5(I('post.user_password')); 
       $res=M('user')->where($data)->select();

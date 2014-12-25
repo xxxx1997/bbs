@@ -95,7 +95,7 @@ window.onerror = killErrors;
 </div>
  
       
-      <a class="top_login" href="member.php?mod=logging&amp;action=login&amp;referer=" onClick="showWindow('login', this.href);return false;"  title="登录" > 登录 </a> <a class="top_reg"  href="member.php?mod=register"  title="Register" > 注册会员 </a> <a class="top_find_psw" href="javascript:;" onClick="showWindow('login', 'member.php?mod=logging&action=login&viewlostpw=1')"> 找回密码 </a> 
+     欢迎&nbsp;&nbsp;<font color="red">{:session('user')['user_name']}</font>&nbsp;&nbsp;登陆&nbsp;&nbsp;  <a class="top_reg"  href="member.php?mod=register"  title="Register" > 注册会员 </a><a href="{:U('login/logout')}"> 退出</a> 
        
       
        

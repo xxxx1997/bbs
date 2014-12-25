@@ -1,4 +1,27 @@
 <<<<<<< HEAD
+[ 2014-12-23T18:58:20+08:00 ] 127.0.0.1 /home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-23T19:00:18+08:00 ] 127.0.0.1 /Home/article/article_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-23T19:08:09+08:00 ] 127.0.0.1 /Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2014-12-23T19:12:12+08:00 ] 127.0.0.1 /Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-23T19:12:19+08:00 ] 127.0.0.1 /Home/nav/nav_list.html
+=======
+<<<<<<< HEAD
 [ 2014-12-23T09:27:16+08:00 ] 127.0.0.1 /home
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
@@ -8,10 +31,24 @@ INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 =======
 [ 2014-12-23T08:35:40+08:00 ] 127.0.0.1 /two/Home
 >>>>>>> 6599f6b847b396825cf87220a11cc29d4c42918c
+>>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 
+<<<<<<< HEAD
+[ 2014-12-23T19:27:15+08:00 ] 127.0.0.1 /Home/nav/nav_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-23T19:30:54+08:00 ] 127.0.0.1 /Home/nav/nav_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-23T19:30:58+08:00 ] 127.0.0.1 /Home
+=======
 <<<<<<< HEAD
 [ 2014-12-23T09:27:22+08:00 ] 127.0.0.1 /Home/login/login_do.html
 INFO: [ app_init ] --START--
@@ -27,10 +64,32 @@ INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
 
 [ 2014-12-23T08:39:26+08:00 ] 127.0.0.1 /two/Home/nav/nav_list.html
 >>>>>>> 6599f6b847b396825cf87220a11cc29d4c42918c
+>>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 
+<<<<<<< HEAD
+[ 2014-12-23T19:31:02+08:00 ] 127.0.0.1 /Home/rec/rec_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:rec_list
+
+[ 2014-12-23T19:31:42+08:00 ] 127.0.0.1 /Home/rec/rec_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 模板不存在:./Application/Home/View/Rec/rec_list.html
+
+[ 2014-12-23T19:32:52+08:00 ] 127.0.0.1 /Home/Rec/rec_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 模板不存在:./Application/Home/View/Rec/rec_list.html
+
+[ 2014-12-23T19:33:00+08:00 ] 127.0.0.1 /Home
+=======
 <<<<<<< HEAD
 [ 2014-12-23T09:27:58+08:00 ] 127.0.0.1 /Home/nav/nav_list.html
 INFO: [ app_init ] --START--
@@ -48,20 +107,44 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 
 [ 2014-12-23T09:28:49+08:00 ] 127.0.0.1 /Home/article/article_list.html
+>>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 
+<<<<<<< HEAD
+[ 2014-12-23T19:33:03+08:00 ] 127.0.0.1 /Home/rec/rec_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 模板不存在:./Application/Home/View/Rec/rec_list.html
+
+[ 2014-12-23T19:33:27+08:00 ] 127.0.0.1 /Home/rec/rec_list.html
+=======
 [ 2014-12-23T09:29:05+08:00 ] 127.0.0.1 /Home/article/see/aid/1.html
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 
 [ 2014-12-23T09:29:06+08:00 ] 127.0.0.1 /Home/article/see/aid/index.css
+>>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 
+<<<<<<< HEAD
+[ 2014-12-23T19:39:38+08:00 ] 127.0.0.1 /Home/rec/rec_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-23T19:50:22+08:00 ] 127.0.0.1 /Home/rec/rec_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-23T19:50:56+08:00 ] 127.0.0.1 /Home/rec/rec_list.html
+=======
 [ 2014-12-23T09:29:47+08:00 ] 127.0.0.1 /Home/article/class_list.html
 =======
 [ 2014-12-23T08:39:30+08:00 ] 127.0.0.1 /two/Home/
@@ -77,10 +160,19 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 
 [ 2014-12-23T09:39:28+08:00 ] 127.0.0.1 /Home/video/video_list.html
+>>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 
+<<<<<<< HEAD
+[ 2014-12-23T19:51:27+08:00 ] 127.0.0.1 /Home/rec/rec_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-23T19:51:40+08:00 ] 127.0.0.1 /Home/rec/rec_list.html
+=======
 [ 2014-12-23T09:39:28+08:00 ] 127.0.0.1 /Home/video/js/jquery.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
@@ -88,15 +180,33 @@ INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 非法操作:js
 
 [ 2014-12-23T09:39:33+08:00 ] 127.0.0.1 /Home/video/add.html
+>>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 
+<<<<<<< HEAD
+[ 2014-12-23T19:55:56+08:00 ] 127.0.0.1 /Home/rec/rec_list.html
+=======
 [ 2014-12-23T09:41:08+08:00 ] 127.0.0.1 /Home/video/add_do.html
+>>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 
+<<<<<<< HEAD
+[ 2014-12-23T19:56:24+08:00 ] 127.0.0.1 /Home/rec/rec_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2014-12-23T19:56:25+08:00 ] 127.0.0.1 /Home/rec/rec_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-23T19:56:46+08:00 ] 127.0.0.1 /Home/rec/rec_list.html
+=======
 [ 2014-12-23T09:41:09+08:00 ] 127.0.0.1 /Home/video/video_list.html
 =======
 [ 2014-12-23T08:39:35+08:00 ] 127.0.0.1 /two/Home/index
@@ -107,10 +217,24 @@ ERR: 无法加载控制器:Index
 
 [ 2014-12-23T08:39:40+08:00 ] 127.0.0.1 /two/Home/admin
 >>>>>>> 6599f6b847b396825cf87220a11cc29d4c42918c
+>>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 
+<<<<<<< HEAD
+[ 2014-12-23T19:57:20+08:00 ] 127.0.0.1 /Home/rec/rec_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-23T19:57:33+08:00 ] 127.0.0.1 /Home/rec/rec_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-23T19:57:33+08:00 ] 127.0.0.1 /Home/rec/rec_list.html
+=======
 <<<<<<< HEAD
 [ 2014-12-23T09:41:09+08:00 ] 127.0.0.1 /Home/video/js/jquery.js
 INFO: [ app_init ] --START--
@@ -136,10 +260,69 @@ INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
 [ 2014-12-23T09:41:29+08:00 ] 127.0.0.1 /Home/teacher/teacher_list.html
 =======
 [ 2014-12-23T08:41:04+08:00 ] 127.0.0.1 /two/home
+>>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 
+<<<<<<< HEAD
+[ 2014-12-23T19:59:14+08:00 ] 127.0.0.1 /Home/rec/rec_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-23T19:59:15+08:00 ] 127.0.0.1 /Home/rec/rec_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-23T19:59:15+08:00 ] 127.0.0.1 /Home/rec/rec_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-23T19:59:16+08:00 ] 127.0.0.1 /Home/rec/rec_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-23T19:59:16+08:00 ] 127.0.0.1 /Home/rec/rec_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-23T19:59:16+08:00 ] 127.0.0.1 /Home/rec/rec_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-12-23T19:59:16+08:00 ] 127.0.0.1 /Home/rec/rec_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-23T19:59:30+08:00 ] 127.0.0.1 /Home/rec/rec_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-23T19:59:43+08:00 ] 127.0.0.1 /Home/rec/rec_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-23T19:59:53+08:00 ] 127.0.0.1 /Home/rec/rec_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-23T20:00:10+08:00 ] 127.0.0.1 /Home/rec/rec_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-23T20:00:19+08:00 ] 127.0.0.1 /Home/rec/rec_list.html
+=======
 [ 2014-12-23T08:41:08+08:00 ] 127.0.0.1 /two/Home/nav/nav_list.html
 >>>>>>> 6599f6b847b396825cf87220a11cc29d4c42918c
 INFO: [ app_init ] --START--
@@ -197,27 +380,61 @@ INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 
 <<<<<<< HEAD
 [ 2014-12-23T09:42:02+08:00 ] 127.0.0.1 /Home/nav/nav_add.html
+>>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 
+<<<<<<< HEAD
+[ 2014-12-23T20:00:30+08:00 ] 127.0.0.1 /Home/rec/rec_list.html
+=======
 [ 2014-12-23T09:42:14+08:00 ] 127.0.0.1 /Home/nav/nav_add_do.html
+>>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 
-[ 2014-12-23T09:42:16+08:00 ] 127.0.0.1 /Home/nav/nav_list.html
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-
-[ 2014-12-23T09:42:37+08:00 ] 127.0.0.1 /Home/article/del_class.html
+<<<<<<< HEAD
+[ 2014-12-23T20:19:34+08:00 ] 127.0.0.1 /Home/article/del_class.html
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web4\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_type` [ RunTime:0.018001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web4\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: DELETE FROM `bbs_type` WHERE ( id=56 ) [ RunTime:0.127007s ]
+
+[ 2014-12-23T20:19:40+08:00 ] 127.0.0.1 /Home/article/del_class.html
+=======
+[ 2014-12-23T09:42:16+08:00 ] 127.0.0.1 /Home/nav/nav_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-23T09:42:37+08:00 ] 127.0.0.1 /Home/article/del_class.html
+>>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+<<<<<<< HEAD
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web4\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_type` [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web4\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: DELETE FROM `bbs_type` WHERE ( id=56 ) [ RunTime:0.003000s ]
+
+[ 2014-12-23T20:20:20+08:00 ] 127.0.0.1 /Home/rec/rec_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-23T20:20:24+08:00 ] 127.0.0.1 /Home/article/del_class.html
+=======
 NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
 SQL: SHOW COLUMNS FROM `bbs_type` [ RunTime:0.002001s ]
 NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
@@ -226,10 +443,69 @@ ERR: 1064:You have an error in your SQL syntax; check the manual that correspond
  [ SQL语句 ] : DELETE FROM `bbs_type` WHERE ( id= )
 
 [ 2014-12-23T09:42:40+08:00 ] 127.0.0.1 /Home/article/del_class.html
+>>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
+<<<<<<< HEAD
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web4\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_type` [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web4\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: DELETE FROM `bbs_type` WHERE ( id= ) [ RunTime:0.018001s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `bbs_type` WHERE ( id= )
+
+[ 2014-12-23T20:21:32+08:00 ] 127.0.0.1 /Home/rec/rec_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-12-23T20:21:36+08:00 ] 127.0.0.1 /Home/article/del_class.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web4\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_type` [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web4\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: DELETE FROM `bbs_type` WHERE ( id=44 ) [ RunTime:0.003000s ]
+
+[ 2014-12-23T20:21:41+08:00 ] 127.0.0.1 /Home/article/del_class.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web4\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_type` [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web4\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: DELETE FROM `bbs_type` WHERE ( id=44 ) [ RunTime:0.002000s ]
+
+[ 2014-12-23T20:22:53+08:00 ] 127.0.0.1 /Home/rec/rec_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-23T20:22:58+08:00 ] 127.0.0.1 /Home/rec/del_class.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web4\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_article` [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web4\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: DELETE FROM `bbs_article` WHERE ( aid=44 ) [ RunTime:0.054003s ]
+
+[ 2014-12-23T20:23:37+08:00 ] 127.0.0.1 /Home/rec/rec_list.html
+=======
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
 NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
@@ -259,10 +535,36 @@ ERR: 1064:You have an error in your SQL syntax; check the manual that correspond
  [ SQL语句 ] : DELETE FROM `bbs_type` WHERE ( id= )
 
 [ 2014-12-23T09:42:45+08:00 ] 127.0.0.1 /Home/nav/nav_list.html
+>>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 
+<<<<<<< HEAD
+[ 2014-12-23T20:23:55+08:00 ] 127.0.0.1 /Home/rec/del_class.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web4\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_article` [ RunTime:0.003001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web4\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: DELETE FROM `bbs_article` WHERE ( aid=45 ) [ RunTime:0.075004s ]
+
+[ 2014-12-23T20:23:58+08:00 ] 127.0.0.1 /Home/rec/rec_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-23T20:25:02+08:00 ] 127.0.0.1 /Home/rec/rec_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-23T20:25:08+08:00 ] 127.0.0.1 /Home/rec/del_class.html
+=======
 [ 2014-12-23T09:42:51+08:00 ] 127.0.0.1 /Home/article/del_class.html
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
@@ -278,10 +580,111 @@ ERR: 1064:You have an error in your SQL syntax; check the manual that correspond
  [ SQL语句 ] : DELETE FROM `bbs_type` WHERE ( id= )
 
 [ 2014-12-23T09:42:56+08:00 ] 127.0.0.1 /Home/article/del_class.html
+>>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
+<<<<<<< HEAD
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web4\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_article` [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web4\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: DELETE FROM `bbs_article` WHERE ( aid=56 ) [ RunTime:0.103005s ]
+
+[ 2014-12-23T20:26:06+08:00 ] 127.0.0.1 /Home/nav/nav_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-23T20:26:14+08:00 ] 127.0.0.1 /Home/rec/rec_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-23T20:36:46+08:00 ] 127.0.0.1 /Home/rec/rec_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-23T20:36:50+08:00 ] 127.0.0.1 /Home/rec/rec_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-12-23T20:37:32+08:00 ] 127.0.0.1 /Home/rec/rec_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-23T20:37:52+08:00 ] 127.0.0.1 /Home/rec/rec_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-23T20:37:55+08:00 ] 127.0.0.1 /Home/rec/rec_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-23T20:38:18+08:00 ] 127.0.0.1 /Home/rec/rec_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-23T20:38:27+08:00 ] 127.0.0.1 /Home/rec/rec_add_do.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-12-23T20:38:28+08:00 ] 127.0.0.1 /Home/rec/rec_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-23T20:39:45+08:00 ] 127.0.0.1 /Home/article/article_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-23T20:39:52+08:00 ] 127.0.0.1 /Home/article/see/aid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-23T20:39:54+08:00 ] 127.0.0.1 /Home/article/see/aid/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-23T20:39:57+08:00 ] 127.0.0.1 /Home/article/article_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-12-23T20:44:04+08:00 ] 127.0.0.1 /Home/article/article_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+
+[ 2014-12-23T20:44:07+08:00 ] 127.0.0.1 /Home/article/see/aid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-23T20:44:09+08:00 ] 127.0.0.1 /Home/article/see/aid/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-23T20:47:32+08:00 ] 127.0.0.1 /Home/article/see/aid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-23T20:47:33+08:00 ] 127.0.0.1 /Home/article/see/aid/index.css
+=======
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
 NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
@@ -292,10 +695,39 @@ ERR: 1064:You have an error in your SQL syntax; check the manual that correspond
  [ SQL语句 ] : DELETE FROM `bbs_type` WHERE ( id= )
 =======
 [ 2014-12-23T08:41:22+08:00 ] 127.0.0.1 /two/Home/nav/upd/n_id/7.html
+>>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 
+<<<<<<< HEAD
+[ 2014-12-23T20:47:35+08:00 ] 127.0.0.1 /Home/rec/rec_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-23T20:47:49+08:00 ] 127.0.0.1 /Home/rec/rec_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-12-23T20:47:53+08:00 ] 127.0.0.1 /Home/rec/see/aid/71.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-23T20:47:54+08:00 ] 127.0.0.1 /Home/rec/see/aid/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-23T20:48:01+08:00 ] 127.0.0.1 /Home/article/update/aid/71.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-23T20:48:03+08:00 ] 127.0.0.1 /Home/article/article_list.html
+=======
 [ 2014-12-23T08:41:39+08:00 ] 127.0.0.1 /two/Home/nav/nav_upd_do.html
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
@@ -307,6 +739,7 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 >>>>>>> 6599f6b847b396825cf87220a11cc29d4c42918c
 
+<<<<<<< HEAD
 [ 2014-12-23T10:09:36+08:00 ] 127.0.0.1 /Home/nav/nav_list.html
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
@@ -4419,10 +4852,15 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 
 [ 2014-12-23T21:24:46+08:00 ] 127.0.0.1 /Home/Jyjb/sel?id=1
+=======
+[ 2014-12-23T08:45:02+08:00 ] 127.0.0.1 /two/Home/nav/nav_list.html
+>>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
+>>>>>>> 60d7c42115ddbed0910584fb91afd1ec00e37b49
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 
+<<<<<<< HEAD
 [ 2014-12-23T21:24:46+08:00 ] 127.0.0.1 /Home/Jyjb/sel?id=1
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
@@ -4439,15 +4877,24 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
 
 [ 2014-12-23T21:24:46+08:00 ] 127.0.0.1 /Home/Jyjb/sel?id=1
+=======
+<<<<<<< HEAD
+[ 2014-12-23T20:48:26+08:00 ] 127.0.0.1 /Home/rec/rec_list.html
+>>>>>>> 60d7c42115ddbed0910584fb91afd1ec00e37b49
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 
+<<<<<<< HEAD
 [ 2014-12-23T21:24:47+08:00 ] 127.0.0.1 /Home/Jyjb/sel?id=1
+=======
+[ 2014-12-23T20:48:29+08:00 ] 127.0.0.1 /Home/rec/see/aid/71.html
+>>>>>>> 60d7c42115ddbed0910584fb91afd1ec00e37b49
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 
+<<<<<<< HEAD
 [ 2014-12-23T21:24:47+08:00 ] 127.0.0.1 /Home/Jyjb/sel?id=1
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
@@ -4464,25 +4911,37 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 
 [ 2014-12-23T21:24:47+08:00 ] 127.0.0.1 /Home/Jyjb/sel?id=1
+=======
+[ 2014-12-23T20:48:30+08:00 ] 127.0.0.1 /Home/rec/see/aid/index.css
+>>>>>>> 60d7c42115ddbed0910584fb91afd1ec00e37b49
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 
+<<<<<<< HEAD
 [ 2014-12-23T21:24:48+08:00 ] 127.0.0.1 /Home/Jyjb/sel?id=1
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 
 [ 2014-12-23T21:24:48+08:00 ] 127.0.0.1 /Home/Jyjb/sel?id=1
+=======
+[ 2014-12-23T20:48:33+08:00 ] 127.0.0.1 /Home/article/update/aid/71.html
+>>>>>>> 60d7c42115ddbed0910584fb91afd1ec00e37b49
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 
+<<<<<<< HEAD
 [ 2014-12-23T21:24:48+08:00 ] 127.0.0.1 /Home/Jyjb/sel?id=1
+=======
+[ 2014-12-23T20:48:34+08:00 ] 127.0.0.1 /Home/article/article_list.html
+>>>>>>> 60d7c42115ddbed0910584fb91afd1ec00e37b49
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 
+<<<<<<< HEAD
 [ 2014-12-23T21:25:07+08:00 ] 127.0.0.1 /Home/video/video_list.html
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
@@ -4627,13 +5086,41 @@ INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 
 
 [ 2014-12-23T21:33:35+08:00 ] 127.0.0.1 /Home/Jyjb/sel?id=1
+=======
+[ 2014-12-23T20:49:02+08:00 ] 127.0.0.1 /Home/rec/rec_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-12-23T20:49:05+08:00 ] 127.0.0.1 /Home/rec/see/aid/71.html
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 
+[ 2014-12-23T20:49:06+08:00 ] 127.0.0.1 /Home/rec/see/aid/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-23T20:49:09+08:00 ] 127.0.0.1 /Home/rec/update/aid/71.html
+>>>>>>> 60d7c42115ddbed0910584fb91afd1ec00e37b49
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+<<<<<<< HEAD
 [ 2014-12-23T21:33:43+08:00 ] 127.0.0.1 /Home/Jyjb/upd
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 
 
+=======
+[ 2014-12-23T20:49:11+08:00 ] 127.0.0.1 /Home/rec/rec_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+=======
+>>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
+>>>>>>> 60d7c42115ddbed0910584fb91afd1ec00e37b49

@@ -25,6 +25,11 @@ class IndexController extends Controller {
 		$ke3=$class->where("class_type=3")->select();
 		$info3=M()->query("select * from __PREFIX__employment  limit 0,8");
 		//var_dump($info3);die;
+		$d=M()->query("select * from pre_forum_post where first=1   order by pid desc limit 6");
+		//$d=M("pre_forum_post")->select();
+
+		print_r($d);die;
+		$this->assign("discuz",$d);
 		$this->assign('ke1',$ke1);
 		$this->assign('ke2',$ke2);
 		$this->assign('ke3',$ke3);
@@ -37,6 +42,7 @@ class IndexController extends Controller {
 		$this->assign('rows',$rows);
 		$this->display();
     }
+
 	public function show(){
 		$id=$_GET['aid'];
 		 $info=M()->query("select * from __PREFIX__article where aid=$id");

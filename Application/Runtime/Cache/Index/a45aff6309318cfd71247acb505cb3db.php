@@ -29,7 +29,7 @@
 
 	<div class="clear"></div>
 	<div class="top2">
-		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/bbs/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
+		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
 		<div class="fl toubu">
 		<div class="toubu-font1">PHP学院</div>
 			 <!-- 校区 -->
@@ -59,7 +59,7 @@
 <div id="box">
   <div id="left" class="fl"  style="margin-top:3px; overflow:hidden;">
     <div class="clear"></div>
-    <div><img src="/bbs/Application/Common/index/images/lefttop.gif"/></div>
+    <div><img src="/Application/Common/index/images/lefttop.gif"/></div>
     <div class="left_content3">
 <a href="http://dvd.itcast.cn/?php" target="_blank"><font color="red"><h4>下载网速不给力，来申请免费PHP学习光盘吧！全新2014版JAVA/.NET/PHP/网页平面UI设计/iOS入门必备教程光盘免费申领中！</h4></font></a>
       <div class="zhanshi">
@@ -69,11 +69,11 @@
     <?php if(is_array($info)): foreach($info as $key=>$it): ?><table bgcolor="#e2f1f8" border="0" cellpadding="0" cellspacing="1" class="videodown" width="100%">
 <tbody>
 	<tr>
-	<td bgcolor="#ffffff" class="downpic" rowspan="2" width="106"><img alt="" height="71" src="/bbs/Application/Common/Public/<?php echo ($it["v_thumb"]); ?>" width="96" /></td>
+	<td bgcolor="#ffffff" class="downpic" rowspan="2" width="106"><img alt="" height="71" src="/Application/Common/Public/<?php echo ($it["v_thumb"]); ?>" width="96" /></td>
 	<td bgcolor="#ffffff" width="272">
 	<div class="jiaochengmz"><a href="<?php echo U('Video/details',array('v_id'=>$it['v_id']));?>"><?php echo ($it["v_name"]); ?></a></div>
 	</td>
-	<td align="right" bgcolor="#ffffff" width="215"><a href="http://www.itcast.cn/news/20120913/18063829105.shtml"><img border="0" height="26" src="/bbs/Application/Common/index/images/download.jpg" width="56" /></a></td>
+	<td align="right" bgcolor="#ffffff" width="215"><a href="http://www.itcast.cn/news/20120913/18063829105.shtml"><img border="0" height="26" src="/Application/Common/index/images/download.jpg" width="56" /></a></td>
 	</tr>
 	<tr>
 	<td bgcolor="#ffffff">
@@ -103,7 +103,7 @@
         </div>
       </div>
     </div>
-    <div><img src="/bbs/Application/Common/index/images/leftbottom.gif"/></div>
+    <div><img src="/Application/Common/index/images/leftbottom.gif"/></div>
     <div></div>
   </div>
   <div id="right" class="fl">
@@ -127,7 +127,7 @@
       <div class="clear"></div>
      
     </div>
-    <div class="rightbottom"><img src="/bbs/Application/Common/index/images/bottom1.gif"/></div>
+    <div class="rightbottom"><img src="/Application/Common/index/images/bottom1.gif"/></div>
     <h4 class="righttitle1 zhaopin"><span class="blue">工具</span>下载</h4>
          <div class="rightkuang1">
 		  	<div style="width:275px; height:100px;">
@@ -144,7 +144,7 @@ QQ影音</a></p>
     
     <h4 class="righttitle1 zhaopin"><span class="blue">最新</span>企业招聘</h4>
     <div class="rightkuang1">
-      <p class="cent"> <img src="/bbs/Application/Common/Public/Images/2014-12-18/select.jpg"  width="256" height="66"/></p>
+      <p class="cent"> <img src="/Application/Common/Public/Images/2014-12-18/select.jpg"  width="256" height="66"/></p>
        <table border="0" cellpadding="0" cellspacing="0" class="zhaopinlist" height="124" style="margin-top: 5px" width="98%">
 <tbody>
 	<tr>
@@ -218,7 +218,7 @@ QQ影音</a></p>
 
       <div class="clear"></div>
     </div>
-    <div class="rightbottom"><img src="/bbs/Application/Common/index/images/bottom1.gif"/></div>
+    <div class="rightbottom"><img src="/Application/Common/index/images/bottom1.gif"/></div>
     <h4 class="righttitle1 lianxi"><span class="fl"><span class="blue">课程</span>咨询</span></h4>
     <div class="rightkuang">
       <dl>
@@ -279,7 +279,7 @@ QQ影音</a></p>
 </dl>-->
       <div class="clear"></div>
     </div>
-    <div class="rightbottom"><img src="/bbs/Application/Common/index/images/rightbottom.jpg"/></div>
+    <div class="rightbottom"><img src="/Application/Common/index/images/rightbottom.jpg"/></div>
   </div>
 </div>
 <div class="clear"></div>
