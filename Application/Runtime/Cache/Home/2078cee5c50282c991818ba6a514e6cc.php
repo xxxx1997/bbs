@@ -99,19 +99,16 @@ $(function(){
 
     </ul>    
     </dd>
-<<<<<<< HEAD
 	  <dd><div class="title"><span><img src="/Application/Common/admin/images/leftico01.png" /></span>企业招聘</div>
     <ul class="menuson">
         <li <?php if($Think.ACTION_NAME=='rec'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('rec/rec_list');?>">列表</a><i></i></li>
     </ul>    
     </dd>
-=======
->>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
        <dd><div class="title"><span><img src="/Application/Common/admin/images/leftico01.png" /></span>系统管理</div>
     <ul class="menuson">
         <li><cite></cite><a href="<?php echo U('pv/pv');?>">统计</a><i></i></li>
          <li <?php if($Think.ACTION_NAME=='aa'){ echo "class='active'";} ?>><cite></cite><a href="right.html" target="rightFrame">数据列表</a><i></i></li>
-        <li><cite></cite><a href="tools.html" target="rightFrame">常用工具</a><i></i></li>
+        <li><cite></cite><a href="<?php echo U('game/game');?>" target="rightFrame">娱乐</a><i></i></li>
         <li><cite></cite><a href="filelist.html" target="rightFrame">信息管理</a><i></i></li>
         <li><cite></cite><a href="tab.html" target="rightFrame">Tab页</a><i></i></li>
         <li><cite></cite><a href="error.html" target="rightFrame">404页面</a><i></i></li>
