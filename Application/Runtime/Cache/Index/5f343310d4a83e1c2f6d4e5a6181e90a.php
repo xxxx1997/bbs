@@ -21,12 +21,30 @@
 	<!-- 页面顶部 -->
 <div class="top1">
 	<p class="fl" style="background:url(/images/hot.png) 107px 10px no-repeat; padding-right:35px;"><span class="blue">专业的IT培训机构！</span></p>
-	<p class="fr"><a href="http://www.itcast.cn/channel/job.shtml" target="_blank">就业宣言</a><a href="http://www.itcast.cn/channel/flow.shtml" target="_blank">报名流程</a><a href="http://open.itcast.cn" target="_blank">免费公开课</a><a href="http://dvd.itcast.cn" target="_blank">免费学习光盘</a><a href="http://www.itcast.cn/channel/book.shtml" target="_blank">原创教材</a><a href="http://bbs.itcast.cn/zine.php" target="_blank">传智特刊</a><a target="_blank" href="http://www.itcast.cn/channel/personnel.shtml">人才服务</a><a href="http://bbs.itcast.cn" target="_blank">技术论坛</a></p>
+	<p class="fr"><a href="<?php echo U('index/login');?>" target="_blank">登陆</a>
+	<a href="<?php echo U('index/login');?>" target="_blank">注册</a>
+	<a href="http://www.itcast.cn/channel/job.shtml" target="_blank">就业宣言</a><a href="http://www.itcast.cn/channel/flow.shtml" target="_blank">报名流程</a><a href="http://open.itcast.cn" target="_blank">免费公开课</a><a href="http://dvd.itcast.cn" target="_blank">免费学习光盘</a><a href="http://www.itcast.cn/channel/book.shtml" target="_blank">原创教材</a><a href="http://bbs.itcast.cn/zine.php" target="_blank">传智特刊</a><a target="_blank" href="http://www.itcast.cn/channel/personnel.shtml">人才服务</a><a href="http://bbs.itcast.cn" target="_blank">技术论坛</a></p>
 </div>
 
 	<div class="clear"></div>
 	<div class="top2">
 		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
+=======
+		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/two/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
+>>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
+>>>>>>> 60d7c42115ddbed0910584fb91afd1ec00e37b49
+=======
+>>>>>>> 8b388b05a480beaa3f1b26c6fc3cf1fcf705f888
+>>>>>>> 8d5db131bd230081f175790322e699f970bd3725
+>>>>>>> b151cee351a4e38dd1e4aa1fff5ca29e3c5e4dcb
 		<div class="fl toubu">
 		<div class="toubu-font1">PHP学院</div>
 			 <!-- 校区 -->
@@ -42,6 +60,27 @@
 		<p class="fr"><img src="http://php.itcast.cn/images/topword.gif" alt="改变中国教育，我们正在行动..." class="png"/></p>
 	</div>
 	<div class="clear"></div>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6599f6b847b396825cf87220a11cc29d4c42918c
+>>>>>>> 8d5db131bd230081f175790322e699f970bd3725
+
+>>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
+>>>>>>> 60d7c42115ddbed0910584fb91afd1ec00e37b49
+=======
+>>>>>>> 8b388b05a480beaa3f1b26c6fc3cf1fcf705f888
+>>>>>>> b151cee351a4e38dd1e4aa1fff5ca29e3c5e4dcb
 	<ul id="nav">
 	<?php foreach($a as $k=>$v){ ?>
 
@@ -54,6 +93,8 @@
 	</div>
 <!--输出-->
  <div id="box">
+欢迎<?php echo session('n_name') ?> 登陆 <br>
+<a href="<?php echo U('index/logout');?>">退出</a>
 		    <div class="mbx">
 			<!-- Baidu share BEGIN -->
     <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare">
@@ -140,6 +181,22 @@
 				<dl class="ganyan1 huodong1">
 	<dt class="fl">
 		<a href="http://php.itcast.cn/news/20131117/14525122556.shtml" target="_blank"><img src="/Application/Common/index/images/4.jpg" style="width: 286px; height: 215px;" /><br />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+		<a href="http://php.itcast.cn/news/20131117/14525122556.shtml" target="_blank"><img src="/Application/Common/index/images/4.jpg" style="width: 286px; height: 215px;" /><br />
+=======
+		<a href="http://php.itcast.cn/news/20131117/14525122556.shtml" target="_blank"><img src="/two/Application/Common/index/images/4.jpg" style="width: 286px; height: 215px;" /><br />
+>>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
+>>>>>>> 60d7c42115ddbed0910584fb91afd1ec00e37b49
+=======
+>>>>>>> 8b388b05a480beaa3f1b26c6fc3cf1fcf705f888
+>>>>>>> 8d5db131bd230081f175790322e699f970bd3725
+>>>>>>> b151cee351a4e38dd1e4aa1fff5ca29e3c5e4dcb
 		天空一声巨响 四组闪亮登场</a></dt>
 	<dd class="huodongfr">
 		<h3 class="STYLE7">班级活动</h3>
@@ -253,6 +310,22 @@
 </ul>
 <ul>
 <li style="border-bottom: medium none; float: left; color: #515151"><a href="/Index/Index/training?id=<?php echo ($it["id"]); ?>"><b><font style="color: #515151">PHP就业班</font></b></a></li>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<li style="border-bottom: medium none; float: left; color: #515151"><a href="/Index/Index/training?id=<?php echo ($it["id"]); ?>"><b><font style="color: #515151">PHP就业班</font></b></a></li>
+=======
+<li style="border-bottom: medium none; float: left; color: #515151"><a href="/two/Index/Index/training?id=<?php echo ($it["id"]); ?>"><b><font style="color: #515151">PHP就业班</font></b></a></li>
+>>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
+>>>>>>> 60d7c42115ddbed0910584fb91afd1ec00e37b49
+=======
+>>>>>>> 8b388b05a480beaa3f1b26c6fc3cf1fcf705f888
+>>>>>>> 8d5db131bd230081f175790322e699f970bd3725
+>>>>>>> b151cee351a4e38dd1e4aa1fff5ca29e3c5e4dcb
 <br />
 </ul>
 <ul style="clear: both">
@@ -260,6 +333,22 @@
 </ul>
 <ul>
 <li style="border-bottom: medium none; float: left; color: #515151"><a href="/Index/Index/training"><b><font style="color: #515151">PHP远程班</font></b></a></li>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<li style="border-bottom: medium none; float: left; color: #515151"><a href="/Index/Index/training"><b><font style="color: #515151">PHP远程班</font></b></a></li>
+=======
+<li style="border-bottom: medium none; float: left; color: #515151"><a href="/two/Index/Index/training"><b><font style="color: #515151">PHP远程班</font></b></a></li>
+>>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
+>>>>>>> 60d7c42115ddbed0910584fb91afd1ec00e37b49
+=======
+>>>>>>> 8b388b05a480beaa3f1b26c6fc3cf1fcf705f888
+>>>>>>> 8d5db131bd230081f175790322e699f970bd3725
+>>>>>>> b151cee351a4e38dd1e4aa1fff5ca29e3c5e4dcb
 <br />
 </ul>
 <ul style="clear: both">

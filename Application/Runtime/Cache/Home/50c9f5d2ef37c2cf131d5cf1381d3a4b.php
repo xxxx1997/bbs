@@ -6,6 +6,26 @@
 <link href="/Application/Common/admin/css/style.css" rel="stylesheet" type="text/css" />
 <script language="JavaScript" src="/Application/Common/admin/js/jquery.js"></script>
 <script src="/Application/Common/admin/js/cloud.js" type="text/javascript"></script>
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<link href="/Application/Common/admin/css/style.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="/Application/Common/admin/js/jquery.js"></script>
+<script src="/Application/Common/admin/js/cloud.js" type="text/javascript"></script>
+=======
+<<<<<<< HEAD
+<link href="/two/Application/Common/admin/css/style.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="/two/Application/Common/admin/js/jquery.js"></script>
+<script src="/two/Application/Common/admin/js/cloud.js" type="text/javascript"></script>
+=======
+<link href="/Application/Common/admin/css/style.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="/Application/Common/admin/js/jquery.js"></script>
+<script src="/Application/Common/admin/js/cloud.js" type="text/javascript"></script>
+>>>>>>> 82e8606454f2b64bb7f49cc755a5a72410f3f2aa
+>>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
+>>>>>>> 8d5db131bd230081f175790322e699f970bd3725
+>>>>>>> b151cee351a4e38dd1e4aa1fff5ca29e3c5e4dcb
 
 <script language="javascript">
 	$(function(){
