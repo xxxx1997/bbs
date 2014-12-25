@@ -4,9 +4,16 @@
 <title>英雄四组</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
+<<<<<<< HEAD
 <link href="/Application/Common/admin/css/style.css" rel="stylesheet" type="text/css" />
 <script language="JavaScript" src="/Application/Common/admin/js/jquery.js"></script>
 <img src="/Application/Common/admin/images/c.jpg" alt="" width="100%" height="150"/>
+=======
+<link href="/Application/Common/admin/css/style.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="/Application/Common/admin/js/jquery.js"></script>
+<img src="/Application/Common/admin/images/c.jpg" alt="" width="100%" height="150"/>
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 =======
 =======
@@ -21,6 +28,8 @@
 >>>>>>> 6599f6b847b396825cf87220a11cc29d4c42918c
 >>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
 >>>>>>> 60d7c42115ddbed0910584fb91afd1ec00e37b49
+>>>>>>> 8d5db131bd230081f175790322e699f970bd3725
+>>>>>>> b151cee351a4e38dd1e4aa1fff5ca29e3c5e4dcb
 <script type="text/javascript">
 $(function(){	
 	//导航切换
@@ -54,7 +63,12 @@ $(function(){
         
     <dd>
     <div class="title">
+<<<<<<< HEAD
     <span><img src="/Application/Common/admin/images/leftico01.png" /></span>培训课程
+=======
+    <span><img src="/Application/Common/admin/images/leftico01.png" /></span>培训课程
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 =======
 =======
@@ -65,6 +79,8 @@ $(function(){
 >>>>>>> 6599f6b847b396825cf87220a11cc29d4c42918c
 >>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
 >>>>>>> 60d7c42115ddbed0910584fb91afd1ec00e37b49
+>>>>>>> 8d5db131bd230081f175790322e699f970bd3725
+>>>>>>> b151cee351a4e38dd1e4aa1fff5ca29e3c5e4dcb
     </div>
     	<ul class="menuson">
         <li <?php if($Think.ACTION_NAME=='course'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('admin/course');?>" >课程管理</a><i></i></li>
@@ -73,7 +89,12 @@ $(function(){
     </dd>
      <dd>
     <div class="title">
+<<<<<<< HEAD
     <span><img src="/Application/Common/admin/images/leftico01.png" /></span>文章管理
+=======
+    <span><img src="/Application/Common/admin/images/leftico01.png" /></span>文章管理
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 =======
 =======
@@ -84,6 +105,8 @@ $(function(){
 >>>>>>> 6599f6b847b396825cf87220a11cc29d4c42918c
 >>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
 >>>>>>> 60d7c42115ddbed0910584fb91afd1ec00e37b49
+>>>>>>> 8d5db131bd230081f175790322e699f970bd3725
+>>>>>>> b151cee351a4e38dd1e4aa1fff5ca29e3c5e4dcb
     </div>
     	<ul class="menuson">
         <li <?php if($Think.ACTION_NAME=='article_list'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('article/article_list');?>" >文章列表</a><i></i></li>
@@ -94,7 +117,12 @@ $(function(){
     
     <dd>
     <div class="title">
+<<<<<<< HEAD
     <span><img src="/Application/Common/admin/images/leftico02.png" /></span>视频
+=======
+    <span><img src="/Application/Common/admin/images/leftico02.png" /></span>视频
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 =======
 =======
@@ -105,6 +133,8 @@ $(function(){
 >>>>>>> 6599f6b847b396825cf87220a11cc29d4c42918c
 >>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
 >>>>>>> 60d7c42115ddbed0910584fb91afd1ec00e37b49
+>>>>>>> 8d5db131bd230081f175790322e699f970bd3725
+>>>>>>> b151cee351a4e38dd1e4aa1fff5ca29e3c5e4dcb
     </div>
     <ul class="menuson">
         <li <?php if($Think.ACTION_NAME=='video'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('video/video_list');?>">列表</a><i></i></li>
@@ -114,7 +144,12 @@ $(function(){
     </dd> 
     
     
+<<<<<<< HEAD
     <dd><div class="title"><span><img src="/Application/Common/admin/images/leftico01.png" /></span>师资力量</div>
+=======
+    <dd><div class="title"><span><img src="/Application/Common/admin/images/leftico01.png" /></span>师资力量</div>
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 =======
 =======
@@ -125,6 +160,8 @@ $(function(){
 >>>>>>> 6599f6b847b396825cf87220a11cc29d4c42918c
 >>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
 >>>>>>> 60d7c42115ddbed0910584fb91afd1ec00e37b49
+>>>>>>> 8d5db131bd230081f175790322e699f970bd3725
+>>>>>>> b151cee351a4e38dd1e4aa1fff5ca29e3c5e4dcb
     <ul class="menuson">
         <li <?php if($Think.ACTION_NAME=='teacher_list'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('teacher/teacher_list');?>">列表</a><i></i></li>
 
@@ -133,7 +170,12 @@ $(function(){
             
             
             
+<<<<<<< HEAD
         <dd><div class="title"><span><img src="/Application/Common/admin/images/leftico01.png" /></span>就业信息</div>
+=======
+        <dd><div class="title"><span><img src="/Application/Common/admin/images/leftico01.png" /></span>就业信息</div>
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 =======
 =======
@@ -144,6 +186,8 @@ $(function(){
 >>>>>>> 6599f6b847b396825cf87220a11cc29d4c42918c
 >>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
 >>>>>>> 60d7c42115ddbed0910584fb91afd1ec00e37b49
+>>>>>>> 8d5db131bd230081f175790322e699f970bd3725
+>>>>>>> b151cee351a4e38dd1e4aa1fff5ca29e3c5e4dcb
     <ul class="menuson">
         <li <?php if($Think.ACTION_NAME=='jyjb'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('jyjb/index');?>">列表</a><i></i></li>
 
@@ -151,7 +195,12 @@ $(function(){
     </dd>
             
      
+<<<<<<< HEAD
     <dd><div class="title"><span><img src="/Application/Common/admin/images/leftico01.png" /></span>常见问题</div>
+=======
+    <dd><div class="title"><span><img src="/Application/Common/admin/images/leftico01.png" /></span>常见问题</div>
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 =======
 =======
@@ -162,12 +211,19 @@ $(function(){
 >>>>>>> 6599f6b847b396825cf87220a11cc29d4c42918c
 >>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
 >>>>>>> 60d7c42115ddbed0910584fb91afd1ec00e37b49
+>>>>>>> 8d5db131bd230081f175790322e699f970bd3725
+>>>>>>> b151cee351a4e38dd1e4aa1fff5ca29e3c5e4dcb
     <ul class="menuson">
         <li <?php if($Think.ACTION_NAME=='question'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('question/question');?>">列表</a><i></i></li>
 
     </ul>    
     </dd>
+<<<<<<< HEAD
     <dd><div class="title"><span><img src="/Application/Common/admin/images/leftico01.png" /></span>导航管理</div>
+=======
+    <dd><div class="title"><span><img src="/Application/Common/admin/images/leftico01.png" /></span>导航管理</div>
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 =======
 =======
@@ -178,21 +234,29 @@ $(function(){
 >>>>>>> 6599f6b847b396825cf87220a11cc29d4c42918c
 >>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
 >>>>>>> 60d7c42115ddbed0910584fb91afd1ec00e37b49
+>>>>>>> 8d5db131bd230081f175790322e699f970bd3725
+>>>>>>> b151cee351a4e38dd1e4aa1fff5ca29e3c5e4dcb
     <ul class="menuson">
         <li <?php if($Think.ACTION_NAME=='nav'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('nav/nav_list');?>">列表</a><i></i></li>
 
     </ul>    
     </dd>
 <<<<<<< HEAD
+=======
        <dd><div class="title"><span><img src="/Application/Common/admin/images/leftico01.png" /></span>系统管理</div>
+<<<<<<< HEAD
+=======
 =======
 <<<<<<< HEAD
+>>>>>>> b151cee351a4e38dd1e4aa1fff5ca29e3c5e4dcb
 	  <dd><div class="title"><span><img src="/Application/Common/admin/images/leftico01.png" /></span>企业招聘</div>
     <ul class="menuson">
         <li <?php if($Think.ACTION_NAME=='rec'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('rec/rec_list');?>">列表</a><i></i></li>
     </ul>    
     </dd>
        <dd><div class="title"><span><img src="/Application/Common/admin/images/leftico01.png" /></span>系统管理</div>
+<<<<<<< HEAD
+=======
 =======
 <<<<<<< HEAD
        <dd><div class="title"><span><img src="/Application/Common/admin/images/leftico01.png" /></span>系统管理</div>
@@ -201,6 +265,8 @@ $(function(){
 >>>>>>> 6599f6b847b396825cf87220a11cc29d4c42918c
 >>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
 >>>>>>> 60d7c42115ddbed0910584fb91afd1ec00e37b49
+>>>>>>> 8d5db131bd230081f175790322e699f970bd3725
+>>>>>>> b151cee351a4e38dd1e4aa1fff5ca29e3c5e4dcb
     <ul class="menuson">
         <li><cite></cite><a href="<?php echo U('pv/pv');?>">统计</a><i></i></li>
          <li <?php if($Think.ACTION_NAME=='aa'){ echo "class='active'";} ?>><cite></cite><a href="right.html" target="rightFrame">数据列表</a><i></i></li>
@@ -220,8 +286,14 @@ $(function(){
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>无标题文档</title>
+<<<<<<< HEAD
 <link href="/Application/Common/admin/css/style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="/Application/Common/admin/js/jquery.js"></script>
+=======
+<link href="/Application/Common/admin/css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/Application/Common/admin/js/jquery.js"></script>
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 =======
 =======
@@ -234,6 +306,8 @@ $(function(){
 >>>>>>> 6599f6b847b396825cf87220a11cc29d4c42918c
 >>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
 >>>>>>> 60d7c42115ddbed0910584fb91afd1ec00e37b49
+>>>>>>> 8d5db131bd230081f175790322e699f970bd3725
+>>>>>>> b151cee351a4e38dd1e4aa1fff5ca29e3c5e4dcb
 
 </head>
 
@@ -251,7 +325,12 @@ $(function(){
     
     
     <div class="welinfo">
+<<<<<<< HEAD
     <span><img src="/Application/Common/admin/images/sun.png" alt="天气" /></span>
+=======
+    <span><img src="/Application/Common/admin/images/sun.png" alt="天气" /></span>
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 =======
 =======
@@ -262,12 +341,19 @@ $(function(){
 >>>>>>> 6599f6b847b396825cf87220a11cc29d4c42918c
 >>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
 >>>>>>> 60d7c42115ddbed0910584fb91afd1ec00e37b49
+>>>>>>> 8d5db131bd230081f175790322e699f970bd3725
+>>>>>>> b151cee351a4e38dd1e4aa1fff5ca29e3c5e4dcb
     <b>Admin早上好，欢迎使用信息管理系统</b>(admin@uimaker.com)
     <a href="#">帐号设置</a>
     </div>
     
     <div class="welinfo">
+<<<<<<< HEAD
     <span><img src="/Application/Common/admin/images/time.png" alt="时间" /></span>
+=======
+    <span><img src="/Application/Common/admin/images/time.png" alt="时间" /></span>
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 =======
 =======
@@ -278,6 +364,8 @@ $(function(){
 >>>>>>> 6599f6b847b396825cf87220a11cc29d4c42918c
 >>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
 >>>>>>> 60d7c42115ddbed0910584fb91afd1ec00e37b49
+>>>>>>> 8d5db131bd230081f175790322e699f970bd3725
+>>>>>>> b151cee351a4e38dd1e4aa1fff5ca29e3c5e4dcb
     <i>您上次登录的时间：2013-10-09 15:22</i> （不是您登录的？<a href="#">请点这里</a>）
     </div>
     
@@ -290,8 +378,14 @@ $(function(){
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
 >>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
 >>>>>>> 60d7c42115ddbed0910584fb91afd1ec00e37b49
+>>>>>>> 8d5db131bd230081f175790322e699f970bd3725
+>>>>>>> b151cee351a4e38dd1e4aa1fff5ca29e3c5e4dcb
     <li><img src="/Application/Common/admin/images/ico01.png" /><p><a href="#">管理设置</a></p></li>
     <li><img src="/Application/Common/admin/images/ico02.png" /><p><a href="#">发布文章</a></p></li>
     <li><img src="/Application/Common/admin/images/ico03.png" /><p><a href="#">数据统计</a></p></li>
@@ -302,6 +396,10 @@ $(function(){
     </ul>
     
     <div class="ibox"><a class="ibtn"><img src="/Application/Common/admin/images/iadd.png" />添加新的快捷功能</a></div>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -320,12 +418,19 @@ $(function(){
 >>>>>>> 6599f6b847b396825cf87220a11cc29d4c42918c
 >>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
 >>>>>>> 60d7c42115ddbed0910584fb91afd1ec00e37b49
+>>>>>>> 8d5db131bd230081f175790322e699f970bd3725
+>>>>>>> b151cee351a4e38dd1e4aa1fff5ca29e3c5e4dcb
     
     <div class="xline"></div>
     <div class="box"></div>
     
     <div class="welinfo">
+<<<<<<< HEAD
     <span><img src="/Application/Common/admin/images/dp.png" alt="提醒" /></span>
+=======
+    <span><img src="/Application/Common/admin/images/dp.png" alt="提醒" /></span>
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 =======
 =======
@@ -336,6 +441,8 @@ $(function(){
 >>>>>>> 6599f6b847b396825cf87220a11cc29d4c42918c
 >>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
 >>>>>>> 60d7c42115ddbed0910584fb91afd1ec00e37b49
+>>>>>>> 8d5db131bd230081f175790322e699f970bd3725
+>>>>>>> b151cee351a4e38dd1e4aa1fff5ca29e3c5e4dcb
     <b>Uimaker信息管理系统使用指南</b>
     </div>
     

@@ -1,7 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit();?>
-
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "/www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "/www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="/www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -29,11 +26,7 @@
 
 	<div class="clear"></div>
 	<div class="top2">
-<<<<<<< HEAD
 		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
-=======
-		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/two/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
->>>>>>> 3fc8412c0aa264f66c610afd7cdec40cba34737d
 		<div class="fl toubu">
 		<div class="toubu-font1">PHP学院</div>
 			 <!-- 校区 -->
@@ -49,12 +42,18 @@
 		<p class="fr"><img src="http://php.itcast.cn/images/topword.gif" alt="改变中国教育，我们正在行动..." class="png"/></p>
 	</div>
 	<div class="clear"></div>
+<<<<<<< HEAD
+=======
 
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
+=======
 
 >>>>>>> 60d7c42115ddbed0910584fb91afd1ec00e37b49
+>>>>>>> 8d5db131bd230081f175790322e699f970bd3725
+>>>>>>> b151cee351a4e38dd1e4aa1fff5ca29e3c5e4dcb
 	<ul id="nav">
 	<?php foreach($a as $k=>$v){ ?>
 
@@ -68,8 +67,9 @@
 <!--输出-->
  <!-- 主站导航 -->
 </div>
+<?php echo ($state); ?>
 <div id="box">
-  <div class="position"><a name="pagetop"/>您现在的位置：<span class="STYLE5"><a href="http://www.itcast.cn">首页</a> &gt;&gt; 公司动态 &gt;&gt; 正文</span></div>
+  <div class="position"><a name="pagetop"/>您现在的位置：<span class="STYLE5"><a href="http://www.itcast.cn">首页<?php echo ($state); ?></a> &gt;&gt; 公司动态 &gt;&gt; 正文</span></div>
   <div id="left" class="fl" style="margin-top:8px;">
     <div class="infotop"><img src="/images/infotop.gif"/></div>
     <div class="left_content1">
