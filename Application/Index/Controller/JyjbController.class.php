@@ -64,11 +64,18 @@ class JyjbController extends IndexController {
     public function training(){
         $Class=M("class");
         $id=$_GET["id"];
-        //echo $id;
-        //die;
-        $info=$Class->where("id=$id")->select();
-        $this->assign('info',$info);
-        $this->display();
+        $info=$Class->where("id=$id")->find();
+        if($info["class_type"]==1){
+            $this->assign("info",$info);
+            $this->display();
+        }else if($info["class_type"]==2){
+            $this->assign("info",$info);
+            $this->display("training2");
+        }else{
+            $this->assign("info",$info);
+           $this->display("training3"); 
+        }
+        
     }
     #企业招聘的评论
     public function article_comment(){
