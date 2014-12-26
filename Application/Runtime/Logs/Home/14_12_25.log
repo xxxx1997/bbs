@@ -463,3 +463,18 @@ INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 
 =======
 >>>>>>> c6126a28f3d239f198b4ff910fac70a0b2648183
+[ 2014-12-25T15:11:50+08:00 ] 127.0.0.1 /home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-25T15:12:13+08:00 ] 127.0.0.1 /Home/admin/course.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-25T15:12:15+08:00 ] 127.0.0.1 /Home/admin/course.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
