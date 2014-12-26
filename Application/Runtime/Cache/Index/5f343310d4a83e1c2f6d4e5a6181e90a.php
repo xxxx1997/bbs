@@ -29,11 +29,7 @@
 
 	<div class="clear"></div>
 	<div class="top2">
-<<<<<<< HEAD
 		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/addbbs/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
-=======
-		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/bbs/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
->>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 		<div class="fl toubu">
 		<div class="toubu-font1">PHP学院</div>
 			 <!-- 校区 -->
@@ -49,7 +45,7 @@
 		<p class="fr"><img src="http://php.itcast.cn/images/topword.gif" alt="改变中国教育，我们正在行动..." class="png"/></p>
 	</div>
 	<div class="clear"></div>
-<<<<<<< HEAD
+
 		<ul id="nav">
 	<li><a href="<?php echo U('index/index');?>" id="nav_main">首 页</a></li>
 	<li class="widt"><a href="<?php echo U('course/index');?>" id="nav_course">PHP培训课程</a> </li> 
@@ -64,7 +60,7 @@
 	<li><a href="http://www.itcast.cn/channel/contact.shtml">来校路线</a></li>
 	<li><a href="<?php echo U('portal/index');?>" target="_blank">技术论坛 </a></li>
 </ul>
-=======
+
 	<ul id="nav">
 	<?php foreach($a as $k=>$v){ ?>
 
@@ -73,7 +69,6 @@
    <?php }?>
 	</ul>
 
->>>>>>> 77a7a0b2d706e6dcb51aaf1e7d5371146fe28190
 	</div>
 <!--输出-->
  <div id="box">
@@ -162,7 +157,7 @@
 			  	
 				<dl class="ganyan1 huodong1">
 	<dt class="fl">
-		<a href="http://php.itcast.cn/news/20131117/14525122556.shtml" target="_blank"><img src="/bbs/Application/Common/index/images/4.jpg" style="width: 286px; height: 215px;" /><br />
+		<a href="http://php.itcast.cn/news/20131117/14525122556.shtml" target="_blank"><img src="/addbbs/Application/Common/index/images/4.jpg" style="width: 286px; height: 215px;" /><br />
 		天空一声巨响 四组闪亮登场</a></dt>
 	<dd class="huodongfr">
 		<h3 class="STYLE7">班级活动</h3>
@@ -275,14 +270,14 @@
 <?php if(is_array($ke1)): foreach($ke1 as $key=>$it): ?><li><a href="<?php echo U('jyjb/training',array('id'=>$it['id']));?>" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
 </ul>
 <ul>
-<li style="border-bottom: medium none; float: left; color: #515151"><a href="/bbs/Index/Index/training?id=<?php echo ($it["id"]); ?>"><b><font style="color: #515151">PHP就业班</font></b></a></li>
+<li style="border-bottom: medium none; float: left; color: #515151"><a href="/addbbs/Index/Index/training?id=<?php echo ($it["id"]); ?>"><b><font style="color: #515151">PHP就业班</font></b></a></li>
 <br />
 </ul>
 <ul style="clear: both">
 <?php if(is_array($ke2)): foreach($ke2 as $key=>$it): ?><li><a href="<?php echo U('jyjb/training',array('id'=>$it['id']));?>" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
 </ul>
 <ul>
-<li style="border-bottom: medium none; float: left; color: #515151"><a href="/bbs/Index/Index/training"><b><font style="color: #515151">PHP远程班</font></b></a></li>
+<li style="border-bottom: medium none; float: left; color: #515151"><a href="/addbbs/Index/Index/training"><b><font style="color: #515151">PHP远程班</font></b></a></li>
 <br />
 </ul>
 <ul style="clear: both">

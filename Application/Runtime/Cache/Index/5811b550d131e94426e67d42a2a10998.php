@@ -189,7 +189,7 @@ initSearchmenu('scbar', 'http://search.itcast.cn/f/discuz');
             <li id="mn_N18f5" ><a href="zine.php" hidefocus="true"  >传智特刊</a></li>
        
        
-            <li id="mn_Ne30e" ><a href="plugin.php?id=auction" hidefocus="true" title="金币积分兑换礼品" target="_blank"  >积分商城<span>金币积分兑换礼品</span></a></li>
+            <li id="mn_Ne30e" ><a href="<?php echo U('plugin/index');?>" hidefocus="true" title="金币积分兑换礼品" target="_blank"  >积分商城<span>金币积分兑换礼品</span></a></li>
        
        
        
@@ -206,7 +206,7 @@ initSearchmenu('scbar', 'http://search.itcast.cn/f/discuz');
        
        
        
-            <li id="mn_N23a1" ><a href="plugin.php?id=itcast_lottery_draw:itcast_lottery_draw" hidefocus="true" title="金币积分抽奖"  >积分抽奖<span>金币积分抽奖</span></a></li>
+            <li id="mn_N23a1" ><a href="<?php echo U('luckdraw/index');?>" hidefocus="true" title="金币积分抽奖"  >积分抽奖<span>金币积分抽奖</span></a></li>
        
        
     </ul>
