@@ -4,9 +4,9 @@
 <title>英雄四组</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-<link href="/bbs/Application/Common/admin/css/style.css" rel="stylesheet" type="text/css" />
-<script language="JavaScript" src="/bbs/Application/Common/admin/js/jquery.js"></script>
-<img src="/bbs/Application/Common/admin/images/c.jpg" alt="" width="100%" height="150"/>
+<link href="/Application/Common/admin/css/style.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="/Application/Common/admin/js/jquery.js"></script>
+<img src="/Application/Common/admin/images/c.jpg" alt="" width="100%" height="150"/>
 <script type="text/javascript">
 $(function(){	
 	//导航切换
@@ -40,7 +40,7 @@ $(function(){
         
     <dd>
     <div class="title">
-    <span><img src="/bbs/Application/Common/admin/images/leftico01.png" /></span>培训课程
+    <span><img src="/Application/Common/admin/images/leftico01.png" /></span>培训课程
     </div>
     	<ul class="menuson">
         <li <?php if($Think.ACTION_NAME=='course'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('admin/course');?>" >课程管理</a><i></i></li>
@@ -49,7 +49,7 @@ $(function(){
     </dd>
      <dd>
     <div class="title">
-    <span><img src="/bbs/Application/Common/admin/images/leftico01.png" /></span>文章管理
+    <span><img src="/Application/Common/admin/images/leftico01.png" /></span>文章管理
     </div>
     	<ul class="menuson">
         <li <?php if($Think.ACTION_NAME=='article_list'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('article/article_list');?>" >文章列表</a><i></i></li>
@@ -60,7 +60,7 @@ $(function(){
     
     <dd>
     <div class="title">
-    <span><img src="/bbs/Application/Common/admin/images/leftico02.png" /></span>视频
+    <span><img src="/Application/Common/admin/images/leftico02.png" /></span>视频
     </div>
     <ul class="menuson">
         <li <?php if($Think.ACTION_NAME=='video'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('video/video_list');?>">列表</a><i></i></li>
@@ -70,7 +70,7 @@ $(function(){
     </dd> 
     
     
-    <dd><div class="title"><span><img src="/bbs/Application/Common/admin/images/leftico01.png" /></span>师资力量</div>
+    <dd><div class="title"><span><img src="/Application/Common/admin/images/leftico01.png" /></span>师资力量</div>
     <ul class="menuson">
         <li <?php if($Think.ACTION_NAME=='teacher_list'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('teacher/teacher_list');?>">列表</a><i></i></li>
 
@@ -79,27 +79,27 @@ $(function(){
             
             
             
-        <dd><div class="title"><span><img src="/bbs/Application/Common/admin/images/leftico01.png" /></span>就业信息</div>
+        <dd><div class="title"><span><img src="/Application/Common/admin/images/leftico01.png" /></span>就业信息</div>
     <ul class="menuson">
-        <li <?php if($Think.ACTION_NAME=='jyjb'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('admin/jyjb');?>">列表</a><i></i></li>
+        <li <?php if($Think.ACTION_NAME=='jyjb'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('jyjb/index');?>">列表</a><i></i></li>
 
     </ul>
     </dd>
             
      
-    <dd><div class="title"><span><img src="/bbs/Application/Common/admin/images/leftico01.png" /></span>常见问题</div>
+    <dd><div class="title"><span><img src="/Application/Common/admin/images/leftico01.png" /></span>常见问题</div>
     <ul class="menuson">
-        <li <?php if($Think.ACTION_NAME=='question'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('admin/question');?>">列表</a><i></i></li>
+        <li <?php if($Think.ACTION_NAME=='question'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('question/question');?>">列表</a><i></i></li>
 
     </ul>    
     </dd>
-    <dd><div class="title"><span><img src="/bbs/Application/Common/admin/images/leftico01.png" /></span>导航管理</div>
+    <dd><div class="title"><span><img src="/Application/Common/admin/images/leftico01.png" /></span>导航管理</div>
     <ul class="menuson">
         <li <?php if($Think.ACTION_NAME=='nav'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('nav/nav_list');?>">列表</a><i></i></li>
 
     </ul>    
     </dd>
-       <dd><div class="title"><span><img src="/bbs/Application/Common/admin/images/leftico01.png" /></span>系统管理</div>
+       <dd><div class="title"><span><img src="/Application/Common/admin/images/leftico01.png" /></span>系统管理</div>
     <ul class="menuson">
         <li><cite></cite><a href="#">统计</a><i></i></li>
          <li <?php if($Think.ACTION_NAME=='aa'){ echo "class='active'";} ?>><cite></cite><a href="right.html" target="rightFrame">数据列表</a><i></i></li>
@@ -119,7 +119,7 @@ $(function(){
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>添加教师</title>
-<link href="/bbs/Application/Common/admin/css/style.css" rel="stylesheet" type="text/css" />
+<link href="/Application/Common/admin/css/style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -134,8 +134,8 @@ $(function(){
     
     <div class="formbody">
     
-        <div class="formtitle"><a href="/bbs/Home/Teacher/teacher_list"><span>列表</span></a></div>
-        <form action="/bbs/Home/Teacher/update?t_id=<?php echo ($_GET['t_id']); ?>" method="post" enctype="multipart/form-data">
+        <div class="formtitle"><a href="/Home/Teacher/teacher_list"><span>列表</span></a></div>
+        <form action="/Home/Teacher/update?t_id=<?php echo ($_GET['t_id']); ?>" method="post" enctype="multipart/form-data">
     <ul class="forminfo">
     <li><label>姓名</label><input name="t_name" type="text" value='<?php echo ($list["t_name"]); ?>' class="dfinput" /><i></i></li>
     

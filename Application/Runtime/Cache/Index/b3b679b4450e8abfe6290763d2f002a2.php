@@ -95,7 +95,7 @@ window.onerror = killErrors;
 </div>
  
       
-      <a class="top_login" href="member.php?mod=logging&amp;action=login&amp;referer=" onClick="showWindow('login', this.href);return false;"  title="登录" > 登录 </a> <a class="top_reg"  href="member.php?mod=register"  title="Register" > 注册会员 </a> <a class="top_find_psw" href="javascript:;" onClick="showWindow('login', 'member.php?mod=logging&action=login&viewlostpw=1')"> 找回密码 </a> 
+     欢迎&nbsp;&nbsp;<font color="red"><?php echo session('user')['user_name'];?></font>&nbsp;&nbsp;登陆&nbsp;&nbsp;  <a class="top_reg"  href="member.php?mod=register"  title="Register" > 注册会员 </a><a href="<?php echo U('login/logout');?>"> 退出</a> 
        
       
        
@@ -121,7 +121,7 @@ window.onerror = killErrors;
  <div id="hd">
   <div class="wp">
     <div class="hdc cl"> 
-            <h2><a href="./" title="传智论坛-IT学习社区"><img src="/addbbs/Application/Common/index/images/logo.png" alt="传智论坛-IT学习社区" border="0" /></a></h2>
+            <h2><a href="./" title="传智论坛-IT学习社区"><img src="/Application/Common/index/images/logo.png" alt="传智论坛-IT学习社区" border="0" /></a></h2>
       
       <div id="scbar_logo_r" class="y cl">
 <form id="scbar_form" method="post" autocomplete="off" onsubmit="searchFocus($('scbar_txt'))" action="search.php?searchsubmit=yes" target="_blank">
@@ -206,7 +206,7 @@ initSearchmenu('scbar', 'http://search.itcast.cn/f/discuz');
        
        
        
-            <li id="mn_N23a1" ><a href="plugin.php?id=itcast_lottery_draw:itcast_lottery_draw" hidefocus="true" title="金币积分抽奖"  >积分抽奖<span>金币积分抽奖</span></a></li>
+            <li id="mn_N23a1" ><a href="<?php echo U('luckdraw/index');?>" hidefocus="true" title="金币积分抽奖"  >积分抽奖<span>金币积分抽奖</span></a></li>
        
        
     </ul>
