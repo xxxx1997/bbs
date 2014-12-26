@@ -2476,6 +2476,9 @@ ERR:
 NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\web4\ThinkPHP\Library\Think\View.class.php:95) D:\web4\ThinkPHP\Library\Think\Think.class.php 第 229 行.
 NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\web4\ThinkPHP\Library\Think\View.class.php:95) D:\web4\ThinkPHP\Library\Think\Think.class.php 第 230 行.
 
+<<<<<<< HEAD
+[ 2014-12-25T09:13:14+08:00 ] 127.0.0.1 /
+=======
 [ 2014-12-25T09:38:50+08:00 ] 127.0.0.1 /
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
@@ -21466,12 +21469,38 @@ SQL: SELECT * FROM `bbs_nav`  [ RunTime:0.002000s ]
 ERR: 非法操作:static
 
 [ 2014-12-25T17:37:33+08:00 ] 127.0.0.1 /Index/pwd/static/js/common_extra.js?cg8
+>>>>>>> 159f87ca4cfe9da328cc494b0faa615859894c88
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+<<<<<<< HEAD
+NOTIC: [2048] Declaration of Index\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\web4\Application\Index\Controller\IndexController.class.php 第 104 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web4\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.070001s ]
+SQL: SELECT * FROM `bbs_nav`  [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `bbs_employment` [ RunTime:0.040000s ]
+SQL: SHOW COLUMNS FROM `bbs_class` [ RunTime:0.508001s ]
+SQL: select * from bbs_article where t_id=1 [ RunTime:0.005000s ]
+SQL: select * from bbs_article where t_id=2 [ RunTime:0.006000s ]
+SQL: select * from bbs_article where t_id=3 and state=0 [ RunTime:0.005001s ]
+SQL: select * from bbs_article where t_id=4 [ RunTime:0.003000s ]
+SQL: select * from bbs_article where t_id=5 [ RunTime:0.008000s ]
+SQL: select * from bbs_article where t_id=6 [ RunTime:0.004001s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=1 )  [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=2 )  [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=3 )  [ RunTime:0.005000s ]
+SQL: select * from bbs_employment  limit 0,8 [ RunTime:0.003001s ]
+SQL: select * from pre_forum_post where first=1   order by pid desc limit 6 [ RunTime:0.006000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055003s ]
+=======
 NOTIC: [2048] Declaration of Index\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\bbs\Application\Index\Controller\IndexController.class.php 第 104 行.
 NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
 SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.032002s ]
@@ -21603,10 +21632,25 @@ INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
 INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
 INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
 INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+>>>>>>> 159f87ca4cfe9da328cc494b0faa615859894c88
 INFO: [ view_filter ] --START--
 INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_end ] --START--
+<<<<<<< HEAD
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.030002s ]
+SQL: SELECT * FROM `bbs_pv` WHERE ( start_time='2014-12-25' ) LIMIT 1   [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE ( start_time='All' ) LIMIT 1   [ RunTime:0.005001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web4\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: UPDATE `bbs_pv` SET `pv`=112 WHERE ( start_time='2014-12-25' ) [ RunTime:0.010000s ]
+SQL: UPDATE `bbs_pv` SET `pv`=1 WHERE ( start_time='All' ) [ RunTime:0.004001s ]
+
+[ 2014-12-25T09:14:14+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+=======
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
 INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
 SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.020001s ]
@@ -21791,10 +21835,30 @@ ERR: 非法操作:static
 [ 2014-12-25T17:39:46+08:00 ] 127.0.0.1 /Index/Pwd/upd
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+>>>>>>> 159f87ca4cfe9da328cc494b0faa615859894c88
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+<<<<<<< HEAD
+NOTIC: [2048] Declaration of Index\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\web4\Application\Index\Controller\IndexController.class.php 第 104 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web4\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_nav`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_employment` [ RunTime:0.070000s ]
+SQL: SHOW COLUMNS FROM `bbs_class` [ RunTime:0.080000s ]
+SQL: select * from bbs_article where t_id=1 [ RunTime:0.010000s ]
+SQL: select * from bbs_article where t_id=2 [ RunTime:0.000000s ]
+SQL: select * from bbs_article where t_id=3 and state=0 [ RunTime:0.000000s ]
+SQL: select * from bbs_article where t_id=4 [ RunTime:0.000000s ]
+SQL: select * from bbs_article where t_id=5 [ RunTime:0.010000s ]
+SQL: select * from bbs_article where t_id=6 [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=2 )  [ RunTime:0.010000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=3 )  [ RunTime:0.000000s ]
+SQL: select * from bbs_employment  limit 0,8 [ RunTime:0.000000s ]
+SQL: select * from pre_forum_post where first=1   order by pid desc limit 6 [ RunTime:0.010000s ]
+=======
 NOTIC: [2048] Declaration of Index\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\bbs\Application\Index\Controller\IndexController.class.php 第 104 行.
 NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
 SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.002000s ]
@@ -21933,16 +21997,32 @@ SQL: SELECT * FROM `bbs_class` WHERE ( class_type=2 )  [ RunTime:0.009001s ]
 SQL: SELECT * FROM `bbs_class` WHERE ( class_type=3 )  [ RunTime:0.002000s ]
 SQL: select * from bbs_employment  limit 0,8 [ RunTime:0.002000s ]
 SQL: select * from pre_forum_post where first=1   order by pid desc limit 6 [ RunTime:0.002000s ]
+>>>>>>> 159f87ca4cfe9da328cc494b0faa615859894c88
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
 INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
 INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+<<<<<<< HEAD
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050000s ]
+=======
 INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
 INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+>>>>>>> 159f87ca4cfe9da328cc494b0faa615859894c88
 INFO: [ view_filter ] --START--
 INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
 INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_end ] --START--
+<<<<<<< HEAD
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.074002s ]
+SQL: SELECT * FROM `bbs_pv` WHERE ( start_time='2014-12-25' ) LIMIT 1   [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE ( start_time='All' ) LIMIT 1   [ RunTime:0.042002s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web4\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: UPDATE `bbs_pv` SET `pv`=113 WHERE ( start_time='2014-12-25' ) [ RunTime:0.005001s ]
+SQL: UPDATE `bbs_pv` SET `pv`=1 WHERE ( start_time='All' ) [ RunTime:0.001000s ]
+=======
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.015001s ]
@@ -22058,4 +22138,5 @@ SQL: SELECT * FROM `bbs_pv` WHERE ( start_time='All' ) LIMIT 1   [ RunTime:0.001
 NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\bbs\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
 SQL: UPDATE `bbs_pv` SET `pv`=539 WHERE ( start_time='2014-12-25' ) [ RunTime:0.144009s ]
 SQL: UPDATE `bbs_pv` SET `pv`=1 WHERE ( start_time='All' ) [ RunTime:0.004000s ]
+>>>>>>> 159f87ca4cfe9da328cc494b0faa615859894c88
 
