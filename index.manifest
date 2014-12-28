@@ -1,0 +1,17 @@
+CACHE MANIFEST
+####
+CACHE:
+index.html
+http://php.itcast.cn/style/css.css
+http://php.itcast.cn/style/nav/nav_main.css
+http://php.itcast.cn/style/webim.css
+http://php.itcast.cn/favicon.ico
+http://php.itcast.cn/js/jquery-1.9.1.min.js
+http://php.itcast.cn/js/imageschange.js
+http://php.itcast.cn/style/image/imageswitch.css
+http://localhost/Application/Index/View/layout.html
+http://localhost/Application/Index/View/Index/index.html
+http://localhost/Application/Index/View/Index/
+NETWORK:
+
+FALLBACK:

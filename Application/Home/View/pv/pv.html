@@ -1,24 +1,31 @@
 
+<style>
 
-<input  type="radio" name="red" value="1" id="z" onclick="zhu(1)"/>柱图
-<input  type="radio" name="red" value="2" id="y" checked="checked" onclick="zhu(2)"/>饼图
+.aa { width: 800; height: 390px }
+</style>
+<script type="text/javascript" src="http://sandbox.runjs.cn/uploads/rs/146/73fi1rab/amcharts.js"></script>
 
+<script type="text/javascript" src="__APP__/Application/Common/admin/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="__APP__/Application/Common/admin/js/highcharts.js"></script>
+<script type="text/javascript" src="__APP__/Application/Common/admin/js/exporting.js"></script>
 
 
 <canvas style="display:none" id="myChart" width="400" height="400"></canvas>
-<canvas id="myChart1" width="400" height="400"></canvas>
+
+<div class='aa'  width=800; height=400; id="chartdiv"></div>
+
 <script src="__APP__/Application/Common/Chart.js-master/Chart.js"></script>
 <script src="__APP__/Application/Common/jquery.js"></script>
-<input type="text" value="{$pv}" id="pv">
+<input type="hidden" value="{$chardata}" id="pv">
 
 <script>
 function zhu(a){
     if(a==1){
         $("#myChart").show();
-        $("#myChart1").hide();
+        $("#chartdiv").hide();
     }else{
         $("#myChart").hide();
-        $("#myChart1").show();
+        $("#chartdiv").show();
     }
 }
          var data = {
@@ -26,7 +33,7 @@ function zhu(a){
                     labels : [{$json}],
                     datasets : [
                             {
-                                    fillColor : "rgba(200,20,220,0.5)",
+                                    fillColor : "rgba(200,20,220,10.5)",
                                     strokeColor : "rgba(21,10,210,1)",
                                     data : [{$pv}]
                             }
@@ -39,32 +46,32 @@ var myNewChart = new Chart(ctx).Bar(data);//new Chart(ctx).PolarArea(data);
 p=$("#pv").val();
 s=p.split(",")
 
-    var data = [
+var chart;
+var legend;
+var chartData = [{$chardata}];
+AmCharts.ready(function() {
+    // 饼图
+    chart = new AmCharts.AmPieChart();
+    chart.dataProvider = chartData;
+    chart.titleField = "country";
+    chart.valueField = "value";
+    chart.outlineColor = "";
+    chart.outlineAlpha = 0.8;
+    chart.outlineThickness = 2;
+    // 3D
+    chart.depth3D = 20;
+    chart.angle = 30;
+    // 图形写入
+    chart.write("chartdiv");
+});
 
-                      {
-		value:50,
-		color:"#F38630"
-	},
 
-    	
-
-	{
-		value : 50,
-		color : "#E0E4CC"
-	},
-	{
-		value : 50,
-		color : "#69D2E7"
-	}			
-];
-var ctx = document.getElementById("myChart1").getContext("2d"); 
-new Chart(ctx).Pie(data);
-  
 </script>
-
+<br/>
 
     
 
-
+<input  type="radio" name="red" value="1" id="z" onclick="zhu(1)"/>柱图
+<input  type="radio" name="red" value="2" id="y" checked="checked" onclick="zhu(2)"/>饼图
 
 

@@ -40,7 +40,7 @@ if(empty($identifier) || !preg_match("/^[a-z0-9_\-]+$/i", $module) || !in_array(
 } elseif(@!file_exists(DISCUZ_ROOT.($modfile = './source/plugin/'.$pluginmodule['directory'].$module.'.inc.php'))) {
 	showmessage('plugin_module_nonexistence', '', array('mod' => $modfile));
 }
-
+//var_dump($_G);die;
 define('CURMODULE', $identifier);
 runhooks();
 
