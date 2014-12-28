@@ -1,7 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit();?>
-
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "/www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "/www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="/www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -24,7 +21,10 @@
 	<!-- 页面顶部 -->
 <div class="top1">
 	<p class="fl" style="background:url(/images/hot.png) 107px 10px no-repeat; padding-right:35px;"><span class="blue">专业的IT培训机构！</span></p>
-	<p class="fr"><a href="http://www.itcast.cn/channel/job.shtml" target="_blank">就业宣言</a><a href="http://www.itcast.cn/channel/flow.shtml" target="_blank">报名流程</a><a href="http://open.itcast.cn" target="_blank">免费公开课</a><a href="http://dvd.itcast.cn" target="_blank">免费学习光盘</a><a href="http://www.itcast.cn/channel/book.shtml" target="_blank">原创教材</a><a href="http://bbs.itcast.cn/zine.php" target="_blank">传智特刊</a><a target="_blank" href="http://www.itcast.cn/channel/personnel.shtml">人才服务</a><a href="http://bbs.itcast.cn" target="_blank">技术论坛</a></p>
+	<p class="fr"><a href="<?php echo U('index/login');?>" target="_blank">登陆</a>
+	<a href="<?php echo U('index/login');?>" target="_blank">注册</a>
+                      <a href="<?php echo U('pwd/pwd');?>" target="_blank">密码找回</a>
+	<a href="http://www.itcast.cn/channel/job.shtml" target="_blank">就业宣言</a><a href="http://www.itcast.cn/channel/flow.shtml" target="_blank">报名流程</a><a href="http://open.itcast.cn" target="_blank">免费公开课</a><a href="http://dvd.itcast.cn" target="_blank">免费学习光盘</a><a href="http://www.itcast.cn/channel/book.shtml" target="_blank">原创教材</a><a href="http://bbs.itcast.cn/zine.php" target="_blank">传智特刊</a><a target="_blank" href="http://www.itcast.cn/channel/personnel.shtml">人才服务</a><a href="http://bbs.itcast.cn" target="_blank">技术论坛</a></p>
 </div>
 
 	<div class="clear"></div>
@@ -45,18 +45,32 @@
 		<p class="fr"><img src="http://php.itcast.cn/images/topword.gif" alt="改变中国教育，我们正在行动..." class="png"/></p>
 	</div>
 	<div class="clear"></div>
-
 	<ul id="nav">
 	<?php foreach($a as $k=>$v){ ?>
 
 	<li><a href="<?php echo U($v['n_url']) ?>" ><?php echo $v['n_name']?></a></li>
 	 
    <?php }?>
-	</ul>
 
+	<li><a href="http://www.discuz.com/upload/forum.php" target=_blank>技术论坛</a></li>
+</ul>
 	</div>
 <!--输出-->
- 
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "/www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="/www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="keywords" content="php课程,lamp" />
+<meta name="description" content="php培训的龙头老大,拥有国内最好的php培训课程，课程内容包含目前最流行的云计算,Android,Hadoop,lucene,SSH,jbpm等技术" />
+<title>传智播客国内最好的php培训课程，课程内容包含目前最流行的大型网站优化技术|php课程,Lamp</title>
+<link href="/style/css.css" type="text/css" rel="stylesheet" />
+<link href="/style/nav/nav_course.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" id="bdshare_js" data="type=tools" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+</head>
+
+<body>	
 
 	<div class="clear"></div>
 	<div class="mbx" style="padding-left:20px;">
@@ -84,15 +98,22 @@
 	  <!-- 内容主体  -->
 <p class="kxdl-font1">PHP基础班招生简章</p>
 <div class="kcnr-wenben">
-    <?php if(is_array($info)): foreach($info as $key=>$it): echo ($it["class_content"]); endforeach; endif; ?>
+<p>2011年随着移动互联网的兴起，中国互联网行业进入了高速发展的势态，成熟的PHP互联网开发语言被全球知名网站（如：新浪、百度、腾讯、TOM等）广泛用于网站前端开发。当前，互联网行业正向更加智能化的Web3.0时代迈进，对于PHP人才的需求越加紧迫。 传智播客网罗和整合了行业最强的师资，历经一年打造出专注于大型门户网站的全新PHP课程，<font style="color: #cc0000; font-size: 14px; font-weight: bold">以同行业价格最低，性价比最高的学费</font>，携同&ldquo;PHP培训就业前不交一分学费，就业后再分期交费!&rdquo;的扶助政策，强势进入PHP培训领域！我们不但讲解PHP/LAMP 技术，更重点讲解大型门户网站所用到的各种热门技术，让您一步迈进大型门户网站。</p>
 </div>
 <div class="kcnr-title">培训目标</div>
-<?php if(is_array($info)): foreach($info as $key=>$it): echo ($it["class_target"]); endforeach; endif; ?>
+<p style="margin-top: 10px; text-indent: 2em">本课程重点培养掌握HTML、CSS、Javascript等网站开发所必备的基础知识，另外帮助学员快速入门Apache服务器搭建、MySQL数据库和PHP编程基础，为以后深入学习PHP就业课程打下坚实基础。</p>
 <div class="kcnr-title">招生对象</div>
-<?php if(is_array($info)): foreach($info as $key=>$it): echo ($it["class_obj"]); endforeach; endif; ?>
-
+<p style="margin-top: 10px; text-indent: 2em">本课程特别适合于如下各类人群：</p>
+<p>　　1.没有任何软件编程基础和网页设计经验，想先从基础入手的PHP开发爱好者。</p>
+<p>　　2.希望以较低的投入和风险来了解自己是否适合转型从事互联网开发的求职人员。</p>
+<p>　　3.只想学习单独的网页设计与网站建设、顺带了解一些简单的后台交互技术的网页设计求职者。</p>
+<p style="text-indent: 2em; margin-bottom: 10px"></p>
 <div class="kcnr-title">课程特色</div>
-<?php if(is_array($info)): foreach($info as $key=>$it): echo ($it["class_features"]); endforeach; endif; ?>
+<p class="kcnr-title1">1. 按需学习，按需付费！ 以较低的投入来了解自己是否适合从事这一行业！</p>
+<p>极少数没有基础的学员，其根本不适合从事软件开发，或其他原因学到一小半阶段时，不得不放弃从事软件开发的计划。由于刚开始受到软件行业高薪的诱惑，少数 没有基础的学员盲目以上万元的学费参加全程软件培训班，这样就变成了交纳数以万元的培训费用后才发现软件开发之路对自己原来是一场梦，可谓代价巨大和损失 惨重！而通过先参加我们的PHP基础班培训，优惠价只需要1千元，就可以了解自己是否适合在互联网开发这条道路上走下去。</p>
+<p>我们对多个PHP培训机构的许多学员进行调查后发现，这些学员的编程基础和学历普遍都不高，基本上没有什么编程基础。有些参加PHP培 训的同学甚至没有C盘和D盘的概念，不知道如何把C盘的资料拷贝到D盘，整个课程都快学完了，还说html代码怎么这么难写啊！曾经有学费高昂的其他 PHP培训机构的某班学员们，在整个PHP课程快结束时觉得自己学得很差，当他们知道我们的学费便宜和幻想我们有妙手回春的本领后，该班上有十多名同学要 组团希望以较便宜的学费来我们这里再次进行PHP培训，我们当即拒绝，并郑重告诉他们在别的地方没有学成，在我们这里也难学成，关键还得靠他们自身要调整 好心态和坚持不懈地努力，否则，他们1万多元的学费就只能打了水漂！</p>
+<p class="kcnr-title1">2. 为进一步学习PHP就业班的课程打下坚实基础！</p>
+<p>参加各类软件就业培训班的学员总体上可以归为两类：完全没有基础和有一些相应基础，这两类学员的学习需求是不一样的。但是，大多数PHP培训班对这两类学 员提供的是同一套课程，把完全没基础的和基础好的学员放在同一个班进行教学。由于这两类学员对老师的授课方式和深度要求不一样，老师在授课过程中经常顾此 失彼，容易引发教学矛盾。通过PHP基础班学习打下坚实基础后，在PHP就业班阶段统一了入学基础， PHP就业班的老师授课效率和学员们的学习效率都将得到极大提高。</p>
 <div class="kcnr-title">课程安排</div>
 <p class="kcnr-font1">第一阶段：（前台网页开发基础）</p>
 <style type="text/css">
@@ -459,8 +480,9 @@
 .bm .bm_con .right input:hover{ background:#5aa3e9;}
 .bm .bm_con .right p{font-size:12px; color:#666; margin-top:25px;}	
 </style>
-
+<script type="text/javascript" src="http://www.itcast.cn/js/jquery-1.7.2.min.js"></script>
 <script type="text/javascript">
+
 function check(){
 	var realname=$("#realname");
 	var phone=$("#phone");
@@ -517,14 +539,9 @@ function check(){
                   }
                   
               })
-                           
-                           
-                           
-                           
-
+                                                                 
 }
 </script>
-<input type="hidden" id="cid" value="<?php echo $info[0]['id']?>">
 <div class="bm">
 	<h2>每期开班座位有限,预报名可优先享有占座特权哦！</h2>
 	<div class="bm_con">
@@ -546,6 +563,7 @@ function check(){
 				<li>
 					<span class="l_text"><s style="color:#e00000; font-size:15px; text-decoration:none; line-height:40px; padding-right:11px;">*</s>QQ号码</span>
 					<input type="text" placeholder="我们将第一时间与您联系" name="qq" id="qq"/>
+                                        <input type="hidden" value="<?php echo $info['id']?>" id="cid"/>
 				</li>
 			</ul>
 			<br />
@@ -557,6 +575,9 @@ function check(){
 	</form>
 	</div>
 </div>
+</body>
+</html>
+
  
  
         <!-- 页面底部 -->
