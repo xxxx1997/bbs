@@ -29,7 +29,7 @@
 
 	<div class="clear"></div>
 	<div class="top2">
-		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
+		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/addbbs/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
 		<div class="fl toubu">
 		<div class="toubu-font1">PHP学院</div>
 			 <!-- 校区 -->
@@ -68,7 +68,7 @@
   </form>
     <div class="left_content1">
       <div id="printarea">
-            <form method="post" action="/Index/Index/login_do" >
+            <form method="post" action="/addbbs/Index/Index/login_do" >
 			<h1 style="text-decoration:underline; color:#f00;">用户名：</h1><input type="text" name="name">
 			<h1 style="text-decoration:underline; color:#f00;">密&nbsp;&nbsp;&nbsp;&nbsp;码</h1><input type="password" name="pwd"><br>
 			<input type="submit" value='提交'>

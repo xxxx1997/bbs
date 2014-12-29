@@ -24,6 +24,7 @@ define('APP_PATH','./Application/');
 // 引入ThinkPHP入口文件
 require './ThinkPHP/ThinkPHP.php';
 
+
 $time=date("Y-m-d",time());
 $ab=M("pv")->where("start_time='$time'")->find();
 $aa=M("pv")->where("start_time='All'")->find();
@@ -39,6 +40,7 @@ $aa=M("pv")->where("start_time='All'")->find();
  }
  $pvA["pv"]=$aa["pv"]+1;
   M("pv")->where("start_time='All'")->save($pvA);
+
 
 
 // 亲^_^ 后面不需要任何代码了 就是如此简单
