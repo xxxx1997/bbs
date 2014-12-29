@@ -9,6 +9,7 @@ class PvController extends Controller {
             $this->success('请先登录',U('login/login'));
             die;
         }
+        //layout(false);
     }
     function pv(){
         $str="";
@@ -20,10 +21,18 @@ class PvController extends Controller {
         }
         //echo $pv;
         //die;
+        $chartdata="";
+         foreach($list as $k=>$v){
+           $chartdata.="{country: '".$v['start_time']."', value: ".$v['pv']."},";  
+        }
+        
+      
+                    
+        $c=trim($chartdata,',');
         $a=trim($str,",");
         $b=trim($pv,",");
         $this->assign('list',$list);
-        $this->assign(array("json"=>$a,'pv'=>$b));
+        $this->assign(array("json"=>$a,'pv'=>$b,'chardata'=>$c));
         $this->display();
     }
 
