@@ -167,17 +167,10 @@ $(document).ready(function(){
     <div class="tools">
     
     	<ul class="toolbar">
-<<<<<<< HEAD
-            <li class="click"><a href="<?php echo U('admin/add_course');?>"><span><img src="/addbbs/Application/Common/admin/images/t01.png" /></span>添加</a></li>
+            <li><a href="<?php echo U('admin/add_course');?>"><span><img src="/addbbs/Application/Common/admin/images/t01.png" /></span>添加</a></li>
         <li class="click"><span><img src="/addbbs/Application/Common/admin/images/t02.png" /></span>修改</li>
         <li><span><img src="/addbbs/Application/Common/admin/images/t03.png" /></span>删除</li>
         <li><span><img src="/addbbs/Application/Common/admin/images/t04.png" /></span>统计</li>
-=======
-            <li><a href="<?php echo U('admin/add_course');?>"><span><img src="/Application/Common/admin/images/t01.png" /></span>添加</a></li>
-        <li class="click"><span><img src="/Application/Common/admin/images/t02.png" /></span>修改</li>
-        <li><span><img src="/Application/Common/admin/images/t03.png" /></span>删除</li>
-        <li><span><img src="/Application/Common/admin/images/t04.png" /></span>统计</li>
->>>>>>> 7fc85e3993dedfcbfae30d63f35e1b2772343539
         </ul>
         
         
@@ -193,16 +186,8 @@ $(document).ready(function(){
         
     	<thead>
     	<tr>
-<<<<<<< HEAD
-        <th><input name="" type="checkbox" value="" checked="checked"/></th>
-        <th>编号<i class="sort"><img src="/addbbs/Application/Common/admin/images/px.gif" /></i></th>
-        <th>标题</th>
-        <th>用户</th>
-        <th>籍贯</th>
-=======
             <th>编号</th>
         <th>开班名称</th>
->>>>>>> 7fc85e3993dedfcbfae30d63f35e1b2772343539
         <th>发布时间</th>
         <th>开班类型</th>
         <th>是否开班</th>
@@ -216,7 +201,7 @@ $(document).ready(function(){
         <td><?php echo ($it["start_time"]); ?></td>
         <td><?php  if($it['class_type']==1){ echo "php基础班"; }else if($it['class_type']==2){ echo "php就业班"; }else{ echo "php远程班"; }?></td>
         <td><?php if($it['class_state']==1){ echo "预约报名"; }else{ echo "<font color='blue'>爆满已开班</font>"; }?></td>
-        <td><a href="/Home/Admin/sel?id=<?php echo ($it["id"]); ?>" class="tablelink">查看</a>     <a href="#" class="tablelink" onclick="del('<?php echo ($it["id"]); ?>')"> 删除</a></td>
+        <td><a href="/addbbs/Home/Admin/sel?id=<?php echo ($it["id"]); ?>" class="tablelink">查看</a>     <a href="#" class="tablelink" onclick="del('<?php echo ($it["id"]); ?>')"> 删除</a></td>
         </tr><?php endforeach; endif; ?>
         </tbody>
     </table>
@@ -233,7 +218,7 @@ $(document).ready(function(){
                 if(confirm('确认删除么?')){
                     $.ajax({
                         type: "POST",
-                        url: "/Home/Admin/del",
+                        url: "/addbbs/Home/Admin/del",
                         data: "id="+id,
                         success: function(msg){ 
                           if(msg==1){
