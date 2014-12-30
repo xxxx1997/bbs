@@ -8,7 +8,7 @@
 <meta name="Author" content="BBS api 接口" />
 <meta name="keywords" content="" />
 <meta name="description" content="BBS api 接口" />
-<link rel="stylesheet" type="text/css" href="/addbbs/Application/Common/api/css/style.css" />
+<link rel="stylesheet" type="text/css" href="/Application/Common/api/css/style.css" />
 <style type="text/css">
 
 </style>
@@ -37,8 +37,8 @@
 		</form>
 	</div>
 </div>
-<script type="text/javascript" src="/addbbs/Application/Common/api/js/placeholder.js"></script>
-<script type="text/javascript" src="/addbbs/Application/Common/jquery.js"></script>
+<script type="text/javascript" src="/Application/Common/api/js/placeholder.js"></script>
+<script type="text/javascript" src="/Application/Common/jquery.js"></script>
 
 <script>
     function cate(){

@@ -104,26 +104,14 @@ $(function(){
         <li <?php if($Think.ACTION_NAME=='rec'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('rec/rec_list');?>">列表</a><i></i></li>
     </ul>    
     </dd>
-<<<<<<< HEAD
             <dd><div class="title"><span><img src="/Application/Common/admin/images/leftico01.png" /></span>API</div>
-=======
-<<<<<<< HEAD
-       <dd><div class="title"><span><img src="/Application/Common/admin/images/leftico01.png" /></span>系统管理</div>
-=======
-            <dd><div class="title"><span><img src="/addbbs/Application/Common/admin/images/leftico01.png" /></span>API</div>
->>>>>>> 9963c3a0aa4b2656e006b407c84abdc1875f1e97
     <ul class="menuson">
         <li <?php if($Think.ACTION_NAME=='rec'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('api/user');?>">用户列表</a><i></i></li>
          <li <?php if($Think.ACTION_NAME=='rec'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('api/url');?>">接口列表</a><i></i></li>
           <li <?php if($Think.ACTION_NAME=='rec'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('api/user_url');?>">用户接口列表</a><i></i></li>
     </ul>    
     </dd>
-<<<<<<< HEAD
        <dd><div class="title"><span><img src="/Application/Common/admin/images/leftico01.png" /></span>系统管理</div>
-=======
-       <dd><div class="title"><span><img src="/addbbs/Application/Common/admin/images/leftico01.png" /></span>系统管理</div>
->>>>>>> 6eb127d491f373a15c07f467ace829fd08ebf610
->>>>>>> 9963c3a0aa4b2656e006b407c84abdc1875f1e97
     <ul class="menuson">
         <li><cite></cite><a href="<?php echo U('pv/pv');?>">统计</a><i></i></li>
          <li <?php if($Think.ACTION_NAME=='aa'){ echo "class='active'";} ?>><cite></cite><a href="right.html" target="rightFrame">数据列表</a><i></i></li>
