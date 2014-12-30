@@ -15,7 +15,7 @@ class ApiarticleController extends Controller {
 	}
 	function article_find(){
 		$key=$_GET['key'];
-		$title=$_GET['title'];
+		$title=$_GET['a_title'];
 		$find=M("api_user")->where("k='$key'")->find();
 		if($find){
 			$rews=M()->table("bbs_article,bbs_type")->where("bbs_article.t_id=bbs_type.id and a_title like '%".$title."%'")->select();

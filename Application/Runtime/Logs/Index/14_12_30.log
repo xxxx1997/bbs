@@ -4710,3 +4710,264 @@ SQL: UPDATE `bbs_pv` SET `pv`=260 WHERE ( start_time='2014-12-30' ) [ RunTime:0.
 SQL: UPDATE `bbs_pv` SET `pv`=1 WHERE ( start_time='All' ) [ RunTime:0.004000s ]
 >>>>>>> b7be99316f4745ec949b3aff37209f584f1a98b4
 
+[ 2014-12-30T19:50:28+08:00 ] 127.0.0.1 /Index/apiarticle/article_find?key=d54ba56c6aedacbea798143145a40da02466e54c&a_title=%E9%80%9A%E7%9F%A5&callback=jQuery17014298646342951749_1419940222260&get&_=1419940228326
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: title D:\web4\Application\Index\Controller\ApiarticleController.class.php 第 18 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web4\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_api_user` [ RunTime:0.024002s ]
+SQL: SELECT * FROM `bbs_api_user` WHERE ( k='d54ba56c6aedacbea798143145a40da02466e54c' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM bbs_article,bbs_type [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'bbs_type' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM bbs_article,bbs_type
+SQL: SELECT * FROM `bbs_article`,`bbs_type` WHERE ( bbs_article.t_id=bbs_type.id and a_title like '%%' )  [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE ( start_time='2014-12-30' ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE ( start_time='All' ) LIMIT 1   [ RunTime:0.004000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web4\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: UPDATE `bbs_pv` SET `pv`=480 WHERE ( start_time='2014-12-30' ) [ RunTime:0.006000s ]
+SQL: UPDATE `bbs_pv` SET `pv`=1 WHERE ( start_time='All' ) [ RunTime:0.002000s ]
+
+[ 2014-12-30T19:50:57+08:00 ] 127.0.0.1 /Index/apiarticle/article_find?key=d54ba56c6aedacbea798143145a40da02466e54c&a_title=%E9%80%9A%E7%9F%A5&callback=jQuery1708327219959673803_1419940254482&get&_=1419940257272
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: title D:\web4\Application\Index\Controller\ApiarticleController.class.php 第 18 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web4\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_api_user` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bbs_api_user` WHERE ( k='d54ba56c6aedacbea798143145a40da02466e54c' ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM bbs_article,bbs_type [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'bbs_type' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM bbs_article,bbs_type
+SQL: SELECT * FROM `bbs_article`,`bbs_type` WHERE ( bbs_article.t_id=bbs_type.id and a_title like '%%' )  [ RunTime:0.040002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE ( start_time='2014-12-30' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE ( start_time='All' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web4\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: UPDATE `bbs_pv` SET `pv`=483 WHERE ( start_time='2014-12-30' ) [ RunTime:0.010000s ]
+SQL: UPDATE `bbs_pv` SET `pv`=1 WHERE ( start_time='All' ) [ RunTime:0.001000s ]
+
+[ 2014-12-30T19:51:57+08:00 ] 127.0.0.1 /Index/apiarticle/article_find?key=d54ba56c6aedacbea798143145a40da02466e54c&a_title=%E6%AF%95%E4%B8%9A&callback=jQuery1702801941892080936_1419940314245&get&_=1419940316997
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web4\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_api_user` [ RunTime:0.027002s ]
+SQL: SELECT * FROM `bbs_api_user` WHERE ( k='d54ba56c6aedacbea798143145a40da02466e54c' ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM bbs_article,bbs_type [ RunTime:0.002000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'bbs_type' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM bbs_article,bbs_type
+SQL: SELECT * FROM `bbs_article`,`bbs_type` WHERE ( bbs_article.t_id=bbs_type.id and a_title like '%毕业%' )  [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `bbs_pv` WHERE ( start_time='2014-12-30' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE ( start_time='All' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web4\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: UPDATE `bbs_pv` SET `pv`=484 WHERE ( start_time='2014-12-30' ) [ RunTime:0.008001s ]
+SQL: UPDATE `bbs_pv` SET `pv`=1 WHERE ( start_time='All' ) [ RunTime:0.002000s ]
+
+[ 2014-12-30T19:52:09+08:00 ] 127.0.0.1 /Index/apiarticle/article_find?key=d54ba56c6aedacbea798143145a40da02466e54c&a_title=%E9%80%9A%E7%9F%A5&callback=jQuery1701520423313802034_1419940326825&get&_=1419940329604
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web4\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_api_user` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bbs_api_user` WHERE ( k='d54ba56c6aedacbea798143145a40da02466e54c' ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM bbs_article,bbs_type [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'bbs_type' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM bbs_article,bbs_type
+SQL: SELECT * FROM `bbs_article`,`bbs_type` WHERE ( bbs_article.t_id=bbs_type.id and a_title like '%通知%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.017001s ]
+SQL: SELECT * FROM `bbs_pv` WHERE ( start_time='2014-12-30' ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE ( start_time='All' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web4\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: UPDATE `bbs_pv` SET `pv`=485 WHERE ( start_time='2014-12-30' ) [ RunTime:0.007000s ]
+SQL: UPDATE `bbs_pv` SET `pv`=1 WHERE ( start_time='All' ) [ RunTime:0.006000s ]
+
+[ 2014-12-30T19:52:12+08:00 ] 127.0.0.1 /Index/apiarticle/article_find?key=d54ba56c6aedacbea798143145a40da02466e54c&a_title=%E9%80%9A%E7%9F%A5&callback=jQuery1701520423313802034_1419940326826&get&_=1419940331967
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web4\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_api_user` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `bbs_api_user` WHERE ( k='d54ba56c6aedacbea798143145a40da02466e54c' ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM bbs_article,bbs_type [ RunTime:0.007000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'bbs_type' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM bbs_article,bbs_type
+SQL: SELECT * FROM `bbs_article`,`bbs_type` WHERE ( bbs_article.t_id=bbs_type.id and a_title like '%通知%' )  [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE ( start_time='2014-12-30' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE ( start_time='All' ) LIMIT 1   [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web4\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: UPDATE `bbs_pv` SET `pv`=486 WHERE ( start_time='2014-12-30' ) [ RunTime:0.005000s ]
+SQL: UPDATE `bbs_pv` SET `pv`=1 WHERE ( start_time='All' ) [ RunTime:0.002000s ]
+
+[ 2014-12-30T19:52:13+08:00 ] 127.0.0.1 /Index/apiarticle/article_find?key=d54ba56c6aedacbea798143145a40da02466e54c&a_title=%E9%80%9A%E7%9F%A5&callback=jQuery1701520423313802034_1419940326827&get&_=1419940333457
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web4\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_api_user` [ RunTime:0.021002s ]
+SQL: SELECT * FROM `bbs_api_user` WHERE ( k='d54ba56c6aedacbea798143145a40da02466e54c' ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM bbs_article,bbs_type [ RunTime:0.004000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'bbs_type' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM bbs_article,bbs_type
+SQL: SELECT * FROM `bbs_article`,`bbs_type` WHERE ( bbs_article.t_id=bbs_type.id and a_title like '%通知%' )  [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `bbs_pv` WHERE ( start_time='2014-12-30' ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE ( start_time='All' ) LIMIT 1   [ RunTime:0.004000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web4\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: UPDATE `bbs_pv` SET `pv`=487 WHERE ( start_time='2014-12-30' ) [ RunTime:0.014001s ]
+SQL: UPDATE `bbs_pv` SET `pv`=1 WHERE ( start_time='All' ) [ RunTime:0.002000s ]
+
+[ 2014-12-30T19:52:18+08:00 ] 127.0.0.1 /Index/apiarticle/article_find?key=d54ba56c6aedacbea798143145a40da02466e54c&a_title=2014&callback=jQuery1701520423313802034_1419940326828&get&_=1419940338247
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web4\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_api_user` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `bbs_api_user` WHERE ( k='d54ba56c6aedacbea798143145a40da02466e54c' ) LIMIT 1   [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM bbs_article,bbs_type [ RunTime:0.006000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'bbs_type' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM bbs_article,bbs_type
+SQL: SELECT * FROM `bbs_article`,`bbs_type` WHERE ( bbs_article.t_id=bbs_type.id and a_title like '%2014%' )  [ RunTime:0.014001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.042003s ]
+SQL: SELECT * FROM `bbs_pv` WHERE ( start_time='2014-12-30' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE ( start_time='All' ) LIMIT 1   [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web4\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: UPDATE `bbs_pv` SET `pv`=488 WHERE ( start_time='2014-12-30' ) [ RunTime:0.007000s ]
+SQL: UPDATE `bbs_pv` SET `pv`=1 WHERE ( start_time='All' ) [ RunTime:0.002000s ]
+
+[ 2014-12-30T19:52:23+08:00 ] 127.0.0.1 /Index/apiarticle/article_find?key=d54ba56c6aedacbea798143145a40da02466e54c&a_title=%E6%AF%95%E4%B8%9A&callback=jQuery1701520423313802034_1419940326829&get&_=1419940343015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web4\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_api_user` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bbs_api_user` WHERE ( k='d54ba56c6aedacbea798143145a40da02466e54c' ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM bbs_article,bbs_type [ RunTime:0.003000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'bbs_type' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM bbs_article,bbs_type
+SQL: SELECT * FROM `bbs_article`,`bbs_type` WHERE ( bbs_article.t_id=bbs_type.id and a_title like '%毕业%' )  [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE ( start_time='2014-12-30' ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE ( start_time='All' ) LIMIT 1   [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web4\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: UPDATE `bbs_pv` SET `pv`=489 WHERE ( start_time='2014-12-30' ) [ RunTime:0.007000s ]
+SQL: UPDATE `bbs_pv` SET `pv`=1 WHERE ( start_time='All' ) [ RunTime:0.003000s ]
+
+[ 2014-12-30T19:55:53+08:00 ] 127.0.0.1 /Index/apiarticle/article_find?key=d54ba56c6aedacbea798143145a40da02466e54c&a_title=%E9%80%9A%E7%9F%A5&callback=jQuery1703132823252703344_1419940548142&get&_=1419940553022
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web4\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_api_user` [ RunTime:0.028002s ]
+SQL: SELECT * FROM `bbs_api_user` WHERE ( k='d54ba56c6aedacbea798143145a40da02466e54c' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM bbs_article,bbs_type [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'bbs_type' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM bbs_article,bbs_type
+SQL: SELECT * FROM `bbs_article`,`bbs_type` WHERE ( bbs_article.t_id=bbs_type.id and a_title like '%通知%' )  [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.018001s ]
+SQL: SELECT * FROM `bbs_pv` WHERE ( start_time='2014-12-30' ) LIMIT 1   [ RunTime:0.002001s ]
+SQL: SELECT * FROM `bbs_pv` WHERE ( start_time='All' ) LIMIT 1   [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web4\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: UPDATE `bbs_pv` SET `pv`=490 WHERE ( start_time='2014-12-30' ) [ RunTime:0.006000s ]
+SQL: UPDATE `bbs_pv` SET `pv`=1 WHERE ( start_time='All' ) [ RunTime:0.001000s ]
+
+[ 2014-12-30T20:25:17+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Index\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\web4\Application\Index\Controller\IndexController.class.php 第 104 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web4\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bbs_nav` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bbs_nav`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `bbs_employment` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `bbs_class` [ RunTime:0.004000s ]
+SQL: select * from bbs_article where t_id=1 [ RunTime:0.005001s ]
+SQL: select * from bbs_article where t_id=2 [ RunTime:0.002000s ]
+SQL: select * from bbs_article where t_id=3 and state=0 [ RunTime:0.001000s ]
+SQL: select * from bbs_article where t_id=4 [ RunTime:0.002000s ]
+SQL: select * from bbs_article where t_id=5 [ RunTime:0.002000s ]
+SQL: select * from bbs_article where t_id=6 [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=1 )  [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=2 )  [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bbs_class` WHERE ( class_type=3 )  [ RunTime:0.002000s ]
+SQL: select * from bbs_employment  limit 0,8 [ RunTime:0.001000s ]
+SQL: select * from pre_forum_post where first=1   order by pid desc limit 6 [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.099006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `bbs_pv` [ RunTime:0.037002s ]
+SQL: SELECT * FROM `bbs_pv` WHERE ( start_time='2014-12-30' ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bbs_pv` WHERE ( start_time='All' ) LIMIT 1   [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web4\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: UPDATE `bbs_pv` SET `pv`=514 WHERE ( start_time='2014-12-30' ) [ RunTime:0.019001s ]
+SQL: UPDATE `bbs_pv` SET `pv`=1 WHERE ( start_time='All' ) [ RunTime:0.004000s ]
+
