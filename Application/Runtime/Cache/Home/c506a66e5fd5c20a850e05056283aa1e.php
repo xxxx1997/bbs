@@ -104,6 +104,13 @@ $(function(){
         <li <?php if($Think.ACTION_NAME=='rec'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('rec/rec_list');?>">列表</a><i></i></li>
     </ul>    
     </dd>
+            <dd><div class="title"><span><img src="/addbbs/Application/Common/admin/images/leftico01.png" /></span>API</div>
+    <ul class="menuson">
+        <li <?php if($Think.ACTION_NAME=='rec'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('api/user');?>">用户列表</a><i></i></li>
+         <li <?php if($Think.ACTION_NAME=='rec'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('api/url');?>">接口列表</a><i></i></li>
+          <li <?php if($Think.ACTION_NAME=='rec'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('api/user_url');?>">用户接口列表</a><i></i></li>
+    </ul>    
+    </dd>
        <dd><div class="title"><span><img src="/addbbs/Application/Common/admin/images/leftico01.png" /></span>系统管理</div>
     <ul class="menuson">
         <li><cite></cite><a href="<?php echo U('pv/pv');?>">统计</a><i></i></li>

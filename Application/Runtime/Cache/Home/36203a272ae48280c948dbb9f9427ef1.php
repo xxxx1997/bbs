@@ -104,6 +104,13 @@ $(function(){
         <li <?php if($Think.ACTION_NAME=='rec'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('rec/rec_list');?>">列表</a><i></i></li>
     </ul>    
     </dd>
+            <dd><div class="title"><span><img src="/addbbs/Application/Common/admin/images/leftico01.png" /></span>API</div>
+    <ul class="menuson">
+        <li <?php if($Think.ACTION_NAME=='rec'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('api/user');?>">用户列表</a><i></i></li>
+         <li <?php if($Think.ACTION_NAME=='rec'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('api/url');?>">接口列表</a><i></i></li>
+          <li <?php if($Think.ACTION_NAME=='rec'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('api/user_url');?>">用户接口列表</a><i></i></li>
+    </ul>    
+    </dd>
        <dd><div class="title"><span><img src="/addbbs/Application/Common/admin/images/leftico01.png" /></span>系统管理</div>
     <ul class="menuson">
         <li><cite></cite><a href="<?php echo U('pv/pv');?>">统计</a><i></i></li>
@@ -125,33 +132,32 @@ $(function(){
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>无标题文档</title>
 <link href="/addbbs/Application/Common/admin/css/style.css" rel="stylesheet" type="text/css" />
-<link href="/addbbs/Application/Common/admin/css/select.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="/addbbs/Application/Common/admin/js/jquery.js"></script>
-<script type="text/javascript" src="/addbbs/Application/Common/admin/js/jquery.idTabs.min.js"></script>
-<script type="text/javascript" src="/addbbs/Application/Common/admin/js/select-ui.min.js"></script>
-<script type="text/javascript" src="/addbbs/Application/Common/admin/editor/kindeditor.js"></script>
 
 <script type="text/javascript">
-    KE.show({
-        id : 'content7',
-        cssPath : './index.css'
-    });
-  </script>
+$(document).ready(function(){
+  $(".click").click(function(){
+  $(".tip").fadeIn(200);
+  });
   
-<script type="text/javascript">
-$(document).ready(function(e) {
-    $(".select1").uedSelect({
-		width : 345			  
-	});
-	$(".select2").uedSelect({
-		width : 167  
-	});
-	$(".select3").uedSelect({
-		width : 100
-	});
+  $(".tiptop a").click(function(){
+  $(".tip").fadeOut(200);
+});
+
+  $(".sure").click(function(){
+  $(".tip").fadeOut(100);
+});
+
+  $(".cancel").click(function(){
+  $(".tip").fadeOut(100);
+});
+
 });
 </script>
+
+
 </head>
+
 
 <body>
 
@@ -159,58 +165,122 @@ $(document).ready(function(e) {
     <span>位置：</span>
     <ul class="placeul">
     <li><a href="#">首页</a></li>
-    <li><a href="#">导航管理</a></li>
+    <li><a href="#">数据表</a></li>
+    <li><a href="#">基本内容</a></li>
     </ul>
     </div>
     
-    <div class="formbody">
+    <div class="rightinfo">
+    
+    <div class="tools">
+    
+    	<ul class="toolbar">
+            <li class="click"><a href="<?php echo U('teacher/add');?>"><span><img src="/addbbs/Application/Common/admin/images/t01.png" /></span>添加</a></li>
+        <li class="click"><span><img src="/addbbs/Application/Common/admin/images/t02.png" /></span>修改</li>
+        <li><span><img src="/addbbs/Application/Common/admin/images/t03.png" /></span>删除</li>
+        <li><span><img src="/addbbs/Application/Common/admin/images/t04.png" /></span>统计</li>
+        </ul>
+        
+        
+        <ul class="toolbar1">
+        <li><span><img src="/addbbs/Application/Common/admin/images/t05.png" /></span>设置</li>
+        </ul>
+    
+    </div>
     
     
-    <div id="usual1" class="usual"> 
-    
-    <div class="itab">
-  	<ul> 
-    <li><a href="#tab1" class="selected">添加</a></li> 
-    
-  	</ul>
-    </div> 
-        <form action="<?php echo U('nav/nav_add_do');?>" method="post" enctype="multipart/form-data">
-  	<div id="tab1" class="tabson">
-    
-    <div class="formtext">Hi，<b>admin</b>，欢迎您试用信息发布功能！</div>
-    
-    <ul class="forminfo">
-    <li><label>名称<b>*</b></label><input name="name" type="text" class="dfinput" value=""  style="width:518px;"/></li>
-    <li><label>url<b>*</b></label><input name="url" type="text" class="dfinput" value=""  style="width:518px;"/>       <font color="red">a/b a控制器 b方法名</font></li>
-    
+    <table class="tablelist">
+    	<thead>
+    	<tr>
+        <th><input name="" type="checkbox" value="" checked="checked"/></th>
+        <th>编号<i class="sort"><img src="/addbbs/Application/Common/admin/images/px.gif" /></i></th>
+        <th>姓名</th>
+        <th>接口</th>
+        
+        <th>状态</th>
+        <th>time</th>
+          
+        <th>操作</th>
+        </tr>
+        </thead>
+        <tbody>
+            <?php if(is_array($list)): foreach($list as $key=>$vo): ?><tr id='tr<?php echo ($vo["a_id"]); ?>'>
+        <td><input name="" type="checkbox" value="" /></td>
+        <td><?php echo ($vo["a_id"]); ?></td>
+        <td><?php echo ($vo["username"]); ?></td>
+       <td><?php echo ($vo["name"]); ?></td>
+       <td><?php
+ if($vo['a_state']==1){ ?>
+                <a href="/addbbs/Home/Api/user_url_apply?state=0&id=<?php echo ($vo["a_id"]); ?>" >审核通过</a>
+                <?php
+ }else{ ?>
+                <a href="/addbbs/Home/Api/user_url_apply?state=1&id=<?php echo ($vo["a_id"]); ?>">未审核</a>
+                <?php
+ } ?>
+            </td>
+       <script>
+
+       </script>
+        <td><?php echo date('Y-m-d H:i:s',$vo['time']) ?></td>
+              
+        <td><a href="<?php echo U('teacher/see',array('t_id'=>$vo['t_id']));?>" class="tablelink">查看</a>     <a href="#" onclick="del('<?php echo ($vo["t_id"]); ?>')" class="tablelink"> 删除</a></td>
+        </tr><?php endforeach; endif; ?> 
+        </tbody>
+    </table>
+        <script>
+            function del(id){
+
+                if(confirm('确认删除么?')){
+                    $.ajax({
+                        type: "POST",
+                        url: "<?php echo U('teacher/del');?>",
+                        data: "id="+id,
+                        success: function(msg){ 
+                          if(msg){
+                              $("#tr"+id).remove()
+                          }else{
+                              alert('删除失败');
+                          }
+                        }
+                     }); 
+                }
+            }
+        </script>
    
+    <div class="pagin">
+    	<div class="message"><?php echo ($page); ?></div>
+
+            
+        
+    </div>
+    
+    
+    <div class="tip">
+    	<div class="tiptop"><span>提示信息</span><a></a></div>
+        
+      <div class="tipinfo">
+        <span><img src="/addbbs/Application/Common/admin/images/ticon.png" /></span>
+        <div class="tipright">
+        <p>是否确认对信息的修改 ？</p>
+        <cite>如果是请点击确定按钮 ，否则请点取消。</cite>
+        </div>
+        </div>
+        
+        <div class="tipbtn">
+        <input name="" type="button"  class="sure" value="确定" />&nbsp;
+        <input name="" type="button"  class="cancel" value="取消" />
+        </div>
+    
+    </div>
     
     
     
-    <li><label>&nbsp;</label><input name="" type="submit" class="btn" value="添加"/></li>
-    </ul>
     
-    </div> 
-    
-    </form>
-  	
-       
-	</div> 
- 
-	<script type="text/javascript"> 
-      $("#usual1 ul").idTabs(); 
-    </script>
+    </div>
     
     <script type="text/javascript">
 	$('.tablelist tbody tr:odd').addClass('odd');
 	</script>
-    
-    
-    
-    
-    
-    </div>
-
 
 </body>
 
