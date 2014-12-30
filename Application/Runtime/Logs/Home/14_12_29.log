@@ -1,3 +1,26 @@
+<<<<<<< HEAD
+[ 2014-12-29T08:51:36+08:00 ] 127.0.0.1 /home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-29T08:51:37+08:00 ] 127.0.0.1 /Home/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-12-29T08:51:39+08:00 ] 127.0.0.1 /Home/login/login_do.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-29T08:51:41+08:00 ] 127.0.0.1 /Home/admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-29T08:51:43+08:00 ] 127.0.0.1 /Home/pv/pv.html
+=======
 [ 2014-12-29T08:06:01+08:00 ] 127.0.0.1 /addbbs/home
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
@@ -49,25 +72,57 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 
 [ 2014-12-29T08:54:11+08:00 ] 127.0.0.1 /addbbs/Home/admin/index.html
+>>>>>>> 6eb127d491f373a15c07f467ace829fd08ebf610
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 
+<<<<<<< HEAD
+[ 2014-12-29T08:52:26+08:00 ] 127.0.0.1 /Home/game/game.html
+=======
 [ 2014-12-29T08:54:13+08:00 ] 127.0.0.1 /addbbs/Home/pv/pv.html
+>>>>>>> 6eb127d491f373a15c07f467ace829fd08ebf610
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 
+<<<<<<< HEAD
+[ 2014-12-29T08:52:43+08:00 ] 127.0.0.1 /Home/nav/nav_list.html
+=======
 [ 2014-12-29T08:55:31+08:00 ] 127.0.0.1 /addbbs/Home/nav/nav_list.html
+>>>>>>> 6eb127d491f373a15c07f467ace829fd08ebf610
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 
+<<<<<<< HEAD
+[ 2014-12-29T08:52:45+08:00 ] 127.0.0.1 /Home/admin/course.html
+=======
 [ 2014-12-29T08:55:32+08:00 ] 127.0.0.1 /addbbs/Home/admin/course.html
+>>>>>>> 6eb127d491f373a15c07f467ace829fd08ebf610
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 
+<<<<<<< HEAD
+[ 2014-12-29T11:31:44+08:00 ] 127.0.0.1 /Home/admin/course.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-29T11:31:46+08:00 ] 127.0.0.1 /Home/video/video_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-29T11:31:46+08:00 ] 127.0.0.1 /Home/video/js/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:js
+
+[ 2014-12-29T11:31:50+08:00 ] 127.0.0.1 /Home/jyjb/index.html
+=======
 [ 2014-12-29T16:42:08+08:00 ] 127.0.0.1 /addbbs/home
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
@@ -91,10 +146,14 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 
 [ 2014-12-29T20:10:08+08:00 ] 127.0.0.1 /addbbs/Home/nav/nav_list.html
+>>>>>>> 6eb127d491f373a15c07f467ace829fd08ebf610
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 
+<<<<<<< HEAD
+[ 2014-12-29T11:31:53+08:00 ] 127.0.0.1 /Home/Jyjb/add
+=======
 [ 2014-12-29T20:10:11+08:00 ] 127.0.0.1 /addbbs/Home/nav/nav_add.html
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
@@ -111,15 +170,23 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 
 [ 2014-12-29T20:10:54+08:00 ] 127.0.0.1 /addbbs/Home/nav/upd/n_id/7.html
+>>>>>>> 6eb127d491f373a15c07f467ace829fd08ebf610
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 
+<<<<<<< HEAD
+[ 2014-12-29T11:32:26+08:00 ] 127.0.0.1 /Home/Jyjb/add_do
+=======
 [ 2014-12-29T20:11:01+08:00 ] 127.0.0.1 /addbbs/Home/nav/nav_upd_do.html
+>>>>>>> 6eb127d491f373a15c07f467ace829fd08ebf610
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 
+<<<<<<< HEAD
+[ 2014-12-29T11:32:39+08:00 ] 127.0.0.1 /Home/Jyjb/add_do
+=======
 [ 2014-12-29T20:11:02+08:00 ] 127.0.0.1 /addbbs/Home/nav/nav_list.html
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
@@ -146,30 +213,55 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 
 [ 2014-12-29T20:53:54+08:00 ] 127.0.0.1 /addbbs/Home/nav/nav_list.html
+>>>>>>> 6eb127d491f373a15c07f467ace829fd08ebf610
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 
+<<<<<<< HEAD
+[ 2014-12-29T11:32:50+08:00 ] 127.0.0.1 /Home/Jyjb/add_do
+=======
 [ 2014-12-29T20:53:57+08:00 ] 127.0.0.1 /addbbs/Home/nav/upd/n_id/7.html
+>>>>>>> 6eb127d491f373a15c07f467ace829fd08ebf610
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 
+<<<<<<< HEAD
+[ 2014-12-29T11:32:59+08:00 ] 127.0.0.1 /Home/Jyjb/add_do
+=======
 [ 2014-12-29T20:54:08+08:00 ] 127.0.0.1 /addbbs/Home/nav/nav_upd_do.html
+>>>>>>> 6eb127d491f373a15c07f467ace829fd08ebf610
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 
+<<<<<<< HEAD
+[ 2014-12-29T11:34:34+08:00 ] 127.0.0.1 /Home/Jyjb/add_do
+=======
 [ 2014-12-29T20:54:09+08:00 ] 127.0.0.1 /addbbs/Home/nav/nav_list.html
+>>>>>>> 6eb127d491f373a15c07f467ace829fd08ebf610
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 
+<<<<<<< HEAD
+[ 2014-12-29T11:34:35+08:00 ] 127.0.0.1 /Home/jyjb/index.html
+=======
 [ 2014-12-29T22:19:47+08:00 ] 127.0.0.1 /addbbs/home
+>>>>>>> 6eb127d491f373a15c07f467ace829fd08ebf610
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 
+<<<<<<< HEAD
+[ 2014-12-29T14:24:12+08:00 ] 127.0.0.1 /home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-29T14:24:14+08:00 ] 127.0.0.1 /Home/article/article_list.html
+=======
 [ 2014-12-29T22:19:48+08:00 ] 127.0.0.1 /addbbs/Home/login/login.html
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
@@ -186,10 +278,25 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 
 [ 2014-12-29T22:34:45+08:00 ] 127.0.0.1 /addbbs/Home/video/video_list.html
+>>>>>>> 6eb127d491f373a15c07f467ace829fd08ebf610
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 
+<<<<<<< HEAD
+[ 2014-12-29T14:24:34+08:00 ] 127.0.0.1 /Home/article/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-12-29T14:24:34+08:00 ] 127.0.0.1 /Home/article/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index.css
+
+[ 2014-12-29T14:33:50+08:00 ] 127.0.0.1 /Home/admin/course.html
+=======
 [ 2014-12-29T22:34:45+08:00 ] 127.0.0.1 /addbbs/Home/video/js/jquery.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
@@ -202,10 +309,13 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 
 [ 2014-12-29T22:39:22+08:00 ] 127.0.0.1 /addbbs/Home/api/user.html
+>>>>>>> 6eb127d491f373a15c07f467ace829fd08ebf610
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 
+<<<<<<< HEAD
+=======
 [ 2014-12-29T22:40:21+08:00 ] 127.0.0.1 /addbbs/Home/api/user.html
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
@@ -216,3 +326,4 @@ INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 
+>>>>>>> 6eb127d491f373a15c07f467ace829fd08ebf610
