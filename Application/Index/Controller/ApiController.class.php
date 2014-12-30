@@ -70,7 +70,7 @@ class ApiController extends IndexController {
          $r=rand(rand(0,100),rand(50,60000));
          $c=$r+time();
          $key=sha1(md5($c));
-         $_POST['key']=$key;
+         $_POST['k']=$key;
          $res=M('api_user')->data($_POST)->add();
          if($res){
             $this->success('注册成功,请登录..',U('api/login'));    

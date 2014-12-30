@@ -93,7 +93,7 @@
 	</tr>
         <tr>
 	<td>密匙:</td>
-        <td><textarea><?php echo session('api_user')['key'];?></textarea></td>
+        <td><textarea><?php echo session('api_user')['k'];?></textarea></td>
 	</tr>
 	<tr>
 	<td width="22%"><br />
