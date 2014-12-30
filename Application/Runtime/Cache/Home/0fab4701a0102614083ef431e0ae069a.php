@@ -4,15 +4,9 @@
 <title>英雄四组</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-<<<<<<< HEAD
-<link href="/addbbs/Application/Common/admin/css/style.css" rel="stylesheet" type="text/css" />
-<script language="JavaScript" src="/addbbs/Application/Common/admin/js/jquery.js"></script>
-<img src="/addbbs/Application/Common/admin/images/c.jpg" alt="" width="100%" height="150"/>
-=======
 <link href="/Application/Common/admin/css/style.css" rel="stylesheet" type="text/css" />
 <script language="JavaScript" src="/Application/Common/admin/js/jquery.js"></script>
 <img src="/Application/Common/admin/images/c.jpg" alt="" width="100%" height="150"/>
->>>>>>> 7fc85e3993dedfcbfae30d63f35e1b2772343539
 <script type="text/javascript">
 $(function(){	
 	//导航切换
@@ -46,11 +40,7 @@ $(function(){
         
     <dd>
     <div class="title">
-<<<<<<< HEAD
-    <span><img src="/addbbs/Application/Common/admin/images/leftico01.png" /></span>培训课程
-=======
     <span><img src="/Application/Common/admin/images/leftico01.png" /></span>培训课程
->>>>>>> 7fc85e3993dedfcbfae30d63f35e1b2772343539
     </div>
     	<ul class="menuson">
         <li <?php if($Think.ACTION_NAME=='course'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('admin/course');?>" >课程管理</a><i></i></li>
@@ -59,11 +49,7 @@ $(function(){
     </dd>
      <dd>
     <div class="title">
-<<<<<<< HEAD
-    <span><img src="/addbbs/Application/Common/admin/images/leftico01.png" /></span>文章管理
-=======
     <span><img src="/Application/Common/admin/images/leftico01.png" /></span>文章管理
->>>>>>> 7fc85e3993dedfcbfae30d63f35e1b2772343539
     </div>
     	<ul class="menuson">
         <li <?php if($Think.ACTION_NAME=='article_list'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('article/article_list');?>" >文章列表</a><i></i></li>
@@ -74,11 +60,7 @@ $(function(){
     
     <dd>
     <div class="title">
-<<<<<<< HEAD
-    <span><img src="/addbbs/Application/Common/admin/images/leftico02.png" /></span>视频
-=======
     <span><img src="/Application/Common/admin/images/leftico02.png" /></span>视频
->>>>>>> 7fc85e3993dedfcbfae30d63f35e1b2772343539
     </div>
     <ul class="menuson">
         <li <?php if($Think.ACTION_NAME=='video'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('video/video_list');?>">列表</a><i></i></li>
@@ -88,11 +70,7 @@ $(function(){
     </dd> 
     
     
-<<<<<<< HEAD
-    <dd><div class="title"><span><img src="/addbbs/Application/Common/admin/images/leftico01.png" /></span>师资力量</div>
-=======
     <dd><div class="title"><span><img src="/Application/Common/admin/images/leftico01.png" /></span>师资力量</div>
->>>>>>> 7fc85e3993dedfcbfae30d63f35e1b2772343539
     <ul class="menuson">
         <li <?php if($Think.ACTION_NAME=='teacher_list'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('teacher/teacher_list');?>">列表</a><i></i></li>
 
@@ -101,11 +79,7 @@ $(function(){
             
             
             
-<<<<<<< HEAD
-        <dd><div class="title"><span><img src="/addbbs/Application/Common/admin/images/leftico01.png" /></span>就业信息</div>
-=======
         <dd><div class="title"><span><img src="/Application/Common/admin/images/leftico01.png" /></span>就业信息</div>
->>>>>>> 7fc85e3993dedfcbfae30d63f35e1b2772343539
     <ul class="menuson">
         <li <?php if($Think.ACTION_NAME=='jyjb'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('jyjb/index');?>">列表</a><i></i></li>
 
@@ -113,40 +87,24 @@ $(function(){
     </dd>
             
      
-<<<<<<< HEAD
-    <dd><div class="title"><span><img src="/addbbs/Application/Common/admin/images/leftico01.png" /></span>常见问题</div>
-=======
     <dd><div class="title"><span><img src="/Application/Common/admin/images/leftico01.png" /></span>常见问题</div>
->>>>>>> 7fc85e3993dedfcbfae30d63f35e1b2772343539
     <ul class="menuson">
         <li <?php if($Think.ACTION_NAME=='question'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('question/question');?>">列表</a><i></i></li>
 
     </ul>    
     </dd>
-<<<<<<< HEAD
-    <dd><div class="title"><span><img src="/addbbs/Application/Common/admin/images/leftico01.png" /></span>导航管理</div>
-=======
     <dd><div class="title"><span><img src="/Application/Common/admin/images/leftico01.png" /></span>导航管理</div>
->>>>>>> 7fc85e3993dedfcbfae30d63f35e1b2772343539
     <ul class="menuson">
         <li <?php if($Think.ACTION_NAME=='nav'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('nav/nav_list');?>">列表</a><i></i></li>
 
     </ul>    
     </dd>
-<<<<<<< HEAD
-	  <dd><div class="title"><span><img src="/addbbs/Application/Common/admin/images/leftico01.png" /></span>企业招聘</div>
-=======
 	  <dd><div class="title"><span><img src="/Application/Common/admin/images/leftico01.png" /></span>企业招聘</div>
->>>>>>> 7fc85e3993dedfcbfae30d63f35e1b2772343539
     <ul class="menuson">
         <li <?php if($Think.ACTION_NAME=='rec'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('rec/rec_list');?>">列表</a><i></i></li>
     </ul>    
     </dd>
-<<<<<<< HEAD
-       <dd><div class="title"><span><img src="/addbbs/Application/Common/admin/images/leftico01.png" /></span>系统管理</div>
-=======
        <dd><div class="title"><span><img src="/Application/Common/admin/images/leftico01.png" /></span>系统管理</div>
->>>>>>> 7fc85e3993dedfcbfae30d63f35e1b2772343539
     <ul class="menuson">
         <li><cite></cite><a href="<?php echo U('pv/pv');?>">统计</a><i></i></li>
          <li <?php if($Think.ACTION_NAME=='aa'){ echo "class='active'";} ?>><cite></cite><a href="right.html" target="rightFrame">数据列表</a><i></i></li>
@@ -166,13 +124,8 @@ $(function(){
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>无标题文档</title>
-<<<<<<< HEAD
-<link href="/addbbs/Application/Common/admin/css/style.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="/addbbs/Application/Common/admin/js/jquery.js"></script>
-=======
 <link href="/Application/Common/admin/css/style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="/Application/Common/admin/js/jquery.js"></script>
->>>>>>> 7fc85e3993dedfcbfae30d63f35e1b2772343539
 
 <script type="text/javascript">
 $(document).ready(function(){
@@ -215,26 +168,15 @@ $(document).ready(function(){
     <div class="tools">
     
     	<ul class="toolbar">
-<<<<<<< HEAD
-            <li><a href="<?php echo U('nav/nav_add');?>"><span><img src="/addbbs/Application/Common/admin/images/t01.png" /></span>添加</a></li>
-        <li class="click"><span><img src="/addbbs/Application/Common/admin/images/t02.png" /></span>修改</li>
-        <li><span><img src="/addbbs/Application/Common/admin/images/t03.png" /></span>删除</li>
-        <li><span><img src="/addbbs/Application/Common/admin/images/t04.png" /></span>统计</li>
-=======
             <li><a href="<?php echo U('nav/nav_add');?>"><span><img src="/Application/Common/admin/images/t01.png" /></span>添加</a></li>
         <li class="click"><span><img src="/Application/Common/admin/images/t02.png" /></span>修改</li>
         <li><span><img src="/Application/Common/admin/images/t03.png" /></span>删除</li>
         <li><span><img src="/Application/Common/admin/images/t04.png" /></span>统计</li>
->>>>>>> 7fc85e3993dedfcbfae30d63f35e1b2772343539
         </ul>
         
         
         <ul class="toolbar1">
-<<<<<<< HEAD
-        <li><span><img src="/addbbs/Application/Common/admin/images/t05.png" /></span>设置</li>
-=======
         <li><span><img src="/Application/Common/admin/images/t05.png" /></span>设置</li>
->>>>>>> 7fc85e3993dedfcbfae30d63f35e1b2772343539
         </ul>
     
     </div>
@@ -244,11 +186,7 @@ $(document).ready(function(){
     	<thead>
     	<tr>
         <th><input name="" type="checkbox" value="" checked="checked"/></th>
-<<<<<<< HEAD
-        <th>编号<i class="sort"><img src="/addbbs/Application/Common/admin/images/px.gif" /></i></th>
-=======
         <th>编号<i class="sort"><img src="/Application/Common/admin/images/px.gif" /></i></th>
->>>>>>> 7fc85e3993dedfcbfae30d63f35e1b2772343539
 
         <th>name</th>
         <th>url</th>
@@ -302,11 +240,7 @@ $(document).ready(function(){
     	<div class="tiptop"><span>提示信息</span><a></a></div>
         
       <div class="tipinfo">
-<<<<<<< HEAD
-        <span><img src="/addbbs/Application/Common/admin/images/ticon.png" /></span>
-=======
         <span><img src="/Application/Common/admin/images/ticon.png" /></span>
->>>>>>> 7fc85e3993dedfcbfae30d63f35e1b2772343539
         <div class="tipright">
         <p>是否确认对信息的修改 ？</p>
         <cite>如果是请点击确定按钮 ，否则请点取消。</cite>
