@@ -552,16 +552,25 @@ INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 
+<<<<<<< HEAD
 [ 2014-12-30T16:21:38+08:00 ] 127.0.0.1 /home
+=======
+[ 2014-12-30T09:44:19+08:00 ] 127.0.0.1 /addbbs/Home/api/user.html
+>>>>>>> b7be99316f4745ec949b3aff37209f584f1a98b4
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 
+<<<<<<< HEAD
 [ 2014-12-30T16:21:39+08:00 ] 127.0.0.1 /Home/login/login.html
+=======
+[ 2014-12-30T09:49:42+08:00 ] 127.0.0.1 /addbbs/Home/video/video_list.html
+>>>>>>> b7be99316f4745ec949b3aff37209f584f1a98b4
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 
+<<<<<<< HEAD
 [ 2014-12-30T16:21:42+08:00 ] 127.0.0.1 /Home/login/login_do.html
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
@@ -578,20 +587,34 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
 
 [ 2014-12-30T16:21:53+08:00 ] 127.0.0.1 /Home/api/url.html
+=======
+[ 2014-12-30T09:49:42+08:00 ] 127.0.0.1 /addbbs/Home/video/js/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:js
+
+[ 2014-12-30T14:39:39+08:00 ] 192.168.1.95 /home
+>>>>>>> b7be99316f4745ec949b3aff37209f584f1a98b4
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 
+<<<<<<< HEAD
 [ 2014-12-30T16:22:00+08:00 ] 127.0.0.1 /Home/api/add_url.html
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 
 [ 2014-12-30T16:22:10+08:00 ] 127.0.0.1 /Home/api/url.html
+=======
+[ 2014-12-30T14:39:40+08:00 ] 192.168.1.95 /Home/login/login.html
+>>>>>>> b7be99316f4745ec949b3aff37209f584f1a98b4
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 
+<<<<<<< HEAD
 [ 2014-12-30T16:22:16+08:00 ] 127.0.0.1 /Home/api/add_url.html
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
@@ -603,25 +626,37 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 
 [ 2014-12-30T16:22:40+08:00 ] 127.0.0.1 /Home/api/add_url.html
+=======
+[ 2014-12-30T14:39:42+08:00 ] 192.168.1.95 /Home/login/login_do.html
+>>>>>>> b7be99316f4745ec949b3aff37209f584f1a98b4
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 
+<<<<<<< HEAD
 [ 2014-12-30T16:24:17+08:00 ] 127.0.0.1 /Home/api/add_url_do.html
+=======
+[ 2014-12-30T14:39:43+08:00 ] 192.168.1.95 /Home/admin/index.html
+>>>>>>> b7be99316f4745ec949b3aff37209f584f1a98b4
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 
+<<<<<<< HEAD
 [ 2014-12-30T16:24:18+08:00 ] 127.0.0.1 /Home/api/url.html
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
 
 [ 2014-12-30T16:27:31+08:00 ] 127.0.0.1 /Home/api/url.html
+=======
+[ 2014-12-30T14:39:53+08:00 ] 192.168.1.95 /Home/api/url.html
+>>>>>>> b7be99316f4745ec949b3aff37209f584f1a98b4
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 
+<<<<<<< HEAD
 [ 2014-12-30T19:06:34+08:00 ] 127.0.0.1 /Home/api/user.html
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
@@ -636,4 +671,10 @@ INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+=======
+[ 2014-12-30T14:40:38+08:00 ] 192.168.1.95 /Home/api/url.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+>>>>>>> b7be99316f4745ec949b3aff37209f584f1a98b4
 
