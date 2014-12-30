@@ -104,6 +104,13 @@ $(function(){
         <li <?php if($Think.ACTION_NAME=='rec'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('rec/rec_list');?>">列表</a><i></i></li>
     </ul>    
     </dd>
+            <dd><div class="title"><span><img src="/addbbs/Application/Common/admin/images/leftico01.png" /></span>API</div>
+    <ul class="menuson">
+        <li <?php if($Think.ACTION_NAME=='rec'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('api/user');?>">用户列表</a><i></i></li>
+         <li <?php if($Think.ACTION_NAME=='rec'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('api/url');?>">接口列表</a><i></i></li>
+          <li <?php if($Think.ACTION_NAME=='rec'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('api/user_url');?>">用户接口列表</a><i></i></li>
+    </ul>    
+    </dd>
        <dd><div class="title"><span><img src="/addbbs/Application/Common/admin/images/leftico01.png" /></span>系统管理</div>
     <ul class="menuson">
         <li><cite></cite><a href="<?php echo U('pv/pv');?>">统计</a><i></i></li>
@@ -123,34 +130,8 @@ $(function(){
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>无标题文档</title>
+<title>添加教师</title>
 <link href="/addbbs/Application/Common/admin/css/style.css" rel="stylesheet" type="text/css" />
-<link href="/addbbs/Application/Common/admin/css/select.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="/addbbs/Application/Common/admin/js/jquery.js"></script>
-<script type="text/javascript" src="/addbbs/Application/Common/admin/js/jquery.idTabs.min.js"></script>
-<script type="text/javascript" src="/addbbs/Application/Common/admin/js/select-ui.min.js"></script>
-<script type="text/javascript" src="/addbbs/Application/Common/admin/editor/kindeditor.js"></script>
-
-<script type="text/javascript">
-    KE.show({
-        id : 'content7',
-        cssPath : './index.css'
-    });
-  </script>
-  
-<script type="text/javascript">
-$(document).ready(function(e) {
-    $(".select1").uedSelect({
-		width : 345			  
-	});
-	$(".select2").uedSelect({
-		width : 167  
-	});
-	$(".select3").uedSelect({
-		width : 100
-	});
-});
-</script>
 </head>
 
 <body>
@@ -159,55 +140,24 @@ $(document).ready(function(e) {
     <span>位置：</span>
     <ul class="placeul">
     <li><a href="#">首页</a></li>
-    <li><a href="#">导航管理</a></li>
+    <li><a href="#">表单</a></li>
     </ul>
     </div>
     
     <div class="formbody">
     
-    
-    <div id="usual1" class="usual"> 
-    
-    <div class="itab">
-  	<ul> 
-    <li><a href="#tab1" class="selected">添加</a></li> 
-    
-  	</ul>
-    </div> 
-        <form action="<?php echo U('nav/nav_add_do');?>" method="post" enctype="multipart/form-data">
-  	<div id="tab1" class="tabson">
-    
-    <div class="formtext">Hi，<b>admin</b>，欢迎您试用信息发布功能！</div>
-    
+        <div class="formtitle"><a href="/addbbs/Home/Api/url"><span>列表</span></a></div>
+    <form action="<?php echo U('api/add_url_do');?>" method="post" enctype="multipart/form-data">
     <ul class="forminfo">
-    <li><label>名称<b>*</b></label><input name="name" type="text" class="dfinput" value=""  style="width:518px;"/></li>
-    <li><label>url<b>*</b></label><input name="url" type="text" class="dfinput" value=""  style="width:518px;"/>       <font color="red">a/b a控制器 b方法名</font></li>
+    <li><label>标题</label><input name="name" type="text" class="dfinput" /><i></i></li>
     
-   
+    <li><label>描述</label><textarea name="desc" cols="" rows="" class="textinput"></textarea></li>
     
-    
-    
-    <li><label>&nbsp;</label><input name="" type="submit" class="btn" value="添加"/></li>
-    </ul>
-    
-    </div> 
-    
-    </form>
-  	
-       
-	</div> 
+    <li><label>url</label><input name="url" value='http://' type="text" class="dfinput" /><i></i></li>
  
-	<script type="text/javascript"> 
-      $("#usual1 ul").idTabs(); 
-    </script>
-    
-    <script type="text/javascript">
-	$('.tablelist tbody tr:odd').addClass('odd');
-	</script>
-    
-    
-    
-    
+    <li><label>&nbsp;</label><input name="" type="submit" class="btn" value="确认保存"/></li>
+    </ul>
+    </form>
     
     </div>
 

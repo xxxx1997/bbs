@@ -56,41 +56,196 @@
 </ul>
 	</div>
 <!--输出-->
- 
-
-	<div id="box">
-		<div id="left" class="fl">
-			<div class="left_content">
-				<h2 class="title1"><span class="STYLE3">常见</span><span class="STYLE2">问题</span></h2>
-				<h3 class="title2">热点问题</h3>
-				<ul class="links">
-﻿<ul>
- <?php if(is_array($info)): foreach($info as $key=>$it): ?><li><a href="/addbbs/Index/Question/answer?id=<?php echo ($it["p_id"]); ?>" target="_blank"><?php echo ($it["p_title"]); ?></a><?php echo date('Y-m-d',$it['start_time']) ?></li><?php endforeach; endif; ?>
-</ul>
- 
-				</ul>
-				<h3 class="title2">PHP相关问题</h3>
-				<ul class="links">
-<ul>
-   <?php if(is_array($data)): foreach($data as $key=>$it): ?><li><a href="/addbbs/Index/Question/answer?id=<?php echo ($it["p_id"]); ?>" target="_blank"><?php echo ($it["p_title"]); ?></a></li><?php endforeach; endif; ?>
-</ul>
-
-			    </ul>
+ <div id="box">
+		    <div class="mbx">
+			<!-- Baidu share BEGIN -->
+    <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare">
+        <span class="bds_more">分享到：</span>
+        <a class="bds_sqq">QQ好友</a>
+		<a class="bds_qzone">QQ空间</a>
+		<a class="bds_tqq">腾讯微博</a>
+		<a class="bds_tsina">新浪微博</a>
+		<a class="bds_tieba">百度贴吧</a>
+		<a class="shareCount"></a>
+    </div>
+<!-- Baidu share END 需在页面底部添加baidushare.js -->
+			   <div style="padding-left:10px;float:left;">
+			     <b>其它学院入口：</b>  <img src="/addbbs/Application/Common/index/images/sanjiao.jpg" /> <a href="http://net.itcast.cn">.net学院</a> <img src="/addbbs/Application/Common/index/images/sanjiao.jpg" /> <a href="http://java.itcast.cn">java学院</a>  <img src="/addbbs/Application/Common/index/images/sanjiao.jpg" /> <a href="http://icd.itcast.cn">网页平面设计学院</a>
+			   </div>
 			</div>
+			  <div id="left" class="fl"  style="margin-top:3px;">
+			<div class="jyjb">
+			<div></div>
+			 ﻿
+<div class="kcjs">
+<style type="text/css">
+.kcnr-table{ line-height:20px;}
+	.kcnr-table li{ list-style-image:url(http://www.itcast.cn/files/image/201207/20120718144154342.jpg); margin-left:15px;;</style>
+</div>
+<ul>
+
+</ul>
+<table border="0" cellpadding="0" cellspacing="0" class="kcnr-table" width="99%">
+<tbody>
+	<tr>
+	<td>用户:</td>
+        <td><strong><a href="" ><?php echo session('api_user')['username'];?></a></strong></td>
+	</tr>
+        <tr>
+	<td>密匙:</td>
+        <td><strong><?php echo session('api_user')['key'];?></strong></td>
+	</tr>
+	<tr>
+	<td width="22%"><br />
+	已申请的接口:</td>
+	<td width="78%">
+	<p></p>
+	
+            <?php if(is_array($list)): foreach($list as $key=>$v): if($v['a_state'] == 1): echo ($v["name"]); ?>接口:&nbsp;<a href="<?php echo ($v["url"]); ?>"><?php echo ($v["url"]); ?></a><br>
+                <?php else: ?>
+                <?php echo ($v["name"]); ?>接口:正在审核 请稍等..<?php endif; endforeach; endif; ?>
+	
+	</td>
+	</tr>
+	
+</tbody>
+</table>
+                         
+                         <ul>
+<li class="fl" style="width:141px;"></li>
+<li class="fl jyjb-11-font1" style=" width:470px;"><span class="jyjb-11-font2"><a href="http://php.itcast.cn/php/course/php.shtml" target="_blank"><b>接口信息:</b></a></span><br>
+<p><span style="background-color: rgb(241, 241, 241); color: rgb(81, 81, 81); font-family: 宋体; line-height: 24px; text-indent: 24px; -webkit-text-size-adjust: none; ">   </span>   </p>
+</li>
+</ul>
+                         <br />
+<table border="0" cellpadding="0" cellspacing="0" class="kcnr-table" width="99%">
+<tbody>
+<?php if(is_array($api_list)): foreach($api_list as $key=>$v): ?><tr>
+             
+           <td><?php echo ($v["name"]); ?>接口:</td>
+           <td><?php echo ($v["desc"]); ?>&nbsp;&nbsp;&nbsp;&nbsp;<a  onclick="apply(<?php echo session('api_user')['id'];?>,<?php echo ($v["id"]); ?>)">申请</a></td>
+	</tr><?php endforeach; endif; ?>
+
+	
+</tbody>
+</table>
+<script>
+    function apply(user_id,url_id){
+        
+       $.ajax({
+           url:"<?php echo U('api/api_apply');?>",
+           type:'post',
+           data:'url_id='+url_id+"&user_id="+user_id,
+           success:function(e){
+               //alert(e)
+               if(e){
+                   alert('申请成功,请等待审核');
+               }else{
+                   alert('申请失败');
+               }
+           }
+       })
+    }
+</script>
+<br />
+<br />
+
+			</div>
+			
+				<div></div>
 		</div>		
-		<div id="right" class="fl">
-			<h4 class="righttitle1"><span class="fl">PHP视频下载</span><span class="fr"><a href="/php/video.shtml">+MORE</a></span></h4>
-			<ul class="rightkuang">
-			<ul>
-           <?php if(is_array($video)): foreach($video as $key=>$it): ?><li><a href="<?php echo U('Video/details',array('v_id'=>$it['v_id']));?>"><?php echo ($it["v_name"]); ?></a></li><?php endforeach; endif; ?>
+		<div id="right" class="fl">			
+			<h4 class="righttitle1" style="margin-top:10px;"><span class="fl">PHP培训开班信息</span></h4>
+			<div class="jyjb-left" >
+                <ul>
+<li style="border-bottom: medium none; float: left; color: #515151"><a href="<?php echo U('jyjb/training');?>"><b><font style="color: #515151">PHP基础班</font></b></a></li>
+<br />
+</ul>
+<ul style="clear: both">
+<?php if(is_array($ke1)): foreach($ke1 as $key=>$it): ?><li><a href="<?php echo U('jyjb/training',array('id'=>$it['id']));?>" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
+</ul>
+<ul>
+<li style="border-bottom: medium none; float: left; color: #515151"><a href="/addbbs/Index/Api/training?id=<?php echo ($it["id"]); ?>"><b><font style="color: #515151">PHP就业班</font></b></a></li>
+<br />
+</ul>
+<ul style="clear: both">
+<?php if(is_array($ke2)): foreach($ke2 as $key=>$it): ?><li><a href="<?php echo U('jyjb/training',array('id'=>$it['id']));?>" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
+</ul>
+<ul>
+<li style="border-bottom: medium none; float: left; color: #515151"><a href="/addbbs/Index/Api/training"><b><font style="color: #515151">PHP远程班</font></b></a></li>
+<br />
+</ul>
+<ul style="clear: both">
+<?php if(is_array($ke3)): foreach($ke3 as $key=>$it): ?><li><a href="<?php echo U('jyjb/training',array('id'=>$it['id']));?>" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
 </ul>
 
-			</ul>
-
+			</div>
+			<div class="rightbottom"><img src="/images/rightbottom.jpg"/></div>
+			<h4 class="righttitle1 lianxi"><span class="fl"><span class="blue">课程</span>咨询</span></h4>
+			
+			<div class="rightkuang">
+			<dl>
+	<dt style="padding-bottom:20px;">
+		北京传智播客</dt>
+	<dd style="width:120px;height:40px;float:left;">
+		<a href="http://cnrdn.com/iP66" target="_blank"><img alt="北京传智播客QQ在线咨询" border="0" height="27" src="http://www.itcast.cn/images/qqmfst.jpg" width="99" /></a></dd>
+	<dd style="width:120px;height:40px;float:left;">
+		<a href="http://cnrdn.com/iP66" target="_blank"><img alt="北京传智播客QQ在线咨询" border="0" height="27" src="http://www.itcast.cn/images/qqkczx.jpg" width="99" /></a></dd>
+</dl>
+<dl class="qqtwo">
+	<dt style="padding-bottom:20px;">
+		广州传智播客</dt>
+	<dd style=" width:120px;height:40px;float:left;">
+		<a href="http://wpa.b.qq.com/cgi/wpa.php?ln=1&amp;key=XzgwMDA2ODg2OF8yMDczMV84MDAwNjg4NjhfMl8" target="_blank"><img alt="广州传智播客QQ在线咨询" border="0" height="27" src="http://www.itcast.cn/images/qqmfst.jpg" width="99" /></a></dd>
+	<dd style=" width:120px;height:40px;float:left;">
+		<a href="http://wpa.b.qq.com/cgi/wpa.php?ln=1&amp;key=XzgwMDA2ODg2OF8yMDczMV84MDAwNjg4NjhfMl8" target="_blank"><img alt="广州传智播客QQ在线咨询" border="0" height="27" src="http://www.itcast.cn/images/qqkczx.jpg" width="99" /></a></dd>
+</dl>
+<dl class="qqthree">
+	<dt style="padding-bottom:20px;">
+		上海传智播客</dt>
+	<dd style="width:120px;height:40px;float:left;">
+		<a href="http://cnrdn.com/djUD" target="_blank"><img alt="上海传智播客QQ在线咨询" border="0" height="27" src="http://www.itcast.cn/images/qqmfst.jpg" width="99" /></a></dd>
+	<dd style="width:120px;height:40px;float:left;">
+		<a href="http://cnrdn.com/djUD" target="_blank"><img alt="上海传智播客QQ在线咨询" border="0" height="27" src="http://www.itcast.cn/images/qqkczx.jpg" width="99" /></a></dd>
+</dl>
+<dl class="qqfour">
+	<dt style="padding-bottom:20px;">
+		武汉传智播客</dt>
+	<dd style="width:120px;height:40px;float:left;">
+		<a href="http://cnrdn.com/shPF" target="_blank"><img alt="武汉传智播客QQ在线咨询" border="0" height="27" src="http://www.itcast.cn/images/qqmfst.jpg" width="99" /></a></dd>
+	<dd style="width:120px;height:40px;float:left;">
+		<a href="http://cnrdn.com/shPF" target="_blank"><img alt="武汉传智播客QQ在线咨询" border="0" height="27" src="http://www.itcast.cn/images/qqkczx.jpg" width="99" /></a></dd>
+</dl>
+<dl class="qqfive">
+	<dt style="padding-bottom:20px;">
+		郑州传智播客</dt>
+	<dd style="width:120px;height:40px;float:left;">
+		<a href="http://cnrdn.com/0LVE" target="_blank"><img alt="武汉传智播客QQ在线咨询" border="0" height="27" src="http://www.itcast.cn/images/qqmfst.jpg" width="99" /></a></dd>
+	<dd style="width:120px;height:40px;float:left;">
+		<a href="http://cnrdn.com/0LVE" target="_blank"><img alt="武汉传智播客QQ在线咨询" border="0" height="27" src="http://www.itcast.cn/images/qqkczx.jpg" width="99" /></a></dd>
+</dl>
+<dl class="qqsix">
+	<dt style="padding-bottom:20px;">
+		西安传智播客</dt>
+	<dd style="width:120px;height:40px;float:left;">
+		<a href="http://cnrdn.com/iP66" target="_blank"><img alt="西安传智播客QQ在线咨询" border="0" height="27" src="http://www.itcast.cn/images/qqmfst.jpg" width="99" /></a></dd>
+	<dd style="width:120px;height:40px;float:left;">
+		<a href="http://cnrdn.com/iP66" target="_blank"><img alt="西安传智播客QQ在线咨询" border="0" height="27" src="http://www.itcast.cn/images/qqkczx.jpg" width="99" /></a></dd>
+</dl>
+<!--<dl class="qqsev">
+	<dt style="padding-bottom:20px;">
+		西安传智播客</dt>
+	<dd style="width:120px;height:40px;float:left;">
+		<a href="http://cnrdn.com/iP66" target="_blank"><img alt="西安传智播客QQ在线咨询" border="0" height="27" src="http://www.itcast.cn/images/qqmfst.jpg" width="99" /></a></dd>
+	<dd style="width:120px;height:40px;float:left;">
+		<a href="http://cnrdn.com/iP66" target="_blank"><img alt="西安传智播客QQ在线咨询" border="0" height="27" src="http://www.itcast.cn/images/qqkczx.jpg" width="99" /></a></dd>
+</dl>-->
+			<div class="clear"></div>	
+			</div>
 	  </div>
-	</div>
+	</div>		
 	<div class="clear"></div>
- <!-- 页面底部 -->
+	<!-- 页面底部 -->
 
  
  

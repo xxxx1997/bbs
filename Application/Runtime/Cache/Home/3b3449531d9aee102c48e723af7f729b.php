@@ -167,10 +167,17 @@ $(document).ready(function(){
     <div class="tools">
     
     	<ul class="toolbar">
+<<<<<<< HEAD
             <li><a href="<?php echo U('admin/add_course');?>"><span><img src="/Application/Common/admin/images/t01.png" /></span>添加</a></li>
         <li class="click"><span><img src="/Application/Common/admin/images/t02.png" /></span>修改</li>
         <li><span><img src="/Application/Common/admin/images/t03.png" /></span>删除</li>
         <li><span><img src="/Application/Common/admin/images/t04.png" /></span>统计</li>
+=======
+            <li><a href="<?php echo U('admin/add_course');?>"><span><img src="/addbbs/Application/Common/admin/images/t01.png" /></span>添加</a></li>
+        <li class="click"><span><img src="/addbbs/Application/Common/admin/images/t02.png" /></span>修改</li>
+        <li><span><img src="/addbbs/Application/Common/admin/images/t03.png" /></span>删除</li>
+        <li><span><img src="/addbbs/Application/Common/admin/images/t04.png" /></span>统计</li>
+>>>>>>> 6eb127d491f373a15c07f467ace829fd08ebf610
         </ul>
         
         
@@ -201,7 +208,7 @@ $(document).ready(function(){
         <td><?php echo ($it["start_time"]); ?></td>
         <td><?php  if($it['class_type']==1){ echo "php基础班"; }else if($it['class_type']==2){ echo "php就业班"; }else{ echo "php远程班"; }?></td>
         <td><?php if($it['class_state']==1){ echo "预约报名"; }else{ echo "<font color='blue'>爆满已开班</font>"; }?></td>
-        <td><a href="/Home/Admin/sel?id=<?php echo ($it["id"]); ?>" class="tablelink">查看</a>     <a href="#" class="tablelink" onclick="del('<?php echo ($it["id"]); ?>')"> 删除</a></td>
+        <td><a href="/addbbs/Home/Admin/sel?id=<?php echo ($it["id"]); ?>" class="tablelink">查看</a>     <a href="#" class="tablelink" onclick="del('<?php echo ($it["id"]); ?>')"> 删除</a></td>
         </tr><?php endforeach; endif; ?>
         </tbody>
     </table>
@@ -218,7 +225,7 @@ $(document).ready(function(){
                 if(confirm('确认删除么?')){
                     $.ajax({
                         type: "POST",
-                        url: "/Home/Admin/del",
+                        url: "/addbbs/Home/Admin/del",
                         data: "id="+id,
                         success: function(msg){ 
                           if(msg==1){
