@@ -1,5 +1,5 @@
 <?php
-namespace Index\Controller;
+namespace Index\Controller;    
 use Think\Controller;
 header("content-type='text/html' charset='utf8'");
 class ApivideoController extends IndexController {
