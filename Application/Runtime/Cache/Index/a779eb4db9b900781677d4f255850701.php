@@ -29,7 +29,7 @@
 
 	<div class="clear"></div>
 	<div class="top2">
-		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/addbbs/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
+		<h1 class="fl"><a href="http://www.itcast.cn"><img src="/Application/Common/index/images/logo.png" alt="传智播客php培训学院" border="0"  class="png"/></a></h1>
 		<div class="fl toubu">
 		<div class="toubu-font1">PHP学院</div>
 			 <!-- 校区 -->
@@ -70,7 +70,7 @@
     </div>
 <!-- Baidu share END 需在页面底部添加baidushare.js -->
 			   <div style="padding-left:10px;float:left;">
-			     <b>其它学院入口：</b>  <img src="/addbbs/Application/Common/index/images/sanjiao.jpg" /> <a href="http://net.itcast.cn">.net学院</a> <img src="/addbbs/Application/Common/index/images/sanjiao.jpg" /> <a href="http://java.itcast.cn">java学院</a>  <img src="/addbbs/Application/Common/index/images/sanjiao.jpg" /> <a href="http://icd.itcast.cn">网页平面设计学院</a>
+			     <b>其它学院入口：</b>  <img src="/Application/Common/index/images/sanjiao.jpg" /> <a href="http://net.itcast.cn">.net学院</a> <img src="/Application/Common/index/images/sanjiao.jpg" /> <a href="http://java.itcast.cn">java学院</a>  <img src="/Application/Common/index/images/sanjiao.jpg" /> <a href="http://icd.itcast.cn">网页平面设计学院</a>
 			   </div>
 			</div>
 			  <div id="left" class="fl"  style="margin-top:3px;">
@@ -93,7 +93,7 @@
 	</tr>
         <tr>
 	<td>密匙:</td>
-        <td><strong><?php echo session('api_user')['key'];?></strong></td>
+        <td><textarea><?php echo session('api_user')['key'];?></textarea></td>
 	</tr>
 	<tr>
 	<td width="22%"><br />
@@ -165,14 +165,14 @@
 <?php if(is_array($ke1)): foreach($ke1 as $key=>$it): ?><li><a href="<?php echo U('jyjb/training',array('id'=>$it['id']));?>" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
 </ul>
 <ul>
-<li style="border-bottom: medium none; float: left; color: #515151"><a href="/addbbs/Index/Api/training?id=<?php echo ($it["id"]); ?>"><b><font style="color: #515151">PHP就业班</font></b></a></li>
+<li style="border-bottom: medium none; float: left; color: #515151"><a href="/Index/Api/training?id=<?php echo ($it["id"]); ?>"><b><font style="color: #515151">PHP就业班</font></b></a></li>
 <br />
 </ul>
 <ul style="clear: both">
 <?php if(is_array($ke2)): foreach($ke2 as $key=>$it): ?><li><a href="<?php echo U('jyjb/training',array('id'=>$it['id']));?>" target="_blank"><span class="time jyjb-font2"><b>预约报名</b></span><?php echo ($it["class_title"]); ?>(<?php echo ($it["start_time"]); ?>)</a></li><?php endforeach; endif; ?>
 </ul>
 <ul>
-<li style="border-bottom: medium none; float: left; color: #515151"><a href="/addbbs/Index/Api/training"><b><font style="color: #515151">PHP远程班</font></b></a></li>
+<li style="border-bottom: medium none; float: left; color: #515151"><a href="/Index/Api/training"><b><font style="color: #515151">PHP远程班</font></b></a></li>
 <br />
 </ul>
 <ul style="clear: both">
