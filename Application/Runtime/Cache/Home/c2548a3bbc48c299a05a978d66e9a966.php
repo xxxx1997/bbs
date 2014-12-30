@@ -4,9 +4,9 @@
 <title>英雄四组</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-<link href="/addbbs/Application/Common/admin/css/style.css" rel="stylesheet" type="text/css" />
-<script language="JavaScript" src="/addbbs/Application/Common/admin/js/jquery.js"></script>
-<img src="/addbbs/Application/Common/admin/images/c.jpg" alt="" width="100%" height="150"/>
+<link href="/Application/Common/admin/css/style.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="/Application/Common/admin/js/jquery.js"></script>
+<img src="/Application/Common/admin/images/c.jpg" alt="" width="100%" height="150"/>
 <script type="text/javascript">
 $(function(){	
 	//导航切换
@@ -40,7 +40,7 @@ $(function(){
         
     <dd>
     <div class="title">
-    <span><img src="/addbbs/Application/Common/admin/images/leftico01.png" /></span>培训课程
+    <span><img src="/Application/Common/admin/images/leftico01.png" /></span>培训课程
     </div>
     	<ul class="menuson">
         <li <?php if($Think.ACTION_NAME=='course'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('admin/course');?>" >课程管理</a><i></i></li>
@@ -49,7 +49,7 @@ $(function(){
     </dd>
      <dd>
     <div class="title">
-    <span><img src="/addbbs/Application/Common/admin/images/leftico01.png" /></span>文章管理
+    <span><img src="/Application/Common/admin/images/leftico01.png" /></span>文章管理
     </div>
     	<ul class="menuson">
         <li <?php if($Think.ACTION_NAME=='article_list'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('article/article_list');?>" >文章列表</a><i></i></li>
@@ -60,7 +60,7 @@ $(function(){
     
     <dd>
     <div class="title">
-    <span><img src="/addbbs/Application/Common/admin/images/leftico02.png" /></span>视频
+    <span><img src="/Application/Common/admin/images/leftico02.png" /></span>视频
     </div>
     <ul class="menuson">
         <li <?php if($Think.ACTION_NAME=='video'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('video/video_list');?>">列表</a><i></i></li>
@@ -70,7 +70,7 @@ $(function(){
     </dd> 
     
     
-    <dd><div class="title"><span><img src="/addbbs/Application/Common/admin/images/leftico01.png" /></span>师资力量</div>
+    <dd><div class="title"><span><img src="/Application/Common/admin/images/leftico01.png" /></span>师资力量</div>
     <ul class="menuson">
         <li <?php if($Think.ACTION_NAME=='teacher_list'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('teacher/teacher_list');?>">列表</a><i></i></li>
 
@@ -79,7 +79,7 @@ $(function(){
             
             
             
-        <dd><div class="title"><span><img src="/addbbs/Application/Common/admin/images/leftico01.png" /></span>就业信息</div>
+        <dd><div class="title"><span><img src="/Application/Common/admin/images/leftico01.png" /></span>就业信息</div>
     <ul class="menuson">
         <li <?php if($Think.ACTION_NAME=='jyjb'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('jyjb/index');?>">列表</a><i></i></li>
 
@@ -87,24 +87,24 @@ $(function(){
     </dd>
             
      
-    <dd><div class="title"><span><img src="/addbbs/Application/Common/admin/images/leftico01.png" /></span>常见问题</div>
+    <dd><div class="title"><span><img src="/Application/Common/admin/images/leftico01.png" /></span>常见问题</div>
     <ul class="menuson">
         <li <?php if($Think.ACTION_NAME=='question'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('question/question');?>">列表</a><i></i></li>
 
     </ul>    
     </dd>
-    <dd><div class="title"><span><img src="/addbbs/Application/Common/admin/images/leftico01.png" /></span>导航管理</div>
+    <dd><div class="title"><span><img src="/Application/Common/admin/images/leftico01.png" /></span>导航管理</div>
     <ul class="menuson">
         <li <?php if($Think.ACTION_NAME=='nav'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('nav/nav_list');?>">列表</a><i></i></li>
 
     </ul>    
     </dd>
-	  <dd><div class="title"><span><img src="/addbbs/Application/Common/admin/images/leftico01.png" /></span>企业招聘</div>
+	  <dd><div class="title"><span><img src="/Application/Common/admin/images/leftico01.png" /></span>企业招聘</div>
     <ul class="menuson">
         <li <?php if($Think.ACTION_NAME=='rec'){ echo "class='active'";} ?>><cite></cite><a href="<?php echo U('rec/rec_list');?>">列表</a><i></i></li>
     </ul>    
     </dd>
-       <dd><div class="title"><span><img src="/addbbs/Application/Common/admin/images/leftico01.png" /></span>系统管理</div>
+       <dd><div class="title"><span><img src="/Application/Common/admin/images/leftico01.png" /></span>系统管理</div>
     <ul class="menuson">
         <li><cite></cite><a href="<?php echo U('pv/pv');?>">统计</a><i></i></li>
          <li <?php if($Think.ACTION_NAME=='aa'){ echo "class='active'";} ?>><cite></cite><a href="right.html" target="rightFrame">数据列表</a><i></i></li>
@@ -126,17 +126,17 @@ $(function(){
 </style>
 <script type="text/javascript" src="http://sandbox.runjs.cn/uploads/rs/146/73fi1rab/amcharts.js"></script>
 
-<script type="text/javascript" src="/addbbs/Application/Common/admin/js/jquery-1.8.3.min.js"></script>
-<script type="text/javascript" src="/addbbs/Application/Common/admin/js/highcharts.js"></script>
-<script type="text/javascript" src="/addbbs/Application/Common/admin/js/exporting.js"></script>
+<script type="text/javascript" src="/Application/Common/admin/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="/Application/Common/admin/js/highcharts.js"></script>
+<script type="text/javascript" src="/Application/Common/admin/js/exporting.js"></script>
 
 
 <canvas style="display:none" id="myChart" width="400" height="400"></canvas>
 
 <div class='aa'  width=800; height=400; id="chartdiv"></div>
 
-<script src="/addbbs/Application/Common/Chart.js-master/Chart.js"></script>
-<script src="/addbbs/Application/Common/jquery.js"></script>
+<script src="/Application/Common/Chart.js-master/Chart.js"></script>
+<script src="/Application/Common/jquery.js"></script>
 <input type="hidden" value="<?php echo ($chardata); ?>" id="pv">
 
 <script>
